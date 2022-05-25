@@ -83,7 +83,7 @@ const liveAuctionData = [
         wishlist: "220",
         imgCollection: imgCollection3,
         nameCollection: "Colorful Abstract"
-    }
+    },
 
 ]
 
