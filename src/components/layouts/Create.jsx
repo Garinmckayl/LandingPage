@@ -9,13 +9,13 @@ const Create = () => {
     const data = [
         {
             title: "Create a trading account",
-            description: "Simply register and create an account for trading your items, currencies, accounts or keys",
+            description: "Start trading worldwide with your items, currencies, accounts or keys",
             icon : icon1,
             colorbg : "icon-color1"
         },
         {
             title: "Connect your crypto wallet",
-            description: "Connect your existing wallet, so you can get paid in Red Blade tokens.",
+            description: "Connect your existing crypto wallet, so you can get paid in Red Blade tokens.",
             icon : icon2,
             colorbg : "icon-color2"
         },
