@@ -5,7 +5,7 @@ import img4 from "../images/avatar/wow-gold.png";
 import img5 from "../images/avatar/Aion-logo.png";
 import img6 from "../images/avatar/CS.png";
 import img7 from "../images/avatar/avt-7.jpg";
-import img8 from "../images/avatar/avt-8.jpg";
+import img8 from "../images/avatar/WoW-Logo.png";
 import img9 from "../images/avatar/Aion-logo.png";
 
 const topSellerData = [
