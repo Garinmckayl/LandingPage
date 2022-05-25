@@ -3,10 +3,10 @@ import img2 from "../images/avatar/wow-gold.jpg";
 import img3 from "../images/avatar/avt-3.jpg";
 import img4 from "../images/avatar/wow-gold.jpg";
 import img5 from "../images/avatar/Aion-logo.jpg";
-import img6 from "../images/avatar/avt-6.jpg";
+import img6 from "../images/avatar/CS.jpg";
 import img7 from "../images/avatar/avt-7.jpg";
 import img8 from "../images/avatar/avt-8.jpg";
-import img9 from "../images/avatar/avt-9.jpg";
+import img9 from "../images/avatar/Aion-logo.jpg";
 
 const topSellerData = [
   {
@@ -34,9 +34,9 @@ const topSellerData = [
     classPadding: "pl-51",
   },
   {
-    img: "img6",
-    name: "Mastercrab Platinum Sword / EU",
-    price: "7000 EUR",
+    img: img6,
+    name: "CS Pack of 10000 ammo Pgun / EU",
+    price: "50 EUR",
     classPadding: "pl-68",
   },
   {
