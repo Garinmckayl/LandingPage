@@ -46,70 +46,70 @@ const menus = [
     //   },
     // ],
   },
-  {
-    id: 2,
-    name: "Explore",
-    links: "/explore-01",
-    // namesub: [
-    //   {
-    //     id: 1,
-    //     sub: "Explore 01",
-    //     links: "/explore-01",
-    //   },
-    //   {
-    //     id: 2,
-    //     sub: "Explore 02",
-    //     links: "/explore-02",
-    //   },
-    //   {
-    //     id: 3,
-    //     sub: "Explore 03",
-    //     links: "/explore-03",
-    //   },
-    //   {
-    //     id: 4,
-    //     sub: "Explore 04",
-    //     links: "/explore-04",
-    //   },
-    //   {
-    //     id: 5,
-    //     sub: "Live Auctions",
-    //     links: "/live-auctions",
-    //   },
-    //   {
-    //     id: 6,
-    //     sub: "Item Details 01",
-    //     links: "/item-details-01",
-    //   },
-    //   {
-    //     id: 7,
-    //     sub: "Item Details 02",
-    //     links: "/item-details-02",
-    //   },
-    // ],
-  },
-  {
-    id: 3,
-    name: "Game trading",
-    links: "/activity-01",
-  },
+  // {
+  //   id: 2,
+  //   name: "Explore",
+  //   links: "/explore-01",
+  // namesub: [
+  //   {
+  //     id: 1,
+  //     sub: "Explore 01",
+  //     links: "/explore-01",
+  //   },
+  //   {
+  //     id: 2,
+  //     sub: "Explore 02",
+  //     links: "/explore-02",
+  //   },
   //   {
   //     id: 3,
-  //     name: "Activity",
-  //     links: "#",
-  //     namesub: [
-  //       {
-  //         id: 1,
-  //         sub: "Activity 01",
-  //         links: "/activity-01",
-  //       },
-  //       {
-  //         id: 2,
-  //         sub: "Activity 02",
-  //         links: "/activity-02",
-  //       },
-  //     ],
+  //     sub: "Explore 03",
+  //     links: "/explore-03",
   //   },
+  //   {
+  //     id: 4,
+  //     sub: "Explore 04",
+  //     links: "/explore-04",
+  //   },
+  //   {
+  //     id: 5,
+  //     sub: "Live Auctions",
+  //     links: "/live-auctions",
+  //   },
+  //   {
+  //     id: 6,
+  //     sub: "Item Details 01",
+  //     links: "/item-details-01",
+  //   },
+  //   {
+  //     id: 7,
+  //     sub: "Item Details 02",
+  //     links: "/item-details-02",
+  //   },
+  // ],
+  //},
+  {
+    id: 2,
+    name: "Game trading",
+    links: "/activity-01",
+    namesub: [
+      {
+        id: 1,
+        sub: "Explore",
+        links: "/explore-01",
+      },
+      {
+        id: 2,
+        sub: "Create Item",
+        links: "/create-item",
+      },
+      {
+        id: 3,
+        sub: "Add New",
+        links: "/create-item",
+      },
+    ],
+  },
   {
     id: 3,
     name: "Financial benefits",
@@ -124,11 +124,23 @@ const menus = [
     id: 5,
     name: "The DAO",
     links: "/activity-01",
+    namesub: [
+      {
+        id: 1,
+        sub: "Whitepaper",
+        links: "#",
+      },
+      {
+        id: 2,
+        sub: "FAQ",
+        links: "/faq",
+      },
+    ],
   },
   {
     id: 6,
     name: "Help & Information",
-    links: "//help-center",
+    links: "/help-center",
   },
   //   {
   //     id: 4,
