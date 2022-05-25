@@ -1,4 +1,4 @@
-import img1 from "../images/avatar/avt-1.jpg";
+import img1 from "../images/avatar/GW2Logo_new.png";
 import img2 from "../images/avatar/avt-2.jpg";
 import img3 from "../images/avatar/avt-3.jpg";
 import img4 from "../images/avatar/avt-4.jpg";
@@ -65,13 +65,13 @@ const topSellerData = [
   },
   {
     img: img1,
-    name: "Golden horn magic spell / US",
+    name: "GW2 Golden horn magic spell / US",
     price: "12 USD",
     classPadding: "pl-68",
   },
   {
     img: img1,
-    name: "Red magic spell pack of 20 / EU",
+    name: "GW2 Red magic spell pack of 20 / EU",
     price: "15 EUR",
     classPadding: "",
   },
