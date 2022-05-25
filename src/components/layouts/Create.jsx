@@ -8,26 +8,26 @@ import icon4 from '../../assets/images/icon/Bookmark.png'
 const Create = () => {
     const data = [
         {
-            title: "Set Up Your Wallet",
-            description: "Wallet that is functional for NFT purchasing. You may have a Coinbase account at this point, but very few are actually set up to buy an NFT.",
+            title: "Create a trading account",
+            description: "Start trading worldwide with your items, currencies, accounts or keys",
             icon : icon1,
             colorbg : "icon-color1"
         },
         {
-            title: "Create Your Collection",
-            description: "Setting up your NFT collection and creating NFTs on NFTs is easy! This guide explains how to set up your first collection",
+            title: "Connect your crypto wallet",
+            description: "Connect your existing crypto wallet, so you can get paid in Red Blade tokens.",
             icon : icon2,
             colorbg : "icon-color2"
         },
         {
-            title: "Add Your NFTs",
-            description: "Sed ut perspiciatis un de omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem.",
+            title: "Buy other items or games",
+            description: "Choose any items or game, no matter if it is a traditional game or a new blockchain-based game",
             icon : icon3,
             colorbg : "icon-color3"
         },
         {
-            title: "List Them For Sale",
-            description: "Choose between auctions, fixed-price listings, and declining-price listings. You choose how you want to sell your NFTs!",
+            title: "Buy the Red Blade token",
+            description: "Purchase the Red Blade token, if you want to benefit from the financial upside of holding the new meta game currency.",
             icon : icon4,
             colorbg : "icon-color4"
         },

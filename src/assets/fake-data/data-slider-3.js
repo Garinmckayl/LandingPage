@@ -5,29 +5,29 @@ import imgbg2 from "../images/slider/bg_slide_1.png";
 
 const heroSliderData = [
   {
-    title_1: "Buy, sell,",
-    title_2: "Ingame itemes",
-    title_3: "from any game",
+    title_1: "Buy and sell",
+    title_2: "any item or currency",
+    title_3: "from your favourite games",
     description:
-      "Marketplace for monster character cllections non fungible token NFTs",
+      "The marketplace for trading game items and currencies into crypto",
     class: "center",
   },
   {
-    title_1: "Discover, and collect",
-    title_2: "extraordinary",
-    title_3: "Monster NFTs",
+    title_1: "Discover and monetize",
+    title_2: "your account items",
+    title_3: "no matter what game you play",
     description:
-      "Marketplace for monster character cllections non fungible token NFTs",
+      "The Red Blade is the only marketplace where you can convert non-crypto items and currencies into crypto",
     img: img1,
     imgbg: imgbg1,
     class: "left",
   },
   {
-    title_1: "Discover, and collect",
-    title_2: "extraordinary",
-    title_3: "Monster NFTs",
+    title_1: "Triple AAA players",
+    title_2: "buy and sell",
+    title_3: "game items, currencies, accounts",
     description:
-      "Marketplace for monster character cllections non fungible token NFTs",
+      "Enjoy the financial benefits you have created with your game history",
     img: img2,
     imgbg: imgbg2,
     class: "right",

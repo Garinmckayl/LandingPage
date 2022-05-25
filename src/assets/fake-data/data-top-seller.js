@@ -14,74 +14,74 @@ import img9 from '../images/avatar/avt-9.jpg'
 const topSellerData = [
     {
         img: img1,
-        name: "Crispin Berry" ,
-        price: "214.2 ETH",
+        name: "Guildwars 2 Gold / US" ,
+        price: "99 USD",
         classPadding: ""
     },
     {
         img: img2,
-        name: "Samson Frost" ,
-        price: "205.43 ETH",
+        name: "WoW Gold / EU" ,
+        price: "60 EUR",
         classPadding: "pl-17"
     },
     {
         img: img4,
-        name: "Tommy Alrez" ,
-        price: "170.3 ETH",
+        name: "WoW Gold / EU" ,
+        price: "65 EUR",
         classPadding: "pl-34"
     },
     {
         img: img5,
-        name: "Windsor Lane" ,
-        price: "120.7 ETH",
+        name: "Masterhorse Platinum Sword / EU" ,
+        price: "2000 EUR",
         classPadding: "pl-51"
     },
     {
-        img: img3,
-        name: "Andy Hurlbutt" ,
-        price: "82.79 ETH",
+        img: img6" ,
+        name: "Mastercrab Platinum Sword / EU" ,
+        price: "7000 EUR",
         classPadding: "pl-68"
     },
     {
         img: img8,
-        name: "Blake Banks" ,
-        price: "68.2 ETH",
+        name: "Silver gloves WoW / KR" ,
+        price: "50000 KRW",
         classPadding: ""
     },
     {
         img: img6,
-        name: "Monica Lucas" ,
-        price: "52.8 ETH",
+        name: "Wow Gold / US" ,
+        price: "50 EUR",
         classPadding: "pl-17"
     },
     {
         img: img9,
-        name: "Matt Ramos" ,
-        price: "38.4 ETH",
+        name: "Level 80 Aion spell / US" ,
+        price: "5 USD",
         classPadding: "pl-34"
     },
     {
         img: img7,
-        name: "Harper Wilcher" ,
-        price: "29.2 ETH",
+        name: "Blue Magic Drink / KR" ,
+        price: "3500 KRW",
         classPadding: "pl-51"
     },
     {
         img: img1,
-        name: "Crispin Berry" ,
-        price: "214.2 ETH",
+        name: "Golden horn magic spell / US" ,
+        price: "12 USD",
         classPadding: "pl-68"
     },
     {
         img: img1,
-        name: "Crispin Berry" ,
-        price: "214.2 ETH",
+        name: "Red magic spell pack of 20 / EU" ,
+        price: "15 EUR",
         classPadding: ""
     },
     {
         img: img2,
-        name: "Samson Frost" ,
-        price: "205.43 ETH",
+        name: "Speed running spell / US" ,
+        price: "8.30",
         classPadding: "pl-17"
     },
 
