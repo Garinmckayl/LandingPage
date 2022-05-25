@@ -6,9 +6,9 @@ import imgbg2 from '../images/slider/bg_slide_1.png'
 
 const heroSliderData = [
     {
-        title_1: "Discover, find,",
-        title_2: "Sell extraordinary",
-        title_3: "Monster NFTs",
+        title_1: "Buy, sell",
+        title_2: "Ingame items",
+        title_3: "from any game",
         description: "Marketplace for monster character cllections non fungible token NFTs",
         img: img1,
         imgbg: imgbg1,
