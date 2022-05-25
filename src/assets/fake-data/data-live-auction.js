@@ -1,6 +1,6 @@
 import img1 from '../images/box-item/card-item8.jpg'
 import imga1 from '../images/avatar/avt-11.jpg'
-import img2 from '../images/box-item/image-box-10.jpg'
+import img2 from '../images/box-item/Roblox-crown.png'
 import imga2 from '../images/avatar/avt-12.jpg'
 import img3 from '../images/box-item/card-item-11.jpg'
 import imga3 from '../images/avatar/avt-13.jpg'
@@ -26,7 +26,7 @@ const liveAuctionData = [
     },
     {
         img: img2,
-        title: "Golden boots",
+        title: "Roblox - crown",
         tags: "bsc",
         imgAuthor: imga2,
         nameAuthor: "Trisha100",
