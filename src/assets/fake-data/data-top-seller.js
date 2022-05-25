@@ -1,12 +1,12 @@
-import img1 from "../images/avatar/avt-1.jpg";
-import img2 from "../images/avatar/avt-2.jpg";
+import img1 from "../images/avatar/GW2Logo_new.png";
+import img2 from "../images/avatar/wow-gold.png";
 import img3 from "../images/avatar/avt-3.jpg";
-import img4 from "../images/avatar/avt-4.jpg";
-import img5 from "../images/avatar/avt-5.jpg";
-import img6 from "../images/avatar/avt-6.jpg";
+import img4 from "../images/avatar/wow-gold.png";
+import img5 from "../images/avatar/Aion-logo.png";
+import img6 from "../images/avatar/CS.png";
 import img7 from "../images/avatar/avt-7.jpg";
-import img8 from "../images/avatar/avt-8.jpg";
-import img9 from "../images/avatar/avt-9.jpg";
+import img8 from "../images/avatar/Roblox-crown.png";
+import img9 from "../images/avatar/Aion-logo.png";
 
 const topSellerData = [
   {
@@ -34,15 +34,15 @@ const topSellerData = [
     classPadding: "pl-51",
   },
   {
-    img: "img6",
-    name: "Mastercrab Platinum Sword / EU",
-    price: "7000 EUR",
+    img: img6,
+    name: "CS Pack of 10000 ammo Pgun / EU",
+    price: "50 EUR",
     classPadding: "pl-68",
   },
   {
     img: img8,
-    name: "Silver gloves WoW / KR",
-    price: "50000 KRW",
+    name: "Roblox crown / US",
+    price: "250 USD",
     classPadding: "",
   },
   {
@@ -65,13 +65,13 @@ const topSellerData = [
   },
   {
     img: img1,
-    name: "Golden horn magic spell / US",
+    name: "GW2 Golden horn magic spell / US",
     price: "12 USD",
     classPadding: "pl-68",
   },
   {
     img: img1,
-    name: "Red magic spell pack of 20 / EU",
+    name: "GW2 Red magic spell pack of 20 / EU",
     price: "15 EUR",
     classPadding: "",
   },
