@@ -8,28 +8,28 @@ import icon4 from '../../../assets/images/icon/Bookmark.png'
 const Create = () => {
     const data = [
         {
-            title: "Set Up Your Wallet",
-            description: "Once you’ve set up your wallet of choice, connect it to OpenSeaby clicking the NFT Marketplacein the top right corner.",
+            title: "Create your account",
+            description: "Start trading worldwide with your items, currencies, accounts or keys.",
             icon : icon1,
             colorbg : "icon-color1"
         },
         {
-            title: "Create Your Collection",
-            description: "Click Create and set up your collection. Add social links, a description, profile & banner images, and set a secondary sales fee.",
+            title: "Receive Red Blade tokens",
+            description: "Get paid in our cryptocurrency, the Red Blade token.",
             icon : icon2,
-            colorbg : "icon-color2",
+            colorbg : "icon-color2"
         },
         {
-            title: "Add Your NFTs",
-            description: "Upload your work (image, video, audio, or 3D art), add a title and description, and customize your NFTs with properties, stats",
+            title: "Buy other items or games",
+            description: "Choose any items, game or NFT, no matter if it is a traditional game or a new blockchain-based game",
             icon : icon3,
-            colorbg : "icon-color3",
+            colorbg : "icon-color3"
         },
         {
-            title: "List Them For Sale",
-            description: "Choose between auctions, fixed-price listings, and declining-price listings. You choose how you want to sell your NFTs!",
+            title: "Enjoy financial benefits",
+            description: "Re-invest your tokens, receive scholarships for blockchain games or buy more crypto currencies.",
             icon : icon4,
-            colorbg : "icon-color4",
+            colorbg : "icon-color4"
         },
     ]
     return (
