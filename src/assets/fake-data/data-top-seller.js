@@ -5,7 +5,7 @@ import img4 from "../images/avatar/wow-gold.png";
 import img5 from "../images/avatar/Aion-logo.png";
 import img6 from "../images/avatar/CS.png";
 import img7 from "../images/avatar/avt-7.jpg";
-import img8 from "../images/avatar/Roblox-crown.png";
+// import img8 from "../images/avatar/Roblox-crown.png";
 import img9 from "../images/avatar/Aion-logo.png";
 
 const topSellerData = [
@@ -40,7 +40,7 @@ const topSellerData = [
     classPadding: "pl-68",
   },
   {
-    img: img8,
+    // img: img8,
     name: "Roblox crown / US",
     price: "250 USD",
     classPadding: "",
