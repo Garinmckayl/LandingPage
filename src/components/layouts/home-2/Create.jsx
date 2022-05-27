@@ -15,7 +15,7 @@ const Create = () => {
         },
         {
             title: "Receive Red Blade tokens",
-            description: "Get paid in our cryptocurrency, the Red Blade token.",
+            description: "Get paid in our cryptocurrency, the Red Blade token. Use it for other games or cryptocurrencies.",
             icon : icon2,
             colorbg : "icon-color2"
         },
