@@ -31,10 +31,16 @@ import FAQ from "./FAQ";
 import Contact01 from "./Contact01";
 import Contact02 from "./Contact02";
 import FinancialBenefits from "./FinancialBenefits";
+import WhyRedBlade from "./WhyRedBlade";
+import InvestorInformation from "./InvestorInformation";
+import Whitepaper from "./Whitepaper";
 
 const routes = [
   { path: "/", component: <Home03 /> },
   { path: "/financial-benefits", component: <FinancialBenefits /> },
+  { path: "/why-red-blade-token", component: <WhyRedBlade /> },
+  { path: "/investor-information", component: <InvestorInformation /> },
+  { path: "/whitepaper", component: <Whitepaper /> },
   { path: "/home-02", component: <Home02 /> },
   { path: "/home-03", component: <Home01 /> },
   { path: "/home-04", component: <Home04 /> },

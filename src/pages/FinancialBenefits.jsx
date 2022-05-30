@@ -73,13 +73,6 @@ const FinancialBenefits = () => {
                             <div className="page-title-heading mg-bt-12">
                                 <h1 className="heading text-center">Financial Benefits</h1>
                             </div>
-                            <div className="breadcrumbs style2">
-                                <ul>
-                                    <li><Link to="/">Home</Link></li>
-                                    <li><Link to="#">Explore</Link></li>
-                                    <li>Item Details 1</li>
-                                </ul>
-                            </div>
                         </div>
                     </div>
                 </div>                    

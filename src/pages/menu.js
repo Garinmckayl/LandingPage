@@ -123,12 +123,12 @@ const menus = [
       {
         id: 1,
         sub: "Why the Red Blade token?",
-        links: "#",
+        links: "/why-red-blade-token",
       },
       {
         id: 2,
         sub: "Investor information",
-        links: "/faq",
+        links: "/investor-information",
       },
     ],
   },
@@ -140,7 +140,7 @@ const menus = [
       {
         id: 1,
         sub: "Whitepaper",
-        links: "#",
+        links: "/whitepaper",
       },
       {
         id: 2,
