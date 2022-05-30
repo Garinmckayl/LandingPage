@@ -2,8 +2,43 @@ import React from 'react';
 import { Link } from 'react-router-dom';
 import Header from '../components/header/Header';
 import Footer from '../components/footer/Footer';
+import Modal from 'react-bootstrap/Modal'
+
+
+function MyVerticallyCenteredModal(props) {
+    
+    return (
+      <Modal
+        {...props}
+        size="lg"
+        aria-labelledby="contained-modal-title-vcenter"
+        centered
+      >
+        <Modal.Header closeButton>
+          <Modal.Title id="contained-modal-title-vcenter">
+            Modal heading
+          </Modal.Title>
+        </Modal.Header>
+        <Modal.Body>
+          <h4>Centered Modal</h4>
+          <p>
+            Cras mattis consectetur purus sit amet fermentum. Cras justo odio,
+            dapibus ac facilisis in, egestas eget quam. Morbi leo risus, porta ac
+            consectetur ac, vestibulum at eros.
+          </p>
+        </Modal.Body>
+        <Modal.Footer>
+          <a onClick={props.onHide}>Close</a>
+        </Modal.Footer>
+      </Modal>
+    );
+  }
 
 const SignUp = () => {
+
+    const [modalShow, setModalShow] = React.useState(false);
+
+    
     return (
         <div>
             <Header />
@@ -26,6 +61,24 @@ const SignUp = () => {
                     </div>
                 </div>                    
             </section>
+            
+
+
+
+
+
+      <a variant="primary" onClick={() => setModalShow(true)}>
+        Launch vertically centered modal
+      </a>
+
+      <MyVerticallyCenteredModal
+        show={modalShow}
+        onHide={() => setModalShow(false)}
+      />
+
+
+
+
             <section className="tf-login tf-section">
                 <div className="themesflat-container">
                     <div className="row">
@@ -74,7 +127,7 @@ const SignUp = () => {
 
                                         <button className="submit">Login</button>
                                     </form>
-                                </div>
+                                </div> 
 
                             </div>
 
