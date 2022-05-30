@@ -113,12 +113,24 @@ const menus = [
   {
     id: 3,
     name: "Financial benefits",
-    links: "/activity-01",
+    links: "/financial-benefits",
   },
   {
     id: 4,
     name: "Token investors",
     links: "/activity-01",
+    namesub: [
+      {
+        id: 1,
+        sub: "Why the Red Blade token?",
+        links: "#",
+      },
+      {
+        id: 2,
+        sub: "Investor information",
+        links: "/faq",
+      },
+    ],
   },
   {
     id: 5,
