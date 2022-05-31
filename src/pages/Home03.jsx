@@ -12,6 +12,7 @@ import TodayPicks from '../components/layouts/home-3/TodayPicks';
 import todayPickData from '../assets/fake-data/data-today-pick';
 import PopularCollection from '../components/layouts/home-3/PopularCollection';
 import popularCollectionData from '../assets/fake-data/data-popular-collection';
+import EarlyAccess from '../components/EarlyAccess';
 
 const Home03 = () => {
     return (
@@ -19,10 +20,13 @@ const Home03 = () => {
             <Header />
             <Slider data={heroSliderData} />
             <Create />
+            <EarlyAccess/>
             <LiveAuction data={liveAuctionData} />
             <TopSeller data={topSellerData} />
+            <EarlyAccess/>
             <TodayPicks data={todayPickData} />
             <PopularCollection data={popularCollectionData} />
+            <EarlyAccess/>
             <Footer />
         </div>
     );
