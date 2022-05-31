@@ -1,28 +1,3 @@
-// import React, { useState } from 'react';
-// import { Document, Page } from 'react-pdf';
-
-
-// function InvestorInformation() {
-//   const [numPages, setNumPages] = useState(null);
-//   const [pageNumber, setPageNumber] = useState(1);
-
-//   function onDocumentLoadSuccess({ numPages }) {
-//     setNumPages(numPages);
-//   }
-
-//   return (
-//     <div>
-//       <Document file="https://github.com/Garinmckayl/thebladedaolanding/raw/master/src/assets/TheRedBladeDAO%20-%20IRInformation.pptx.pdf" onLoadSuccess={onDocumentLoadSuccess}>
-//         <Page pageNumber={pageNumber} />
-//       </Document>
-//       <p>
-//         Page {pageNumber} of {numPages}
-//       </p>
-//     </div>
-//   );
-// }
-
-// export default InvestorInformation;
 
 
 import React, { useState } from 'react';
