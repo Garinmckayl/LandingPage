@@ -87,7 +87,7 @@ const Whitepaper = () => {
                             <h3>our ppt-pitchdeck as pdf, so that people can scroll down, reference:
 File is attached as pdf</h3><br />
 
-<a href="https://www.ludenaprotocol.io/wp-content/uploads/2022/01/Ludena-Protocol-White-Paper-2.5.pdf" target="_blank" className="sc-button header-slider style style-2 note fl-button pri-1"><span>Whitepaper
+<a href="/#" target="_blank" className="sc-button header-slider style style-2 note fl-button pri-1"><span>Whitepaper
                                         </span></a><br />
                             </div>
                         </div>
