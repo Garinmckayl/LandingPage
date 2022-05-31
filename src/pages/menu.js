@@ -2,7 +2,7 @@ const menus = [
   {
     id: 1,
     name: "Home",
-    links: "#",
+    links: "/",
     // namesub: [
     //   {
     //     id: 1,
@@ -91,7 +91,7 @@ const menus = [
   {
     id: 2,
     name: "Game trading",
-    links: "/activity-01",
+    links: "#",
     namesub: [
       {
         id: 1,
@@ -118,7 +118,7 @@ const menus = [
   {
     id: 4,
     name: "Token investors",
-    links: "/activity-01",
+    links: "/why-red-blade-token",
     namesub: [
       {
         id: 1,
@@ -135,7 +135,7 @@ const menus = [
   {
     id: 5,
     name: "The DAO",
-    links: "/activity-01",
+    links: "#",
     namesub: [
       {
         id: 1,
