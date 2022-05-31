@@ -60,30 +60,13 @@ const Footer = () => {
     const socialList = [
         {
             icon: "fab fa-twitter",
-            link: "#"
-        },
-        {
-            icon: "fab fa-facebook",
-            link: "#"
+            link: "https://twitter.com/MasterwithBlad1"
         },
         {
             icon: "fab fa-telegram-plane",
-            link: "#"
-        },
-        {
-            icon: "fab fa-youtube",
-            link: "#"
-        },
-        {
-            icon: "icon-fl-tik-tok-2",
-            link: "#"
-        },
-        {
-            icon: "icon-fl-vt",
-            link: "#"
+            link: "https://t.me/+pSAVAlIz6883N2Ey"
         },
         
-
     ]
 
     const [isVisible, setIsVisible] = useState(false);
@@ -165,13 +148,13 @@ const Footer = () => {
                         </div>
                         <div className="col-lg-3 col-md-6 col-sm-7 col-12">
                             <div className="widget widget-subcribe">
-                                <h5 className="title-widget">Subscribe Us</h5>
+                                {/* <h5 className="title-widget">Subscribe Us</h5>
                                 <div className="form-subcribe">
                                     <form id="subscribe-form" action="#" method="GET" acceptCharset="utf-8" className="form-submit">
                                         <input name="email"  className="email" type="email" placeholder="info@yourgmail.com" required />
                                         <button id="submit" name="submit" type="submit"><i className="icon-fl-send"></i></button>
                                     </form>
-                                </div>
+                                </div> */}
                                 <div className="widget-social style-1 mg-t32">
                                     <ul>
                                         {
