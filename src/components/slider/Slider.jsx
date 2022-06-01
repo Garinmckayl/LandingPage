@@ -68,10 +68,10 @@ const SliderItem = props => (
                                     <h1 className="heading"> &nbsp; { props.item.title_3}</h1>
                                     <p className="sub-heading">{props.item.description}
                                     </p>
-                                    <div className="flat-bt-slider flex style2">
-                                        <Link to="/explore-01" className="sc-button header-slider style style-1 rocket fl-button pri-1"><span>Explore
+                                    <div className="flat-bt-slider flex style2" style={{marginTop: '-33px !important'}} >
+                                        <Link to="/explore-01" className="sc-button header-slider style style-1 rocket fl-button pri-1"><span>Buy Items
                                         </span></Link>
-                                        <Link to="/create-item" className="sc-button header-slider style style-1 note fl-button pri-1"><span>Create
+                                        <Link to="/create-item" className="sc-button header-slider style style-1 note fl-button pri-1"><span>Sell Items
                                         </span></Link>
                                     </div>
                                 </div>

@@ -138,8 +138,9 @@ const Footer = () => {
                             <div className="widget widget-logo">
                                 <div className="logo-footer" id="logo-footer">
                                     <Link to="/">
-                                        <img className='logo-dark' id="logo_footer" src={logodark} alt="nft-gaming" />
-                                        <img className='logo-light' id="logo_footer" src={logofooter} alt="nft-gaming" />
+                                        <h2>The Red Blade DAO</h2>
+                                        {/* <img className='logo-dark' id="logo_footer" src={logodark} alt="nft-gaming" />
+                                        <img className='logo-light' id="logo_footer" src={logofooter} alt="nft-gaming" /> */}
                                         
                                     </Link>
                                 </div>
