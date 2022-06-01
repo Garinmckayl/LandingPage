@@ -95,18 +95,18 @@ const menus = [
     namesub: [
       {
         id: 1,
-        sub: "Explore",
+        sub: "Browse items and currencies",
         links: "/explore-01",
       },
       {
         id: 2,
-        sub: "Create Item",
+        sub: "Sell Item",
         links: "/create-item",
       },
       {
         id: 3,
-        sub: "Add New",
-        links: "/create-item",
+        sub: "Scholarships",
+        links: "/scholarships",
       },
     ],
   },
@@ -149,11 +149,11 @@ const menus = [
       },
     ],
   },
-  {
-    id: 6,
-    name: "Help & Information",
-    links: "/help-center",
-  },
+  // {
+  //   id: 6,
+  //   name: "Help & Information",
+  //   links: "/help-center",
+  // },
   //   {
   //     id: 4,
   //     name: "Community",

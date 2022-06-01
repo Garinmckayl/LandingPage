@@ -6,8 +6,8 @@ import imgbg2 from "../images/slider/bg_slide_1.png";
 const heroSliderData = [
   {
     title_1: "Buy and sell",
-    title_2: "any item or currency",
-    title_3: "from your favourite games",
+    title_2: "any item or currency ",
+    title_3: "   from your favorite games",
     description:
       "The marketplace for trading game items and currencies into crypto",
     class: "center",

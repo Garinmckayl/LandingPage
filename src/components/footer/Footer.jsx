@@ -2,22 +2,58 @@ import React, { useState ,useEffect } from 'react';
 import { Link } from 'react-router-dom'
 import logodark from '../../assets/images/logo/logo_dark.png'
 import logofooter from '../../assets/images/logo/logo2.png'
+import Modal from 'react-bootstrap/Modal'
+
+function MyVerticallyCenteredModal(props) {
+    
+    return (
+      <Modal
+        {...props}
+        size="lg"
+        aria-labelledby="contained-modal-title-vcenter"
+        centered
+      >
+        <Modal.Header closeButton>
+          <Modal.Title id="contained-modal-title-vcenter">
+            Early Access
+          </Modal.Title>
+        </Modal.Header>
+        <Modal.Body>
+            
+
+          <h1>
+              Under Construction
+      </h1>
+    
+        </Modal.Body>
+        <Modal.Footer>
+          <a onClick={props.onHide}>Close</a>
+        </Modal.Footer>
+      </Modal>
+    );
+  }
+
+
+
 const Footer = () => {
+
+    const [modalShow, setModalShow] = React.useState(false);
+
     const accountList = [
         {
-            title: "Authors",
+            title: "My savings",
             link: "/authors-01"
         },
         {
-            title: "Collection",
+            title: "Trading cockpit",
             link: "/wallet-connect"
         },
         {
-            title: "Author Profile",
+            title: "Scholarships & NFTs",
             link: "/edit-profile"
         },
         {
-            title: "Create Item",
+            title: "Wallet connect",
             link: "/create-item"
         },
     ]
@@ -41,20 +77,20 @@ const Footer = () => {
     ]
     const companyList = [
         {
-            title: "Explore",
-            link: "/explore-01"
+            title: "Terms",
+            link: "/terms"
         },
         {
-            title: "Contact Us",
-            link: "/contact-01"
-        },
-        {
-            title: "Our Blog",
-            link: "/blog"
+            title: "Privacy",
+            link: "/privacy"
         },
         {
             title: "FAQ",
             link: "/faq"
+        },
+        {
+            title: "Contact Us",
+            link: "/contact"
         },
     ]
     const socialList = [
@@ -107,7 +143,7 @@ const Footer = () => {
                                         
                                     </Link>
                                 </div>
-                                <p className="sub-widget-logo">Lorem ipsum dolor sit amet,consectetur adipisicing elit. Quis non, fugit totam vel laboriosam vitae.</p>
+                                <p className="sub-widget-logo">The Red Blade DAO &copy;</p>
                             </div>
                         </div>
                         <div className="col-lg-2 col-md-4 col-sm-5 col-5">
@@ -116,7 +152,7 @@ const Footer = () => {
                                 <ul>
                                     {
                                         accountList.map((item,index) =>(
-                                            <li key={index}><Link to={item.link}>{item.title}</Link></li>
+                                            <li key={index}><a onClick={() => setModalShow(true)}>{item.title}</a></li>
                                         ))
                                     }
                                 </ul>
@@ -208,7 +244,13 @@ const Footer = () => {
                 </div>
             </div>
 
+            <MyVerticallyCenteredModal
+        show={modalShow}
+        onHide={() => setModalShow(false)}
+      />
+
         </div>
+        
 
     );
 }
