@@ -79,7 +79,7 @@ const EarlyAccess = () => {
                             <div className="page-title-heading mg-bt-12">
                                 <h1 className="heading text-center">Signup</h1>
                             </div>
-                            <a onClick={() => setModalShow(true)} className="sc-button style-2 fl-button pri-3" style={{border: "2px solid #fff"}}>
+                            <a onClick={() => setModalShow(true)} className="sc-button style-2 fl-button pri-3" style={{border: "2px solid #fff", width: "30%", margin: "auto"}}>
                                             <span style={{color: "#fff"}}>Register</span>
                                         </a>
 
