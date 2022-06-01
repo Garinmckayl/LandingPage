@@ -84,8 +84,8 @@ const InvestorInformation = () => {
                 </div>                    
             </section>
 
-
-            <div className="tf-section tf-item-details">
+<h1>Loading</h1>
+            {/* <div className="tf-section tf-item-details">
                 <div className="themesflat-container">
                     <div className="row justify-content-center">
                         <div className="col-xl-6 col-md-12">
@@ -99,7 +99,7 @@ File is attached as pdf</h3><br />
                         </div>
                     </div>
                 </div>
-            </div>
+            </div> */}
 
 
 

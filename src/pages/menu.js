@@ -103,11 +103,11 @@ const menus = [
         sub: "Sell Item",
         links: "/create-item",
       },
-      {
-        id: 3,
-        sub: "Scholarships",
-        links: "/scholarships",
-      },
+      // {
+      //   id: 3,
+      //   sub: "Scholarships",
+      //   links: "/scholarships",
+      // },
     ],
   },
   {
