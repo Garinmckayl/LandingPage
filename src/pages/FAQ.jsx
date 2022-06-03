@@ -101,10 +101,10 @@ const FAQ = () => {
                     <div className="row">
                         <div className="col-md-12">
                             <h2 className="tf-title-heading ct style-2 fs-30 mg-bt-10">
-                                Frequently Asked Questions
+                                Anything unclear yet? Do you need support?
                             </h2>
                             <h5 className="sub-title help-center mg-bt-32 ">
-                                Lorem ipsum dolor sit amet, consectetur adipisicing elit. Laborum obcaecati dignissimos quae quo ad iste ipsum officiis deleniti asperiores sit.
+                                Let us try helping you by providing the most frequent questions we hear from our gamers.
                             </h5>
                         </div>
                         <div className="col-md-12">
