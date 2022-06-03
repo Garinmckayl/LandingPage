@@ -14,6 +14,14 @@ import img5 from '../assets/images/avatar/avt-7.jpg'
 import img6 from '../assets/images/avatar/avt-8.jpg'
 import img7 from '../assets/images/avatar/avt-2.jpg'
 import imgdetail1 from '../assets/images/box-item/images-item-details.jpg'
+import inventory from '../assets/images/svg/inventory.svg'
+import withour from '../assets/images/svg/withour.svg'
+import scholar from '../assets/images/svg/scholar.svg'
+import wallet from '../assets/images/svg/wallet.svg'
+import sell from '../assets/images/svg/sell.svg'
+import help from '../assets/images/svg/help.svg'
+
+
 
 const FinancialBenefits = () => {
     const [dataHistory] = useState(
@@ -83,7 +91,7 @@ const FinancialBenefits = () => {
                         <div className="col-xl-6 col-md-12">
                             <div className="content-left">
                                 <div className="media">
-                                    <img src="https://via.placeholder.com/500" alt="Axies" />
+                                    <img src={inventory} alt="Axies" />
                                 </div>
                             </div>
                         </div>
@@ -109,7 +117,7 @@ Convert any game inventory into crypto tokens and enjoy the financial benefits. 
                         <div className="col-xl-6 col-md-12">
                             <div className="content-left">
                                 <div className="media">
-                                    <img src="https://via.placeholder.com/500" alt="Axies" />
+                                <img src={withour} alt="Axies" />
                                 </div>
                             </div>
                         </div>
@@ -132,7 +140,7 @@ Convert any game inventory into crypto tokens and enjoy the financial benefits. 
                         <div className="col-xl-6 col-md-12">
                             <div className="content-left">
                                 <div className="media">
-                                    <img src="https://via.placeholder.com/500" alt="Axies" />
+                                <img src={scholar} alt="Axies" />
                                 </div>
                             </div>
                         </div>
@@ -156,7 +164,7 @@ Convert any game inventory into crypto tokens and enjoy the financial benefits. 
                         <div className="col-xl-6 col-md-12">
                             <div className="content-left">
                                 <div className="media">
-                                    <img src="https://via.placeholder.com/500" alt="Axies" />
+                                <img src={help} alt="Axies" />
                                 </div>
                             </div>
                         </div>
@@ -181,7 +189,7 @@ Convert any game inventory into crypto tokens and enjoy the financial benefits. 
                         <div className="col-xl-6 col-md-12">
                             <div className="content-left">
                                 <div className="media">
-                                    <img src="https://via.placeholder.com/500" alt="Axies" />
+                                <img src={sell} alt="Axies" />
                                 </div>
                             </div>
                         </div>
@@ -210,7 +218,7 @@ There are new financial services for crypto currencies launched every day. While
                         <div className="col-xl-6 col-md-12">
                             <div className="content-left">
                                 <div className="media">
-                                    <img src="https://via.placeholder.com/500" alt="Axies" />
+                                <img src={wallet} alt="Axies" />
                                 </div>
                             </div>
                         </div>

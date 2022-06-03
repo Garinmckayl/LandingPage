@@ -14,6 +14,8 @@ import img5 from '../assets/images/avatar/avt-7.jpg'
 import img6 from '../assets/images/avatar/avt-8.jpg'
 import img7 from '../assets/images/avatar/avt-2.jpg'
 import imgdetail1 from '../assets/images/box-item/images-item-details.jpg'
+import scholar from '../assets/images/svg/scholar.svg'
+
 
 const Scholarship = () => {
     const [dataHistory] = useState(
@@ -84,7 +86,9 @@ const Scholarship = () => {
                         <div className="col-xl-6 col-md-12">
                             <div className="content-left">
                                 <div className="media">
-                                    <img src="https://via.placeholder.com/400" alt="Axies" />
+                                    <img src={scholar} alt="Axies" />
+                                {/* <img className='logo-light'  id="logo_header" src={scholar} alt="nft-gaming" />  */}
+
                                 </div>
                             </div>
                         </div>
