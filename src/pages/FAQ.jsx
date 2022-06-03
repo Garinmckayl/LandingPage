@@ -9,28 +9,68 @@ const FAQ = () => {
         [
             {   key: "0",
                 show: "show",
-                title: 'What is an NFT?',
-                text: 'NFTs or non-fungible tokens, are cryptographic assets on blockchain with unique identification codes and metadata that distinguish them from each other. NFTs are unique and not mutually interchangeable, which means no two NFTs are the same.'
+                title: 'How do I trade an item, game-currency, NFT or account?',
+                text: 'To buy an item, first connect your crypto wallet or register a payment service. Then click on the item you want to buy, execute the payment and wait for the item to be handed over to you. The hand-over can be either in-game or - if blockchain-based - directly into your wallet. To sell an item, you have to fill out the creation form under sell-item, and then wait for a buyer.'
             },
             {
                 key: "1",
-                title: 'Customer support is available ?',
-                text: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation.Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod.'
+                title: 'How fast can I receive payment?',
+                text: 'For NFTs and blockchain games the transaction is done in real-time assuming you use your crypto wallet. If it is a non-blockchain game item, currency or account, you will have to execute the trade with an ingame hand-over.'
             },
             {
                 key: "2",
-                title: 'How do I find my transaction hash?',
-                text: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation.Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod.'
+                title: 'How do I receive a scholarship?',
+                text: 'TBD.'
             },
             {
                 key: "3",
-                title: 'What are gas fees on Axies?',
-                text: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation.Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod.'
+                title: 'Can I also be a scholarship investor?',
+                text: 'TBD.'
             },
             {
                 key: "4",
-                title: 'What is the effective staking amount?',
-                text: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation.Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod.'
+                title: 'What kind of wallets do you support?',
+                text: 'TBD'
+            },
+            {
+                key: "5",
+                title: 'What is staking and how does it work?',
+                text: 'TBD'
+            },
+            {
+                key: "6",
+                title: 'Who is behind the Red Blade DAO?',
+                text: 'TBD'
+            },
+            {
+                key: "7",
+                title: 'Is it safe to invest in the Red Blade DAO token?',
+                text: 'TBD.'
+            },
+            {
+                key: "8",
+                title: 'What is a DAO anyway?',
+                text: 'TBD.'
+            },
+            {
+                key: "9",
+                title: 'How many games do you support?',
+                text: 'TBD.'
+            },
+            {
+                key: "10",
+                title: 'Can I become an liquidity pool provider?',
+                text: 'TBD.'
+            },
+            {
+                key: "11",
+                title: 'Do I have to pay gas fees for the trades?',
+                text: 'TBD.'
+            },
+            {
+                key: "12",
+                title: 'Which blockchains are you supporting?',
+                text: 'TBD.'
             },
         ]
     )
