@@ -10,25 +10,30 @@ import imgCollection1 from "../images/avatar/avt-18.jpg";
 import imgCollection2 from "../images/avatar/avt-16.jpg";
 import imgCollection3 from "../images/avatar/avt-17.jpg";
 
+import auc1 from "../images/Items/auc1.png";
+import auc2 from "../images/Items/auc2.png";
+import auc3 from "../images/Items/auc3.png";
+import auc4 from "../images/Items/auc4.png";
+
 const liveAuctionData = [
   {
-    img: img1,
+    img: auc1,
     title:
       "Hot Ascended (viper) Heavy armor full set(Deldrimor Steels+insignias'materials)",
     tags: "bsc",
-    imgAuthor: imga1,
+    imgAuthor: auc1,
     nameAuthor: "Goringo",
     price: "41.00",
     priceChange: "$1.50",
     wishlist: "100",
-    imgCollection: imgCollection1,
+    imgCollection: auc1,
     nameCollection: "Guildwars 2",
   },
   {
-    // img: img2,
+    img: auc2,
     title: "Roblox - crown",
     tags: "bsc",
-    imgAuthor: imga2,
+    imgAuthor: auc2,
     nameAuthor: "Trisha100",
     price: "500 USD",
     priceChange: "$24.00",
@@ -37,10 +42,10 @@ const liveAuctionData = [
     nameCollection: "Colorful Abstract",
   },
   {
-    img: img3,
+    img: auc3,
     title: "TWILIGHT [ All US Server ] % SPECIAL DISCOUNTS % Only THIS WEEK !!",
     tags: "bsc",
-    imgAuthor: imga3,
+    imgAuthor: auc3,
     nameAuthor: "Swordmaster",
     price: "125.99 USD",
     priceChange: "$0.0",
@@ -49,10 +54,10 @@ const liveAuctionData = [
     nameCollection: "Colorful Abstract",
   },
   {
-    img: img4,
+    img: auc4,
     title: "Legendary Gen 1 Sword - Bolt",
     tags: "bsc",
-    imgAuthor: imga4,
+    imgAuthor: auc4,
     nameAuthor: "Tradermom",
     price: "120.00 USD",
     priceChange: "$3.14",
@@ -60,30 +65,30 @@ const liveAuctionData = [
     imgCollection: imgCollection1,
     nameCollection: "Colorful Abstract",
   },
-  {
-    img: img1,
-    title: "Magic Drink",
-    tags: "bsc",
-    imgAuthor: imga1,
-    nameAuthor: "Paulsen",
-    price: "2.99 USD",
-    priceChange: "$0.90",
-    wishlist: "100",
-    imgCollection: imgCollection2,
-    nameCollection: "Colorful Abstract",
-  },
-  {
-    // img: img2,
-    title: "Ammo Pack of 1000",
-    tags: "bsc",
-    imgAuthor: imga2,
-    nameAuthor: "Lockedstocked",
-    price: "24.99 USD",
-    priceChange: "$15.66",
-    wishlist: "220",
-    imgCollection: imgCollection3,
-    nameCollection: "Colorful Abstract",
-  },
+  // {
+  //   img: img1,
+  //   title: "Magic Drink",
+  //   tags: "bsc",
+  //   imgAuthor: imga1,
+  //   nameAuthor: "Paulsen",
+  //   price: "2.99 USD",
+  //   priceChange: "$0.90",
+  //   wishlist: "100",
+  //   imgCollection: imgCollection2,
+  //   nameCollection: "Colorful Abstract",
+  // },
+  // {
+  //   // img: img2,
+  //   title: "Ammo Pack of 1000",
+  //   tags: "bsc",
+  //   imgAuthor: imga2,
+  //   nameAuthor: "Lockedstocked",
+  //   price: "24.99 USD",
+  //   priceChange: "$15.66",
+  //   wishlist: "220",
+  //   imgCollection: imgCollection3,
+  //   nameCollection: "Colorful Abstract",
+  // },
 ];
 
 export default liveAuctionData;
