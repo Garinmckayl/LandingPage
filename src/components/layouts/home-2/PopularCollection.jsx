@@ -60,10 +60,10 @@ const PopularCollectionItem = props => (
             <div className="swiper-slide">
                 <div className="slider-item">										
                     <div className="sc-card-collection style-3">
-                        <Link to="/authors-02">
+                        <Link to="#">
                             <div className="media-images-box">
                                 <div className="top-media">
-                                    <img src={props.item.imgleft} alt="Axies" />
+                                    <img src={props.item.imgleft}  alt="Axies" />
                                     <img src={props.item.imgright3} alt="Axies" />
                                     </div>
                                 <div className="bottom-media">

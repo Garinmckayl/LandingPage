@@ -83,7 +83,7 @@ const PopularCollectionItem = props => (
                         <Link to="/authors-02">
                             <div className="media-images-collection">
                                 <div className="box-left">
-                                    <img src={props.item.imgleft} alt="axies" />
+                                    <img src={props.item.imgleft}  alt="axies" />
                                 </div>
                                 <div className="box-right">
                                     <div className="top-img">
