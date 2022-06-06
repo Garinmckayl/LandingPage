@@ -91,7 +91,7 @@ const FinancialBenefits = () => {
                         <div className="col-xl-6 col-md-12">
                             <div className="content-left">
                                 <div className="media">
-                                    <img src={inventory} alt="Axies" />
+                                    <img src={inventory} style={{height: '400px'}} alt="Axies" />
                                 </div>
                             </div>
                         </div>
@@ -117,7 +117,7 @@ Convert any game inventory into crypto tokens and enjoy the financial benefits. 
                         <div className="col-xl-6 col-md-12">
                             <div className="content-left">
                                 <div className="media">
-                                <img src={withour} alt="Axies" />
+                                <img src={withour} style={{height: '400px'}} alt="Axies" />
                                 </div>
                             </div>
                         </div>
@@ -140,7 +140,7 @@ Convert any game inventory into crypto tokens and enjoy the financial benefits. 
                         <div className="col-xl-6 col-md-12">
                             <div className="content-left">
                                 <div className="media">
-                                <img src={scholar} alt="Axies" />
+                                <img src={scholar} style={{height: '400px'}} alt="Axies" />
                                 </div>
                             </div>
                         </div>
@@ -164,7 +164,7 @@ Convert any game inventory into crypto tokens and enjoy the financial benefits. 
                         <div className="col-xl-6 col-md-12">
                             <div className="content-left">
                                 <div className="media">
-                                <img src={help} alt="Axies" />
+                                <img src={help} style={{height: '400px'}} alt="Axies" />
                                 </div>
                             </div>
                         </div>
@@ -189,7 +189,7 @@ Convert any game inventory into crypto tokens and enjoy the financial benefits. 
                         <div className="col-xl-6 col-md-12">
                             <div className="content-left">
                                 <div className="media">
-                                <img src={sell} alt="Axies" />
+                                <img src={sell} style={{height: '400px'}} alt="Axies" />
                                 </div>
                             </div>
                         </div>
@@ -218,7 +218,7 @@ There are new financial services for crypto currencies launched every day. While
                         <div className="col-xl-6 col-md-12">
                             <div className="content-left">
                                 <div className="media">
-                                <img src={wallet} alt="Axies" />
+                                <img src={wallet} style={{height: '400px'}} alt="Axies" />
                                 </div>
                             </div>
                         </div>
