@@ -8,26 +8,26 @@ import icon4 from '../../../assets/images/icon/Bookmark.png'
 const Create = () => {
     const data = [
         {
-            title: "Create your account",
-            description: "Start trading worldwide with your items, currencies, accounts or keys.",
+            title: "Money in your pocket",
+            description: "Sell your items, currencies, NFTs, accounts or keys. You can do it with any game.",
             icon : icon1,
             colorbg : "icon-color1"
         },
         {
-            title: "Receive Red Blade tokens",
-            description: "Get paid in our cryptocurrency, the Red Blade token. Use it for other games or cryptocurrencies.",
+            title: "Crypto assets",
+            description: "Use our Red Blade DAO token to invest into other game items or crypto currencies.",
             icon : icon2,
             colorbg : "icon-color2"
         },
         {
-            title: "Buy other items or games",
-            description: "Choose any items, game or NFT, no matter if it is a traditional game or a new blockchain-based game",
+            title: "Scholarships",
+            description: "Receive financial support through the DAO. We help you enter the most popular games at fair terms.",
             icon : icon3,
             colorbg : "icon-color3"
         },
         {
-            title: "Enjoy financial benefits",
-            description: "Re-invest your tokens, receive scholarships for blockchain games or buy more crypto currencies.",
+            title: "Financial Savings",
+            description: "The Red Blade DAO token. Keep it. Invest it. Lend it to others. Make money with your game-play",
             icon : icon4,
             colorbg : "icon-color4"
         },
