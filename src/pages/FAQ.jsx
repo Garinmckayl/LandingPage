@@ -35,7 +35,7 @@ const FAQ = () => {
             {
                 key: "5",
                 title: 'Is the RBDT token a safe investment?',
-                text: 'Our token is different to other crypto assets, as we use ingame assets and game currencies as underlying assets. This means that our token always has a countervalue in the form of already traded virtual goods on various global marketplaces.'
+                text: 'Our token is different to other crypto assets, as we use ingame assets and game currencies as underlying assets. This means that in times of an increased sell-off the RBDT token´s value is always ensured through the countervalue of our treasury of already traded virtual goods on various global marketplaces.'
             },
             {
                 key: "6",
@@ -44,8 +44,8 @@ const FAQ = () => {
             },
             {
                 key: "7",
-                title: 'Is it safe to invest in the Red Blade DAO token?',
-                text: 'TBD.'
+                title: 'How can I trust the Red Blade DAO?',
+                text: 'We are gamers ourselves and understand the current limitations and disruptions in the market. With our platform we want to provide an opportunity to keep one foot in the original games and put another foot in the newly emerging world of blockchain games. We are trying to use blockchain technology and smartcontracts to set up processes that are independent from individual decisions and thereby provide a better way to secure your finances.'
             },
             {
                 key: "8",
