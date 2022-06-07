@@ -20,27 +20,27 @@ const FAQ = () => {
             {
                 key: "2",
                 title: 'How do I receive a scholarship?',
-                text: 'TBD.'
+                text: 'Go to your account, then choose "scholarship" and fill out the form. We will review the application and contact you by email. Please note that scholarships are currently not launched yet.'
             },
             {
                 key: "3",
                 title: 'Can I also be a scholarship investor?',
-                text: 'TBD.'
+                text: 'Absolutely. First, you need to be a token-holder of RBDT tokens and have your wallet connected to our platform. In your account choose "scholarship" and select "Investor" and then fill out the form. Your investment will automatically be part of the overal scholarship funding. You can monitor the status of your investment in your account.'
             },
             {
                 key: "4",
                 title: 'What kind of wallets do you support?',
-                text: 'TBD'
+                text: 'During the starting phase we will provide integrations with Metamask, Binance, Coinbase. Later on we will offer more wallet integrations.'
             },
             {
                 key: "5",
-                title: 'What is staking and how does it work?',
-                text: 'TBD'
+                title: 'Is the RBDT token a safe investment?',
+                text: 'Our token is different to other crypto assets, as we use ingame assets and game currencies as underlying assets. This means that our token always has a countervalue in the form of already traded virtual goods on various global marketplaces.'
             },
             {
                 key: "6",
                 title: 'Who is behind the Red Blade DAO?',
-                text: 'TBD'
+                text: 'The Red Blade DAO is a run by a group of technology executives who all have worked in relevant industries such as banking, fintech, gaming, internet infrastructure and live-operations. We also live from a lively community of several thousand gamers and guild members who contribute daily to our DAO.'
             },
             {
                 key: "7",
@@ -50,28 +50,19 @@ const FAQ = () => {
             {
                 key: "8",
                 title: 'What is a DAO anyway?',
-                text: 'TBD.'
+                text: 'A DAO is a Decentralized Autonomous Organization. This means that the organization is set up in a decentralized way with most decisions being my by software written in smartcontracts. These smartcontracts can be developed in a way that it is impossible for humans to change decisions in a subjective or personal direction. Intead the smartcontracts are predefined and will be continuously be executed, e.g. how many tokens should be circulated, how many scholarships should be granted. More information on this is given in our Whitepaper especially in regards to the which sort of decisions are taken by token holders.'
             },
             {
                 key: "9",
                 title: 'How many games do you support?',
-                text: 'TBD.'
+                text: 'This is completely up to the community, our platform does not limit the number of kind of games and items. As long as there is buyer or seller for a specific game item or currency, the game will be part of our platform and community.'
             },
             {
                 key: "10",
                 title: 'Can I become an liquidity pool provider?',
-                text: 'TBD.'
+                text: 'Yes, absolutely. Please refer to the information under "Token Investors".'
             },
-            {
-                key: "11",
-                title: 'Do I have to pay gas fees for the trades?',
-                text: 'TBD.'
-            },
-            {
-                key: "12",
-                title: 'Which blockchains are you supporting?',
-                text: 'TBD.'
-            },
+       
         ]
     )
     return (
