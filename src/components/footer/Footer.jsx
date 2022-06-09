@@ -59,20 +59,24 @@ const Footer = () => {
     ]
     const resourcesList = [
         {
-            title: "Help & Support",
-            link: "/help-center"
+            title: "Lost Ark",
+            link: "#"
         },
         {
-            title: "Live Auctions",
-            link: "/live-auctions"
+            title: "World of Warcraft: Burning Crusade Classic",
+            link: "#"
         },
         {
-            title: "Item Details",
-            link: "/item-details-01"
+            title: "League of Legends",
+            link: "#"
         },
         {
-            title: "Activity",
-            link: "/activity-01"
+            title: "Fortnite",
+            link: "#"
+        },
+        {
+            title: "FAQ",
+            link: "/faq"
         },
     ]
     const companyList = [
@@ -85,12 +89,8 @@ const Footer = () => {
             link: "/privacy"
         },
         {
-            title: "FAQ",
-            link: "/faq"
-        },
-        {
             title: "Contact Us",
-            link: "/contact"
+            link: "/terms"
         },
     ]
     const socialList = [

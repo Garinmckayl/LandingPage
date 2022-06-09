@@ -75,12 +75,12 @@ const TodayPicks = props => {
                                 <div key={index} className="fl-item col-xl-3 col-lg-4 col-md-6 col-sm-6">
                                     <div className={`sc-card-product ${item.feature ? 'comingsoon' : '' } `}>
                                         <div className="card-media">
-                                            <Link to="/item-details-01"><img src={item.img} alt="axies" /></Link>
-                                            <Link to="/login" className="wishlist-button heart"><span className="number-like">{item.wishlist}</span></Link>
+                                            <Link to="#" onClick={() => setModalShow(true)}><img src={item.img} alt="axies" /></Link>
+                                            <Link to="#" onClick={() => setModalShow(true)} className="wishlist-button heart"><span className="number-like">{item.wishlist}</span></Link>
                                             <div className="coming-soon">{item.feature}</div>
                                         </div>
                                         <div className="card-title">
-                                            <h5 className="style2"><Link to="/item-details-01">"{item.title}"</Link></h5>
+                                            <h5 className="style2"><Link to="#" onClick={() => setModalShow(true)}>"{item.title}"</Link></h5>
                                             <div className="tags">{item.tags}</div>
                                         </div>
                                         <div className="meta-info">
@@ -90,7 +90,7 @@ const TodayPicks = props => {
                                                 </div>
                                                 <div className="info">
                                                     <span>Owned By</span>
-                                                    <h6> <Link to="/authors-02">{item.nameAuthor}</Link> </h6>
+                                                    <h6> <Link to="#" onClick={() => setModalShow(true)}>{item.nameAuthor}</Link> </h6>
                                                 </div>
                                             </div>
                                             <div className="price">
@@ -100,7 +100,7 @@ const TodayPicks = props => {
                                         </div>
                                         <div className="card-bottom">
                                             <button onClick={() => setModalShow(true)} className="sc-button style bag fl-button pri-3 no-bg"><span>Place Bid</span></button>
-                                            <Link to="/activity-01" className="view-history reload">View History</Link>
+                                            <Link to="#" className="view-history reload">View History</Link>
                                         </div>
                                     </div>
                                 </div>

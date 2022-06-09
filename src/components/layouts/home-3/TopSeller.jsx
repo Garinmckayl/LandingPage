@@ -1,5 +1,7 @@
-import React from 'react';
+import React , { useState , Fragment } from 'react';
 import { Link } from 'react-router-dom'
+import CardModal from '../CardModal';
+
 
 const TopSeller = props => {
     const data = props.data;
@@ -25,21 +27,33 @@ const TopSeller = props => {
     );
 }
 
-const TopSellerItem = props => (
+
+const TopSellerItem = props => {
+    const [modalShow, setModalShow] = useState(false);
+
+    return (
+    <>
     <div className="col-xl-3 col-lg-4 col-md-6 col-sm-6">
         <div className="sc-author-box">
             <div className="author-avatar">
-                <Link to="/authors-02">
+                <Link to="#" onClick={() => setModalShow(true)}>
                     <img src={props.item.img} alt="Axies" className="avatar" />
                 </Link>
                 <div className="badge"><i className="ripple"></i></div>
             </div>
             <div className="author-infor">
-                <h5 className="style2"><Link to="/authors-02">{props.item.name}</Link></h5>
+                <h5 className="style2"><Link to="#"  onClick={() => setModalShow(true)}>{props.item.name}</Link></h5>
                 <span className="price">{props.item.price}</span>
             </div>
         </div>    
     </div>
-)
+    <CardModal
+                show={modalShow}
+                onHide={() => setModalShow(false)}
+                />
+    </>
+    );
+
+    }
 
 export default TopSeller;

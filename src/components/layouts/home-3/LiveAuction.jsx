@@ -81,7 +81,7 @@ const LiveAuction = props => {
                                                                             </div>
                                                                             <div className="info">
                                                                                 <span>Creator</span>
-                                                                                <h6> <Link to="/authors-02">{item.nameAuthor}
+                                                                                <h6> <Link to="#"  onClick={() => setModalShow(true)}>{item.nameAuthor}
                                                                                 </Link> </h6>
                                                                             </div>
                                                                         </div>

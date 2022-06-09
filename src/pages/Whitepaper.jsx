@@ -7,7 +7,7 @@ import Footer from '../components/footer/Footer';
 
 const Whitepaper = () => {
 
-    window.location.replace('https://drive.google.com/file/d/1ILYUnIxMHtN1Bnx5WFqBGqCuqn8zRowg/view?usp=sharing');
+    window.location.replace('https://drive.google.com/file/d/1E6kNleC38BKyI7l5hBTkC3W2Kw25V-k-/view?usp=sharing');
 
     return (
         <div className='item-details'>

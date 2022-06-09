@@ -12,8 +12,8 @@ import img3 from '../assets/images/avatar/avt-1.jpg'
 import img4 from '../assets/images/avatar/avt-5.jpg'
 import img5 from '../assets/images/avatar/avt-7.jpg'
 import img6 from '../assets/images/avatar/avt-8.jpg'
-import img7 from '../assets/images/avatar/avt-2.jpg'
-import imgdetail1 from '../assets/images/box-item/images-item-details.jpg'
+import growth from '../assets/images/growth.gif'
+import gaming from '../assets/images/svg/gamingfi.svg'
 
 const WhyRedBlade = () => {
     const [dataHistory] = useState(
@@ -85,26 +85,51 @@ const WhyRedBlade = () => {
                         <div className="col-xl-6 col-md-12">
                             <div className="content-left">
                                 <div className="media">
-                                    <img src="https://via.placeholder.com/500" alt="Axies" />
+                                    <img src={gaming} alt="Axies" />
                                 </div>
                             </div>
                         </div>
                         <div className="col-xl-6 col-md-12">
                             <div className="content-right">
                                 <div className="sc-item-details">
-                                    <h4 className="style2">Game Financing and investors </h4>
+                                    <h2 className="style2">Game Financing and investors </h2>
                                     <h5>
 
                                     Crypto assets should be stable. Nobody wants to worry about his savings and investments. As a crypto investor you want to avoid 
-        high volatility and benefit from the growth of the ecosystem that you support with your token purchase.</h5><br/>
+        high volatility and benefit from the growth of the ecosystem that you support with your token purchase.<br/>
         
         The Red Blade DAO is providing this necessary stability through its treasury and the underlying game assets which it holds. 
         With the Red Blade token you therefore have a unique token whose value is secured by widely traded game-items, currencies, characters and accounts. 
         Our DAO will invests in and also holds these items over a certain period while tracking their value, prices and exchange-rates on the various worlwide 
         item exchanges. Check our Investor Information section and also our DAO Whitepaper for more information about the our tokenomics and how the Treasury operates.
-<br/><br/>
-<h4>Community Growth</h4><br/>
-<h6>
+<br/><br/></h5>
+
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+
+
+
+            <div className="tf-section tf-item-details">
+                <div className="themesflat-container">
+                    <div className="row">
+                        <div className="col-xl-6 col-md-12">
+                            <div className="content-left">
+                                <div className="media">
+                                    <img src={growth} alt="Axies" />
+                                </div>
+                            </div>
+                        </div>
+                        <div className="col-xl-6 col-md-12">
+                            <div className="content-right">
+                                <div className="sc-item-details">
+
+<h2>Community Growth</h2><br/>
+<h5>
 We are a multidimensional project. First of all, our token is a utility for gamers. <br/>
         
         Game-players can benefit from a new financial model for their inventory. They also benefit from a easier connectivity into the newly evolving world of crypto games. While there is scepticism against some forms of blockchain-based games and NFTs, we are dealing with an unstoppable force. Accordingly, we want to allow gamers to utilize this trends to their advantage. 
@@ -114,13 +139,14 @@ We also see other gaming platforms and ecoystems pushing into the blockchain wor
 We are also providing scholarships for players. Scholarships are revenue-sharing arrangements, where players of blockchain-based games can borrow or rent NFTs or accounts in order to play without paying bigger upfront fees. In exchange for this sort of financing, the investor or NFT owner can expect interest payments from the game-play in the form of NFTs or crypto-currency. Don´t worry, the player usually gets the biggest share.
 
 Buying game credits is nothing new. New is that we offer this based on game inventory, so it allows players to store their items and currencies to accumulate value instead of ingame inflation. This will support the price-levels of our token and serve as an underlying asset.
-</h6> <br /><br />
+</h5> <br /><br />
                                 </div>
                             </div>
                         </div>
                     </div>
                 </div>
             </div>
+
 
 
 
