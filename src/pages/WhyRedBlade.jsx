@@ -96,16 +96,16 @@ const WhyRedBlade = () => {
                                     <h5>
 
                                     Crypto assets should be stable. Nobody wants to worry about his savings and investments. As a crypto investor you want to avoid 
-        high volatility and benefit from the growth of the ecosystem that you support with your token purchase.</h4><br/>
+        high volatility and benefit from the growth of the ecosystem that you support with your token purchase.</h5><br/>
         
         The Red Blade DAO is providing this necessary stability through its treasury and the underlying game assets which it holds. 
         With the Red Blade token you therefore have a unique token whose value is secured by widely traded game-items, currencies, characters and accounts. 
         Our DAO will invests in and also holds these items over a certain period while tracking their value, prices and exchange-rates on the various worlwide 
         item exchanges. Check our Investor Information section and also our DAO Whitepaper for more information about the our tokenomics and how the Treasury operates.
-</h5><br/><br/>
+<br/><br/>
 <h4>Community Growth</h4><br/>
 <h6>
-We are a multidimensional project. First of all, our token is a utility for gamers. </h4><br/>
+We are a multidimensional project. First of all, our token is a utility for gamers. <br/>
         
         Game-players can benefit from a new financial model for their inventory. They also benefit from a easier connectivity into the newly evolving world of crypto games. While there is scepticism against some forms of blockchain-based games and NFTs, we are dealing with an unstoppable force. Accordingly, we want to allow gamers to utilize this trends to their advantage. 
 <br />
