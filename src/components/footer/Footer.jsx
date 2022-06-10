@@ -59,20 +59,8 @@ const Footer = () => {
     ]
     const resourcesList = [
         {
-            title: "Lost Ark",
-            link: "#"
-        },
-        {
-            title: "World of Warcraft: Burning Crusade Classic",
-            link: "#"
-        },
-        {
-            title: "League of Legends",
-            link: "#"
-        },
-        {
-            title: "Fortnite",
-            link: "#"
+            title: "Game Index",
+            link: "/game-index"
         },
         {
             title: "FAQ",

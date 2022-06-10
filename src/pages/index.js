@@ -34,6 +34,7 @@ import FinancialBenefits from "./FinancialBenefits";
 import WhyRedBlade from "./WhyRedBlade";
 import InvestorInformation from "./InvestorInformation";
 import Whitepaper from "./Whitepaper";
+import GameIndex from "./GameIndex";
 import Terms from "./Terms";
 import Privacy from "./Privacy";
 
@@ -44,6 +45,7 @@ const routes = [
   { path: "/investor-information", component: <InvestorInformation /> },
   { path: "/investor-information", component: <InvestorInformation /> },
   { path: "/Whitepaper", component: <Whitepaper /> },
+  { path: "/game-index", component: <GameIndex /> },
   { path: "/Terms", component: <Terms /> },
   { path: "/Privacy", component: <Privacy /> },
   { path: "/home-02", component: <Home02 /> },

@@ -3305,3 +3305,38 @@ header {
   top: 0px;
   color: #fff;
 }
+.gameindex-txt {
+  color: #b3b3b3 !important;
+}
+
+.gameindex-txt {
+  font-size: 15px !important;
+  animation: none !important;
+  text-shadow: none !important;
+  padding-top: 20px;
+  padding-bottom: 10px;
+}
+
+.align-self-baseline {
+  padding-right: 20px;
+  font-size: 3em;
+  margin-bottom: 0;
+  margin-top: 0;
+  line-height: 1;
+  text-decoration: none;
+  color: rgb(255, 255, 255);
+  text-shadow: 0 0 5px #fff, 0 0 10px #fff, 0 0 15px #fff, 0 0 20px #ff00de,
+    0 0 35px #ff00de, 0 0 40px #ff00de, 0 0 50px #ff00de, 0 0 75px #ff00de;
+  /* animation: neon2 1.5s ease-in-out infinite alternate; */
+}
+
+@keyframes neon2 {
+  /* from {
+    text-shadow: 0 0 10px #fff, 0 0 20px #fff, 0 0 30px #fff, 0 0 40px #228dff,
+      0 0 70px #228dff, 0 0 80px #228dff, 0 0 100px #228dff, 0 0 150px #228dff;
+  }
+  to {
+    text-shadow: 0 0 5px #fff, 0 0 10px #fff, 0 0 15px #fff, 0 0 20px #228dff,
+      0 0 35px #228dff, 0 0 40px #228dff, 0 0 50px #228dff, 0 0 75px #228dff;
+  } */
+}
