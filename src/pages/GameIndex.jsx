@@ -3,10 +3,13 @@
 import React, { useState } from 'react';
 import Header from '../components/header/Header';
 import Footer from '../components/footer/Footer';
+import CardModal from '../components/layouts/CardModal';
+
 
 
 const GameIndex = () => {
 
+    const [modalShow, setModalShow] = useState(false);
 
     return (
         <div className='item-details'>
@@ -25,14 +28,14 @@ const GameIndex = () => {
             </section>
 
             <>
-  {/* <a href="#main" className="skip-main sr-only sr-only-focusable" id="skipMain">
+  {/* <a onClick={() => setModalShow(true)}  href="#" id="#main" className="skip-main sr-only sr-only-focusable" href="#" id="skipMain">
     Skip to main content
   </a>
   <header aria-label="header navigation">
-    <div id="topUpOuter" className="c">
-      <div className="justify-content-between" id="topUp">
+    <div href="#" id="topUpOuter" className="c">
+      <div className="justify-content-between" href="#" id="topUp">
         <div className="header-item header-link flex">
-          <a className="text-light" href="https://www.playerauctions.com/">
+          <a onClick={() => setModalShow(true)}  className="text-light" href="#" id="https://www.playerauctions.com/">
             <img src="/Static/images/logo.png" alt="PlayerAuctions Homepage" />
             <span className="header-name" aria-hidden="true">
               PlayerAuctions
@@ -41,19 +44,19 @@ const GameIndex = () => {
         </div>
         <div className="header-item header-item-full flex">
           <div className="nav-search flex">
-            <div id="search" className="autocomplete">
-              <div className="icon-pl" id="icon-pl">
+            <div href="#" id="search" className="autocomplete">
+              <div className="icon-pl" href="#" id="icon-pl">
                 <label htmlFor="search-input">
                   <i className="iconfont icon-gamepad" aria-hidden="true" />
                 </label>
               </div>
-              <div className="icon-pl2" id="icon-pl2">
+              <div className="icon-pl2" href="#" id="icon-pl2">
                 <div className="ball-clip-rotate">
                   <div />
                 </div>
               </div>
               <input
-                id="search-input"
+                href="#" id="search-input"
                 type="text"
                 role="combobox"
                 aria-autocomplete="list"
@@ -63,20 +66,20 @@ const GameIndex = () => {
                 aria-haspopup="true"
                 placeholder="Loading..."
               />{" "}
-              <div id="search-complete"></div>
+              <div href="#" id="search-complete"></div>
             </div>
             <span className="group-pl hide-xs" />
             <div className="form-group filter-select featured-games dropdown">
               <button
                 className="dropdown-toggle hide-xs"
-                id="dropdownToggle"
+                href="#" id="dropdownToggle"
                 aria-expanded="false"
                 aria-controls="tree"
               >
                 <span className="hide-md">Browse</span> Games
                 <span className="caret" />
               </button>
-              <div id="tree" className="nodetree dropdown-menu">
+              <div href="#" id="tree" className="nodetree dropdown-menu">
                 <ul className="group">
                   <li
                     className="group-item featured-games-category"
@@ -86,59 +89,59 @@ const GameIndex = () => {
                       className="link flex align-items-center w-100 toggle-dropdown"
                       aria-expanded="false"
                       aria-controls="drop-Currency"
-                      id="subToggle-Currency"
+                      href="#" id="subToggle-Currency"
                     >
                       <i className="iconfont icon-card-Currency" />
                       Currency
                     </button>
-                    <ul className="submenu" id="drop-Currency">
+                    <ul className="submenu" href="#" id="drop-Currency">
                       <li className="group-item featured-games-item">
-                        <a href="https://www.playerauctions.com/lost-ark-gold/">
+                        <a onClick={() => setModalShow(true)}  href="#" id="https://www.playerauctions.com/lost-ark-gold/">
                           Lost Ark
                         </a>
                       </li>
                       <li className="group-item featured-games-item">
-                        <a href="https://www.playerauctions.com/wow-classic-tbc-gold/">
+                        <a onClick={() => setModalShow(true)}  href="#" id="https://www.playerauctions.com/wow-classic-tbc-gold/">
                           World of Warcraft: Burning Crusade Classic
                         </a>
                       </li>
                       <li className="group-item featured-games-item">
-                        <a href="https://www.playerauctions.com/osrs-gold/">
+                        <a onClick={() => setModalShow(true)}  href="#" id="https://www.playerauctions.com/osrs-gold/">
                           RuneScape - Old School
                         </a>
                       </li>
                       <li className="group-item featured-games-item">
-                        <a href="https://www.playerauctions.com/path-of-exile-exalted-orb/">
+                        <a onClick={() => setModalShow(true)}  href="#" id="https://www.playerauctions.com/path-of-exile-exalted-orb/">
                           Path of Exile
                         </a>
                       </li>
                       <li className="group-item featured-games-item">
-                        <a href="https://www.playerauctions.com/new-world-coins/">
+                        <a onClick={() => setModalShow(true)}  href="#" id="https://www.playerauctions.com/new-world-coins/">
                           New World
                         </a>
                       </li>
                       <li className="group-item featured-games-item">
-                        <a href="https://www.playerauctions.com/ffxiv-gil/">
+                        <a onClick={() => setModalShow(true)}  href="#" id="https://www.playerauctions.com/ffxiv-gil/">
                           Final Fantasy XIV
                         </a>
                       </li>
                       <li className="group-item featured-games-item">
-                        <a href="https://www.playerauctions.com/runescape-gold/">
+                        <a onClick={() => setModalShow(true)}  href="#" id="https://www.playerauctions.com/runescape-gold/">
                           RuneScape
                         </a>
                       </li>
                       <li className="group-item featured-games-item">
-                        <a href="https://www.playerauctions.com/star-citizen-uec/">
+                        <a onClick={() => setModalShow(true)}  href="#" id="https://www.playerauctions.com/star-citizen-uec/">
                           Star Citizen
                         </a>
                       </li>
                       <li className="group-item featured-games-item">
-                        <a href="https://www.playerauctions.com/fifa-coins/">
+                        <a onClick={() => setModalShow(true)}  href="#" id="https://www.playerauctions.com/fifa-coins/">
                           FIFA Ultimate Team
                         </a>
                       </li>
                       <li className="group-item featured-games-item">
-                        <a href="https://www.playerauctions.com/roblox-robux/">
+                        <a onClick={() => setModalShow(true)}  href="#" id="https://www.playerauctions.com/roblox-robux/">
                           ROBLOX
                         </a>
                       </li>
@@ -152,59 +155,59 @@ const GameIndex = () => {
                       className="link flex align-items-center w-100 toggle-dropdown"
                       aria-expanded="false"
                       aria-controls="drop-Item"
-                      id="subToggle-Item"
+                      href="#" id="subToggle-Item"
                     >
                       <i className="iconfont icon-card-Item" />
                       Items / Skins
                     </button>
-                    <ul className="submenu" id="drop-Item">
+                    <ul className="submenu" href="#" id="drop-Item">
                       <li className="group-item featured-games-item">
-                        <a href="https://www.playerauctions.com/everquest-items/">
+                        <a onClick={() => setModalShow(true)}  href="#" id="https://www.playerauctions.com/everquest-items/">
                           EverQuest
                         </a>
                       </li>
                       <li className="group-item featured-games-item">
-                        <a href="https://www.playerauctions.com/path-of-exile-items/">
+                        <a onClick={() => setModalShow(true)}  href="#" id="https://www.playerauctions.com/path-of-exile-items/">
                           Path of Exile
                         </a>
                       </li>
                       <li className="group-item featured-games-item">
-                        <a href="https://www.playerauctions.com/ffxiv-items/">
+                        <a onClick={() => setModalShow(true)}  href="#" id="https://www.playerauctions.com/ffxiv-items/">
                           Final Fantasy XIV
                         </a>
                       </li>
                       <li className="group-item featured-games-item">
-                        <a href="https://www.playerauctions.com/roblox-items/">
+                        <a onClick={() => setModalShow(true)}  href="#" id="https://www.playerauctions.com/roblox-items/">
                           ROBLOX
                         </a>
                       </li>
                       <li className="group-item featured-games-item">
-                        <a href="https://www.playerauctions.com/runescape-items/">
+                        <a onClick={() => setModalShow(true)}  href="#" id="https://www.playerauctions.com/runescape-items/">
                           RuneScape
                         </a>
                       </li>
                       <li className="group-item featured-games-item">
-                        <a href="https://www.playerauctions.com/guild-wars-2-items/">
+                        <a onClick={() => setModalShow(true)}  href="#" id="https://www.playerauctions.com/guild-wars-2-items/">
                           Guild Wars 2
                         </a>
                       </li>
                       <li className="group-item featured-games-item">
-                        <a href="https://www.playerauctions.com/star-citizen-items/">
+                        <a onClick={() => setModalShow(true)}  href="#" id="https://www.playerauctions.com/star-citizen-items/">
                           Star Citizen
                         </a>
                       </li>
                       <li className="group-item featured-games-item">
-                        <a href="https://www.playerauctions.com/sto-items/">
+                        <a onClick={() => setModalShow(true)}  href="#" id="https://www.playerauctions.com/sto-items/">
                           Star Trek Online
                         </a>
                       </li>
                       <li className="group-item featured-games-item">
-                        <a href="https://www.playerauctions.com/pokemon-go-items/">
+                        <a onClick={() => setModalShow(true)}  href="#" id="https://www.playerauctions.com/pokemon-go-items/">
                           Pokémon Go
                         </a>
                       </li>
                       <li className="group-item featured-games-item">
-                        <a href="https://www.playerauctions.com/roblox-items/">
+                        <a onClick={() => setModalShow(true)}  href="#" id="https://www.playerauctions.com/roblox-items/">
                           ROBLOX
                         </a>
                       </li>
@@ -218,59 +221,59 @@ const GameIndex = () => {
                       className="link flex align-items-center w-100 toggle-dropdown"
                       aria-expanded="false"
                       aria-controls="drop-Account"
-                      id="subToggle-Account"
+                      href="#" id="subToggle-Account"
                     >
                       <i className="iconfont icon-card-Account" />
                       Accounts
                     </button>
-                    <ul className="submenu" id="drop-Account">
+                    <ul className="submenu" href="#" id="drop-Account">
                       <li className="group-item featured-games-item">
-                        <a href="https://www.playerauctions.com/valorant-account/">
+                        <a onClick={() => setModalShow(true)}  href="#" id="https://www.playerauctions.com/valorant-account/">
                           Valorant
                         </a>
                       </li>
                       <li className="group-item featured-games-item">
-                        <a href="https://www.playerauctions.com/osrs-account/">
+                        <a onClick={() => setModalShow(true)}  href="#" id="https://www.playerauctions.com/osrs-account/">
                           RuneScape - Old School
                         </a>
                       </li>
                       <li className="group-item featured-games-item">
-                        <a href="https://www.playerauctions.com/clash-of-clans-account/">
+                        <a onClick={() => setModalShow(true)}  href="#" id="https://www.playerauctions.com/clash-of-clans-account/">
                           Clash of Clans
                         </a>
                       </li>
                       <li className="group-item featured-games-item">
-                        <a href="https://www.playerauctions.com/lol-account/">
+                        <a onClick={() => setModalShow(true)}  href="#" id="https://www.playerauctions.com/lol-account/">
                           League of Legends
                         </a>
                       </li>
                       <li className="group-item featured-games-item">
-                        <a href="https://www.playerauctions.com/fortnite-account/">
+                        <a onClick={() => setModalShow(true)}  href="#" id="https://www.playerauctions.com/fortnite-account/">
                           Fortnite
                         </a>
                       </li>
                       <li className="group-item featured-games-item">
-                        <a href="https://www.playerauctions.com/summoners-war-account/">
+                        <a onClick={() => setModalShow(true)}  href="#" id="https://www.playerauctions.com/summoners-war-account/">
                           Summoners War
                         </a>
                       </li>
                       <li className="group-item featured-games-item">
-                        <a href="https://www.playerauctions.com/apex-legends-account/">
+                        <a onClick={() => setModalShow(true)}  href="#" id="https://www.playerauctions.com/apex-legends-account/">
                           Apex Legends
                         </a>
                       </li>
                       <li className="group-item featured-games-item">
-                        <a href="https://www.playerauctions.com/rainbow-six-siege-account/">
+                        <a onClick={() => setModalShow(true)}  href="#" id="https://www.playerauctions.com/rainbow-six-siege-account/">
                           Tom Clancys Rainbow Six Siege
                         </a>
                       </li>
                       <li className="group-item featured-games-item">
-                        <a href="https://www.playerauctions.com/steam-account/">
+                        <a onClick={() => setModalShow(true)}  href="#" id="https://www.playerauctions.com/steam-account/">
                           Steam
                         </a>
                       </li>
                       <li className="group-item featured-games-item">
-                        <a href="https://www.playerauctions.com/genshin-impact-account/">
+                        <a onClick={() => setModalShow(true)}  href="#" id="https://www.playerauctions.com/genshin-impact-account/">
                           Genshin Impact
                         </a>
                       </li>
@@ -284,59 +287,59 @@ const GameIndex = () => {
                       className="link flex align-items-center w-100 toggle-dropdown"
                       aria-expanded="false"
                       aria-controls="drop-Power-Leveling"
-                      id="subToggle-Power-Leveling"
+                      href="#" id="subToggle-Power-Leveling"
                     >
                       <i className="iconfont icon-card-Power-Leveling" />
                       Power Leveling
                     </button>
-                    <ul className="submenu" id="drop-Power-Leveling">
+                    <ul className="submenu" href="#" id="drop-Power-Leveling">
                       <li className="group-item featured-games-item">
-                        <a href="https://www.playerauctions.com/osrs-power-leveling/">
+                        <a onClick={() => setModalShow(true)}  href="#" id="https://www.playerauctions.com/osrs-power-leveling/">
                           RuneScape - Old School
                         </a>
                       </li>
                       <li className="group-item featured-games-item">
-                        <a href="https://www.playerauctions.com/black-desert-power-leveling/">
+                        <a onClick={() => setModalShow(true)}  href="#" id="https://www.playerauctions.com/black-desert-power-leveling/">
                           Black Desert
                         </a>
                       </li>
                       <li className="group-item featured-games-item">
-                        <a href="https://www.playerauctions.com/apex-legends-power-leveling/">
+                        <a onClick={() => setModalShow(true)}  href="#" id="https://www.playerauctions.com/apex-legends-power-leveling/">
                           Apex Legends
                         </a>
                       </li>
                       <li className="group-item featured-games-item">
-                        <a href="https://www.playerauctions.com/wow-classic-tbc-power-leveling/">
+                        <a onClick={() => setModalShow(true)}  href="#" id="https://www.playerauctions.com/wow-classic-tbc-power-leveling/">
                           World of Warcraft: Burning Crusade Classic
                         </a>
                       </li>
                       <li className="group-item featured-games-item">
-                        <a href="https://www.playerauctions.com/lost-ark-power-leveling/">
+                        <a onClick={() => setModalShow(true)}  href="#" id="https://www.playerauctions.com/lost-ark-power-leveling/">
                           Lost Ark
                         </a>
                       </li>
                       <li className="group-item featured-games-item">
-                        <a href="https://www.playerauctions.com/genshin-impact-power-leveling/">
+                        <a onClick={() => setModalShow(true)}  href="#" id="https://www.playerauctions.com/genshin-impact-power-leveling/">
                           Genshin Impact
                         </a>
                       </li>
                       <li className="group-item featured-games-item">
-                        <a href="https://www.playerauctions.com/elder-scrolls-online-power-leveling/">
+                        <a onClick={() => setModalShow(true)}  href="#" id="https://www.playerauctions.com/elder-scrolls-online-power-leveling/">
                           Elder Scrolls Online
                         </a>
                       </li>
                       <li className="group-item featured-games-item">
-                        <a href="https://www.playerauctions.com/ffxiv-power-leveling/">
+                        <a onClick={() => setModalShow(true)}  href="#" id="https://www.playerauctions.com/ffxiv-power-leveling/">
                           Final Fantasy XIV
                         </a>
                       </li>
                       <li className="group-item featured-games-item">
-                        <a href="https://www.playerauctions.com/fifa-power-leveling/">
+                        <a onClick={() => setModalShow(true)}  href="#" id="https://www.playerauctions.com/fifa-power-leveling/">
                           FIFA Ultimate Team
                         </a>
                       </li>
                       <li className="group-item featured-games-item">
-                        <a href="https://www.playerauctions.com/lol-boosting/">
+                        <a onClick={() => setModalShow(true)}  href="#" id="https://www.playerauctions.com/lol-boosting/">
                           League of Legends
                         </a>
                       </li>
@@ -344,7 +347,7 @@ const GameIndex = () => {
                   </li>
                   <li className="group-item featured-games-item-link">
                     <div className="link">
-                      <a href="https://www.playerauctions.com/game-index/">
+                      <a onClick={() => setModalShow(true)}  href="#" id="https://www.playerauctions.com/game-index/">
                         View All Games
                       </a>
                     </div>
@@ -357,34 +360,34 @@ const GameIndex = () => {
         <div className="header-item flex w-22 hide-lg justify-content-between">
           <span
             className="text-light align-self-center howToBuyBtn"
-            id="howToBuy"
+            href="#" id="howToBuy"
           >
-            <a className="txt-link" href="/about/how-to-buy/" rel="noopener">
+            <a onClick={() => setModalShow(true)}  className="txt-link" href="#" id="/about/how-to-buy/" rel="noopener">
               <i className="iconfont icon-ShoppingCart_" /> How to Buy
             </a>
           </span>
           <span className="text-light align-self-center howToSellBtn">
-            <a className="txt-link" href="/about/how-to-sell/" rel="noopener">
+            <a onClick={() => setModalShow(true)}  className="txt-link" href="#" id="/about/how-to-sell/" rel="noopener">
               <i className="iconfont icon-dollar -mr-4" /> How to Sell
             </a>
           </span>
         </div>
         <div className="header-item align-items-center toploading">
-          <div id="tapCapture">
+          <div href="#" id="tapCapture">
             <div className="icon-search icon-search-txt txt-link">
               <span className="hide-md">Browse</span> Games
               <i className="iconfont icon-arrowon" />
             </div>
             <div className="icon-account"></div>
           </div>
-          <div id="msgLive" className="sr-only" aria-live="polite" />
-          <div id="accountPanel" />
+          <div href="#" id="msgLive" className="sr-only" aria-live="polite" />
+          <div href="#" id="accountPanel" />
         </div>
       </div>
     </div>
   </header> */}
   <main className="main">
-    <div className="content-wrapper" id="content-wrapper">
+    <div className="content-wrapper" href="#" id="content-wrapper">
       <div className="wrapIndex">
         <nav className="nav topnav nav-responsive" aria-label="Breadcrumb">
           <ol className="flex">
@@ -400,7 +403,7 @@ const GameIndex = () => {
           <div className="clearfix gameindex-content">
             <div className="section-heading section-heading-responsive">
             </div>
-            {/* <div id="gameindex-jumpnavbar" className="hide-xs">
+            {/* <div href="#" id="gameindex-jumpnavbar" className="hide-xs">
               <div
                 className="gameindex-jumpnavbar hide-xs"
                 style={{ zIndex: 999 }}
@@ -408,7 +411,7 @@ const GameIndex = () => {
                 <div className="label-wrapper clearfix">
                   <ul
                     className="index-select-box vmbox fl w-100"
-                    id="gameIndexLi"
+                    href="#" id="gameIndexLi"
                   >
                     <li
                       tabIndex={0}
@@ -645,7 +648,7 @@ const GameIndex = () => {
             </div> */}
             <div
               className="content-box slide-xs-content-box gameindex-box clearfix row no-gutters pt-12 border-0"
-              id="gameindex_HOT"
+              href="#" id="gameindex_HOT"
             >
               <div className="content-box-title col-lg-1 game-index-align-center">
                 <div className="title-group fr show-inblock-xs">
@@ -655,33 +658,33 @@ const GameIndex = () => {
               <ul className="row col-lg-11 no-gutters content-box-body">
                 <li className="col-lg-3 col-md-3 col-sm-12 col-xs-12 content-item fl">
                   <div className="flex flex-column">
-                    <a
-                      href="/lost-ark-marketplace/"
+                    <a onClick={() => setModalShow(true)} 
+                      href="#" id="/lost-ark-marketplace/"
                       className="align-self-baseline"
                       title="Lost Ark"
                     >
                       Lost Ark
                     </a>
-                    <a
-                      href="/lost-ark-gold/"
+                    <a onClick={() => setModalShow(true)} 
+                      href="#" id="/lost-ark-gold/"
                       className="align-self-baseline gameindex-txt"
                     >
                       Gold
                     </a>
-                    <a
-                      href="/lost-ark-items/"
+                    <a onClick={() => setModalShow(true)} 
+                      href="#" id="/lost-ark-items/"
                       className="align-self-baseline gameindex-txt"
                     >
                       Items
                     </a>
-                    <a
-                      href="/lost-ark-account/"
+                    <a onClick={() => setModalShow(true)} 
+                      href="#" id="/lost-ark-account/"
                       className="align-self-baseline gameindex-txt"
                     >
                       Accounts
                     </a>
-                    <a
-                      href="/lost-ark-power-leveling/"
+                    <a onClick={() => setModalShow(true)} 
+                      href="#" id="/lost-ark-power-leveling/"
                       className="align-self-baseline gameindex-txt"
                     >
                       Power leveling
@@ -690,33 +693,33 @@ const GameIndex = () => {
                 </li>
                 <li className="col-lg-3 col-md-3 col-sm-12 col-xs-12 content-item fl">
                   <div className="flex flex-column">
-                    <a
-                      href="/wow-classic-tbc-marketplace/"
+                    <a onClick={() => setModalShow(true)} 
+                      href="#" id="/wow-classic-tbc-marketplace/"
                       className="align-self-baseline"
                       title="World of Warcraft: Burning Crusade Classic"
                     >
                       World of Warcraft: Burning Crusade Classic
                     </a>
-                    <a
-                      href="/wow-classic-tbc-gold/"
+                    <a onClick={() => setModalShow(true)} 
+                      href="#" id="/wow-classic-tbc-gold/"
                       className="align-self-baseline gameindex-txt"
                     >
                       Gold
                     </a>
-                    <a
-                      href="/wow-classic-tbc-items/"
+                    <a onClick={() => setModalShow(true)} 
+                      href="#" id="/wow-classic-tbc-items/"
                       className="align-self-baseline gameindex-txt"
                     >
                       Items
                     </a>
-                    <a
-                      href="/wow-classic-tbc-account/"
+                    <a onClick={() => setModalShow(true)} 
+                      href="#" id="/wow-classic-tbc-account/"
                       className="align-self-baseline gameindex-txt"
                     >
                       Accounts
                     </a>
-                    <a
-                      href="/wow-classic-tbc-power-leveling/"
+                    <a onClick={() => setModalShow(true)} 
+                      href="#" id="/wow-classic-tbc-power-leveling/"
                       className="align-self-baseline gameindex-txt"
                     >
                       Power leveling
@@ -725,33 +728,33 @@ const GameIndex = () => {
                 </li>
                 <li className="col-lg-3 col-md-3 col-sm-12 col-xs-12 content-item fl">
                   <div className="flex flex-column">
-                    <a
-                      href="/osrs-marketplace/"
+                    <a onClick={() => setModalShow(true)} 
+                      href="#" id="/osrs-marketplace/"
                       className="align-self-baseline"
                       title="RuneScape - Old School"
                     >
                       RuneScape - Old School
                     </a>
-                    <a
-                      href="/osrs-gold/"
+                    <a onClick={() => setModalShow(true)} 
+                      href="#" id="/osrs-gold/"
                       className="align-self-baseline gameindex-txt"
                     >
                       Gold
                     </a>
-                    <a
-                      href="/osrs-items/"
+                    <a onClick={() => setModalShow(true)} 
+                      href="#" id="/osrs-items/"
                       className="align-self-baseline gameindex-txt"
                     >
                       Items
                     </a>
-                    <a
-                      href="/osrs-account/"
+                    <a onClick={() => setModalShow(true)} 
+                      href="#" id="/osrs-account/"
                       className="align-self-baseline gameindex-txt"
                     >
                       Accounts
                     </a>
-                    <a
-                      href="/osrs-power-leveling/"
+                    <a onClick={() => setModalShow(true)} 
+                      href="#" id="/osrs-power-leveling/"
                       className="align-self-baseline gameindex-txt"
                     >
                       Power leveling
@@ -760,33 +763,33 @@ const GameIndex = () => {
                 </li>
                 <li className="col-lg-3 col-md-3 col-sm-12 col-xs-12 content-item fl">
                   <div className="flex flex-column">
-                    <a
-                      href="/path-of-exile-marketplace/"
+                    <a onClick={() => setModalShow(true)} 
+                      href="#" id="/path-of-exile-marketplace/"
                       className="align-self-baseline"
                       title="Path of Exile"
                     >
                       Path of Exile
                     </a>
-                    <a
-                      href="/path-of-exile-exalted-orb/"
+                    <a onClick={() => setModalShow(true)} 
+                      href="#" id="/path-of-exile-exalted-orb/"
                       className="align-self-baseline gameindex-txt"
                     >
                       Exalted Orb
                     </a>
-                    <a
-                      href="/path-of-exile-items/"
+                    <a onClick={() => setModalShow(true)} 
+                      href="#" id="/path-of-exile-items/"
                       className="align-self-baseline gameindex-txt"
                     >
                       Items
                     </a>
-                    <a
-                      href="/path-of-exile-account/"
+                    <a onClick={() => setModalShow(true)} 
+                      href="#" id="/path-of-exile-account/"
                       className="align-self-baseline gameindex-txt"
                     >
                       Accounts
                     </a>
-                    <a
-                      href="/path-of-exile-power-leveling/"
+                    <a onClick={() => setModalShow(true)} 
+                      href="#" id="/path-of-exile-power-leveling/"
                       className="align-self-baseline gameindex-txt"
                     >
                       Power leveling
@@ -795,27 +798,27 @@ const GameIndex = () => {
                 </li>
                 <li className="col-lg-3 col-md-3 col-sm-12 col-xs-12 content-item fl">
                   <div className="flex flex-column">
-                    <a
-                      href="/lol-marketplace/"
+                    <a onClick={() => setModalShow(true)} 
+                      href="#" id="/lol-marketplace/"
                       className="align-self-baseline"
                       title="League of Legends"
                     >
                       League of Legends
                     </a>
-                    <a
-                      href="/lol-items/"
+                    <a onClick={() => setModalShow(true)} 
+                      href="#" id="/lol-items/"
                       className="align-self-baseline gameindex-txt"
                     >
                       Items
                     </a>
-                    <a
-                      href="/lol-account/"
+                    <a onClick={() => setModalShow(true)} 
+                      href="#" id="/lol-account/"
                       className="align-self-baseline gameindex-txt"
                     >
                       Accounts
                     </a>
-                    <a
-                      href="/lol-boosting/"
+                    <a onClick={() => setModalShow(true)} 
+                      href="#" id="/lol-boosting/"
                       className="align-self-baseline gameindex-txt"
                     >
                       Boosting
@@ -824,33 +827,33 @@ const GameIndex = () => {
                 </li>
                 <li className="col-lg-3 col-md-3 col-sm-12 col-xs-12 content-item fl">
                   <div className="flex flex-column">
-                    <a
-                      href="/star-citizen-marketplace/"
+                    <a onClick={() => setModalShow(true)} 
+                      href="#" id="/star-citizen-marketplace/"
                       className="align-self-baseline"
                       title="Star Citizen"
                     >
                       Star Citizen
                     </a>
-                    <a
-                      href="/star-citizen-uec/"
+                    <a onClick={() => setModalShow(true)} 
+                      href="#" id="/star-citizen-uec/"
                       className="align-self-baseline gameindex-txt"
                     >
                       UEC
                     </a>
-                    <a
-                      href="/star-citizen-items/"
+                    <a onClick={() => setModalShow(true)} 
+                      href="#" id="/star-citizen-items/"
                       className="align-self-baseline gameindex-txt"
                     >
                       Items
                     </a>
-                    <a
-                      href="/star-citizen-account/"
+                    <a onClick={() => setModalShow(true)} 
+                      href="#" id="/star-citizen-account/"
                       className="align-self-baseline gameindex-txt"
                     >
                       Accounts
                     </a>
-                    <a
-                      href="/star-citizen-power-leveling/"
+                    <a onClick={() => setModalShow(true)} 
+                      href="#" id="/star-citizen-power-leveling/"
                       className="align-self-baseline gameindex-txt"
                     >
                       Power leveling
@@ -859,27 +862,27 @@ const GameIndex = () => {
                 </li>
                 <li className="col-lg-3 col-md-3 col-sm-12 col-xs-12 content-item fl">
                   <div className="flex flex-column">
-                    <a
-                      href="/valorant-marketplace/"
+                    <a onClick={() => setModalShow(true)} 
+                      href="#" id="/valorant-marketplace/"
                       className="align-self-baseline"
                       title="Valorant"
                     >
                       Valorant
                     </a>
-                    <a
-                      href="/valorant-items/"
+                    <a onClick={() => setModalShow(true)} 
+                      href="#" id="/valorant-items/"
                       className="align-self-baseline gameindex-txt"
                     >
                       Items
                     </a>
-                    <a
-                      href="/valorant-account/"
+                    <a onClick={() => setModalShow(true)} 
+                      href="#" id="/valorant-account/"
                       className="align-self-baseline gameindex-txt"
                     >
                       Accounts
                     </a>
-                    <a
-                      href="/valorant-power-leveling/"
+                    <a onClick={() => setModalShow(true)} 
+                      href="#" id="/valorant-power-leveling/"
                       className="align-self-baseline gameindex-txt"
                     >
                       Power leveling
@@ -888,33 +891,33 @@ const GameIndex = () => {
                 </li>
                 <li className="col-lg-3 col-md-3 col-sm-12 col-xs-12 content-item fl">
                   <div className="flex flex-column">
-                    <a
-                      href="/ffxiv-marketplace/"
+                    <a onClick={() => setModalShow(true)} 
+                      href="#" id="/ffxiv-marketplace/"
                       className="align-self-baseline"
                       title="Final Fantasy XIV"
                     >
                       Final Fantasy XIV
                     </a>
-                    <a
-                      href="/ffxiv-gil/"
+                    <a onClick={() => setModalShow(true)} 
+                      href="#" id="/ffxiv-gil/"
                       className="align-self-baseline gameindex-txt"
                     >
                       Gil
                     </a>
-                    <a
-                      href="/ffxiv-items/"
+                    <a onClick={() => setModalShow(true)} 
+                      href="#" id="/ffxiv-items/"
                       className="align-self-baseline gameindex-txt"
                     >
                       Items
                     </a>
-                    <a
-                      href="/ffxiv-account/"
+                    <a onClick={() => setModalShow(true)} 
+                      href="#" id="/ffxiv-account/"
                       className="align-self-baseline gameindex-txt"
                     >
                       Accounts
                     </a>
-                    <a
-                      href="/ffxiv-power-leveling/"
+                    <a onClick={() => setModalShow(true)} 
+                      href="#" id="/ffxiv-power-leveling/"
                       className="align-self-baseline gameindex-txt"
                     >
                       Power leveling
@@ -923,27 +926,27 @@ const GameIndex = () => {
                 </li>
                 <li className="col-lg-3 col-md-3 col-sm-12 col-xs-12 content-item fl">
                   <div className="flex flex-column">
-                    <a
-                      href="/fortnite-marketplace/"
+                    <a onClick={() => setModalShow(true)} 
+                      href="#" id="/fortnite-marketplace/"
                       className="align-self-baseline"
                       title="Fortnite"
                     >
                       Fortnite
                     </a>
-                    <a
-                      href="/fortnite-items/"
+                    <a onClick={() => setModalShow(true)} 
+                      href="#" id="/fortnite-items/"
                       className="align-self-baseline gameindex-txt"
                     >
                       Items
                     </a>
-                    <a
-                      href="/fortnite-account/"
+                    <a onClick={() => setModalShow(true)} 
+                      href="#" id="/fortnite-account/"
                       className="align-self-baseline gameindex-txt"
                     >
                       Accounts
                     </a>
-                    <a
-                      href="/fortnite-power-leveling/"
+                    <a onClick={() => setModalShow(true)} 
+                      href="#" id="/fortnite-power-leveling/"
                       className="align-self-baseline gameindex-txt"
                     >
                       Power leveling
@@ -952,33 +955,33 @@ const GameIndex = () => {
                 </li>
                 <li className="col-lg-3 col-md-3 col-sm-12 col-xs-12 content-item fl">
                   <div className="flex flex-column">
-                    <a
-                      href="/new-world-marketplace/"
+                    <a onClick={() => setModalShow(true)} 
+                      href="#" id="/new-world-marketplace/"
                       className="align-self-baseline"
                       title="New World"
                     >
                       New World
                     </a>
-                    <a
-                      href="/new-world-coins/"
+                    <a onClick={() => setModalShow(true)} 
+                      href="#" id="/new-world-coins/"
                       className="align-self-baseline gameindex-txt"
                     >
                       Coins
                     </a>
-                    <a
-                      href="/new-world-items/"
+                    <a onClick={() => setModalShow(true)} 
+                      href="#" id="/new-world-items/"
                       className="align-self-baseline gameindex-txt"
                     >
                       Items
                     </a>
-                    <a
-                      href="/new-world-account/"
+                    <a onClick={() => setModalShow(true)} 
+                      href="#" id="/new-world-account/"
                       className="align-self-baseline gameindex-txt"
                     >
                       Accounts
                     </a>
-                    <a
-                      href="/new-world-power-leveling/"
+                    <a onClick={() => setModalShow(true)} 
+                      href="#" id="/new-world-power-leveling/"
                       className="align-self-baseline gameindex-txt"
                     >
                       Power leveling
@@ -987,33 +990,33 @@ const GameIndex = () => {
                 </li>
                 <li className="col-lg-3 col-md-3 col-sm-12 col-xs-12 content-item fl">
                   <div className="flex flex-column">
-                    <a
-                      href="/elder-scrolls-online-marketplace/"
+                    <a onClick={() => setModalShow(true)} 
+                      href="#" id="/elder-scrolls-online-marketplace/"
                       className="align-self-baseline"
                       title="Elder Scrolls Online"
                     >
                       Elder Scrolls Online
                     </a>
-                    <a
-                      href="/elder-scrolls-online-gold/"
+                    <a onClick={() => setModalShow(true)} 
+                      href="#" id="/elder-scrolls-online-gold/"
                       className="align-self-baseline gameindex-txt"
                     >
                       Gold
                     </a>
-                    <a
-                      href="/elder-scrolls-online-items/"
+                    <a onClick={() => setModalShow(true)} 
+                      href="#" id="/elder-scrolls-online-items/"
                       className="align-self-baseline gameindex-txt"
                     >
                       Items
                     </a>
-                    <a
-                      href="/elder-scrolls-online-account/"
+                    <a onClick={() => setModalShow(true)} 
+                      href="#" id="/elder-scrolls-online-account/"
                       className="align-self-baseline gameindex-txt"
                     >
                       Accounts
                     </a>
-                    <a
-                      href="/elder-scrolls-online-power-leveling/"
+                    <a onClick={() => setModalShow(true)} 
+                      href="#" id="/elder-scrolls-online-power-leveling/"
                       className="align-self-baseline gameindex-txt"
                     >
                       Power leveling
@@ -1022,21 +1025,21 @@ const GameIndex = () => {
                 </li>
                 <li className="col-lg-3 col-md-3 col-sm-12 col-xs-12 content-item fl">
                   <div className="flex flex-column">
-                    <a
-                      href="/summoners-war-marketplace/"
+                    <a onClick={() => setModalShow(true)} 
+                      href="#" id="/summoners-war-marketplace/"
                       className="align-self-baseline"
                       title="Summoners War"
                     >
                       Summoners War
                     </a>
-                    <a
-                      href="/summoners-war-account/"
+                    <a onClick={() => setModalShow(true)} 
+                      href="#" id="/summoners-war-account/"
                       className="align-self-baseline gameindex-txt"
                     >
                       Accounts
                     </a>
-                    <a
-                      href="/summoners-war-power-leveling/"
+                    <a onClick={() => setModalShow(true)} 
+                      href="#" id="/summoners-war-power-leveling/"
                       className="align-self-baseline gameindex-txt"
                     >
                       Power leveling
@@ -1045,33 +1048,33 @@ const GameIndex = () => {
                 </li>
                 <li className="col-lg-3 col-md-3 col-sm-12 col-xs-12 content-item fl">
                   <div className="flex flex-column">
-                    <a
-                      href="/runescape-marketplace/"
+                    <a onClick={() => setModalShow(true)} 
+                      href="#" id="/runescape-marketplace/"
                       className="align-self-baseline"
                       title="RuneScape"
                     >
                       RuneScape
                     </a>
-                    <a
-                      href="/runescape-gold/"
+                    <a onClick={() => setModalShow(true)} 
+                      href="#" id="/runescape-gold/"
                       className="align-self-baseline gameindex-txt"
                     >
                       Gold
                     </a>
-                    <a
-                      href="/runescape-items/"
+                    <a onClick={() => setModalShow(true)} 
+                      href="#" id="/runescape-items/"
                       className="align-self-baseline gameindex-txt"
                     >
                       Items
                     </a>
-                    <a
-                      href="/runescape-account/"
+                    <a onClick={() => setModalShow(true)} 
+                      href="#" id="/runescape-account/"
                       className="align-self-baseline gameindex-txt"
                     >
                       Accounts
                     </a>
-                    <a
-                      href="/runescape-power-leveling/"
+                    <a onClick={() => setModalShow(true)} 
+                      href="#" id="/runescape-power-leveling/"
                       className="align-self-baseline gameindex-txt"
                     >
                       Power leveling
@@ -1080,27 +1083,27 @@ const GameIndex = () => {
                 </li>
                 <li className="col-lg-3 col-md-3 col-sm-12 col-xs-12 content-item fl">
                   <div className="flex flex-column">
-                    <a
-                      href="/clash-of-clans-marketplace/"
+                    <a onClick={() => setModalShow(true)} 
+                      href="#" id="/clash-of-clans-marketplace/"
                       className="align-self-baseline"
                       title="Clash of Clans"
                     >
                       Clash of Clans
                     </a>
-                    <a
-                      href="/clash-of-clans-items/"
+                    <a onClick={() => setModalShow(true)} 
+                      href="#" id="/clash-of-clans-items/"
                       className="align-self-baseline gameindex-txt"
                     >
                       Items
                     </a>
-                    <a
-                      href="/clash-of-clans-account/"
+                    <a onClick={() => setModalShow(true)} 
+                      href="#" id="/clash-of-clans-account/"
                       className="align-self-baseline gameindex-txt"
                     >
                       Accounts
                     </a>
-                    <a
-                      href="/clash-of-clans-power-leveling/"
+                    <a onClick={() => setModalShow(true)} 
+                      href="#" id="/clash-of-clans-power-leveling/"
                       className="align-self-baseline gameindex-txt"
                     >
                       Power leveling
@@ -1109,27 +1112,27 @@ const GameIndex = () => {
                 </li>
                 <li className="col-lg-3 col-md-3 col-sm-12 col-xs-12 content-item fl">
                   <div className="flex flex-column">
-                    <a
-                      href="/gta-marketplace/"
+                    <a onClick={() => setModalShow(true)} 
+                      href="#" id="/gta-marketplace/"
                       className="align-self-baseline"
                       title="GTA 5 Online"
                     >
                       GTA 5 Online
                     </a>
-                    <a
-                      href="/gta-money/"
+                    <a onClick={() => setModalShow(true)} 
+                      href="#" id="/gta-money/"
                       className="align-self-baseline gameindex-txt"
                     >
                       Money
                     </a>
-                    <a
-                      href="/gta-account/"
+                    <a onClick={() => setModalShow(true)} 
+                      href="#" id="/gta-account/"
                       className="align-self-baseline gameindex-txt"
                     >
                       Accounts
                     </a>
-                    <a
-                      href="/gta-power-leveling/"
+                    <a onClick={() => setModalShow(true)} 
+                      href="#" id="/gta-power-leveling/"
                       className="align-self-baseline gameindex-txt"
                     >
                       Power leveling
@@ -1138,27 +1141,27 @@ const GameIndex = () => {
                 </li>
                 <li className="col-lg-3 col-md-3 col-sm-12 col-xs-12 content-item fl">
                   <div className="flex flex-column">
-                    <a
-                      href="/ark-marketplace/"
+                    <a onClick={() => setModalShow(true)} 
+                      href="#" id="/ark-marketplace/"
                       className="align-self-baseline"
                       title="ARK: Survival Evolved"
                     >
                       ARK: Survival Evolved
                     </a>
-                    <a
-                      href="/ark-items/"
+                    <a onClick={() => setModalShow(true)} 
+                      href="#" id="/ark-items/"
                       className="align-self-baseline gameindex-txt"
                     >
                       Items
                     </a>
-                    <a
-                      href="/ark-account/"
+                    <a onClick={() => setModalShow(true)} 
+                      href="#" id="/ark-account/"
                       className="align-self-baseline gameindex-txt"
                     >
                       Accounts
                     </a>
-                    <a
-                      href="/ark-power-leveling/"
+                    <a onClick={() => setModalShow(true)} 
+                      href="#" id="/ark-power-leveling/"
                       className="align-self-baseline gameindex-txt"
                     >
                       Power leveling
@@ -1167,33 +1170,33 @@ const GameIndex = () => {
                 </li>
                 <li className="col-lg-3 col-md-3 col-sm-12 col-xs-12 content-item fl">
                   <div className="flex flex-column">
-                    <a
-                      href="/everquest-marketplace/"
+                    <a onClick={() => setModalShow(true)} 
+                      href="#" id="/everquest-marketplace/"
                       className="align-self-baseline"
                       title="EverQuest"
                     >
                       EverQuest
                     </a>
-                    <a
-                      href="/everquest-plat/"
+                    <a onClick={() => setModalShow(true)} 
+                      href="#" id="/everquest-plat/"
                       className="align-self-baseline gameindex-txt"
                     >
                       Plat
                     </a>
-                    <a
-                      href="/everquest-items/"
+                    <a onClick={() => setModalShow(true)} 
+                      href="#" id="/everquest-items/"
                       className="align-self-baseline gameindex-txt"
                     >
                       Items
                     </a>
-                    <a
-                      href="/everquest-account/"
+                    <a onClick={() => setModalShow(true)} 
+                      href="#" id="/everquest-account/"
                       className="align-self-baseline gameindex-txt"
                     >
                       Accounts
                     </a>
-                    <a
-                      href="/everquest-power-leveling/"
+                    <a onClick={() => setModalShow(true)} 
+                      href="#" id="/everquest-power-leveling/"
                       className="align-self-baseline gameindex-txt"
                     >
                       Power leveling
@@ -1202,33 +1205,33 @@ const GameIndex = () => {
                 </li>
                 <li className="col-lg-3 col-md-3 col-sm-12 col-xs-12 content-item fl">
                   <div className="flex flex-column">
-                    <a
-                      href="/roblox-marketplace/"
+                    <a onClick={() => setModalShow(true)} 
+                      href="#" id="/roblox-marketplace/"
                       className="align-self-baseline"
                       title="ROBLOX"
                     >
                       ROBLOX
                     </a>
-                    <a
-                      href="/roblox-robux/"
+                    <a onClick={() => setModalShow(true)} 
+                      href="#" id="/roblox-robux/"
                       className="align-self-baseline gameindex-txt"
                     >
                       ROBUX
                     </a>
-                    <a
-                      href="/roblox-items/"
+                    <a onClick={() => setModalShow(true)} 
+                      href="#" id="/roblox-items/"
                       className="align-self-baseline gameindex-txt"
                     >
                       Items
                     </a>
-                    <a
-                      href="/roblox-account/"
+                    <a onClick={() => setModalShow(true)} 
+                      href="#" id="/roblox-account/"
                       className="align-self-baseline gameindex-txt"
                     >
                       Accounts
                     </a>
-                    <a
-                      href="/roblox-power-leveling/"
+                    <a onClick={() => setModalShow(true)} 
+                      href="#" id="/roblox-power-leveling/"
                       className="align-self-baseline gameindex-txt"
                     >
                       Power leveling
@@ -1237,21 +1240,21 @@ const GameIndex = () => {
                 </li>
                 <li className="col-lg-3 col-md-3 col-sm-12 col-xs-12 content-item fl">
                   <div className="flex flex-column">
-                    <a
-                      href="/genshin-impact-marketplace/"
+                    <a onClick={() => setModalShow(true)} 
+                      href="#" id="/genshin-impact-marketplace/"
                       className="align-self-baseline"
                       title="Genshin Impact"
                     >
                       Genshin Impact
                     </a>
-                    <a
-                      href="/genshin-impact-account/"
+                    <a onClick={() => setModalShow(true)} 
+                      href="#" id="/genshin-impact-account/"
                       className="align-self-baseline gameindex-txt"
                     >
                       Accounts
                     </a>
-                    <a
-                      href="/genshin-impact-power-leveling/"
+                    <a onClick={() => setModalShow(true)} 
+                      href="#" id="/genshin-impact-power-leveling/"
                       className="align-self-baseline gameindex-txt"
                     >
                       Power leveling
@@ -1260,21 +1263,21 @@ const GameIndex = () => {
                 </li>
                 <li className="col-lg-3 col-md-3 col-sm-12 col-xs-12 content-item fl">
                   <div className="flex flex-column">
-                    <a
-                      href="/cod-marketplace/"
+                    <a onClick={() => setModalShow(true)} 
+                      href="#" id="/cod-marketplace/"
                       className="align-self-baseline"
                       title="Call of Duty"
                     >
                       Call of Duty
                     </a>
-                    <a
-                      href="/cod-account/"
+                    <a onClick={() => setModalShow(true)} 
+                      href="#" id="/cod-account/"
                       className="align-self-baseline gameindex-txt"
                     >
                       Accounts
                     </a>
-                    <a
-                      href="/cod-power-leveling/"
+                    <a onClick={() => setModalShow(true)} 
+                      href="#" id="/cod-power-leveling/"
                       className="align-self-baseline gameindex-txt"
                     >
                       Power leveling
@@ -1285,7 +1288,7 @@ const GameIndex = () => {
             </div>
             <div
               className="content-box slide-xs-content-box gameindex-box clearfix row no-gutters"
-              id="gameindex_A"
+              href="#" id="gameindex_A"
             >
               <div className="content-box-title col-lg-1 game-index-align-center">
                 <div className="index-Initials fl">A</div>
@@ -1296,21 +1299,21 @@ const GameIndex = () => {
               <ul className="row col-lg-11 no-gutters content-box-body">
                 <li className="col-lg-3 col-md-3 col-sm-12 col-xs-12 content-item fl">
                   <div className="flex flex-column">
-                    <a
-                      href="/aq-marketplace/"
+                    <a onClick={() => setModalShow(true)} 
+                      href="#" id="/aq-marketplace/"
                       className="align-self-baseline"
                       title="Adventure Quest"
                     >
                       Adventure Quest
                     </a>
-                    <a
-                      href="/aq-account/"
+                    <a onClick={() => setModalShow(true)} 
+                      href="#" id="/aq-account/"
                       className="align-self-baseline gameindex-txt"
                     >
                       Accounts
                     </a>
-                    <a
-                      href="/aq-power-leveling/"
+                    <a onClick={() => setModalShow(true)} 
+                      href="#" id="/aq-power-leveling/"
                       className="align-self-baseline gameindex-txt"
                     >
                       Power leveling
@@ -1319,21 +1322,21 @@ const GameIndex = () => {
                 </li>
                 <li className="col-lg-3 col-md-3 col-sm-12 col-xs-12 content-item fl">
                   <div className="flex flex-column">
-                    <a
-                      href="/aq3d-marketplace/"
+                    <a onClick={() => setModalShow(true)} 
+                      href="#" id="/aq3d-marketplace/"
                       className="align-self-baseline"
                       title="Adventure Quest 3D"
                     >
                       Adventure Quest 3D
                     </a>
-                    <a
-                      href="/aq3d-account/"
+                    <a onClick={() => setModalShow(true)} 
+                      href="#" id="/aq3d-account/"
                       className="align-self-baseline gameindex-txt"
                     >
                       Accounts
                     </a>
-                    <a
-                      href="/aq3d-power-leveling/"
+                    <a onClick={() => setModalShow(true)} 
+                      href="#" id="/aq3d-power-leveling/"
                       className="align-self-baseline gameindex-txt"
                     >
                       Power leveling
@@ -1342,21 +1345,21 @@ const GameIndex = () => {
                 </li>
                 <li className="col-lg-3 col-md-3 col-sm-12 col-xs-12 content-item fl">
                   <div className="flex flex-column">
-                    <a
-                      href="/aqworlds-marketplace/"
+                    <a onClick={() => setModalShow(true)} 
+                      href="#" id="/aqworlds-marketplace/"
                       className="align-self-baseline"
                       title="Adventure Quest Worlds"
                     >
                       Adventure Quest Worlds
                     </a>
-                    <a
-                      href="/aqworlds-account/"
+                    <a onClick={() => setModalShow(true)} 
+                      href="#" id="/aqworlds-account/"
                       className="align-self-baseline gameindex-txt"
                     >
                       Accounts
                     </a>
-                    <a
-                      href="/aqworlds-power-leveling/"
+                    <a onClick={() => setModalShow(true)} 
+                      href="#" id="/aqworlds-power-leveling/"
                       className="align-self-baseline gameindex-txt"
                     >
                       Power leveling
@@ -1365,21 +1368,21 @@ const GameIndex = () => {
                 </li>
                 <li className="col-lg-3 col-md-3 col-sm-12 col-xs-12 content-item fl">
                   <div className="flex flex-column">
-                    <a
-                      href="/afk-arena-marketplace/"
+                    <a onClick={() => setModalShow(true)} 
+                      href="#" id="/afk-arena-marketplace/"
                       className="align-self-baseline"
                       title="AFK Arena"
                     >
                       AFK Arena
                     </a>
-                    <a
-                      href="/afk-arena-account/"
+                    <a onClick={() => setModalShow(true)} 
+                      href="#" id="/afk-arena-account/"
                       className="align-self-baseline gameindex-txt"
                     >
                       Accounts
                     </a>
-                    <a
-                      href="/afk-arena-power-leveling/"
+                    <a onClick={() => setModalShow(true)} 
+                      href="#" id="/afk-arena-power-leveling/"
                       className="align-self-baseline gameindex-txt"
                     >
                       Power leveling
@@ -1388,33 +1391,33 @@ const GameIndex = () => {
                 </li>
                 <li className="col-lg-3 col-md-3 col-sm-12 col-xs-12 content-item fl">
                   <div className="flex flex-column">
-                    <a
-                      href="/aion-classic-marketplace/"
+                    <a onClick={() => setModalShow(true)} 
+                      href="#" id="/aion-classic-marketplace/"
                       className="align-self-baseline"
                       title="Aion Classic"
                     >
                       Aion Classic
                     </a>
-                    <a
-                      href="/aion-classic-kinah/"
+                    <a onClick={() => setModalShow(true)} 
+                      href="#" id="/aion-classic-kinah/"
                       className="align-self-baseline gameindex-txt"
                     >
                       Kinah
                     </a>
-                    <a
-                      href="/aion-classic-items/"
+                    <a onClick={() => setModalShow(true)} 
+                      href="#" id="/aion-classic-items/"
                       className="align-self-baseline gameindex-txt"
                     >
                       Items
                     </a>
-                    <a
-                      href="/aion-classic-account/"
+                    <a onClick={() => setModalShow(true)} 
+                      href="#" id="/aion-classic-account/"
                       className="align-self-baseline gameindex-txt"
                     >
                       Accounts
                     </a>
-                    <a
-                      href="/aion-classic-power-leveling/"
+                    <a onClick={() => setModalShow(true)} 
+                      href="#" id="/aion-classic-power-leveling/"
                       className="align-self-baseline gameindex-txt"
                     >
                       Power leveling
@@ -1423,33 +1426,33 @@ const GameIndex = () => {
                 </li>
                 <li className="col-lg-3 col-md-3 col-sm-12 col-xs-12 content-item fl">
                   <div className="flex flex-column">
-                    <a
-                      href="/aion-marketplace/"
+                    <a onClick={() => setModalShow(true)} 
+                      href="#" id="/aion-marketplace/"
                       className="align-self-baseline"
                       title="Aion Online"
                     >
                       Aion Online
                     </a>
-                    <a
-                      href="/aion-kinah/"
+                    <a onClick={() => setModalShow(true)} 
+                      href="#" id="/aion-kinah/"
                       className="align-self-baseline gameindex-txt"
                     >
                       Kinah
                     </a>
-                    <a
-                      href="/aion-items/"
+                    <a onClick={() => setModalShow(true)} 
+                      href="#" id="/aion-items/"
                       className="align-self-baseline gameindex-txt"
                     >
                       Items
                     </a>
-                    <a
-                      href="/aion-account/"
+                    <a onClick={() => setModalShow(true)} 
+                      href="#" id="/aion-account/"
                       className="align-self-baseline gameindex-txt"
                     >
                       Accounts
                     </a>
-                    <a
-                      href="/aion-power-leveling/"
+                    <a onClick={() => setModalShow(true)} 
+                      href="#" id="/aion-power-leveling/"
                       className="align-self-baseline gameindex-txt"
                     >
                       Power leveling
@@ -1458,33 +1461,33 @@ const GameIndex = () => {
                 </li>
                 <li className="col-lg-3 col-md-3 col-sm-12 col-xs-12 content-item fl">
                   <div className="flex flex-column">
-                    <a
-                      href="/albion-online-marketplace/"
+                    <a onClick={() => setModalShow(true)} 
+                      href="#" id="/albion-online-marketplace/"
                       className="align-self-baseline"
                       title="Albion Online"
                     >
                       Albion Online
                     </a>
-                    <a
-                      href="/albion-online-silver/"
+                    <a onClick={() => setModalShow(true)} 
+                      href="#" id="/albion-online-silver/"
                       className="align-self-baseline gameindex-txt"
                     >
                       Silver
                     </a>
-                    <a
-                      href="/albion-online-items/"
+                    <a onClick={() => setModalShow(true)} 
+                      href="#" id="/albion-online-items/"
                       className="align-self-baseline gameindex-txt"
                     >
                       Items
                     </a>
-                    <a
-                      href="/albion-online-account/"
+                    <a onClick={() => setModalShow(true)} 
+                      href="#" id="/albion-online-account/"
                       className="align-self-baseline gameindex-txt"
                     >
                       Accounts
                     </a>
-                    <a
-                      href="/albion-online-power-leveling/"
+                    <a onClick={() => setModalShow(true)} 
+                      href="#" id="/albion-online-power-leveling/"
                       className="align-self-baseline gameindex-txt"
                     >
                       Power leveling
@@ -1493,21 +1496,21 @@ const GameIndex = () => {
                 </li>
                 <li className="col-lg-3 col-md-3 col-sm-12 col-xs-12 content-item fl">
                   <div className="flex flex-column">
-                    <a
-                      href="/alchemy-stars-marketplace/"
+                    <a onClick={() => setModalShow(true)} 
+                      href="#" id="/alchemy-stars-marketplace/"
                       className="align-self-baseline"
                       title="Alchemy Stars"
                     >
                       Alchemy Stars
                     </a>
-                    <a
-                      href="/alchemy-stars-account/"
+                    <a onClick={() => setModalShow(true)} 
+                      href="#" id="/alchemy-stars-account/"
                       className="align-self-baseline gameindex-txt"
                     >
                       Accounts
                     </a>
-                    <a
-                      href="/alchemy-stars-power-leveling/"
+                    <a onClick={() => setModalShow(true)} 
+                      href="#" id="/alchemy-stars-power-leveling/"
                       className="align-self-baseline gameindex-txt"
                     >
                       Power leveling
@@ -1516,33 +1519,33 @@ const GameIndex = () => {
                 </li>
                 <li className="col-lg-3 col-md-3 col-sm-12 col-xs-12 content-item fl">
                   <div className="flex flex-column">
-                    <a
-                      href="/animal-crossing-nh-marketplace/"
+                    <a onClick={() => setModalShow(true)} 
+                      href="#" id="/animal-crossing-nh-marketplace/"
                       className="align-self-baseline"
                       title="Animal Crossing: New Horizons"
                     >
                       Animal Crossing: New Horizons
                     </a>
-                    <a
-                      href="/animal-crossing-nh-bells/"
+                    <a onClick={() => setModalShow(true)} 
+                      href="#" id="/animal-crossing-nh-bells/"
                       className="align-self-baseline gameindex-txt"
                     >
                       Bells
                     </a>
-                    <a
-                      href="/animal-crossing-nh-items/"
+                    <a onClick={() => setModalShow(true)} 
+                      href="#" id="/animal-crossing-nh-items/"
                       className="align-self-baseline gameindex-txt"
                     >
                       Items
                     </a>
-                    <a
-                      href="/animal-crossing-nh-account/"
+                    <a onClick={() => setModalShow(true)}  onClick={() => setModalShow(true)} 
+                      href="#" id="/animal-crossing-nh-account/"
                       className="align-self-baseline gameindex-txt"
                     >
                       Accounts
                     </a>
-                    <a
-                      href="/animal-crossing-nh-power-leveling/"
+                    <a onClick={() => setModalShow(true)} 
+                      href="#" id="/animal-crossing-nh-power-leveling/"
                       className="align-self-baseline gameindex-txt"
                     >
                       Power leveling
@@ -1551,33 +1554,33 @@ const GameIndex = () => {
                 </li>
                 <li className="col-lg-3 col-md-3 col-sm-12 col-xs-12 content-item fl">
                   <div className="flex flex-column">
-                    <a
-                      href="/animal-jam-marketplace/"
+                    <a onClick={() => setModalShow(true)} 
+                      href="#" id="/animal-jam-marketplace/"
                       className="align-self-baseline"
                       title="Animal Jam"
                     >
                       Animal Jam
                     </a>
-                    <a
-                      href="/animal-jam-gem/"
+                    <a onClick={() => setModalShow(true)} 
+                      href="#" id="/animal-jam-gem/"
                       className="align-self-baseline gameindex-txt"
                     >
                       Gem
                     </a>
-                    <a
-                      href="/animal-jam-items/"
+                    <a onClick={() => setModalShow(true)} 
+                      href="#" id="/animal-jam-items/"
                       className="align-self-baseline gameindex-txt"
                     >
                       Items
                     </a>
-                    <a
-                      href="/animal-jam-account/"
+                    <a onClick={() => setModalShow(true)} 
+                      href="#" id="/animal-jam-account/"
                       className="align-self-baseline gameindex-txt"
                     >
                       Accounts
                     </a>
-                    <a
-                      href="/animal-jam-power-leveling/"
+                    <a onClick={() => setModalShow(true)} 
+                      href="#" id="/animal-jam-power-leveling/"
                       className="align-self-baseline gameindex-txt"
                     >
                       Power leveling
@@ -1586,21 +1589,21 @@ const GameIndex = () => {
                 </li>
                 <li className="col-lg-3 col-md-3 col-sm-12 col-xs-12 content-item fl">
                   <div className="flex flex-column">
-                    <a
-                      href="/anthem-marketplace/"
+                    <a onClick={() => setModalShow(true)} 
+                      href="#" id="/anthem-marketplace/"
                       className="align-self-baseline"
                       title="Anthem"
                     >
                       Anthem
                     </a>
-                    <a
-                      href="/anthem-account/"
+                    <a onClick={() => setModalShow(true)} 
+                      href="#" id="/anthem-account/"
                       className="align-self-baseline gameindex-txt"
                     >
                       Accounts
                     </a>
-                    <a
-                      href="/anthem-power-leveling/"
+                    <a onClick={() => setModalShow(true)} 
+                      href="#" id="/anthem-power-leveling/"
                       className="align-self-baseline gameindex-txt"
                     >
                       Power leveling
@@ -1609,33 +1612,33 @@ const GameIndex = () => {
                 </li>
                 <li className="col-lg-3 col-md-3 col-sm-12 col-xs-12 content-item fl">
                   <div className="flex flex-column">
-                    <a
-                      href="/apb-reloaded-marketplace/"
+                    <a onClick={() => setModalShow(true)} 
+                      href="#" id="/apb-reloaded-marketplace/"
                       className="align-self-baseline"
                       title="APB Reloaded"
                     >
                       APB Reloaded
                     </a>
-                    <a
-                      href="/apb-reloaded-cash/"
+                    <a onClick={() => setModalShow(true)} 
+                      href="#" id="/apb-reloaded-cash/"
                       className="align-self-baseline gameindex-txt"
                     >
                       Cash
                     </a>
-                    <a
-                      href="/apb-reloaded-items/"
+                    <a onClick={() => setModalShow(true)} 
+                      href="#" id="/apb-reloaded-items/"
                       className="align-self-baseline gameindex-txt"
                     >
                       Items
                     </a>
-                    <a
-                      href="/apb-reloaded-account/"
+                    <a onClick={() => setModalShow(true)} 
+                      href="#" id="/apb-reloaded-account/"
                       className="align-self-baseline gameindex-txt"
                     >
                       Accounts
                     </a>
-                    <a
-                      href="/apb-reloaded-power-leveling/"
+                    <a onClick={() => setModalShow(true)} 
+                      href="#" id="/apb-reloaded-power-leveling/"
                       className="align-self-baseline gameindex-txt"
                     >
                       Power leveling
@@ -1644,21 +1647,21 @@ const GameIndex = () => {
                 </li>
                 <li className="col-lg-3 col-md-3 col-sm-12 col-xs-12 content-item fl">
                   <div className="flex flex-column">
-                    <a
-                      href="/apex-legends-marketplace/"
+                    <a onClick={() => setModalShow(true)} 
+                      href="#" id="/apex-legends-marketplace/"
                       className="align-self-baseline"
                       title="Apex Legends"
                     >
                       Apex Legends
                     </a>
-                    <a
-                      href="/apex-legends-account/"
+                    <a onClick={() => setModalShow(true)} 
+                      href="#" id="/apex-legends-account/"
                       className="align-self-baseline gameindex-txt"
                     >
                       Accounts
                     </a>
-                    <a
-                      href="/apex-legends-power-leveling/"
+                    <a onClick={() => setModalShow(true)} 
+                      href="#" id="/apex-legends-power-leveling/"
                       className="align-self-baseline gameindex-txt"
                     >
                       Power leveling
@@ -1667,33 +1670,33 @@ const GameIndex = () => {
                 </li>
                 <li className="col-lg-3 col-md-3 col-sm-12 col-xs-12 content-item fl">
                   <div className="flex flex-column">
-                    <a
-                      href="/apex-legends-mobile-marketplace/"
+                    <a onClick={() => setModalShow(true)} 
+                      href="#" id="/apex-legends-mobile-marketplace/"
                       className="align-self-baseline"
                       title="Apex Legends Mobile"
                     >
                       Apex Legends Mobile
                     </a>
-                    <a
-                      href="/apex-legends-mobile-syndicate-gold/"
+                    <a onClick={() => setModalShow(true)} 
+                      href="#" id="/apex-legends-mobile-syndicate-gold/"
                       className="align-self-baseline gameindex-txt"
                     >
                       Syndicate Gold
                     </a>
-                    <a
-                      href="/apex-legends-mobile-items/"
+                    <a onClick={() => setModalShow(true)} 
+                      href="#" id="/apex-legends-mobile-items/"
                       className="align-self-baseline gameindex-txt"
                     >
                       Items
                     </a>
-                    <a
-                      href="/apex-legends-mobile-account/"
+                    <a onClick={() => setModalShow(true)} 
+                      href="#" id="/apex-legends-mobile-account/"
                       className="align-self-baseline gameindex-txt"
                     >
                       Accounts
                     </a>
-                    <a
-                      href="/apex-legends-mobile-power-leveling/"
+                    <a onClick={() => setModalShow(true)} 
+                      href="#" id="/apex-legends-mobile-power-leveling/"
                       className="align-self-baseline gameindex-txt"
                     >
                       Power leveling
@@ -1702,33 +1705,33 @@ const GameIndex = () => {
                 </li>
                 <li className="col-lg-3 col-md-3 col-sm-12 col-xs-12 content-item fl">
                   <div className="flex flex-column">
-                    <a
-                      href="/arcane-legends-marketplace/"
+                    <a onClick={() => setModalShow(true)} 
+                      href="#" id="/arcane-legends-marketplace/"
                       className="align-self-baseline"
                       title="Arcane Legends"
                     >
                       Arcane Legends
                     </a>
-                    <a
-                      href="/arcane-legends-gold/"
+                    <a onClick={() => setModalShow(true)} 
+                      href="#" id="/arcane-legends-gold/"
                       className="align-self-baseline gameindex-txt"
                     >
                       Gold
                     </a>
-                    <a
-                      href="/arcane-legends-items/"
+                    <a onClick={() => setModalShow(true)} 
+                      href="#" id="/arcane-legends-items/"
                       className="align-self-baseline gameindex-txt"
                     >
                       Items
                     </a>
-                    <a
-                      href="/arcane-legends-account/"
+                    <a onClick={() => setModalShow(true)} 
+                      href="#" id="/arcane-legends-account/"
                       className="align-self-baseline gameindex-txt"
                     >
                       Accounts
                     </a>
-                    <a
-                      href="/arcane-legends-power-leveling/"
+                    <a onClick={() => setModalShow(true)} 
+                      href="#" id="/arcane-legends-power-leveling/"
                       className="align-self-baseline gameindex-txt"
                     >
                       Power leveling
@@ -1737,33 +1740,33 @@ const GameIndex = () => {
                 </li>
                 <li className="col-lg-3 col-md-3 col-sm-12 col-xs-12 content-item fl">
                   <div className="flex flex-column">
-                    <a
-                      href="/archeage-marketplace/"
+                    <a onClick={() => setModalShow(true)} 
+                      href="#" id="/archeage-marketplace/"
                       className="align-self-baseline"
                       title="ArcheAge Online"
                     >
                       ArcheAge Online
                     </a>
-                    <a
-                      href="/archeage-gold/"
+                    <a onClick={() => setModalShow(true)} 
+                      href="#" id="/archeage-gold/"
                       className="align-self-baseline gameindex-txt"
                     >
                       Gold
                     </a>
-                    <a
-                      href="/archeage-items/"
+                    <a onClick={() => setModalShow(true)} 
+                      href="#" id="/archeage-items/"
                       className="align-self-baseline gameindex-txt"
                     >
                       Items
                     </a>
-                    <a
-                      href="/archeage-account/"
+                    <a onClick={() => setModalShow(true)} 
+                      href="#" id="/archeage-account/"
                       className="align-self-baseline gameindex-txt"
                     >
                       Accounts
                     </a>
-                    <a
-                      href="/archeage-power-leveling/"
+                    <a onClick={() => setModalShow(true)} 
+                      href="#" id="/archeage-power-leveling/"
                       className="align-self-baseline gameindex-txt"
                     >
                       Power leveling
@@ -1772,33 +1775,33 @@ const GameIndex = () => {
                 </li>
                 <li className="col-lg-3 col-md-3 col-sm-12 col-xs-12 content-item fl">
                   <div className="flex flex-column">
-                    <a
-                      href="/archeage-unchained-marketplace/"
+                    <a onClick={() => setModalShow(true)} 
+                      href="#" id="/archeage-unchained-marketplace/"
                       className="align-self-baseline"
                       title="ArcheAge Unchained"
                     >
                       ArcheAge Unchained
                     </a>
-                    <a
-                      href="/archeage-unchained-gold/"
+                    <a onClick={() => setModalShow(true)} 
+                      href="#" id="/archeage-unchained-gold/"
                       className="align-self-baseline gameindex-txt"
                     >
                       Gold
                     </a>
-                    <a
-                      href="/archeage-unchained-items/"
+                    <a onClick={() => setModalShow(true)} 
+                      href="#" id="/archeage-unchained-items/"
                       className="align-self-baseline gameindex-txt"
                     >
                       Items
                     </a>
-                    <a
-                      href="/archeage-unchained-account/"
+                    <a onClick={() => setModalShow(true)} 
+                      href="#" id="/archeage-unchained-account/"
                       className="align-self-baseline gameindex-txt"
                     >
                       Accounts
                     </a>
-                    <a
-                      href="/archeage-unchained-power-leveling/"
+                    <a onClick={() => setModalShow(true)} 
+                      href="#" id="/archeage-unchained-power-leveling/"
                       className="align-self-baseline gameindex-txt"
                     >
                       Power leveling
@@ -1807,21 +1810,21 @@ const GameIndex = () => {
                 </li>
                 <li className="col-lg-3 col-md-3 col-sm-12 col-xs-12 content-item fl">
                   <div className="flex flex-column">
-                    <a
-                      href="/aov-marketplace/"
+                    <a onClick={() => setModalShow(true)} 
+                      href="#" id="/aov-marketplace/"
                       className="align-self-baseline"
                       title="Arena of Valor"
                     >
                       Arena of Valor
                     </a>
-                    <a
-                      href="/aov-account/"
+                    <a onClick={() => setModalShow(true)} 
+                      href="#" id="/aov-account/"
                       className="align-self-baseline gameindex-txt"
                     >
                       Accounts
                     </a>
-                    <a
-                      href="/aov-power-leveling/"
+                    <a onClick={() => setModalShow(true)} 
+                      href="#" id="/aov-power-leveling/"
                       className="align-self-baseline gameindex-txt"
                     >
                       Power leveling
@@ -1830,27 +1833,27 @@ const GameIndex = () => {
                 </li>
                 <li className="col-lg-3 col-md-3 col-sm-12 col-xs-12 content-item fl">
                   <div className="flex flex-column">
-                    <a
-                      href="/ark-marketplace/"
+                    <a onClick={() => setModalShow(true)} 
+                      href="#" id="/ark-marketplace/"
                       className="align-self-baseline"
                       title="ARK: Survival Evolved"
                     >
                       ARK: Survival Evolved
                     </a>
-                    <a
-                      href="/ark-items/"
+                    <a onClick={() => setModalShow(true)} 
+                      href="#" id="/ark-items/"
                       className="align-self-baseline gameindex-txt"
                     >
                       Items
                     </a>
-                    <a
-                      href="/ark-account/"
+                    <a onClick={() => setModalShow(true)} 
+                      href="#" id="/ark-account/"
                       className="align-self-baseline gameindex-txt"
                     >
                       Accounts
                     </a>
-                    <a
-                      href="/ark-power-leveling/"
+                    <a onClick={() => setModalShow(true)} 
+                      href="#" id="/ark-power-leveling/"
                       className="align-self-baseline gameindex-txt"
                     >
                       Power leveling
@@ -1859,21 +1862,21 @@ const GameIndex = () => {
                 </li>
                 <li className="col-lg-3 col-md-3 col-sm-12 col-xs-12 content-item fl">
                   <div className="flex flex-column">
-                    <a
-                      href="/arknights-marketplace/"
+                    <a onClick={() => setModalShow(true)} 
+                      href="#" id="/arknights-marketplace/"
                       className="align-self-baseline"
                       title="Arknights"
                     >
                       Arknights
                     </a>
-                    <a
-                      href="/arknights-account/"
+                    <a onClick={() => setModalShow(true)} 
+                      href="#" id="/arknights-account/"
                       className="align-self-baseline gameindex-txt"
                     >
                       Accounts
                     </a>
-                    <a
-                      href="/arknights-power-leveling/"
+                    <a onClick={() => setModalShow(true)} 
+                      href="#" id="/arknights-power-leveling/"
                       className="align-self-baseline gameindex-txt"
                     >
                       Power leveling
@@ -1882,21 +1885,21 @@ const GameIndex = () => {
                 </li>
                 <li className="col-lg-3 col-md-3 col-sm-12 col-xs-12 content-item fl">
                   <div className="flex flex-column">
-                    <a
-                      href="/ashes-of-creation-marketplace/"
+                    <a onClick={() => setModalShow(true)} 
+                      href="#" id="/ashes-of-creation-marketplace/"
                       className="align-self-baseline"
                       title="Ashes of Creation"
                     >
                       Ashes of Creation
                     </a>
-                    <a
-                      href="/ashes-of-creation-account/"
+                    <a onClick={() => setModalShow(true)} 
+                      href="#" id="/ashes-of-creation-account/"
                       className="align-self-baseline gameindex-txt"
                     >
                       Accounts
                     </a>
-                    <a
-                      href="/ashes-of-creation-power-leveling/"
+                    <a onClick={() => setModalShow(true)} 
+                      href="#" id="/ashes-of-creation-power-leveling/"
                       className="align-self-baseline gameindex-txt"
                     >
                       Power leveling
@@ -1905,21 +1908,21 @@ const GameIndex = () => {
                 </li>
                 <li className="col-lg-3 col-md-3 col-sm-12 col-xs-12 content-item fl">
                   <div className="flex flex-column">
-                    <a
-                      href="/asphalt-9-legends-marketplace/"
+                    <a onClick={() => setModalShow(true)} 
+                      href="#" id="/asphalt-9-legends-marketplace/"
                       className="align-self-baseline"
                       title="Asphalt 9: Legends"
                     >
                       Asphalt 9: Legends
                     </a>
-                    <a
-                      href="/asphalt-9-legends-account/"
+                    <a onClick={() => setModalShow(true)} 
+                      href="#" id="/asphalt-9-legends-account/"
                       className="align-self-baseline gameindex-txt"
                     >
                       Accounts
                     </a>
-                    <a
-                      href="/asphalt-9-legends-power-leveling/"
+                    <a onClick={() => setModalShow(true)} 
+                      href="#" id="/asphalt-9-legends-power-leveling/"
                       className="align-self-baseline gameindex-txt"
                     >
                       Power leveling
@@ -1928,33 +1931,33 @@ const GameIndex = () => {
                 </li>
                 <li className="col-lg-3 col-md-3 col-sm-12 col-xs-12 content-item fl">
                   <div className="flex flex-column">
-                    <a
-                      href="/astellia-online-marketplace/"
+                    <a onClick={() => setModalShow(true)} 
+                      href="#" id="/astellia-online-marketplace/"
                       className="align-self-baseline"
                       title="Astellia Online"
                     >
                       Astellia Online
                     </a>
-                    <a
-                      href="/astellia-online-asper/"
+                    <a onClick={() => setModalShow(true)} 
+                      href="#" id="/astellia-online-asper/"
                       className="align-self-baseline gameindex-txt"
                     >
                       Asper
                     </a>
-                    <a
-                      href="/astellia-online-items/"
+                    <a onClick={() => setModalShow(true)} 
+                      href="#" id="/astellia-online-items/"
                       className="align-self-baseline gameindex-txt"
                     >
                       Items
                     </a>
-                    <a
-                      href="/astellia-online-account/"
+                    <a onClick={() => setModalShow(true)} 
+                      href="#" id="/astellia-online-account/"
                       className="align-self-baseline gameindex-txt"
                     >
                       Accounts
                     </a>
-                    <a
-                      href="/astellia-online-power-leveling/"
+                    <a onClick={() => setModalShow(true)} 
+                      href="#" id="/astellia-online-power-leveling/"
                       className="align-self-baseline gameindex-txt"
                     >
                       Power leveling
@@ -1963,33 +1966,33 @@ const GameIndex = () => {
                 </li>
                 <li className="col-lg-3 col-md-3 col-sm-12 col-xs-12 content-item fl">
                   <div className="flex flex-column">
-                    <a
-                      href="/aura-kingdom-marketplace/"
+                    <a onClick={() => setModalShow(true)} 
+                      href="#" id="/aura-kingdom-marketplace/"
                       className="align-self-baseline"
                       title="Aura Kingdom"
                     >
                       Aura Kingdom
                     </a>
-                    <a
-                      href="/aura-kingdom-gold/"
+                    <a onClick={() => setModalShow(true)} 
+                      href="#" id="/aura-kingdom-gold/"
                       className="align-self-baseline gameindex-txt"
                     >
                       Gold
                     </a>
-                    <a
-                      href="/aura-kingdom-items/"
+                    <a onClick={() => setModalShow(true)} 
+                      href="#" id="/aura-kingdom-items/"
                       className="align-self-baseline gameindex-txt"
                     >
                       Items
                     </a>
-                    <a
-                      href="/aura-kingdom-account/"
+                    <a onClick={() => setModalShow(true)} 
+                      href="#" id="/aura-kingdom-account/"
                       className="align-self-baseline gameindex-txt"
                     >
                       Accounts
                     </a>
-                    <a
-                      href="/aura-kingdom-power-leveling/"
+                    <a onClick={() => setModalShow(true)} 
+                      href="#" id="/aura-kingdom-power-leveling/"
                       className="align-self-baseline gameindex-txt"
                     >
                       Power leveling
@@ -1998,21 +2001,21 @@ const GameIndex = () => {
                 </li>
                 <li className="col-lg-3 col-md-3 col-sm-12 col-xs-12 content-item fl">
                   <div className="flex flex-column">
-                    <a
-                      href="/avakin-marketplace/"
+                    <a onClick={() => setModalShow(true)} 
+                      href="#" id="/avakin-marketplace/"
                       className="align-self-baseline"
                       title="Avakin Life"
                     >
                       Avakin Life
                     </a>
-                    <a
-                      href="/avakin-account/"
+                    <a onClick={() => setModalShow(true)} 
+                      href="#" id="/avakin-account/"
                       className="align-self-baseline gameindex-txt"
                     >
                       Accounts
                     </a>
-                    <a
-                      href="/avakin-power-leveling/"
+                    <a onClick={() => setModalShow(true)} 
+                      href="#" id="/avakin-power-leveling/"
                       className="align-self-baseline gameindex-txt"
                     >
                       Power leveling
@@ -2021,21 +2024,21 @@ const GameIndex = () => {
                 </li>
                 <li className="col-lg-3 col-md-3 col-sm-12 col-xs-12 content-item fl">
                   <div className="flex flex-column">
-                    <a
-                      href="/azur-lane-marketplace/"
+                    <a onClick={() => setModalShow(true)} 
+                      href="#" id="/azur-lane-marketplace/"
                       className="align-self-baseline"
                       title="Azur Lane"
                     >
                       Azur Lane
                     </a>
-                    <a
-                      href="/azur-lane-account/"
+                    <a onClick={() => setModalShow(true)} 
+                      href="#" id="/azur-lane-account/"
                       className="align-self-baseline gameindex-txt"
                     >
                       Accounts
                     </a>
-                    <a
-                      href="/azur-lane-power-leveling/"
+                    <a onClick={() => setModalShow(true)} 
+                      href="#" id="/azur-lane-power-leveling/"
                       className="align-self-baseline gameindex-txt"
                     >
                       Power leveling
@@ -2046,7 +2049,7 @@ const GameIndex = () => {
             </div>
             <div
               className="content-box slide-xs-content-box gameindex-box clearfix row no-gutters"
-              id="gameindex_B"
+              href="#" id="gameindex_B"
             >
               <div className="content-box-title col-lg-1 game-index-align-center">
                 <div className="index-Initials fl">B</div>
@@ -2057,21 +2060,21 @@ const GameIndex = () => {
               <ul className="row col-lg-11 no-gutters content-box-body">
                 <li className="col-lg-3 col-md-3 col-sm-12 col-xs-12 content-item fl">
                   <div className="flex flex-column">
-                    <a
-                      href="/back-4-blood-marketplace/"
+                    <a onClick={() => setModalShow(true)} 
+                      href="#" id="/back-4-blood-marketplace/"
                       className="align-self-baseline"
                       title="Back 4 Blood"
                     >
                       Back 4 Blood
                     </a>
-                    <a
-                      href="/back-4-blood-account/"
+                    <a onClick={() => setModalShow(true)} 
+                      href="#" id="/back-4-blood-account/"
                       className="align-self-baseline gameindex-txt"
                     >
                       Accounts
                     </a>
-                    <a
-                      href="/back-4-blood-power-leveling/"
+                    <a onClick={() => setModalShow(true)} 
+                      href="#" id="/back-4-blood-power-leveling/"
                       className="align-self-baseline gameindex-txt"
                     >
                       Power leveling
@@ -2080,21 +2083,21 @@ const GameIndex = () => {
                 </li>
                 <li className="col-lg-3 col-md-3 col-sm-12 col-xs-12 content-item fl">
                   <div className="flex flex-column">
-                    <a
-                      href="/battlefield-1-marketplace/"
+                    <a onClick={() => setModalShow(true)} 
+                      href="#" id="/battlefield-1-marketplace/"
                       className="align-self-baseline"
                       title="Battlefield 1"
                     >
                       Battlefield 1
                     </a>
-                    <a
-                      href="/battlefield-1-account/"
+                    <a onClick={() => setModalShow(true)} 
+                      href="#" id="/battlefield-1-account/"
                       className="align-self-baseline gameindex-txt"
                     >
                       Accounts
                     </a>
-                    <a
-                      href="/battlefield-1-power-leveling/"
+                    <a onClick={() => setModalShow(true)} 
+                      href="#" id="/battlefield-1-power-leveling/"
                       className="align-self-baseline gameindex-txt"
                     >
                       Power leveling
@@ -2103,21 +2106,21 @@ const GameIndex = () => {
                 </li>
                 <li className="col-lg-3 col-md-3 col-sm-12 col-xs-12 content-item fl">
                   <div className="flex flex-column">
-                    <a
-                      href="/battlefield-2042-marketplace/"
+                    <a onClick={() => setModalShow(true)} 
+                      href="#" id="/battlefield-2042-marketplace/"
                       className="align-self-baseline"
                       title="Battlefield 2042"
                     >
                       Battlefield 2042
                     </a>
-                    <a
-                      href="/battlefield-2042-account/"
+                    <a onClick={() => setModalShow(true)} 
+                      href="#" id="/battlefield-2042-account/"
                       className="align-self-baseline gameindex-txt"
                     >
                       Accounts
                     </a>
-                    <a
-                      href="/battlefield-2042-power-leveling/"
+                    <a onClick={() => setModalShow(true)} 
+                      href="#" id="/battlefield-2042-power-leveling/"
                       className="align-self-baseline gameindex-txt"
                     >
                       Power leveling
@@ -2126,21 +2129,21 @@ const GameIndex = () => {
                 </li>
                 <li className="col-lg-3 col-md-3 col-sm-12 col-xs-12 content-item fl">
                   <div className="flex flex-column">
-                    <a
-                      href="/bf4-marketplace/"
+                    <a onClick={() => setModalShow(true)} 
+                      href="#" id="/bf4-marketplace/"
                       className="align-self-baseline"
                       title="Battlefield 4"
                     >
                       Battlefield 4
                     </a>
-                    <a
-                      href="/bf4-account/"
+                    <a onClick={() => setModalShow(true)} 
+                      href="#" id="/bf4-account/"
                       className="align-self-baseline gameindex-txt"
                     >
                       Accounts
                     </a>
-                    <a
-                      href="/bf4-power-leveling/"
+                    <a onClick={() => setModalShow(true)} 
+                      href="#" id="/bf4-power-leveling/"
                       className="align-self-baseline gameindex-txt"
                     >
                       Power leveling
@@ -2149,21 +2152,21 @@ const GameIndex = () => {
                 </li>
                 <li className="col-lg-3 col-md-3 col-sm-12 col-xs-12 content-item fl">
                   <div className="flex flex-column">
-                    <a
-                      href="/battlefield-5-marketplace/"
+                    <a onClick={() => setModalShow(true)} 
+                      href="#" id="/battlefield-5-marketplace/"
                       className="align-self-baseline"
                       title="Battlefield 5"
                     >
                       Battlefield 5
                     </a>
-                    <a
-                      href="/battlefield-5-account/"
+                    <a onClick={() => setModalShow(true)} 
+                      href="#" id="/battlefield-5-account/"
                       className="align-self-baseline gameindex-txt"
                     >
                       Accounts
                     </a>
-                    <a
-                      href="/battlefield-5-power-leveling/"
+                    <a onClick={() => setModalShow(true)} 
+                      href="#" id="/battlefield-5-power-leveling/"
                       className="align-self-baseline gameindex-txt"
                     >
                       Power leveling
@@ -2172,21 +2175,21 @@ const GameIndex = () => {
                 </li>
                 <li className="col-lg-3 col-md-3 col-sm-12 col-xs-12 content-item fl">
                   <div className="flex flex-column">
-                    <a
-                      href="/bgmi-marketplace/"
+                    <a onClick={() => setModalShow(true)} 
+                      href="#" id="/bgmi-marketplace/"
                       className="align-self-baseline"
                       title="Battlegrounds Mobile India"
                     >
                       Battlegrounds Mobile India
                     </a>
-                    <a
-                      href="/bgmi-account/"
+                    <a onClick={() => setModalShow(true)} 
+                      href="#" id="/bgmi-account/"
                       className="align-self-baseline gameindex-txt"
                     >
                       Accounts
                     </a>
-                    <a
-                      href="/bgmi-power-leveling/"
+                    <a onClick={() => setModalShow(true)} 
+                      href="#" id="/bgmi-power-leveling/"
                       className="align-self-baseline gameindex-txt"
                     >
                       Power leveling
@@ -2195,15 +2198,15 @@ const GameIndex = () => {
                 </li>
                 <li className="col-lg-3 col-md-3 col-sm-12 col-xs-12 content-item fl">
                   <div className="flex flex-column">
-                    <a
-                      href="/battlenet-marketplace/"
+                    <a onClick={() => setModalShow(true)} 
+                      href="#" id="/battlenet-marketplace/"
                       className="align-self-baseline"
                       title="BattleNet"
                     >
                       BattleNet
                     </a>
-                    <a
-                      href="/battlenet-account/"
+                    <a onClick={() => setModalShow(true)} 
+                      href="#" id="/battlenet-account/"
                       className="align-self-baseline gameindex-txt"
                     >
                       Accounts
@@ -2212,33 +2215,33 @@ const GameIndex = () => {
                 </li>
                 <li className="col-lg-3 col-md-3 col-sm-12 col-xs-12 content-item fl">
                   <div className="flex flex-column">
-                    <a
-                      href="/black-desert-marketplace/"
+                    <a onClick={() => setModalShow(true)} 
+                      href="#" id="/black-desert-marketplace/"
                       className="align-self-baseline"
                       title="Black Desert"
                     >
                       Black Desert
                     </a>
-                    <a
-                      href="/black-desert-silver/"
+                    <a onClick={() => setModalShow(true)} 
+                      href="#" id="/black-desert-silver/"
                       className="align-self-baseline gameindex-txt"
                     >
                       Silver
                     </a>
-                    <a
-                      href="/black-desert-items/"
+                    <a onClick={() => setModalShow(true)} 
+                      href="#" id="/black-desert-items/"
                       className="align-self-baseline gameindex-txt"
                     >
                       Items
                     </a>
-                    <a
-                      href="/black-desert-account/"
+                    <a onClick={() => setModalShow(true)} 
+                      href="#" id="/black-desert-account/"
                       className="align-self-baseline gameindex-txt"
                     >
                       Accounts
                     </a>
-                    <a
-                      href="/black-desert-power-leveling/"
+                    <a onClick={() => setModalShow(true)} 
+                      href="#" id="/black-desert-power-leveling/"
                       className="align-self-baseline gameindex-txt"
                     >
                       Power leveling
@@ -2247,33 +2250,33 @@ const GameIndex = () => {
                 </li>
                 <li className="col-lg-3 col-md-3 col-sm-12 col-xs-12 content-item fl">
                   <div className="flex flex-column">
-                    <a
-                      href="/black-desert-mobile-marketplace/"
+                    <a onClick={() => setModalShow(true)} 
+                      href="#" id="/black-desert-mobile-marketplace/"
                       className="align-self-baseline"
                       title="Black Desert Mobile"
                     >
                       Black Desert Mobile
                     </a>
-                    <a
-                      href="/black-desert-mobile-silver/"
+                    <a onClick={() => setModalShow(true)} 
+                      href="#" id="/black-desert-mobile-silver/"
                       className="align-self-baseline gameindex-txt"
                     >
                       Silver
                     </a>
-                    <a
-                      href="/black-desert-mobile-items/"
+                    <a onClick={() => setModalShow(true)} 
+                      href="#" id="/black-desert-mobile-items/"
                       className="align-self-baseline gameindex-txt"
                     >
                       Items
                     </a>
-                    <a
-                      href="/black-desert-mobile-account/"
+                    <a onClick={() => setModalShow(true)} 
+                      href="#" id="/black-desert-mobile-account/"
                       className="align-self-baseline gameindex-txt"
                     >
                       Accounts
                     </a>
-                    <a
-                      href="/black-desert-mobile-power-leveling/"
+                    <a onClick={() => setModalShow(true)} 
+                      href="#" id="/black-desert-mobile-power-leveling/"
                       className="align-self-baseline gameindex-txt"
                     >
                       Power leveling
@@ -2282,33 +2285,33 @@ const GameIndex = () => {
                 </li>
                 <li className="col-lg-3 col-md-3 col-sm-12 col-xs-12 content-item fl">
                   <div className="flex flex-column">
-                    <a
-                      href="/blade-soul-marketplace/"
+                    <a onClick={() => setModalShow(true)} 
+                      href="#" id="/blade-soul-marketplace/"
                       className="align-self-baseline"
                       title="Blade and Soul"
                     >
                       Blade and Soul
                     </a>
-                    <a
-                      href="/blade-soul-gold/"
+                    <a onClick={() => setModalShow(true)} 
+                      href="#" id="/blade-soul-gold/"
                       className="align-self-baseline gameindex-txt"
                     >
                       Gold
                     </a>
-                    <a
-                      href="/blade-soul-items/"
+                    <a onClick={() => setModalShow(true)} 
+                      href="#" id="/blade-soul-items/"
                       className="align-self-baseline gameindex-txt"
                     >
                       Items
                     </a>
-                    <a
-                      href="/blade-soul-account/"
+                    <a onClick={() => setModalShow(true)} 
+                      href="#" id="/blade-soul-account/"
                       className="align-self-baseline gameindex-txt"
                     >
                       Accounts
                     </a>
-                    <a
-                      href="/blade-soul-power-leveling/"
+                    <a onClick={() => setModalShow(true)} 
+                      href="#" id="/blade-soul-power-leveling/"
                       className="align-self-baseline gameindex-txt"
                     >
                       Power leveling
@@ -2317,21 +2320,21 @@ const GameIndex = () => {
                 </li>
                 <li className="col-lg-3 col-md-3 col-sm-12 col-xs-12 content-item fl">
                   <div className="flex flex-column">
-                    <a
-                      href="/bleach-brave-souls-marketplace/"
+                    <a onClick={() => setModalShow(true)} 
+                      href="#" id="/bleach-brave-souls-marketplace/"
                       className="align-self-baseline"
                       title="Bleach: Brave Souls"
                     >
                       Bleach: Brave Souls
                     </a>
-                    <a
-                      href="/bleach-brave-souls-account/"
+                    <a onClick={() => setModalShow(true)} 
+                      href="#" id="/bleach-brave-souls-account/"
                       className="align-self-baseline gameindex-txt"
                     >
                       Accounts
                     </a>
-                    <a
-                      href="/bleach-brave-souls-power-leveling/"
+                    <a onClick={() => setModalShow(true)} 
+                      href="#" id="/bleach-brave-souls-power-leveling/"
                       className="align-self-baseline gameindex-txt"
                     >
                       Power leveling
@@ -2340,33 +2343,33 @@ const GameIndex = () => {
                 </li>
                 <li className="col-lg-3 col-md-3 col-sm-12 col-xs-12 content-item fl">
                   <div className="flex flex-column">
-                    <a
-                      href="/bless-unleashed-marketplace/"
+                    <a onClick={() => setModalShow(true)} 
+                      href="#" id="/bless-unleashed-marketplace/"
                       className="align-self-baseline"
                       title="Bless Unleashed"
                     >
                       Bless Unleashed
                     </a>
-                    <a
-                      href="/bless-unleashed-starseeds/"
+                    <a onClick={() => setModalShow(true)} 
+                      href="#" id="/bless-unleashed-starseeds/"
                       className="align-self-baseline gameindex-txt"
                     >
                       StarSeeds
                     </a>
-                    <a
-                      href="/bless-unleashed-items/"
+                    <a onClick={() => setModalShow(true)} 
+                      href="#" id="/bless-unleashed-items/"
                       className="align-self-baseline gameindex-txt"
                     >
                       Items
                     </a>
-                    <a
-                      href="/bless-unleashed-account/"
+                    <a onClick={() => setModalShow(true)} 
+                      href="#" id="/bless-unleashed-account/"
                       className="align-self-baseline gameindex-txt"
                     >
                       Accounts
                     </a>
-                    <a
-                      href="/bless-unleashed-power-leveling/"
+                    <a onClick={() => setModalShow(true)} 
+                      href="#" id="/bless-unleashed-power-leveling/"
                       className="align-self-baseline gameindex-txt"
                     >
                       Power leveling
@@ -2375,21 +2378,21 @@ const GameIndex = () => {
                 </li>
                 <li className="col-lg-3 col-md-3 col-sm-12 col-xs-12 content-item fl">
                   <div className="flex flex-column">
-                    <a
-                      href="/blue-archive-marketplace/"
+                    <a onClick={() => setModalShow(true)} 
+                      href="#" id="/blue-archive-marketplace/"
                       className="align-self-baseline"
                       title="Blue Archive"
                     >
                       Blue Archive
                     </a>
-                    <a
-                      href="/blue-archive-account/"
+                    <a onClick={() => setModalShow(true)} 
+                      href="#" id="/blue-archive-account/"
                       className="align-self-baseline gameindex-txt"
                     >
                       Accounts
                     </a>
-                    <a
-                      href="/blue-archive-power-leveling/"
+                    <a onClick={() => setModalShow(true)} 
+                      href="#" id="/blue-archive-power-leveling/"
                       className="align-self-baseline gameindex-txt"
                     >
                       Power leveling
@@ -2398,21 +2401,21 @@ const GameIndex = () => {
                 </li>
                 <li className="col-lg-3 col-md-3 col-sm-12 col-xs-12 content-item fl">
                   <div className="flex flex-column">
-                    <a
-                      href="/boom-beach-marketplace/"
+                    <a onClick={() => setModalShow(true)} 
+                      href="#" id="/boom-beach-marketplace/"
                       className="align-self-baseline"
                       title="Boom Beach"
                     >
                       Boom Beach
                     </a>
-                    <a
-                      href="/boom-beach-account/"
+                    <a onClick={() => setModalShow(true)} 
+                      href="#" id="/boom-beach-account/"
                       className="align-self-baseline gameindex-txt"
                     >
                       Accounts
                     </a>
-                    <a
-                      href="/boom-beach-power-leveling/"
+                    <a onClick={() => setModalShow(true)} 
+                      href="#" id="/boom-beach-power-leveling/"
                       className="align-self-baseline gameindex-txt"
                     >
                       Power leveling
@@ -2421,27 +2424,27 @@ const GameIndex = () => {
                 </li>
                 <li className="col-lg-3 col-md-3 col-sm-12 col-xs-12 content-item fl">
                   <div className="flex flex-column">
-                    <a
-                      href="/borderlands3-marketplace/"
+                    <a onClick={() => setModalShow(true)} 
+                      href="#" id="/borderlands3-marketplace/"
                       className="align-self-baseline"
                       title="Borderlands 3"
                     >
                       Borderlands 3
                     </a>
-                    <a
-                      href="/borderlands3-items/"
+                    <a onClick={() => setModalShow(true)} 
+                      href="#" id="/borderlands3-items/"
                       className="align-self-baseline gameindex-txt"
                     >
                       Items
                     </a>
-                    <a
-                      href="/borderlands3-account/"
+                    <a onClick={() => setModalShow(true)} 
+                      href="#" id="/borderlands3-account/"
                       className="align-self-baseline gameindex-txt"
                     >
                       Accounts
                     </a>
-                    <a
-                      href="/borderlands3-power-leveling/"
+                    <a onClick={() => setModalShow(true)} 
+                      href="#" id="/borderlands3-power-leveling/"
                       className="align-self-baseline gameindex-txt"
                     >
                       Power leveling
@@ -2450,21 +2453,21 @@ const GameIndex = () => {
                 </li>
                 <li className="col-lg-3 col-md-3 col-sm-12 col-xs-12 content-item fl">
                   <div className="flex flex-column">
-                    <a
-                      href="/brawl-stars-marketplace/"
+                    <a onClick={() => setModalShow(true)} 
+                      href="#" id="/brawl-stars-marketplace/"
                       className="align-self-baseline"
                       title="Brawl Stars"
                     >
                       Brawl Stars
                     </a>
-                    <a
-                      href="/brawl-stars-account/"
+                    <a onClick={() => setModalShow(true)} 
+                      href="#" id="/brawl-stars-account/"
                       className="align-self-baseline gameindex-txt"
                     >
                       Accounts
                     </a>
-                    <a
-                      href="/brawl-stars-power-leveling/"
+                    <a onClick={() => setModalShow(true)} 
+                      href="#" id="/brawl-stars-power-leveling/"
                       className="align-self-baseline gameindex-txt"
                     >
                       Power leveling
@@ -2473,21 +2476,21 @@ const GameIndex = () => {
                 </li>
                 <li className="col-lg-3 col-md-3 col-sm-12 col-xs-12 content-item fl">
                   <div className="flex flex-column">
-                    <a
-                      href="/brawlhalla-marketplace/"
+                    <a onClick={() => setModalShow(true)} 
+                      href="#" id="/brawlhalla-marketplace/"
                       className="align-self-baseline"
                       title="Brawlhalla"
                     >
                       Brawlhalla
                     </a>
-                    <a
-                      href="/brawlhalla-account/"
+                    <a onClick={() => setModalShow(true)} 
+                      href="#" id="/brawlhalla-account/"
                       className="align-self-baseline gameindex-txt"
                     >
                       Accounts
                     </a>
-                    <a
-                      href="/brawlhalla-power-leveling/"
+                    <a onClick={() => setModalShow(true)} 
+                      href="#" id="/brawlhalla-power-leveling/"
                       className="align-self-baseline gameindex-txt"
                     >
                       Power leveling
@@ -2496,33 +2499,33 @@ const GameIndex = () => {
                 </li>
                 <li className="col-lg-3 col-md-3 col-sm-12 col-xs-12 content-item fl">
                   <div className="flex flex-column">
-                    <a
-                      href="/broken-ranks-marketplace/"
+                    <a onClick={() => setModalShow(true)} 
+                      href="#" id="/broken-ranks-marketplace/"
                       className="align-self-baseline"
                       title="Broken Ranks"
                     >
                       Broken Ranks
                     </a>
-                    <a
-                      href="/broken-ranks-gold/"
+                    <a onClick={() => setModalShow(true)} 
+                      href="#" id="/broken-ranks-gold/"
                       className="align-self-baseline gameindex-txt"
                     >
                       Gold
                     </a>
-                    <a
-                      href="/broken-ranks-items/"
+                    <a onClick={() => setModalShow(true)} 
+                      href="#" id="/broken-ranks-items/"
                       className="align-self-baseline gameindex-txt"
                     >
                       Items
                     </a>
-                    <a
-                      href="/broken-ranks-account/"
+                    <a onClick={() => setModalShow(true)} 
+                      href="#" id="/broken-ranks-account/"
                       className="align-self-baseline gameindex-txt"
                     >
                       Accounts
                     </a>
-                    <a
-                      href="/broken-ranks-power-leveling/"
+                    <a onClick={() => setModalShow(true)} 
+                      href="#" id="/broken-ranks-power-leveling/"
                       className="align-self-baseline gameindex-txt"
                     >
                       Power leveling
@@ -2533,7 +2536,7 @@ const GameIndex = () => {
             </div>
             <div
               className="content-box slide-xs-content-box gameindex-box clearfix row no-gutters"
-              id="gameindex_C"
+              href="#" id="gameindex_C"
             >
               <div className="content-box-title col-lg-1 game-index-align-center">
                 <div className="index-Initials fl">C</div>
@@ -2544,21 +2547,21 @@ const GameIndex = () => {
               <ul className="row col-lg-11 no-gutters content-box-body">
                 <li className="col-lg-3 col-md-3 col-sm-12 col-xs-12 content-item fl">
                   <div className="flex flex-column">
-                    <a
-                      href="/cod-marketplace/"
+                    <a onClick={() => setModalShow(true)} 
+                      href="#" id="/cod-marketplace/"
                       className="align-self-baseline"
                       title="Call of Duty"
                     >
                       Call of Duty
                     </a>
-                    <a
-                      href="/cod-account/"
+                    <a onClick={() => setModalShow(true)} 
+                      href="#" id="/cod-account/"
                       className="align-self-baseline gameindex-txt"
                     >
                       Accounts
                     </a>
-                    <a
-                      href="/cod-power-leveling/"
+                    <a onClick={() => setModalShow(true)} 
+                      href="#" id="/cod-power-leveling/"
                       className="align-self-baseline gameindex-txt"
                     >
                       Power leveling
@@ -2567,21 +2570,21 @@ const GameIndex = () => {
                 </li>
                 <li className="col-lg-3 col-md-3 col-sm-12 col-xs-12 content-item fl">
                   <div className="flex flex-column">
-                    <a
-                      href="/cod-mobile-marketplace/"
+                    <a onClick={() => setModalShow(true)} 
+                      href="#" id="/cod-mobile-marketplace/"
                       className="align-self-baseline"
                       title="Call of Duty Mobile"
                     >
                       Call of Duty Mobile
                     </a>
-                    <a
-                      href="/cod-mobile-account/"
+                    <a onClick={() => setModalShow(true)} 
+                      href="#" id="/cod-mobile-account/"
                       className="align-self-baseline gameindex-txt"
                     >
                       Accounts
                     </a>
-                    <a
-                      href="/cod-mobile-power-leveling/"
+                    <a onClick={() => setModalShow(true)} 
+                      href="#" id="/cod-mobile-power-leveling/"
                       className="align-self-baseline gameindex-txt"
                     >
                       Power leveling
@@ -2590,21 +2593,21 @@ const GameIndex = () => {
                 </li>
                 <li className="col-lg-3 col-md-3 col-sm-12 col-xs-12 content-item fl">
                   <div className="flex flex-column">
-                    <a
-                      href="/tsubasa-dream-team-marketplace/"
+                    <a onClick={() => setModalShow(true)} 
+                      href="#" id="/tsubasa-dream-team-marketplace/"
                       className="align-self-baseline"
                       title="Captain Tsubasa: Dream Team"
                     >
                       Captain Tsubasa: Dream Team
                     </a>
-                    <a
-                      href="/tsubasa-dream-team-account/"
+                    <a onClick={() => setModalShow(true)} 
+                      href="#" id="/tsubasa-dream-team-account/"
                       className="align-self-baseline gameindex-txt"
                     >
                       Accounts
                     </a>
-                    <a
-                      href="/tsubasa-dream-team-power-leveling/"
+                    <a onClick={() => setModalShow(true)} 
+                      href="#" id="/tsubasa-dream-team-power-leveling/"
                       className="align-self-baseline gameindex-txt"
                     >
                       Power leveling
@@ -2613,27 +2616,27 @@ const GameIndex = () => {
                 </li>
                 <li className="col-lg-3 col-md-3 col-sm-12 col-xs-12 content-item fl">
                   <div className="flex flex-column">
-                    <a
-                      href="/castle-clash-marketplace/"
+                    <a onClick={() => setModalShow(true)} 
+                      href="#" id="/castle-clash-marketplace/"
                       className="align-self-baseline"
                       title="Castle Clash"
                     >
                       Castle Clash
                     </a>
-                    <a
-                      href="/castle-clash-items/"
+                    <a onClick={() => setModalShow(true)} 
+                      href="#" id="/castle-clash-items/"
                       className="align-self-baseline gameindex-txt"
                     >
                       Items
                     </a>
-                    <a
-                      href="/castle-clash-account/"
+                    <a onClick={() => setModalShow(true)} 
+                      href="#" id="/castle-clash-account/"
                       className="align-self-baseline gameindex-txt"
                     >
                       Accounts
                     </a>
-                    <a
-                      href="/castle-clash-power-leveling/"
+                    <a onClick={() => setModalShow(true)} 
+                      href="#" id="/castle-clash-power-leveling/"
                       className="align-self-baseline gameindex-txt"
                     >
                       Power leveling
@@ -2642,33 +2645,33 @@ const GameIndex = () => {
                 </li>
                 <li className="col-lg-3 col-md-3 col-sm-12 col-xs-12 content-item fl">
                   <div className="flex flex-column">
-                    <a
-                      href="/champions-marketplace/"
+                    <a onClick={() => setModalShow(true)} 
+                      href="#" id="/champions-marketplace/"
                       className="align-self-baseline"
                       title="Champions Online"
                     >
                       Champions Online
                     </a>
-                    <a
-                      href="/champions-global/"
+                    <a onClick={() => setModalShow(true)} 
+                      href="#" id="/champions-global/"
                       className="align-self-baseline gameindex-txt"
                     >
                       Global
                     </a>
-                    <a
-                      href="/champions-items/"
+                    <a onClick={() => setModalShow(true)} 
+                      href="#" id="/champions-items/"
                       className="align-self-baseline gameindex-txt"
                     >
                       Items
                     </a>
-                    <a
-                      href="/champions-account/"
+                    <a onClick={() => setModalShow(true)} 
+                      href="#" id="/champions-account/"
                       className="align-self-baseline gameindex-txt"
                     >
                       Accounts
                     </a>
-                    <a
-                      href="/champions-power-leveling/"
+                    <a onClick={() => setModalShow(true)} 
+                      href="#" id="/champions-power-leveling/"
                       className="align-self-baseline gameindex-txt"
                     >
                       Power leveling
@@ -2677,27 +2680,27 @@ const GameIndex = () => {
                 </li>
                 <li className="col-lg-3 col-md-3 col-sm-12 col-xs-12 content-item fl">
                   <div className="flex flex-column">
-                    <a
-                      href="/clash-of-clans-marketplace/"
+                    <a onClick={() => setModalShow(true)} 
+                      href="#" id="/clash-of-clans-marketplace/"
                       className="align-self-baseline"
                       title="Clash of Clans"
                     >
                       Clash of Clans
                     </a>
-                    <a
-                      href="/clash-of-clans-items/"
+                    <a onClick={() => setModalShow(true)} 
+                      href="#" id="/clash-of-clans-items/"
                       className="align-self-baseline gameindex-txt"
                     >
                       Items
                     </a>
-                    <a
-                      href="/clash-of-clans-account/"
+                    <a onClick={() => setModalShow(true)} 
+                      href="#" id="/clash-of-clans-account/"
                       className="align-self-baseline gameindex-txt"
                     >
                       Accounts
                     </a>
-                    <a
-                      href="/clash-of-clans-power-leveling/"
+                    <a onClick={() => setModalShow(true)} 
+                      href="#" id="/clash-of-clans-power-leveling/"
                       className="align-self-baseline gameindex-txt"
                     >
                       Power leveling
@@ -2706,27 +2709,27 @@ const GameIndex = () => {
                 </li>
                 <li className="col-lg-3 col-md-3 col-sm-12 col-xs-12 content-item fl">
                   <div className="flex flex-column">
-                    <a
-                      href="/clash-of-kings-marketplace/"
+                    <a onClick={() => setModalShow(true)} 
+                      href="#" id="/clash-of-kings-marketplace/"
                       className="align-self-baseline"
                       title="Clash of Kings"
                     >
                       Clash of Kings
                     </a>
-                    <a
-                      href="/clash-of-kings-items/"
+                    <a onClick={() => setModalShow(true)} 
+                      href="#" id="/clash-of-kings-items/"
                       className="align-self-baseline gameindex-txt"
                     >
                       Items
                     </a>
-                    <a
-                      href="/clash-of-kings-account/"
+                    <a onClick={() => setModalShow(true)} 
+                      href="#" id="/clash-of-kings-account/"
                       className="align-self-baseline gameindex-txt"
                     >
                       Accounts
                     </a>
-                    <a
-                      href="/clash-of-kings-power-leveling/"
+                    <a onClick={() => setModalShow(true)} 
+                      href="#" id="/clash-of-kings-power-leveling/"
                       className="align-self-baseline gameindex-txt"
                     >
                       Power leveling
@@ -2735,27 +2738,27 @@ const GameIndex = () => {
                 </li>
                 <li className="col-lg-3 col-md-3 col-sm-12 col-xs-12 content-item fl">
                   <div className="flex flex-column">
-                    <a
-                      href="/clash-royale-marketplace/"
+                    <a onClick={() => setModalShow(true)} 
+                      href="#" id="/clash-royale-marketplace/"
                       className="align-self-baseline"
                       title="Clash Royale"
                     >
                       Clash Royale
                     </a>
-                    <a
-                      href="/clash-royale-items/"
+                    <a onClick={() => setModalShow(true)} 
+                      href="#" id="/clash-royale-items/"
                       className="align-self-baseline gameindex-txt"
                     >
                       Items
                     </a>
-                    <a
-                      href="/clash-royale-account/"
+                    <a onClick={() => setModalShow(true)} 
+                      href="#" id="/clash-royale-account/"
                       className="align-self-baseline gameindex-txt"
                     >
                       Accounts
                     </a>
-                    <a
-                      href="/clash-royale-power-leveling/"
+                    <a onClick={() => setModalShow(true)} 
+                      href="#" id="/clash-royale-power-leveling/"
                       className="align-self-baseline gameindex-txt"
                     >
                       Power leveling
@@ -2764,33 +2767,33 @@ const GameIndex = () => {
                 </li>
                 <li className="col-lg-3 col-md-3 col-sm-12 col-xs-12 content-item fl">
                   <div className="flex flex-column">
-                    <a
-                      href="/conquer-marketplace/"
+                    <a onClick={() => setModalShow(true)} 
+                      href="#" id="/conquer-marketplace/"
                       className="align-self-baseline"
                       title="Conquer Online 2"
                     >
                       Conquer Online 2
                     </a>
-                    <a
-                      href="/conquer-gold/"
+                    <a onClick={() => setModalShow(true)} 
+                      href="#" id="/conquer-gold/"
                       className="align-self-baseline gameindex-txt"
                     >
                       Gold
                     </a>
-                    <a
-                      href="/conquer-items/"
+                    <a onClick={() => setModalShow(true)} 
+                      href="#" id="/conquer-items/"
                       className="align-self-baseline gameindex-txt"
                     >
                       Items
                     </a>
-                    <a
-                      href="/conquer-account/"
+                    <a onClick={() => setModalShow(true)} 
+                      href="#" id="/conquer-account/"
                       className="align-self-baseline gameindex-txt"
                     >
                       Accounts
                     </a>
-                    <a
-                      href="/conquer-power-leveling/"
+                    <a onClick={() => setModalShow(true)} 
+                      href="#" id="/conquer-power-leveling/"
                       className="align-self-baseline gameindex-txt"
                     >
                       Power leveling
@@ -2799,27 +2802,27 @@ const GameIndex = () => {
                 </li>
                 <li className="col-lg-3 col-md-3 col-sm-12 col-xs-12 content-item fl">
                   <div className="flex flex-column">
-                    <a
-                      href="/conquerors-blade-marketplace/"
+                    <a onClick={() => setModalShow(true)} 
+                      href="#" id="/conquerors-blade-marketplace/"
                       className="align-self-baseline"
                       title="Conqueror's Blade"
                     >
                       Conqueror's Blade
                     </a>
-                    <a
-                      href="/conquerors-blade-silver/"
+                    <a onClick={() => setModalShow(true)} 
+                      href="#" id="/conquerors-blade-silver/"
                       className="align-self-baseline gameindex-txt"
                     >
                       Silver
                     </a>
-                    <a
-                      href="/conquerors-blade-account/"
+                    <a onClick={() => setModalShow(true)} 
+                      href="#" id="/conquerors-blade-account/"
                       className="align-self-baseline gameindex-txt"
                     >
                       Accounts
                     </a>
-                    <a
-                      href="/conquerors-blade-power-leveling/"
+                    <a onClick={() => setModalShow(true)} 
+                      href="#" id="/conquerors-blade-power-leveling/"
                       className="align-self-baseline gameindex-txt"
                     >
                       Power leveling
@@ -2828,21 +2831,21 @@ const GameIndex = () => {
                 </li>
                 <li className="col-lg-3 col-md-3 col-sm-12 col-xs-12 content-item fl">
                   <div className="flex flex-column">
-                    <a
-                      href="/cookie-run-kingdom-marketplace/"
+                    <a onClick={() => setModalShow(true)} 
+                      href="#" id="/cookie-run-kingdom-marketplace/"
                       className="align-self-baseline"
                       title="Cookie Run: Kingdom"
                     >
                       Cookie Run: Kingdom
                     </a>
-                    <a
-                      href="/cookie-run-kingdom-account/"
+                    <a onClick={() => setModalShow(true)} 
+                      href="#" id="/cookie-run-kingdom-account/"
                       className="align-self-baseline gameindex-txt"
                     >
                       Accounts
                     </a>
-                    <a
-                      href="/cookie-run-kingdom-power-leveling/"
+                    <a onClick={() => setModalShow(true)} 
+                      href="#" id="/cookie-run-kingdom-power-leveling/"
                       className="align-self-baseline gameindex-txt"
                     >
                       Power leveling
@@ -2851,21 +2854,21 @@ const GameIndex = () => {
                 </li>
                 <li className="col-lg-3 col-md-3 col-sm-12 col-xs-12 content-item fl">
                   <div className="flex flex-column">
-                    <a
-                      href="/corepunk-marketplace/"
+                    <a onClick={() => setModalShow(true)} 
+                      href="#" id="/corepunk-marketplace/"
                       className="align-self-baseline"
                       title="Corepunk"
                     >
                       Corepunk
                     </a>
-                    <a
-                      href="/corepunk-account/"
+                    <a onClick={() => setModalShow(true)} 
+                      href="#" id="/corepunk-account/"
                       className="align-self-baseline gameindex-txt"
                     >
                       Accounts
                     </a>
-                    <a
-                      href="/corepunk-power-leveling/"
+                    <a onClick={() => setModalShow(true)} 
+                      href="#" id="/corepunk-power-leveling/"
                       className="align-self-baseline gameindex-txt"
                     >
                       Power leveling
@@ -2874,27 +2877,27 @@ const GameIndex = () => {
                 </li>
                 <li className="col-lg-3 col-md-3 col-sm-12 col-xs-12 content-item fl">
                   <div className="flex flex-column">
-                    <a
-                      href="/crossfire-marketplace/"
+                    <a onClick={() => setModalShow(true)} 
+                      href="#" id="/crossfire-marketplace/"
                       className="align-self-baseline"
                       title="CrossFire"
                     >
                       CrossFire
                     </a>
-                    <a
-                      href="/crossfire-items/"
+                    <a onClick={() => setModalShow(true)} 
+                      href="#" id="/crossfire-items/"
                       className="align-self-baseline gameindex-txt"
                     >
                       Items
                     </a>
-                    <a
-                      href="/crossfire-account/"
+                    <a onClick={() => setModalShow(true)} 
+                      href="#" id="/crossfire-account/"
                       className="align-self-baseline gameindex-txt"
                     >
                       Accounts
                     </a>
-                    <a
-                      href="/crossfire-power-leveling/"
+                    <a onClick={() => setModalShow(true)} 
+                      href="#" id="/crossfire-power-leveling/"
                       className="align-self-baseline gameindex-txt"
                     >
                       Power leveling
@@ -2903,21 +2906,21 @@ const GameIndex = () => {
                 </li>
                 <li className="col-lg-3 col-md-3 col-sm-12 col-xs-12 content-item fl">
                   <div className="flex flex-column">
-                    <a
-                      href="/crossout-marketplace/"
+                    <a onClick={() => setModalShow(true)} 
+                      href="#" id="/crossout-marketplace/"
                       className="align-self-baseline"
                       title="Crossout"
                     >
                       Crossout
                     </a>
-                    <a
-                      href="/crossout-account/"
+                    <a onClick={() => setModalShow(true)} 
+                      href="#" id="/crossout-account/"
                       className="align-self-baseline gameindex-txt"
                     >
                       Accounts
                     </a>
-                    <a
-                      href="/crossout-power-leveling/"
+                    <a onClick={() => setModalShow(true)} 
+                      href="#" id="/crossout-power-leveling/"
                       className="align-self-baseline gameindex-txt"
                     >
                       Power leveling
@@ -2926,33 +2929,33 @@ const GameIndex = () => {
                 </li>
                 <li className="col-lg-3 col-md-3 col-sm-12 col-xs-12 content-item fl">
                   <div className="flex flex-column">
-                    <a
-                      href="/crowfall-marketplace/"
+                    <a onClick={() => setModalShow(true)} 
+                      href="#" id="/crowfall-marketplace/"
                       className="align-self-baseline"
                       title="Crowfall"
                     >
                       Crowfall
                     </a>
-                    <a
-                      href="/crowfall-gold/"
+                    <a onClick={() => setModalShow(true)} 
+                      href="#" id="/crowfall-gold/"
                       className="align-self-baseline gameindex-txt"
                     >
                       Gold
                     </a>
-                    <a
-                      href="/crowfall-items/"
+                    <a onClick={() => setModalShow(true)} 
+                      href="#" id="/crowfall-items/"
                       className="align-self-baseline gameindex-txt"
                     >
                       Items
                     </a>
-                    <a
-                      href="/crowfall-account/"
+                    <a onClick={() => setModalShow(true)} 
+                      href="#" id="/crowfall-account/"
                       className="align-self-baseline gameindex-txt"
                     >
                       Accounts
                     </a>
-                    <a
-                      href="/crowfall-power-leveling/"
+                    <a onClick={() => setModalShow(true)} 
+                      href="#" id="/crowfall-power-leveling/"
                       className="align-self-baseline gameindex-txt"
                     >
                       Power leveling
@@ -2961,21 +2964,21 @@ const GameIndex = () => {
                 </li>
                 <li className="col-lg-3 col-md-3 col-sm-12 col-xs-12 content-item fl">
                   <div className="flex flex-column">
-                    <a
-                      href="/csgo-marketplace/"
+                    <a onClick={() => setModalShow(true)} 
+                      href="#" id="/csgo-marketplace/"
                       className="align-self-baseline"
                       title="CSGO"
                     >
                       CSGO
                     </a>
-                    <a
-                      href="/csgo-account/"
+                    <a onClick={() => setModalShow(true)} 
+                      href="#" id="/csgo-account/"
                       className="align-self-baseline gameindex-txt"
                     >
                       Accounts
                     </a>
-                    <a
-                      href="/csgo-power-leveling/"
+                    <a onClick={() => setModalShow(true)} 
+                      href="#" id="/csgo-power-leveling/"
                       className="align-self-baseline gameindex-txt"
                     >
                       Power leveling
@@ -2984,21 +2987,21 @@ const GameIndex = () => {
                 </li>
                 <li className="col-lg-3 col-md-3 col-sm-12 col-xs-12 content-item fl">
                   <div className="flex flex-column">
-                    <a
-                      href="/cyberpunk-2077-marketplace/"
+                    <a onClick={() => setModalShow(true)} 
+                      href="#" id="/cyberpunk-2077-marketplace/"
                       className="align-self-baseline"
                       title="Cyberpunk 2077"
                     >
                       Cyberpunk 2077
                     </a>
-                    <a
-                      href="/cyberpunk-2077-account/"
+                    <a onClick={() => setModalShow(true)} 
+                      href="#" id="/cyberpunk-2077-account/"
                       className="align-self-baseline gameindex-txt"
                     >
                       Accounts
                     </a>
-                    <a
-                      href="/cyberpunk-2077-power-leveling/"
+                    <a onClick={() => setModalShow(true)} 
+                      href="#" id="/cyberpunk-2077-power-leveling/"
                       className="align-self-baseline gameindex-txt"
                     >
                       Power leveling
@@ -3009,7 +3012,7 @@ const GameIndex = () => {
             </div>
             <div
               className="content-box slide-xs-content-box gameindex-box clearfix row no-gutters"
-              id="gameindex_D"
+              href="#" id="gameindex_D"
             >
               <div className="content-box-title col-lg-1 game-index-align-center">
                 <div className="index-Initials fl">D</div>
@@ -3020,21 +3023,21 @@ const GameIndex = () => {
               <ul className="row col-lg-11 no-gutters content-box-body">
                 <li className="col-lg-3 col-md-3 col-sm-12 col-xs-12 content-item fl">
                   <div className="flex flex-column">
-                    <a
-                      href="/darkorbit-marketplace/"
+                    <a onClick={() => setModalShow(true)} 
+                      href="#" id="/darkorbit-marketplace/"
                       className="align-self-baseline"
                       title="DarkOrbit"
                     >
                       DarkOrbit
                     </a>
-                    <a
-                      href="/darkorbit-account/"
+                    <a onClick={() => setModalShow(true)} 
+                      href="#" id="/darkorbit-account/"
                       className="align-self-baseline gameindex-txt"
                     >
                       Accounts
                     </a>
-                    <a
-                      href="/darkorbit-power-leveling/"
+                    <a onClick={() => setModalShow(true)} 
+                      href="#" id="/darkorbit-power-leveling/"
                       className="align-self-baseline gameindex-txt"
                     >
                       Power leveling
@@ -3043,27 +3046,27 @@ const GameIndex = () => {
                 </li>
                 <li className="col-lg-3 col-md-3 col-sm-12 col-xs-12 content-item fl">
                   <div className="flex flex-column">
-                    <a
-                      href="/dauntless-marketplace/"
+                    <a onClick={() => setModalShow(true)} 
+                      href="#" id="/dauntless-marketplace/"
                       className="align-self-baseline"
                       title="Dauntless"
                     >
                       Dauntless
                     </a>
-                    <a
-                      href="/dauntless-items/"
+                    <a onClick={() => setModalShow(true)} 
+                      href="#" id="/dauntless-items/"
                       className="align-self-baseline gameindex-txt"
                     >
                       Items
                     </a>
-                    <a
-                      href="/dauntless-account/"
+                    <a onClick={() => setModalShow(true)} 
+                      href="#" id="/dauntless-account/"
                       className="align-self-baseline gameindex-txt"
                     >
                       Accounts
                     </a>
-                    <a
-                      href="/dauntless-power-leveling/"
+                    <a onClick={() => setModalShow(true)} 
+                      href="#" id="/dauntless-power-leveling/"
                       className="align-self-baseline gameindex-txt"
                     >
                       Power leveling
@@ -3072,33 +3075,33 @@ const GameIndex = () => {
                 </li>
                 <li className="col-lg-3 col-md-3 col-sm-12 col-xs-12 content-item fl">
                   <div className="flex flex-column">
-                    <a
-                      href="/dcuo-marketplace/"
+                    <a onClick={() => setModalShow(true)} 
+                      href="#" id="/dcuo-marketplace/"
                       className="align-self-baseline"
                       title="DC Universe Online"
                     >
                       DC Universe Online
                     </a>
-                    <a
-                      href="/dcuo-cash/"
+                    <a onClick={() => setModalShow(true)} 
+                      href="#" id="/dcuo-cash/"
                       className="align-self-baseline gameindex-txt"
                     >
                       Cash
                     </a>
-                    <a
-                      href="/dcuo-items/"
+                    <a onClick={() => setModalShow(true)} 
+                      href="#" id="/dcuo-items/"
                       className="align-self-baseline gameindex-txt"
                     >
                       Items
                     </a>
-                    <a
-                      href="/dcuo-account/"
+                    <a onClick={() => setModalShow(true)} 
+                      href="#" id="/dcuo-account/"
                       className="align-self-baseline gameindex-txt"
                     >
                       Accounts
                     </a>
-                    <a
-                      href="/dcuo-power-leveling/"
+                    <a onClick={() => setModalShow(true)} 
+                      href="#" id="/dcuo-power-leveling/"
                       className="align-self-baseline gameindex-txt"
                     >
                       Power leveling
@@ -3107,21 +3110,21 @@ const GameIndex = () => {
                 </li>
                 <li className="col-lg-3 col-md-3 col-sm-12 col-xs-12 content-item fl">
                   <div className="flex flex-column">
-                    <a
-                      href="/dead-by-daylight-marketplace/"
+                    <a onClick={() => setModalShow(true)} 
+                      href="#" id="/dead-by-daylight-marketplace/"
                       className="align-self-baseline"
                       title="Dead by Daylight"
                     >
                       Dead by Daylight
                     </a>
-                    <a
-                      href="/dead-by-daylight-account/"
+                    <a onClick={() => setModalShow(true)} 
+                      href="#" id="/dead-by-daylight-account/"
                       className="align-self-baseline gameindex-txt"
                     >
                       Accounts
                     </a>
-                    <a
-                      href="/dead-by-daylight-power-leveling/"
+                    <a onClick={() => setModalShow(true)} 
+                      href="#" id="/dead-by-daylight-power-leveling/"
                       className="align-self-baseline gameindex-txt"
                     >
                       Power leveling
@@ -3130,33 +3133,33 @@ const GameIndex = () => {
                 </li>
                 <li className="col-lg-3 col-md-3 col-sm-12 col-xs-12 content-item fl">
                   <div className="flex flex-column">
-                    <a
-                      href="/dead-frontier-marketplace/"
+                    <a onClick={() => setModalShow(true)} 
+                      href="#" id="/dead-frontier-marketplace/"
                       className="align-self-baseline"
                       title="Dead Frontier"
                     >
                       Dead Frontier
                     </a>
-                    <a
-                      href="/dead-frontier-cash/"
+                    <a onClick={() => setModalShow(true)} 
+                      href="#" id="/dead-frontier-cash/"
                       className="align-self-baseline gameindex-txt"
                     >
                       Cash
                     </a>
-                    <a
-                      href="/dead-frontier-items/"
+                    <a onClick={() => setModalShow(true)} 
+                      href="#" id="/dead-frontier-items/"
                       className="align-self-baseline gameindex-txt"
                     >
                       Items
                     </a>
-                    <a
-                      href="/dead-frontier-account/"
+                    <a onClick={() => setModalShow(true)} 
+                      href="#" id="/dead-frontier-account/"
                       className="align-self-baseline gameindex-txt"
                     >
                       Accounts
                     </a>
-                    <a
-                      href="/dead-frontier-power-leveling/"
+                    <a onClick={() => setModalShow(true)} 
+                      href="#" id="/dead-frontier-power-leveling/"
                       className="align-self-baseline gameindex-txt"
                     >
                       Power leveling
@@ -3165,27 +3168,27 @@ const GameIndex = () => {
                 </li>
                 <li className="col-lg-3 col-md-3 col-sm-12 col-xs-12 content-item fl">
                   <div className="flex flex-column">
-                    <a
-                      href="/dead-frontier-2-marketplace/"
+                    <a onClick={() => setModalShow(true)} 
+                      href="#" id="/dead-frontier-2-marketplace/"
                       className="align-self-baseline"
                       title="Dead Frontier 2"
                     >
                       Dead Frontier 2
                     </a>
-                    <a
-                      href="/dead-frontier-2-cash/"
+                    <a onClick={() => setModalShow(true)} 
+                      href="#" id="/dead-frontier-2-cash/"
                       className="align-self-baseline gameindex-txt"
                     >
                       Cash
                     </a>
-                    <a
-                      href="/dead-frontier-2-account/"
+                    <a onClick={() => setModalShow(true)} 
+                      href="#" id="/dead-frontier-2-account/"
                       className="align-self-baseline gameindex-txt"
                     >
                       Accounts
                     </a>
-                    <a
-                      href="/dead-frontier-2-power-leveling/"
+                    <a onClick={() => setModalShow(true)} 
+                      href="#" id="/dead-frontier-2-power-leveling/"
                       className="align-self-baseline gameindex-txt"
                     >
                       Power leveling
@@ -3194,27 +3197,27 @@ const GameIndex = () => {
                 </li>
                 <li className="col-lg-3 col-md-3 col-sm-12 col-xs-12 content-item fl">
                   <div className="flex flex-column">
-                    <a
-                      href="/destiny-2-marketplace/"
+                    <a onClick={() => setModalShow(true)} 
+                      href="#" id="/destiny-2-marketplace/"
                       className="align-self-baseline"
                       title="Destiny 2"
                     >
                       Destiny 2
                     </a>
-                    <a
-                      href="/destiny-2-items/"
+                    <a onClick={() => setModalShow(true)} 
+                      href="#" id="/destiny-2-items/"
                       className="align-self-baseline gameindex-txt"
                     >
                       Items
                     </a>
-                    <a
-                      href="/destiny-2-account/"
+                    <a onClick={() => setModalShow(true)} 
+                      href="#" id="/destiny-2-account/"
                       className="align-self-baseline gameindex-txt"
                     >
                       Accounts
                     </a>
-                    <a
-                      href="/destiny-2-power-leveling/"
+                    <a onClick={() => setModalShow(true)} 
+                      href="#" id="/destiny-2-power-leveling/"
                       className="align-self-baseline gameindex-txt"
                     >
                       Power leveling
@@ -3223,33 +3226,33 @@ const GameIndex = () => {
                 </li>
                 <li className="col-lg-3 col-md-3 col-sm-12 col-xs-12 content-item fl">
                   <div className="flex flex-column">
-                    <a
-                      href="/d2-marketplace/"
+                    <a onClick={() => setModalShow(true)} 
+                      href="#" id="/d2-marketplace/"
                       className="align-self-baseline"
                       title="Diablo 2"
                     >
                       Diablo 2
                     </a>
-                    <a
-                      href="/d2-gold/"
+                    <a onClick={() => setModalShow(true)} 
+                      href="#" id="/d2-gold/"
                       className="align-self-baseline gameindex-txt"
                     >
                       Gold
                     </a>
-                    <a
-                      href="/d2-items/"
+                    <a onClick={() => setModalShow(true)} 
+                      href="#" id="/d2-items/"
                       className="align-self-baseline gameindex-txt"
                     >
                       Items
                     </a>
-                    <a
-                      href="/d2-account/"
+                    <a onClick={() => setModalShow(true)} 
+                      href="#" id="/d2-account/"
                       className="align-self-baseline gameindex-txt"
                     >
                       Accounts
                     </a>
-                    <a
-                      href="/d2-power-leveling/"
+                    <a onClick={() => setModalShow(true)} 
+                      href="#" id="/d2-power-leveling/"
                       className="align-self-baseline gameindex-txt"
                     >
                       Power leveling
@@ -3258,33 +3261,33 @@ const GameIndex = () => {
                 </li>
                 <li className="col-lg-3 col-md-3 col-sm-12 col-xs-12 content-item fl">
                   <div className="flex flex-column">
-                    <a
-                      href="/diablo-2-resurrected-marketplace/"
+                    <a onClick={() => setModalShow(true)} 
+                      href="#" id="/diablo-2-resurrected-marketplace/"
                       className="align-self-baseline"
                       title="Diablo 2 Resurrected"
                     >
                       Diablo 2 Resurrected
                     </a>
-                    <a
-                      href="/diablo-2-resurrected-gold/"
+                    <a onClick={() => setModalShow(true)} 
+                      href="#" id="/diablo-2-resurrected-gold/"
                       className="align-self-baseline gameindex-txt"
                     >
                       Gold
                     </a>
-                    <a
-                      href="/diablo-2-resurrected-items/"
+                    <a onClick={() => setModalShow(true)} 
+                      href="#" id="/diablo-2-resurrected-items/"
                       className="align-self-baseline gameindex-txt"
                     >
                       Items
                     </a>
-                    <a
-                      href="/diablo-2-resurrected-account/"
+                    <a onClick={() => setModalShow(true)} 
+                      href="#" id="/diablo-2-resurrected-account/"
                       className="align-self-baseline gameindex-txt"
                     >
                       Accounts
                     </a>
-                    <a
-                      href="/diablo-2-resurrected-power-leveling/"
+                    <a onClick={() => setModalShow(true)} 
+                      href="#" id="/diablo-2-resurrected-power-leveling/"
                       className="align-self-baseline gameindex-txt"
                     >
                       Power leveling
@@ -3293,27 +3296,27 @@ const GameIndex = () => {
                 </li>
                 <li className="col-lg-3 col-md-3 col-sm-12 col-xs-12 content-item fl">
                   <div className="flex flex-column">
-                    <a
-                      href="/diablo-3-marketplace/"
+                    <a onClick={() => setModalShow(true)} 
+                      href="#" id="/diablo-3-marketplace/"
                       className="align-self-baseline"
                       title="Diablo 3"
                     >
                       Diablo 3
                     </a>
-                    <a
-                      href="/diablo-3-items/"
+                    <a onClick={() => setModalShow(true)} 
+                      href="#" id="/diablo-3-items/"
                       className="align-self-baseline gameindex-txt"
                     >
                       Items
                     </a>
-                    <a
-                      href="/diablo-3-account/"
+                    <a onClick={() => setModalShow(true)} 
+                      href="#" id="/diablo-3-account/"
                       className="align-self-baseline gameindex-txt"
                     >
                       Accounts
                     </a>
-                    <a
-                      href="/diablo-3-power-leveling/"
+                    <a onClick={() => setModalShow(true)} 
+                      href="#" id="/diablo-3-power-leveling/"
                       className="align-self-baseline gameindex-txt"
                     >
                       Power leveling
@@ -3322,33 +3325,33 @@ const GameIndex = () => {
                 </li>
                 <li className="col-lg-3 col-md-3 col-sm-12 col-xs-12 content-item fl">
                   <div className="flex flex-column">
-                    <a
-                      href="/diablo-immortal-marketplace/"
+                    <a onClick={() => setModalShow(true)} 
+                      href="#" id="/diablo-immortal-marketplace/"
                       className="align-self-baseline"
                       title="Diablo Immortal"
                     >
                       Diablo Immortal
                     </a>
-                    <a
-                      href="/diablo-immortal-platinum/"
+                    <a onClick={() => setModalShow(true)} 
+                      href="#" id="/diablo-immortal-platinum/"
                       className="align-self-baseline gameindex-txt"
                     >
                       Platinum
                     </a>
-                    <a
-                      href="/diablo-immortal-items/"
+                    <a onClick={() => setModalShow(true)} 
+                      href="#" id="/diablo-immortal-items/"
                       className="align-self-baseline gameindex-txt"
                     >
                       Items
                     </a>
-                    <a
-                      href="/diablo-immortal-account/"
+                    <a onClick={() => setModalShow(true)} 
+                      href="#" id="/diablo-immortal-account/"
                       className="align-self-baseline gameindex-txt"
                     >
                       Accounts
                     </a>
-                    <a
-                      href="/diablo-immortal-power-leveling/"
+                    <a onClick={() => setModalShow(true)} 
+                      href="#" id="/diablo-immortal-power-leveling/"
                       className="align-self-baseline gameindex-txt"
                     >
                       Power leveling
@@ -3357,33 +3360,33 @@ const GameIndex = () => {
                 </li>
                 <li className="col-lg-3 col-md-3 col-sm-12 col-xs-12 content-item fl">
                   <div className="flex flex-column">
-                    <a
-                      href="/digimon-masters-marketplace/"
+                    <a onClick={() => setModalShow(true)} 
+                      href="#" id="/digimon-masters-marketplace/"
                       className="align-self-baseline"
                       title="Digimon Masters Online"
                     >
                       Digimon Masters Online
                     </a>
-                    <a
-                      href="/digimon-masters-tera/"
+                    <a onClick={() => setModalShow(true)} 
+                      href="#" id="/digimon-masters-tera/"
                       className="align-self-baseline gameindex-txt"
                     >
                       Tera
                     </a>
-                    <a
-                      href="/digimon-masters-items/"
+                    <a onClick={() => setModalShow(true)} 
+                      href="#" id="/digimon-masters-items/"
                       className="align-self-baseline gameindex-txt"
                     >
                       Items
                     </a>
-                    <a
-                      href="/digimon-masters-account/"
+                    <a onClick={() => setModalShow(true)} 
+                      href="#" id="/digimon-masters-account/"
                       className="align-self-baseline gameindex-txt"
                     >
                       Accounts
                     </a>
-                    <a
-                      href="/digimon-masters-power-leveling/"
+                    <a onClick={() => setModalShow(true)} 
+                      href="#" id="/digimon-masters-power-leveling/"
                       className="align-self-baseline gameindex-txt"
                     >
                       Power leveling
@@ -3392,33 +3395,33 @@ const GameIndex = () => {
                 </li>
                 <li className="col-lg-3 col-md-3 col-sm-12 col-xs-12 content-item fl">
                   <div className="flex flex-column">
-                    <a
-                      href="/dofus-marketplace/"
+                    <a onClick={() => setModalShow(true)} 
+                      href="#" id="/dofus-marketplace/"
                       className="align-self-baseline"
                       title="Dofus"
                     >
                       Dofus
                     </a>
-                    <a
-                      href="/dofus-kamas/"
+                    <a onClick={() => setModalShow(true)} 
+                      href="#" id="/dofus-kamas/"
                       className="align-self-baseline gameindex-txt"
                     >
                       Kamas
                     </a>
-                    <a
-                      href="/dofus-items/"
+                    <a onClick={() => setModalShow(true)} 
+                      href="#" id="/dofus-items/"
                       className="align-self-baseline gameindex-txt"
                     >
                       Items
                     </a>
-                    <a
-                      href="/dofus-account/"
+                    <a onClick={() => setModalShow(true)} 
+                      href="#" id="/dofus-account/"
                       className="align-self-baseline gameindex-txt"
                     >
                       Accounts
                     </a>
-                    <a
-                      href="/dofus-power-leveling/"
+                    <a onClick={() => setModalShow(true)} 
+                      href="#" id="/dofus-power-leveling/"
                       className="align-self-baseline gameindex-txt"
                     >
                       Power leveling
@@ -3427,33 +3430,33 @@ const GameIndex = () => {
                 </li>
                 <li className="col-lg-3 col-md-3 col-sm-12 col-xs-12 content-item fl">
                   <div className="flex flex-column">
-                    <a
-                      href="/dofus-touch-marketplace/"
+                    <a onClick={() => setModalShow(true)} 
+                      href="#" id="/dofus-touch-marketplace/"
                       className="align-self-baseline"
                       title="Dofus Touch"
                     >
                       Dofus Touch
                     </a>
-                    <a
-                      href="/dofus-touch-kamas/"
+                    <a onClick={() => setModalShow(true)} 
+                      href="#" id="/dofus-touch-kamas/"
                       className="align-self-baseline gameindex-txt"
                     >
                       Kamas
                     </a>
-                    <a
-                      href="/dofus-touch-items/"
+                    <a onClick={() => setModalShow(true)} 
+                      href="#" id="/dofus-touch-items/"
                       className="align-self-baseline gameindex-txt"
                     >
                       Items
                     </a>
-                    <a
-                      href="/dofus-touch-account/"
+                    <a onClick={() => setModalShow(true)} 
+                      href="#" id="/dofus-touch-account/"
                       className="align-self-baseline gameindex-txt"
                     >
                       Accounts
                     </a>
-                    <a
-                      href="/dofus-touch-power-leveling/"
+                    <a onClick={() => setModalShow(true)} 
+                      href="#" id="/dofus-touch-power-leveling/"
                       className="align-self-baseline gameindex-txt"
                     >
                       Power leveling
@@ -3462,27 +3465,27 @@ const GameIndex = () => {
                 </li>
                 <li className="col-lg-3 col-md-3 col-sm-12 col-xs-12 content-item fl">
                   <div className="flex flex-column">
-                    <a
-                      href="/dota-2-marketplace/"
+                    <a onClick={() => setModalShow(true)} 
+                      href="#" id="/dota-2-marketplace/"
                       className="align-self-baseline"
                       title="DOTA 2"
                     >
                       DOTA 2
                     </a>
-                    <a
-                      href="/dota-2-items/"
+                    <a onClick={() => setModalShow(true)} 
+                      href="#" id="/dota-2-items/"
                       className="align-self-baseline gameindex-txt"
                     >
                       Items
                     </a>
-                    <a
-                      href="/dota-2-account/"
+                    <a onClick={() => setModalShow(true)} 
+                      href="#" id="/dota-2-account/"
                       className="align-self-baseline gameindex-txt"
                     >
                       Accounts
                     </a>
-                    <a
-                      href="/dota-2-power-leveling/"
+                    <a onClick={() => setModalShow(true)} 
+                      href="#" id="/dota-2-power-leveling/"
                       className="align-self-baseline gameindex-txt"
                     >
                       Power leveling
@@ -3491,21 +3494,21 @@ const GameIndex = () => {
                 </li>
                 <li className="col-lg-3 col-md-3 col-sm-12 col-xs-12 content-item fl">
                   <div className="flex flex-column">
-                    <a
-                      href="/dragalia-lost-marketplace/"
+                    <a onClick={() => setModalShow(true)} 
+                      href="#" id="/dragalia-lost-marketplace/"
                       className="align-self-baseline"
                       title="Dragalia Lost"
                     >
                       Dragalia Lost
                     </a>
-                    <a
-                      href="/dragalia-lost-account/"
+                    <a onClick={() => setModalShow(true)} 
+                      href="#" id="/dragalia-lost-account/"
                       className="align-self-baseline gameindex-txt"
                     >
                       Accounts
                     </a>
-                    <a
-                      href="/dragalia-lost-power-leveling/"
+                    <a onClick={() => setModalShow(true)} 
+                      href="#" id="/dragalia-lost-power-leveling/"
                       className="align-self-baseline gameindex-txt"
                     >
                       Power leveling
@@ -3514,21 +3517,21 @@ const GameIndex = () => {
                 </li>
                 <li className="col-lg-3 col-md-3 col-sm-12 col-xs-12 content-item fl">
                   <div className="flex flex-column">
-                    <a
-                      href="/dragon-ball-legends-marketplace/"
+                    <a onClick={() => setModalShow(true)} 
+                      href="#" id="/dragon-ball-legends-marketplace/"
                       className="align-self-baseline"
                       title="Dragon Ball Legends"
                     >
                       Dragon Ball Legends
                     </a>
-                    <a
-                      href="/dragon-ball-legends-account/"
+                    <a onClick={() => setModalShow(true)} 
+                      href="#" id="/dragon-ball-legends-account/"
                       className="align-self-baseline gameindex-txt"
                     >
                       Accounts
                     </a>
-                    <a
-                      href="/dragon-ball-legends-power-leveling/"
+                    <a onClick={() => setModalShow(true)} 
+                      href="#" id="/dragon-ball-legends-power-leveling/"
                       className="align-self-baseline gameindex-txt"
                     >
                       Power leveling
@@ -3537,33 +3540,33 @@ const GameIndex = () => {
                 </li>
                 <li className="col-lg-3 col-md-3 col-sm-12 col-xs-12 content-item fl">
                   <div className="flex flex-column">
-                    <a
-                      href="/dragon-nest-marketplace/"
+                    <a onClick={() => setModalShow(true)} 
+                      href="#" id="/dragon-nest-marketplace/"
                       className="align-self-baseline"
                       title="Dragon Nest"
                     >
                       Dragon Nest
                     </a>
-                    <a
-                      href="/dragon-nest-gold/"
+                    <a onClick={() => setModalShow(true)} 
+                      href="#" id="/dragon-nest-gold/"
                       className="align-self-baseline gameindex-txt"
                     >
                       Gold
                     </a>
-                    <a
-                      href="/dragon-nest-items/"
+                    <a onClick={() => setModalShow(true)} 
+                      href="#" id="/dragon-nest-items/"
                       className="align-self-baseline gameindex-txt"
                     >
                       Items
                     </a>
-                    <a
-                      href="/dragon-nest-account/"
+                    <a onClick={() => setModalShow(true)} 
+                      href="#" id="/dragon-nest-account/"
                       className="align-self-baseline gameindex-txt"
                     >
                       Accounts
                     </a>
-                    <a
-                      href="/dragon-nest-power-leveling/"
+                    <a onClick={() => setModalShow(true)} 
+                      href="#" id="/dragon-nest-power-leveling/"
                       className="align-self-baseline gameindex-txt"
                     >
                       Power leveling
@@ -3572,21 +3575,21 @@ const GameIndex = () => {
                 </li>
                 <li className="col-lg-3 col-md-3 col-sm-12 col-xs-12 content-item fl">
                   <div className="flex flex-column">
-                    <a
-                      href="/dragon-raja-marketplace/"
+                    <a onClick={() => setModalShow(true)} 
+                      href="#" id="/dragon-raja-marketplace/"
                       className="align-self-baseline"
                       title="Dragon Raja"
                     >
                       Dragon Raja
                     </a>
-                    <a
-                      href="/dragon-raja-account/"
+                    <a onClick={() => setModalShow(true)} 
+                      href="#" id="/dragon-raja-account/"
                       className="align-self-baseline gameindex-txt"
                     >
                       Accounts
                     </a>
-                    <a
-                      href="/dragon-raja-power-leveling/"
+                    <a onClick={() => setModalShow(true)} 
+                      href="#" id="/dragon-raja-power-leveling/"
                       className="align-self-baseline gameindex-txt"
                     >
                       Power leveling
@@ -3595,33 +3598,33 @@ const GameIndex = () => {
                 </li>
                 <li className="col-lg-3 col-md-3 col-sm-12 col-xs-12 content-item fl">
                   <div className="flex flex-column">
-                    <a
-                      href="/dual-universe-marketplace/"
+                    <a onClick={() => setModalShow(true)} 
+                      href="#" id="/dual-universe-marketplace/"
                       className="align-self-baseline"
                       title="Dual Universe"
                     >
                       Dual Universe
                     </a>
-                    <a
-                      href="/dual-universe-quanta/"
+                    <a onClick={() => setModalShow(true)} 
+                      href="#" id="/dual-universe-quanta/"
                       className="align-self-baseline gameindex-txt"
                     >
                       Quanta
                     </a>
-                    <a
-                      href="/dual-universe-items/"
+                    <a onClick={() => setModalShow(true)} 
+                      href="#" id="/dual-universe-items/"
                       className="align-self-baseline gameindex-txt"
                     >
                       Items
                     </a>
-                    <a
-                      href="/dual-universe-account/"
+                    <a onClick={() => setModalShow(true)} 
+                      href="#" id="/dual-universe-account/"
                       className="align-self-baseline gameindex-txt"
                     >
                       Accounts
                     </a>
-                    <a
-                      href="/dual-universe-power-leveling/"
+                    <a onClick={() => setModalShow(true)} 
+                      href="#" id="/dual-universe-power-leveling/"
                       className="align-self-baseline gameindex-txt"
                     >
                       Power leveling
@@ -3630,33 +3633,33 @@ const GameIndex = () => {
                 </li>
                 <li className="col-lg-3 col-md-3 col-sm-12 col-xs-12 content-item fl">
                   <div className="flex flex-column">
-                    <a
-                      href="/dfo-marketplace/"
+                    <a onClick={() => setModalShow(true)} 
+                      href="#" id="/dfo-marketplace/"
                       className="align-self-baseline"
                       title="Dungeon Fighter Online"
                     >
                       Dungeon Fighter Online
                     </a>
-                    <a
-                      href="/dfo-gold/"
+                    <a onClick={() => setModalShow(true)} 
+                      href="#" id="/dfo-gold/"
                       className="align-self-baseline gameindex-txt"
                     >
                       Gold
                     </a>
-                    <a
-                      href="/dfo-items/"
+                    <a onClick={() => setModalShow(true)} 
+                      href="#" id="/dfo-items/"
                       className="align-self-baseline gameindex-txt"
                     >
                       Items
                     </a>
-                    <a
-                      href="/dfo-account/"
+                    <a onClick={() => setModalShow(true)} 
+                      href="#" id="/dfo-account/"
                       className="align-self-baseline gameindex-txt"
                     >
                       Accounts
                     </a>
-                    <a
-                      href="/dfo-power-leveling/"
+                    <a onClick={() => setModalShow(true)} 
+                      href="#" id="/dfo-power-leveling/"
                       className="align-self-baseline gameindex-txt"
                     >
                       Power leveling
@@ -3665,33 +3668,33 @@ const GameIndex = () => {
                 </li>
                 <li className="col-lg-3 col-md-3 col-sm-12 col-xs-12 content-item fl">
                   <div className="flex flex-column">
-                    <a
-                      href="/ddo-marketplace/"
+                    <a onClick={() => setModalShow(true)} 
+                      href="#" id="/ddo-marketplace/"
                       className="align-self-baseline"
                       title="Dungeons and Dragons"
                     >
                       Dungeons and Dragons
                     </a>
-                    <a
-                      href="/ddo-platinum/"
+                    <a onClick={() => setModalShow(true)} 
+                      href="#" id="/ddo-platinum/"
                       className="align-self-baseline gameindex-txt"
                     >
                       Platinum
                     </a>
-                    <a
-                      href="/ddo-items/"
+                    <a onClick={() => setModalShow(true)} 
+                      href="#" id="/ddo-items/"
                       className="align-self-baseline gameindex-txt"
                     >
                       Items
                     </a>
-                    <a
-                      href="/ddo-account/"
+                    <a onClick={() => setModalShow(true)} 
+                      href="#" id="/ddo-account/"
                       className="align-self-baseline gameindex-txt"
                     >
                       Accounts
                     </a>
-                    <a
-                      href="/ddo-power-leveling/"
+                    <a onClick={() => setModalShow(true)} 
+                      href="#" id="/ddo-power-leveling/"
                       className="align-self-baseline gameindex-txt"
                     >
                       Power leveling
@@ -3702,7 +3705,7 @@ const GameIndex = () => {
             </div>
             <div
               className="content-box slide-xs-content-box gameindex-box clearfix row no-gutters"
-              id="gameindex_E"
+              href="#" id="gameindex_E"
             >
               <div className="content-box-title col-lg-1 game-index-align-center">
                 <div className="index-Initials fl">E</div>
@@ -3713,21 +3716,21 @@ const GameIndex = () => {
               <ul className="row col-lg-11 no-gutters content-box-body">
                 <li className="col-lg-3 col-md-3 col-sm-12 col-xs-12 content-item fl">
                   <div className="flex flex-column">
-                    <a
-                      href="/efootball-pes-marketplace/"
+                    <a onClick={() => setModalShow(true)} 
+                      href="#" id="/efootball-pes-marketplace/"
                       className="align-self-baseline"
                       title="eFootball PES"
                     >
                       eFootball PES
                     </a>
-                    <a
-                      href="/efootball-pes-account/"
+                    <a onClick={() => setModalShow(true)} 
+                      href="#" id="/efootball-pes-account/"
                       className="align-self-baseline gameindex-txt"
                     >
                       Accounts
                     </a>
-                    <a
-                      href="/efootball-pes-power-leveling/"
+                    <a onClick={() => setModalShow(true)} 
+                      href="#" id="/efootball-pes-power-leveling/"
                       className="align-self-baseline gameindex-txt"
                     >
                       Power leveling
@@ -3736,33 +3739,33 @@ const GameIndex = () => {
                 </li>
                 <li className="col-lg-3 col-md-3 col-sm-12 col-xs-12 content-item fl">
                   <div className="flex flex-column">
-                    <a
-                      href="/elden-ring-marketplace/"
+                    <a onClick={() => setModalShow(true)} 
+                      href="#" id="/elden-ring-marketplace/"
                       className="align-self-baseline"
                       title="Elden Ring"
                     >
                       Elden Ring
                     </a>
-                    <a
-                      href="/elden-ring-runes/"
+                    <a onClick={() => setModalShow(true)} 
+                      href="#" id="/elden-ring-runes/"
                       className="align-self-baseline gameindex-txt"
                     >
                       Runes
                     </a>
-                    <a
-                      href="/elden-ring-items/"
+                    <a onClick={() => setModalShow(true)} 
+                      href="#" id="/elden-ring-items/"
                       className="align-self-baseline gameindex-txt"
                     >
                       Items
                     </a>
-                    <a
-                      href="/elden-ring-account/"
+                    <a onClick={() => setModalShow(true)} 
+                      href="#" id="/elden-ring-account/"
                       className="align-self-baseline gameindex-txt"
                     >
                       Accounts
                     </a>
-                    <a
-                      href="/elden-ring-power-leveling/"
+                    <a onClick={() => setModalShow(true)} 
+                      href="#" id="/elden-ring-power-leveling/"
                       className="align-self-baseline gameindex-txt"
                     >
                       Power leveling
@@ -3771,33 +3774,33 @@ const GameIndex = () => {
                 </li>
                 <li className="col-lg-3 col-md-3 col-sm-12 col-xs-12 content-item fl">
                   <div className="flex flex-column">
-                    <a
-                      href="/elder-scrolls-online-marketplace/"
+                    <a onClick={() => setModalShow(true)} 
+                      href="#" id="/elder-scrolls-online-marketplace/"
                       className="align-self-baseline"
                       title="Elder Scrolls Online"
                     >
                       Elder Scrolls Online
                     </a>
-                    <a
-                      href="/elder-scrolls-online-gold/"
+                    <a onClick={() => setModalShow(true)} 
+                      href="#" id="/elder-scrolls-online-gold/"
                       className="align-self-baseline gameindex-txt"
                     >
                       Gold
                     </a>
-                    <a
-                      href="/elder-scrolls-online-items/"
+                    <a onClick={() => setModalShow(true)} 
+                      href="#" id="/elder-scrolls-online-items/"
                       className="align-self-baseline gameindex-txt"
                     >
                       Items
                     </a>
-                    <a
-                      href="/elder-scrolls-online-account/"
+                    <a onClick={() => setModalShow(true)} 
+                      href="#" id="/elder-scrolls-online-account/"
                       className="align-self-baseline gameindex-txt"
                     >
                       Accounts
                     </a>
-                    <a
-                      href="/elder-scrolls-online-power-leveling/"
+                    <a onClick={() => setModalShow(true)} 
+                      href="#" id="/elder-scrolls-online-power-leveling/"
                       className="align-self-baseline gameindex-txt"
                     >
                       Power leveling
@@ -3806,33 +3809,33 @@ const GameIndex = () => {
                 </li>
                 <li className="col-lg-3 col-md-3 col-sm-12 col-xs-12 content-item fl">
                   <div className="flex flex-column">
-                    <a
-                      href="/elite-dangerous-marketplace/"
+                    <a onClick={() => setModalShow(true)} 
+                      href="#" id="/elite-dangerous-marketplace/"
                       className="align-self-baseline"
                       title="Elite:Dangerous"
                     >
                       Elite:Dangerous
                     </a>
-                    <a
-                      href="/elite-dangerous-credit/"
+                    <a onClick={() => setModalShow(true)} 
+                      href="#" id="/elite-dangerous-credit/"
                       className="align-self-baseline gameindex-txt"
                     >
                       Credit
                     </a>
-                    <a
-                      href="/elite-dangerous-items/"
+                    <a onClick={() => setModalShow(true)} 
+                      href="#" id="/elite-dangerous-items/"
                       className="align-self-baseline gameindex-txt"
                     >
                       Items
                     </a>
-                    <a
-                      href="/elite-dangerous-account/"
+                    <a onClick={() => setModalShow(true)} 
+                      href="#" id="/elite-dangerous-account/"
                       className="align-self-baseline gameindex-txt"
                     >
                       Accounts
                     </a>
-                    <a
-                      href="/elite-dangerous-power-leveling/"
+                    <a onClick={() => setModalShow(true)} 
+                      href="#" id="/elite-dangerous-power-leveling/"
                       className="align-self-baseline gameindex-txt"
                     >
                       Power leveling
@@ -3841,33 +3844,33 @@ const GameIndex = () => {
                 </li>
                 <li className="col-lg-3 col-md-3 col-sm-12 col-xs-12 content-item fl">
                   <div className="flex flex-column">
-                    <a
-                      href="/elsword-online-marketplace/"
+                    <a onClick={() => setModalShow(true)} 
+                      href="#" id="/elsword-online-marketplace/"
                       className="align-self-baseline"
                       title="Elsword Online"
                     >
                       Elsword Online
                     </a>
-                    <a
-                      href="/elsword-online-ed/"
+                    <a onClick={() => setModalShow(true)} 
+                      href="#" id="/elsword-online-ed/"
                       className="align-self-baseline gameindex-txt"
                     >
                       ED
                     </a>
-                    <a
-                      href="/elsword-online-items/"
+                    <a onClick={() => setModalShow(true)} 
+                      href="#" id="/elsword-online-items/"
                       className="align-self-baseline gameindex-txt"
                     >
                       Items
                     </a>
-                    <a
-                      href="/elsword-online-account/"
+                    <a onClick={() => setModalShow(true)} 
+                      href="#" id="/elsword-online-account/"
                       className="align-self-baseline gameindex-txt"
                     >
                       Accounts
                     </a>
-                    <a
-                      href="/elsword-online-power-leveling/"
+                    <a onClick={() => setModalShow(true)} 
+                      href="#" id="/elsword-online-power-leveling/"
                       className="align-self-baseline gameindex-txt"
                     >
                       Power leveling
@@ -3876,27 +3879,27 @@ const GameIndex = () => {
                 </li>
                 <li className="col-lg-3 col-md-3 col-sm-12 col-xs-12 content-item fl">
                   <div className="flex flex-column">
-                    <a
-                      href="/elyon-marketplace/"
+                    <a onClick={() => setModalShow(true)} 
+                      href="#" id="/elyon-marketplace/"
                       className="align-self-baseline"
                       title="Elyon: Ascent Infinite Realm"
                     >
                       Elyon: Ascent Infinite Realm
                     </a>
-                    <a
-                      href="/elyon-gold/"
+                    <a onClick={() => setModalShow(true)} 
+                      href="#" id="/elyon-gold/"
                       className="align-self-baseline gameindex-txt"
                     >
                       Gold
                     </a>
-                    <a
-                      href="/elyon-account/"
+                    <a onClick={() => setModalShow(true)} 
+                      href="#" id="/elyon-account/"
                       className="align-self-baseline gameindex-txt"
                     >
                       Accounts
                     </a>
-                    <a
-                      href="/elyon-power-leveling/"
+                    <a onClick={() => setModalShow(true)} 
+                      href="#" id="/elyon-power-leveling/"
                       className="align-self-baseline gameindex-txt"
                     >
                       Power leveling
@@ -3905,21 +3908,21 @@ const GameIndex = () => {
                 </li>
                 <li className="col-lg-3 col-md-3 col-sm-12 col-xs-12 content-item fl">
                   <div className="flex flex-column">
-                    <a
-                      href="/empires-and-puzzles-marketplace/"
+                    <a onClick={() => setModalShow(true)} 
+                      href="#" id="/empires-and-puzzles-marketplace/"
                       className="align-self-baseline"
                       title="Empires and Puzzles"
                     >
                       Empires and Puzzles
                     </a>
-                    <a
-                      href="/empires-and-puzzles-account/"
+                    <a onClick={() => setModalShow(true)} 
+                      href="#" id="/empires-and-puzzles-account/"
                       className="align-self-baseline gameindex-txt"
                     >
                       Accounts
                     </a>
-                    <a
-                      href="/empires-and-puzzles-power-leveling/"
+                    <a onClick={() => setModalShow(true)} 
+                      href="#" id="/empires-and-puzzles-power-leveling/"
                       className="align-self-baseline gameindex-txt"
                     >
                       Power leveling
@@ -3928,21 +3931,21 @@ const GameIndex = () => {
                 </li>
                 <li className="col-lg-3 col-md-3 col-sm-12 col-xs-12 content-item fl">
                   <div className="flex flex-column">
-                    <a
-                      href="/enlisted-marketplace/"
+                    <a onClick={() => setModalShow(true)} 
+                      href="#" id="/enlisted-marketplace/"
                       className="align-self-baseline"
                       title="Enlisted"
                     >
                       Enlisted
                     </a>
-                    <a
-                      href="/enlisted-account/"
+                    <a onClick={() => setModalShow(true)} 
+                      href="#" id="/enlisted-account/"
                       className="align-self-baseline gameindex-txt"
                     >
                       Accounts
                     </a>
-                    <a
-                      href="/enlisted-power-leveling/"
+                    <a onClick={() => setModalShow(true)} 
+                      href="#" id="/enlisted-power-leveling/"
                       className="align-self-baseline gameindex-txt"
                     >
                       Power leveling
@@ -3951,15 +3954,15 @@ const GameIndex = () => {
                 </li>
                 <li className="col-lg-3 col-md-3 col-sm-12 col-xs-12 content-item fl">
                   <div className="flex flex-column">
-                    <a
-                      href="/epic-games-marketplace/"
+                    <a onClick={() => setModalShow(true)} 
+                      href="#" id="/epic-games-marketplace/"
                       className="align-self-baseline"
                       title="Epic Games"
                     >
                       Epic Games
                     </a>
-                    <a
-                      href="/epic-games-account/"
+                    <a onClick={() => setModalShow(true)} 
+                      href="#" id="/epic-games-account/"
                       className="align-self-baseline gameindex-txt"
                     >
                       Accounts
@@ -3968,21 +3971,21 @@ const GameIndex = () => {
                 </li>
                 <li className="col-lg-3 col-md-3 col-sm-12 col-xs-12 content-item fl">
                   <div className="flex flex-column">
-                    <a
-                      href="/epic-seven-marketplace/"
+                    <a onClick={() => setModalShow(true)} 
+                      href="#" id="/epic-seven-marketplace/"
                       className="align-self-baseline"
                       title="Epic Seven"
                     >
                       Epic Seven
                     </a>
-                    <a
-                      href="/epic-seven-account/"
+                    <a onClick={() => setModalShow(true)} 
+                      href="#" id="/epic-seven-account/"
                       className="align-self-baseline gameindex-txt"
                     >
                       Accounts
                     </a>
-                    <a
-                      href="/epic-seven-power-leveling/"
+                    <a onClick={() => setModalShow(true)} 
+                      href="#" id="/epic-seven-power-leveling/"
                       className="align-self-baseline gameindex-txt"
                     >
                       Power leveling
@@ -3991,33 +3994,33 @@ const GameIndex = () => {
                 </li>
                 <li className="col-lg-3 col-md-3 col-sm-12 col-xs-12 content-item fl">
                   <div className="flex flex-column">
-                    <a
-                      href="/escape-from-tarkov-marketplace/"
+                    <a onClick={() => setModalShow(true)} 
+                      href="#" id="/escape-from-tarkov-marketplace/"
                       className="align-self-baseline"
                       title="Escape From Tarkov"
                     >
                       Escape From Tarkov
                     </a>
-                    <a
-                      href="/escape-from-tarkov-roubles/"
+                    <a onClick={() => setModalShow(true)} 
+                      href="#" id="/escape-from-tarkov-roubles/"
                       className="align-self-baseline gameindex-txt"
                     >
                       Roubles
                     </a>
-                    <a
-                      href="/escape-from-tarkov-items/"
+                    <a onClick={() => setModalShow(true)} 
+                      href="#" id="/escape-from-tarkov-items/"
                       className="align-self-baseline gameindex-txt"
                     >
                       Items
                     </a>
-                    <a
-                      href="/escape-from-tarkov-account/"
+                    <a onClick={() => setModalShow(true)} 
+                      href="#" id="/escape-from-tarkov-account/"
                       className="align-self-baseline gameindex-txt"
                     >
                       Accounts
                     </a>
-                    <a
-                      href="/escape-from-tarkov-power-leveling/"
+                    <a onClick={() => setModalShow(true)} 
+                      href="#" id="/escape-from-tarkov-power-leveling/"
                       className="align-self-baseline gameindex-txt"
                     >
                       Power leveling
@@ -4026,33 +4029,33 @@ const GameIndex = () => {
                 </li>
                 <li className="col-lg-3 col-md-3 col-sm-12 col-xs-12 content-item fl">
                   <div className="flex flex-column">
-                    <a
-                      href="/eve-echoes-marketplace/"
+                    <a onClick={() => setModalShow(true)} 
+                      href="#" id="/eve-echoes-marketplace/"
                       className="align-self-baseline"
                       title="EVE Echoes"
                     >
                       EVE Echoes
                     </a>
-                    <a
-                      href="/eve-echoes-isk/"
+                    <a onClick={() => setModalShow(true)} 
+                      href="#" id="/eve-echoes-isk/"
                       className="align-self-baseline gameindex-txt"
                     >
                       ISK
                     </a>
-                    <a
-                      href="/eve-echoes-items/"
+                    <a onClick={() => setModalShow(true)} 
+                      href="#" id="/eve-echoes-items/"
                       className="align-self-baseline gameindex-txt"
                     >
                       Items
                     </a>
-                    <a
-                      href="/eve-echoes-account/"
+                    <a onClick={() => setModalShow(true)} 
+                      href="#" id="/eve-echoes-account/"
                       className="align-self-baseline gameindex-txt"
                     >
                       Accounts
                     </a>
-                    <a
-                      href="/eve-echoes-power-leveling/"
+                    <a onClick={() => setModalShow(true)} 
+                      href="#" id="/eve-echoes-power-leveling/"
                       className="align-self-baseline gameindex-txt"
                     >
                       Power leveling
@@ -4061,33 +4064,33 @@ const GameIndex = () => {
                 </li>
                 <li className="col-lg-3 col-md-3 col-sm-12 col-xs-12 content-item fl">
                   <div className="flex flex-column">
-                    <a
-                      href="/eve-marketplace/"
+                    <a onClick={() => setModalShow(true)} 
+                      href="#" id="/eve-marketplace/"
                       className="align-self-baseline"
                       title="EVE Online"
                     >
                       EVE Online
                     </a>
-                    <a
-                      href="/eve-isk/"
+                    <a onClick={() => setModalShow(true)} 
+                      href="#" id="/eve-isk/"
                       className="align-self-baseline gameindex-txt"
                     >
                       ISK
                     </a>
-                    <a
-                      href="/eve-items/"
+                    <a onClick={() => setModalShow(true)} 
+                      href="#" id="/eve-items/"
                       className="align-self-baseline gameindex-txt"
                     >
                       Items
                     </a>
-                    <a
-                      href="/eve-account/"
+                    <a onClick={() => setModalShow(true)} 
+                      href="#" id="/eve-account/"
                       className="align-self-baseline gameindex-txt"
                     >
                       Accounts
                     </a>
-                    <a
-                      href="/eve-power-leveling/"
+                    <a onClick={() => setModalShow(true)} 
+                      href="#" id="/eve-power-leveling/"
                       className="align-self-baseline gameindex-txt"
                     >
                       Power leveling
@@ -4096,33 +4099,33 @@ const GameIndex = () => {
                 </li>
                 <li className="col-lg-3 col-md-3 col-sm-12 col-xs-12 content-item fl">
                   <div className="flex flex-column">
-                    <a
-                      href="/everquest-marketplace/"
+                    <a onClick={() => setModalShow(true)} 
+                      href="#" id="/everquest-marketplace/"
                       className="align-self-baseline"
                       title="EverQuest"
                     >
                       EverQuest
                     </a>
-                    <a
-                      href="/everquest-plat/"
+                    <a onClick={() => setModalShow(true)} 
+                      href="#" id="/everquest-plat/"
                       className="align-self-baseline gameindex-txt"
                     >
                       Plat
                     </a>
-                    <a
-                      href="/everquest-items/"
+                    <a onClick={() => setModalShow(true)} 
+                      href="#" id="/everquest-items/"
                       className="align-self-baseline gameindex-txt"
                     >
                       Items
                     </a>
-                    <a
-                      href="/everquest-account/"
+                    <a onClick={() => setModalShow(true)} 
+                      href="#" id="/everquest-account/"
                       className="align-self-baseline gameindex-txt"
                     >
                       Accounts
                     </a>
-                    <a
-                      href="/everquest-power-leveling/"
+                    <a onClick={() => setModalShow(true)} 
+                      href="#" id="/everquest-power-leveling/"
                       className="align-self-baseline gameindex-txt"
                     >
                       Power leveling
@@ -4131,33 +4134,33 @@ const GameIndex = () => {
                 </li>
                 <li className="col-lg-3 col-md-3 col-sm-12 col-xs-12 content-item fl">
                   <div className="flex flex-column">
-                    <a
-                      href="/eq2-marketplace/"
+                    <a onClick={() => setModalShow(true)} 
+                      href="#" id="/eq2-marketplace/"
                       className="align-self-baseline"
                       title="EverQuest II"
                     >
                       EverQuest II
                     </a>
-                    <a
-                      href="/eq2-platinum/"
+                    <a onClick={() => setModalShow(true)} 
+                      href="#" id="/eq2-platinum/"
                       className="align-self-baseline gameindex-txt"
                     >
                       Platinum
                     </a>
-                    <a
-                      href="/eq2-items/"
+                    <a onClick={() => setModalShow(true)} 
+                      href="#" id="/eq2-items/"
                       className="align-self-baseline gameindex-txt"
                     >
                       Items
                     </a>
-                    <a
-                      href="/eq2-account/"
+                    <a onClick={() => setModalShow(true)} 
+                      href="#" id="/eq2-account/"
                       className="align-self-baseline gameindex-txt"
                     >
                       Accounts
                     </a>
-                    <a
-                      href="/eq2-power-leveling/"
+                    <a onClick={() => setModalShow(true)} 
+                      href="#" id="/eq2-power-leveling/"
                       className="align-self-baseline gameindex-txt"
                     >
                       Power leveling
@@ -4168,7 +4171,7 @@ const GameIndex = () => {
             </div>
             <div
               className="content-box slide-xs-content-box gameindex-box clearfix row no-gutters"
-              id="gameindex_F"
+              href="#" id="gameindex_F"
             >
               <div className="content-box-title col-lg-1 game-index-align-center">
                 <div className="index-Initials fl">F</div>
@@ -4179,21 +4182,21 @@ const GameIndex = () => {
               <ul className="row col-lg-11 no-gutters content-box-body">
                 <li className="col-lg-3 col-md-3 col-sm-12 col-xs-12 content-item fl">
                   <div className="flex flex-column">
-                    <a
-                      href="/fall-guys-marketplace/"
+                    <a onClick={() => setModalShow(true)} 
+                      href="#" id="/fall-guys-marketplace/"
                       className="align-self-baseline"
                       title="Fall Guys: Ultimate Knockout"
                     >
                       Fall Guys: Ultimate Knockout
                     </a>
-                    <a
-                      href="/fall-guys-kudos/"
+                    <a onClick={() => setModalShow(true)} 
+                      href="#" id="/fall-guys-kudos/"
                       className="align-self-baseline gameindex-txt"
                     >
                       Kudos
                     </a>
-                    <a
-                      href="/fall-guys-account/"
+                    <a onClick={() => setModalShow(true)} 
+                      href="#" id="/fall-guys-account/"
                       className="align-self-baseline gameindex-txt"
                     >
                       Accounts
@@ -4202,33 +4205,33 @@ const GameIndex = () => {
                 </li>
                 <li className="col-lg-3 col-md-3 col-sm-12 col-xs-12 content-item fl">
                   <div className="flex flex-column">
-                    <a
-                      href="/fallout-76-marketplace/"
+                    <a onClick={() => setModalShow(true)} 
+                      href="#" id="/fallout-76-marketplace/"
                       className="align-self-baseline"
                       title="Fallout 76"
                     >
                       Fallout 76
                     </a>
-                    <a
-                      href="/fallout-76-caps/"
+                    <a onClick={() => setModalShow(true)} 
+                      href="#" id="/fallout-76-caps/"
                       className="align-self-baseline gameindex-txt"
                     >
                       Caps
                     </a>
-                    <a
-                      href="/fallout-76-items/"
+                    <a onClick={() => setModalShow(true)} 
+                      href="#" id="/fallout-76-items/"
                       className="align-self-baseline gameindex-txt"
                     >
                       Items
                     </a>
-                    <a
-                      href="/fallout-76-account/"
+                    <a onClick={() => setModalShow(true)} 
+                      href="#" id="/fallout-76-account/"
                       className="align-self-baseline gameindex-txt"
                     >
                       Accounts
                     </a>
-                    <a
-                      href="/fallout-76-power-leveling/"
+                    <a onClick={() => setModalShow(true)} 
+                      href="#" id="/fallout-76-power-leveling/"
                       className="align-self-baseline gameindex-txt"
                     >
                       Power leveling
@@ -4237,21 +4240,21 @@ const GameIndex = () => {
                 </li>
                 <li className="col-lg-3 col-md-3 col-sm-12 col-xs-12 content-item fl">
                   <div className="flex flex-column">
-                    <a
-                      href="/fate-grand-order-marketplace/"
+                    <a onClick={() => setModalShow(true)} 
+                      href="#" id="/fate-grand-order-marketplace/"
                       className="align-self-baseline"
                       title="Fate Grand Order"
                     >
                       Fate Grand Order
                     </a>
-                    <a
-                      href="/fate-grand-order-account/"
+                    <a onClick={() => setModalShow(true)} 
+                      href="#" id="/fate-grand-order-account/"
                       className="align-self-baseline gameindex-txt"
                     >
                       Accounts
                     </a>
-                    <a
-                      href="/fate-grand-order-power-leveling/"
+                    <a onClick={() => setModalShow(true)} 
+                      href="#" id="/fate-grand-order-power-leveling/"
                       className="align-self-baseline gameindex-txt"
                     >
                       Power leveling
@@ -4260,27 +4263,27 @@ const GameIndex = () => {
                 </li>
                 <li className="col-lg-3 col-md-3 col-sm-12 col-xs-12 content-item fl">
                   <div className="flex flex-column">
-                    <a
-                      href="/fifa-mobile-marketplace/"
+                    <a onClick={() => setModalShow(true)} 
+                      href="#" id="/fifa-mobile-marketplace/"
                       className="align-self-baseline"
                       title="FIFA Mobile"
                     >
                       FIFA Mobile
                     </a>
-                    <a
-                      href="/fifa-mobile-coins/"
+                    <a onClick={() => setModalShow(true)} 
+                      href="#" id="/fifa-mobile-coins/"
                       className="align-self-baseline gameindex-txt"
                     >
                       Coins
                     </a>
-                    <a
-                      href="/fifa-mobile-account/"
+                    <a onClick={() => setModalShow(true)} 
+                      href="#" id="/fifa-mobile-account/"
                       className="align-self-baseline gameindex-txt"
                     >
                       Accounts
                     </a>
-                    <a
-                      href="/fifa-mobile-power-leveling/"
+                    <a onClick={() => setModalShow(true)} 
+                      href="#" id="/fifa-mobile-power-leveling/"
                       className="align-self-baseline gameindex-txt"
                     >
                       Power leveling
@@ -4289,27 +4292,27 @@ const GameIndex = () => {
                 </li>
                 <li className="col-lg-3 col-md-3 col-sm-12 col-xs-12 content-item fl">
                   <div className="flex flex-column">
-                    <a
-                      href="/fifa-marketplace/"
+                    <a onClick={() => setModalShow(true)} 
+                      href="#" id="/fifa-marketplace/"
                       className="align-self-baseline"
                       title="FIFA Ultimate Team"
                     >
                       FIFA Ultimate Team
                     </a>
-                    <a
-                      href="/fifa-coins/"
+                    <a onClick={() => setModalShow(true)} 
+                      href="#" id="/fifa-coins/"
                       className="align-self-baseline gameindex-txt"
                     >
                       Coins
                     </a>
-                    <a
-                      href="/fifa-account/"
+                    <a onClick={() => setModalShow(true)} 
+                      href="#" id="/fifa-account/"
                       className="align-self-baseline gameindex-txt"
                     >
                       Accounts
                     </a>
-                    <a
-                      href="/fifa-power-leveling/"
+                    <a onClick={() => setModalShow(true)} 
+                      href="#" id="/fifa-power-leveling/"
                       className="align-self-baseline gameindex-txt"
                     >
                       Power leveling
@@ -4318,33 +4321,33 @@ const GameIndex = () => {
                 </li>
                 <li className="col-lg-3 col-md-3 col-sm-12 col-xs-12 content-item fl">
                   <div className="flex flex-column">
-                    <a
-                      href="/ffxi-marketplace/"
+                    <a onClick={() => setModalShow(true)} 
+                      href="#" id="/ffxi-marketplace/"
                       className="align-self-baseline"
                       title="Final Fantasy XI"
                     >
                       Final Fantasy XI
                     </a>
-                    <a
-                      href="/ffxi-gil/"
+                    <a onClick={() => setModalShow(true)} 
+                      href="#" id="/ffxi-gil/"
                       className="align-self-baseline gameindex-txt"
                     >
                       Gil
                     </a>
-                    <a
-                      href="/ffxi-items/"
+                    <a onClick={() => setModalShow(true)} 
+                      href="#" id="/ffxi-items/"
                       className="align-self-baseline gameindex-txt"
                     >
                       Items
                     </a>
-                    <a
-                      href="/ffxi-account/"
+                    <a onClick={() => setModalShow(true)} 
+                      href="#" id="/ffxi-account/"
                       className="align-self-baseline gameindex-txt"
                     >
                       Accounts
                     </a>
-                    <a
-                      href="/ffxi-power-leveling/"
+                    <a onClick={() => setModalShow(true)} 
+                      href="#" id="/ffxi-power-leveling/"
                       className="align-self-baseline gameindex-txt"
                     >
                       Power leveling
@@ -4353,33 +4356,33 @@ const GameIndex = () => {
                 </li>
                 <li className="col-lg-3 col-md-3 col-sm-12 col-xs-12 content-item fl">
                   <div className="flex flex-column">
-                    <a
-                      href="/ffxiv-marketplace/"
+                    <a onClick={() => setModalShow(true)} 
+                      href="#" id="/ffxiv-marketplace/"
                       className="align-self-baseline"
                       title="Final Fantasy XIV"
                     >
                       Final Fantasy XIV
                     </a>
-                    <a
-                      href="/ffxiv-gil/"
+                    <a onClick={() => setModalShow(true)} 
+                      href="#" id="/ffxiv-gil/"
                       className="align-self-baseline gameindex-txt"
                     >
                       Gil
                     </a>
-                    <a
-                      href="/ffxiv-items/"
+                    <a onClick={() => setModalShow(true)} 
+                      href="#" id="/ffxiv-items/"
                       className="align-self-baseline gameindex-txt"
                     >
                       Items
                     </a>
-                    <a
-                      href="/ffxiv-account/"
+                    <a onClick={() => setModalShow(true)} 
+                      href="#" id="/ffxiv-account/"
                       className="align-self-baseline gameindex-txt"
                     >
                       Accounts
                     </a>
-                    <a
-                      href="/ffxiv-power-leveling/"
+                    <a onClick={() => setModalShow(true)} 
+                      href="#" id="/ffxiv-power-leveling/"
                       className="align-self-baseline gameindex-txt"
                     >
                       Power leveling
@@ -4388,21 +4391,21 @@ const GameIndex = () => {
                 </li>
                 <li className="col-lg-3 col-md-3 col-sm-12 col-xs-12 content-item fl">
                   <div className="flex flex-column">
-                    <a
-                      href="/ffxv-new-empire-marketplace/"
+                    <a onClick={() => setModalShow(true)} 
+                      href="#" id="/ffxv-new-empire-marketplace/"
                       className="align-self-baseline"
                       title="Final Fantasy XV: A New Empire"
                     >
                       Final Fantasy XV: A New Empire
                     </a>
-                    <a
-                      href="/ffxv-new-empire-account/"
+                    <a onClick={() => setModalShow(true)} 
+                      href="#" id="/ffxv-new-empire-account/"
                       className="align-self-baseline gameindex-txt"
                     >
                       Accounts
                     </a>
-                    <a
-                      href="/ffxv-new-empire-power-leveling/"
+                    <a onClick={() => setModalShow(true)} 
+                      href="#" id="/ffxv-new-empire-power-leveling/"
                       className="align-self-baseline gameindex-txt"
                     >
                       Power leveling
@@ -4411,21 +4414,21 @@ const GameIndex = () => {
                 </li>
                 <li className="col-lg-3 col-md-3 col-sm-12 col-xs-12 content-item fl">
                   <div className="flex flex-column">
-                    <a
-                      href="/fire-emblem-heroes-marketplace/"
+                    <a onClick={() => setModalShow(true)} 
+                      href="#" id="/fire-emblem-heroes-marketplace/"
                       className="align-self-baseline"
                       title="Fire Emblem Heroes"
                     >
                       Fire Emblem Heroes
                     </a>
-                    <a
-                      href="/fire-emblem-heroes-account/"
+                    <a onClick={() => setModalShow(true)} 
+                      href="#" id="/fire-emblem-heroes-account/"
                       className="align-self-baseline gameindex-txt"
                     >
                       Accounts
                     </a>
-                    <a
-                      href="/fire-emblem-heroes-power-leveling/"
+                    <a onClick={() => setModalShow(true)} 
+                      href="#" id="/fire-emblem-heroes-power-leveling/"
                       className="align-self-baseline gameindex-txt"
                     >
                       Power leveling
@@ -4434,33 +4437,33 @@ const GameIndex = () => {
                 </li>
                 <li className="col-lg-3 col-md-3 col-sm-12 col-xs-12 content-item fl">
                   <div className="flex flex-column">
-                    <a
-                      href="/flyff-universe-marketplace/"
+                    <a onClick={() => setModalShow(true)} 
+                      href="#" id="/flyff-universe-marketplace/"
                       className="align-self-baseline"
                       title="FlyFF Universe"
                     >
                       FlyFF Universe
                     </a>
-                    <a
-                      href="/flyff-universe-penya/"
+                    <a onClick={() => setModalShow(true)} 
+                      href="#" id="/flyff-universe-penya/"
                       className="align-self-baseline gameindex-txt"
                     >
                       Penya
                     </a>
-                    <a
-                      href="/flyff-universe-items/"
+                    <a onClick={() => setModalShow(true)} 
+                      href="#" id="/flyff-universe-items/"
                       className="align-self-baseline gameindex-txt"
                     >
                       Items
                     </a>
-                    <a
-                      href="/flyff-universe-account/"
+                    <a onClick={() => setModalShow(true)} 
+                      href="#" id="/flyff-universe-account/"
                       className="align-self-baseline gameindex-txt"
                     >
                       Accounts
                     </a>
-                    <a
-                      href="/flyff-universe-power-leveling/"
+                    <a onClick={() => setModalShow(true)} 
+                      href="#" id="/flyff-universe-power-leveling/"
                       className="align-self-baseline gameindex-txt"
                     >
                       Power leveling
@@ -4469,21 +4472,21 @@ const GameIndex = () => {
                 </li>
                 <li className="col-lg-3 col-md-3 col-sm-12 col-xs-12 content-item fl">
                   <div className="flex flex-column">
-                    <a
-                      href="/for-honor-marketplace/"
+                    <a onClick={() => setModalShow(true)} 
+                      href="#" id="/for-honor-marketplace/"
                       className="align-self-baseline"
                       title="For Honor"
                     >
                       For Honor
                     </a>
-                    <a
-                      href="/for-honor-account/"
+                    <a onClick={() => setModalShow(true)} 
+                      href="#" id="/for-honor-account/"
                       className="align-self-baseline gameindex-txt"
                     >
                       Accounts
                     </a>
-                    <a
-                      href="/for-honor-power-leveling/"
+                    <a onClick={() => setModalShow(true)} 
+                      href="#" id="/for-honor-power-leveling/"
                       className="align-self-baseline gameindex-txt"
                     >
                       Power leveling
@@ -4492,21 +4495,21 @@ const GameIndex = () => {
                 </li>
                 <li className="col-lg-3 col-md-3 col-sm-12 col-xs-12 content-item fl">
                   <div className="flex flex-column">
-                    <a
-                      href="/forge-of-empires-marketplace/"
+                    <a onClick={() => setModalShow(true)} 
+                      href="#" id="/forge-of-empires-marketplace/"
                       className="align-self-baseline"
                       title="Forge of Empires"
                     >
                       Forge of Empires
                     </a>
-                    <a
-                      href="/forge-of-empires-account/"
+                    <a onClick={() => setModalShow(true)} 
+                      href="#" id="/forge-of-empires-account/"
                       className="align-self-baseline gameindex-txt"
                     >
                       Accounts
                     </a>
-                    <a
-                      href="/forge-of-empires-power-leveling/"
+                    <a onClick={() => setModalShow(true)} 
+                      href="#" id="/forge-of-empires-power-leveling/"
                       className="align-self-baseline gameindex-txt"
                     >
                       Power leveling
@@ -4515,27 +4518,27 @@ const GameIndex = () => {
                 </li>
                 <li className="col-lg-3 col-md-3 col-sm-12 col-xs-12 content-item fl">
                   <div className="flex flex-column">
-                    <a
-                      href="/fortnite-marketplace/"
+                    <a onClick={() => setModalShow(true)} 
+                      href="#" id="/fortnite-marketplace/"
                       className="align-self-baseline"
                       title="Fortnite"
                     >
                       Fortnite
                     </a>
-                    <a
-                      href="/fortnite-items/"
+                    <a onClick={() => setModalShow(true)} 
+                      href="#" id="/fortnite-items/"
                       className="align-self-baseline gameindex-txt"
                     >
                       Items
                     </a>
-                    <a
-                      href="/fortnite-account/"
+                    <a onClick={() => setModalShow(true)} 
+                      href="#" id="/fortnite-account/"
                       className="align-self-baseline gameindex-txt"
                     >
                       Accounts
                     </a>
-                    <a
-                      href="/fortnite-power-leveling/"
+                    <a onClick={() => setModalShow(true)} 
+                      href="#" id="/fortnite-power-leveling/"
                       className="align-self-baseline gameindex-txt"
                     >
                       Power leveling
@@ -4544,27 +4547,27 @@ const GameIndex = () => {
                 </li>
                 <li className="col-lg-3 col-md-3 col-sm-12 col-xs-12 content-item fl">
                   <div className="flex flex-column">
-                    <a
-                      href="/forza-horizon-4-marketplace/"
+                    <a onClick={() => setModalShow(true)} 
+                      href="#" id="/forza-horizon-4-marketplace/"
                       className="align-self-baseline"
                       title="Forza Horizon 4"
                     >
                       Forza Horizon 4
                     </a>
-                    <a
-                      href="/forza-horizon-4-credits/"
+                    <a onClick={() => setModalShow(true)} 
+                      href="#" id="/forza-horizon-4-credits/"
                       className="align-self-baseline gameindex-txt"
                     >
                       Credits
                     </a>
-                    <a
-                      href="/forza-horizon-4-account/"
+                    <a onClick={() => setModalShow(true)} 
+                      href="#" id="/forza-horizon-4-account/"
                       className="align-self-baseline gameindex-txt"
                     >
                       Accounts
                     </a>
-                    <a
-                      href="/forza-horizon-4-power-leveling/"
+                    <a onClick={() => setModalShow(true)} 
+                      href="#" id="/forza-horizon-4-power-leveling/"
                       className="align-self-baseline gameindex-txt"
                     >
                       Power leveling
@@ -4573,33 +4576,33 @@ const GameIndex = () => {
                 </li>
                 <li className="col-lg-3 col-md-3 col-sm-12 col-xs-12 content-item fl">
                   <div className="flex flex-column">
-                    <a
-                      href="/forza-horizon-5-marketplace/"
+                    <a onClick={() => setModalShow(true)} 
+                      href="#" id="/forza-horizon-5-marketplace/"
                       className="align-self-baseline"
                       title="Forza Horizon 5"
                     >
                       Forza Horizon 5
                     </a>
-                    <a
-                      href="/forza-horizon-5-credits/"
+                    <a onClick={() => setModalShow(true)} 
+                      href="#" id="/forza-horizon-5-credits/"
                       className="align-self-baseline gameindex-txt"
                     >
                       Credits
                     </a>
-                    <a
-                      href="/forza-horizon-5-items/"
+                    <a onClick={() => setModalShow(true)} 
+                      href="#" id="/forza-horizon-5-items/"
                       className="align-self-baseline gameindex-txt"
                     >
                       Items
                     </a>
-                    <a
-                      href="/forza-horizon-5-account/"
+                    <a onClick={() => setModalShow(true)} 
+                      href="#" id="/forza-horizon-5-account/"
                       className="align-self-baseline gameindex-txt"
                     >
                       Accounts
                     </a>
-                    <a
-                      href="/forza-horizon-5-power-leveling/"
+                    <a onClick={() => setModalShow(true)} 
+                      href="#" id="/forza-horizon-5-power-leveling/"
                       className="align-self-baseline gameindex-txt"
                     >
                       Power leveling
@@ -4610,7 +4613,7 @@ const GameIndex = () => {
             </div>
             <div
               className="content-box slide-xs-content-box gameindex-box clearfix row no-gutters"
-              id="gameindex_G"
+              href="#" id="gameindex_G"
             >
               <div className="content-box-title col-lg-1 game-index-align-center">
                 <div className="index-Initials fl">G</div>
@@ -4621,33 +4624,33 @@ const GameIndex = () => {
               <ul className="row col-lg-11 no-gutters content-box-body">
                 <li className="col-lg-3 col-md-3 col-sm-12 col-xs-12 content-item fl">
                   <div className="flex flex-column">
-                    <a
-                      href="/gaia-marketplace/"
+                    <a onClick={() => setModalShow(true)} 
+                      href="#" id="/gaia-marketplace/"
                       className="align-self-baseline"
                       title="Gaia Online"
                     >
                       Gaia Online
                     </a>
-                    <a
-                      href="/gaia-gold/"
+                    <a onClick={() => setModalShow(true)} 
+                      href="#" id="/gaia-gold/"
                       className="align-self-baseline gameindex-txt"
                     >
                       Gold
                     </a>
-                    <a
-                      href="/gaia-items/"
+                    <a onClick={() => setModalShow(true)} 
+                      href="#" id="/gaia-items/"
                       className="align-self-baseline gameindex-txt"
                     >
                       Items
                     </a>
-                    <a
-                      href="/gaia-account/"
+                    <a onClick={() => setModalShow(true)} 
+                      href="#" id="/gaia-account/"
                       className="align-self-baseline gameindex-txt"
                     >
                       Accounts
                     </a>
-                    <a
-                      href="/gaia-power-leveling/"
+                    <a onClick={() => setModalShow(true)} 
+                      href="#" id="/gaia-power-leveling/"
                       className="align-self-baseline gameindex-txt"
                     >
                       Power leveling
@@ -4656,21 +4659,21 @@ const GameIndex = () => {
                 </li>
                 <li className="col-lg-3 col-md-3 col-sm-12 col-xs-12 content-item fl">
                   <div className="flex flex-column">
-                    <a
-                      href="/got-winter-is-coming-marketplace/"
+                    <a onClick={() => setModalShow(true)} 
+                      href="#" id="/got-winter-is-coming-marketplace/"
                       className="align-self-baseline"
                       title="Game of Thrones Winter is Coming"
                     >
                       Game of Thrones Winter is Coming
                     </a>
-                    <a
-                      href="/got-winter-is-coming-account/"
+                    <a onClick={() => setModalShow(true)} 
+                      href="#" id="/got-winter-is-coming-account/"
                       className="align-self-baseline gameindex-txt"
                     >
                       Accounts
                     </a>
-                    <a
-                      href="/got-winter-is-coming-power-leveling/"
+                    <a onClick={() => setModalShow(true)} 
+                      href="#" id="/got-winter-is-coming-power-leveling/"
                       className="align-self-baseline gameindex-txt"
                     >
                       Power leveling
@@ -4679,27 +4682,27 @@ const GameIndex = () => {
                 </li>
                 <li className="col-lg-3 col-md-3 col-sm-12 col-xs-12 content-item fl">
                   <div className="flex flex-column">
-                    <a
-                      href="/freefire-marketplace/"
+                    <a onClick={() => setModalShow(true)} 
+                      href="#" id="/freefire-marketplace/"
                       className="align-self-baseline"
                       title="Garena Free Fire"
                     >
                       Garena Free Fire
                     </a>
-                    <a
-                      href="/freefire-diamonds/"
+                    <a onClick={() => setModalShow(true)} 
+                      href="#" id="/freefire-diamonds/"
                       className="align-self-baseline gameindex-txt"
                     >
                       Diamonds
                     </a>
-                    <a
-                      href="/freefire-account/"
+                    <a onClick={() => setModalShow(true)} 
+                      href="#" id="/freefire-account/"
                       className="align-self-baseline gameindex-txt"
                     >
                       Accounts
                     </a>
-                    <a
-                      href="/freefire-power-leveling/"
+                    <a onClick={() => setModalShow(true)} 
+                      href="#" id="/freefire-power-leveling/"
                       className="align-self-baseline gameindex-txt"
                     >
                       Power leveling
@@ -4708,21 +4711,21 @@ const GameIndex = () => {
                 </li>
                 <li className="col-lg-3 col-md-3 col-sm-12 col-xs-12 content-item fl">
                   <div className="flex flex-column">
-                    <a
-                      href="/genshin-impact-marketplace/"
+                    <a onClick={() => setModalShow(true)} 
+                      href="#" id="/genshin-impact-marketplace/"
                       className="align-self-baseline"
                       title="Genshin Impact"
                     >
                       Genshin Impact
                     </a>
-                    <a
-                      href="/genshin-impact-account/"
+                    <a onClick={() => setModalShow(true)} 
+                      href="#" id="/genshin-impact-account/"
                       className="align-self-baseline gameindex-txt"
                     >
                       Accounts
                     </a>
-                    <a
-                      href="/genshin-impact-power-leveling/"
+                    <a onClick={() => setModalShow(true)} 
+                      href="#" id="/genshin-impact-power-leveling/"
                       className="align-self-baseline gameindex-txt"
                     >
                       Power leveling
@@ -4731,33 +4734,33 @@ const GameIndex = () => {
                 </li>
                 <li className="col-lg-3 col-md-3 col-sm-12 col-xs-12 content-item fl">
                   <div className="flex flex-column">
-                    <a
-                      href="/gloria-victis-marketplace/"
+                    <a onClick={() => setModalShow(true)} 
+                      href="#" id="/gloria-victis-marketplace/"
                       className="align-self-baseline"
                       title="Gloria Victis"
                     >
                       Gloria Victis
                     </a>
-                    <a
-                      href="/gloria-victis-gold/"
+                    <a onClick={() => setModalShow(true)} 
+                      href="#" id="/gloria-victis-gold/"
                       className="align-self-baseline gameindex-txt"
                     >
                       Gold
                     </a>
-                    <a
-                      href="/gloria-victis-items/"
+                    <a onClick={() => setModalShow(true)} 
+                      href="#" id="/gloria-victis-items/"
                       className="align-self-baseline gameindex-txt"
                     >
                       Items
                     </a>
-                    <a
-                      href="/gloria-victis-account/"
+                    <a onClick={() => setModalShow(true)} 
+                      href="#" id="/gloria-victis-account/"
                       className="align-self-baseline gameindex-txt"
                     >
                       Accounts
                     </a>
-                    <a
-                      href="/gloria-victis-power-leveling/"
+                    <a onClick={() => setModalShow(true)} 
+                      href="#" id="/gloria-victis-power-leveling/"
                       className="align-self-baseline gameindex-txt"
                     >
                       Power leveling
@@ -4766,27 +4769,27 @@ const GameIndex = () => {
                 </li>
                 <li className="col-lg-3 col-md-3 col-sm-12 col-xs-12 content-item fl">
                   <div className="flex flex-column">
-                    <a
-                      href="/gran-turismo-7-marketplace/"
+                    <a onClick={() => setModalShow(true)} 
+                      href="#" id="/gran-turismo-7-marketplace/"
                       className="align-self-baseline"
                       title="Gran Turismo 7"
                     >
                       Gran Turismo 7
                     </a>
-                    <a
-                      href="/gran-turismo-7-credits/"
+                    <a onClick={() => setModalShow(true)} 
+                      href="#" id="/gran-turismo-7-credits/"
                       className="align-self-baseline gameindex-txt"
                     >
                       Credits
                     </a>
-                    <a
-                      href="/gran-turismo-7-account/"
+                    <a onClick={() => setModalShow(true)} 
+                      href="#" id="/gran-turismo-7-account/"
                       className="align-self-baseline gameindex-txt"
                     >
                       Accounts
                     </a>
-                    <a
-                      href="/gran-turismo-7-power-leveling/"
+                    <a onClick={() => setModalShow(true)} 
+                      href="#" id="/gran-turismo-7-power-leveling/"
                       className="align-self-baseline gameindex-txt"
                     >
                       Power leveling
@@ -4795,21 +4798,21 @@ const GameIndex = () => {
                 </li>
                 <li className="col-lg-3 col-md-3 col-sm-12 col-xs-12 content-item fl">
                   <div className="flex flex-column">
-                    <a
-                      href="/granblue-fantasy-marketplace/"
+                    <a onClick={() => setModalShow(true)} 
+                      href="#" id="/granblue-fantasy-marketplace/"
                       className="align-self-baseline"
                       title="Granblue Fantasy"
                     >
                       Granblue Fantasy
                     </a>
-                    <a
-                      href="/granblue-fantasy-account/"
+                    <a onClick={() => setModalShow(true)} 
+                      href="#" id="/granblue-fantasy-account/"
                       className="align-self-baseline gameindex-txt"
                     >
                       Accounts
                     </a>
-                    <a
-                      href="/granblue-fantasy-power-leveling/"
+                    <a onClick={() => setModalShow(true)} 
+                      href="#" id="/granblue-fantasy-power-leveling/"
                       className="align-self-baseline gameindex-txt"
                     >
                       Power leveling
@@ -4818,21 +4821,21 @@ const GameIndex = () => {
                 </li>
                 <li className="col-lg-3 col-md-3 col-sm-12 col-xs-12 content-item fl">
                   <div className="flex flex-column">
-                    <a
-                      href="/grand-chase-marketplace/"
+                    <a onClick={() => setModalShow(true)} 
+                      href="#" id="/grand-chase-marketplace/"
                       className="align-self-baseline"
                       title="Grand Chase"
                     >
                       Grand Chase
                     </a>
-                    <a
-                      href="/grand-chase-account/"
+                    <a onClick={() => setModalShow(true)} 
+                      href="#" id="/grand-chase-account/"
                       className="align-self-baseline gameindex-txt"
                     >
                       Accounts
                     </a>
-                    <a
-                      href="/grand-chase-power-leveling/"
+                    <a onClick={() => setModalShow(true)} 
+                      href="#" id="/grand-chase-power-leveling/"
                       className="align-self-baseline gameindex-txt"
                     >
                       Power leveling
@@ -4841,21 +4844,21 @@ const GameIndex = () => {
                 </li>
                 <li className="col-lg-3 col-md-3 col-sm-12 col-xs-12 content-item fl">
                   <div className="flex flex-column">
-                    <a
-                      href="/grand-summoners-marketplace/"
+                    <a onClick={() => setModalShow(true)} 
+                      href="#" id="/grand-summoners-marketplace/"
                       className="align-self-baseline"
                       title="Grand Summoners"
                     >
                       Grand Summoners
                     </a>
-                    <a
-                      href="/grand-summoners-account/"
+                    <a onClick={() => setModalShow(true)} 
+                      href="#" id="/grand-summoners-account/"
                       className="align-self-baseline gameindex-txt"
                     >
                       Accounts
                     </a>
-                    <a
-                      href="/grand-summoners-power-leveling/"
+                    <a onClick={() => setModalShow(true)} 
+                      href="#" id="/grand-summoners-power-leveling/"
                       className="align-self-baseline gameindex-txt"
                     >
                       Power leveling
@@ -4864,27 +4867,27 @@ const GameIndex = () => {
                 </li>
                 <li className="col-lg-3 col-md-3 col-sm-12 col-xs-12 content-item fl">
                   <div className="flex flex-column">
-                    <a
-                      href="/growtopia-marketplace/"
+                    <a onClick={() => setModalShow(true)} 
+                      href="#" id="/growtopia-marketplace/"
                       className="align-self-baseline"
                       title="Growtopia"
                     >
                       Growtopia
                     </a>
-                    <a
-                      href="/growtopia-items/"
+                    <a onClick={() => setModalShow(true)} 
+                      href="#" id="/growtopia-items/"
                       className="align-self-baseline gameindex-txt"
                     >
                       Items
                     </a>
-                    <a
-                      href="/growtopia-account/"
+                    <a onClick={() => setModalShow(true)} 
+                      href="#" id="/growtopia-account/"
                       className="align-self-baseline gameindex-txt"
                     >
                       Accounts
                     </a>
-                    <a
-                      href="/growtopia-power-leveling/"
+                    <a onClick={() => setModalShow(true)} 
+                      href="#" id="/growtopia-power-leveling/"
                       className="align-self-baseline gameindex-txt"
                     >
                       Power leveling
@@ -4893,27 +4896,27 @@ const GameIndex = () => {
                 </li>
                 <li className="col-lg-3 col-md-3 col-sm-12 col-xs-12 content-item fl">
                   <div className="flex flex-column">
-                    <a
-                      href="/gta-marketplace/"
+                    <a onClick={() => setModalShow(true)} 
+                      href="#" id="/gta-marketplace/"
                       className="align-self-baseline"
                       title="GTA 5 Online"
                     >
                       GTA 5 Online
                     </a>
-                    <a
-                      href="/gta-money/"
+                    <a onClick={() => setModalShow(true)} 
+                      href="#" id="/gta-money/"
                       className="align-self-baseline gameindex-txt"
                     >
                       Money
                     </a>
-                    <a
-                      href="/gta-account/"
+                    <a onClick={() => setModalShow(true)} 
+                      href="#" id="/gta-account/"
                       className="align-self-baseline gameindex-txt"
                     >
                       Accounts
                     </a>
-                    <a
-                      href="/gta-power-leveling/"
+                    <a onClick={() => setModalShow(true)} 
+                      href="#" id="/gta-power-leveling/"
                       className="align-self-baseline gameindex-txt"
                     >
                       Power leveling
@@ -4922,15 +4925,15 @@ const GameIndex = () => {
                 </li>
                 <li className="col-lg-3 col-md-3 col-sm-12 col-xs-12 content-item fl">
                   <div className="flex flex-column">
-                    <a
-                      href="/guardian-tales-marketplace/"
+                    <a onClick={() => setModalShow(true)} 
+                      href="#" id="/guardian-tales-marketplace/"
                       className="align-self-baseline"
                       title="Guardian Tales"
                     >
                       Guardian Tales
                     </a>
-                    <a
-                      href="/guardian-tales-account/"
+                    <a onClick={() => setModalShow(true)} 
+                      href="#" id="/guardian-tales-account/"
                       className="align-self-baseline gameindex-txt"
                     >
                       Accounts
@@ -4939,33 +4942,33 @@ const GameIndex = () => {
                 </li>
                 <li className="col-lg-3 col-md-3 col-sm-12 col-xs-12 content-item fl">
                   <div className="flex flex-column">
-                    <a
-                      href="/gw-marketplace/"
+                    <a onClick={() => setModalShow(true)} 
+                      href="#" id="/gw-marketplace/"
                       className="align-self-baseline"
                       title="Guild Wars"
                     >
                       Guild Wars
                     </a>
-                    <a
-                      href="/gw-gold/"
+                    <a onClick={() => setModalShow(true)} 
+                      href="#" id="/gw-gold/"
                       className="align-self-baseline gameindex-txt"
                     >
                       Gold
                     </a>
-                    <a
-                      href="/gw-items/"
+                    <a onClick={() => setModalShow(true)} 
+                      href="#" id="/gw-items/"
                       className="align-self-baseline gameindex-txt"
                     >
                       Items
                     </a>
-                    <a
-                      href="/gw-account/"
+                    <a onClick={() => setModalShow(true)} 
+                      href="#" id="/gw-account/"
                       className="align-self-baseline gameindex-txt"
                     >
                       Accounts
                     </a>
-                    <a
-                      href="/gw-power-leveling/"
+                    <a onClick={() => setModalShow(true)} 
+                      href="#" id="/gw-power-leveling/"
                       className="align-self-baseline gameindex-txt"
                     >
                       Power leveling
@@ -4974,33 +4977,33 @@ const GameIndex = () => {
                 </li>
                 <li className="col-lg-3 col-md-3 col-sm-12 col-xs-12 content-item fl">
                   <div className="flex flex-column">
-                    <a
-                      href="/guild-wars-2-marketplace/"
+                    <a onClick={() => setModalShow(true)} 
+                      href="#" id="/guild-wars-2-marketplace/"
                       className="align-self-baseline"
                       title="Guild Wars 2"
                     >
                       Guild Wars 2
                     </a>
-                    <a
-                      href="/guild-wars-2-gold/"
+                    <a onClick={() => setModalShow(true)} 
+                      href="#" id="/guild-wars-2-gold/"
                       className="align-self-baseline gameindex-txt"
                     >
                       Gold
                     </a>
-                    <a
-                      href="/guild-wars-2-items/"
+                    <a onClick={() => setModalShow(true)} 
+                      href="#" id="/guild-wars-2-items/"
                       className="align-self-baseline gameindex-txt"
                     >
                       Items
                     </a>
-                    <a
-                      href="/guild-wars-2-account/"
+                    <a onClick={() => setModalShow(true)} 
+                      href="#" id="/guild-wars-2-account/"
                       className="align-self-baseline gameindex-txt"
                     >
                       Accounts
                     </a>
-                    <a
-                      href="/guild-wars-2-power-leveling/"
+                    <a onClick={() => setModalShow(true)} 
+                      href="#" id="/guild-wars-2-power-leveling/"
                       className="align-self-baseline gameindex-txt"
                     >
                       Power leveling
@@ -5009,21 +5012,21 @@ const GameIndex = () => {
                 </li>
                 <li className="col-lg-3 col-md-3 col-sm-12 col-xs-12 content-item fl">
                   <div className="flex flex-column">
-                    <a
-                      href="/gwent-marketplace/"
+                    <a onClick={() => setModalShow(true)} 
+                      href="#" id="/gwent-marketplace/"
                       className="align-self-baseline"
                       title="Gwent"
                     >
                       Gwent
                     </a>
-                    <a
-                      href="/gwent-account/"
+                    <a onClick={() => setModalShow(true)} 
+                      href="#" id="/gwent-account/"
                       className="align-self-baseline gameindex-txt"
                     >
                       Accounts
                     </a>
-                    <a
-                      href="/gwent-power-leveling/"
+                    <a onClick={() => setModalShow(true)} 
+                      href="#" id="/gwent-power-leveling/"
                       className="align-self-baseline gameindex-txt"
                     >
                       Power leveling
@@ -5034,7 +5037,7 @@ const GameIndex = () => {
             </div>
             <div
               className="content-box slide-xs-content-box gameindex-box clearfix row no-gutters"
-              id="gameindex_H"
+              href="#" id="gameindex_H"
             >
               <div className="content-box-title col-lg-1 game-index-align-center">
                 <div className="index-Initials fl">H</div>
@@ -5045,33 +5048,33 @@ const GameIndex = () => {
               <ul className="row col-lg-11 no-gutters content-box-body">
                 <li className="col-lg-3 col-md-3 col-sm-12 col-xs-12 content-item fl">
                   <div className="flex flex-column">
-                    <a
-                      href="/habbo-marketplace/"
+                    <a onClick={() => setModalShow(true)} 
+                      href="#" id="/habbo-marketplace/"
                       className="align-self-baseline"
                       title="Habbo"
                     >
                       Habbo
                     </a>
-                    <a
-                      href="/habbo-coins/"
+                    <a onClick={() => setModalShow(true)} 
+                      href="#" id="/habbo-coins/"
                       className="align-self-baseline gameindex-txt"
                     >
                       Coins
                     </a>
-                    <a
-                      href="/habbo-items/"
+                    <a onClick={() => setModalShow(true)} 
+                      href="#" id="/habbo-items/"
                       className="align-self-baseline gameindex-txt"
                     >
                       Items
                     </a>
-                    <a
-                      href="/habbo-account/"
+                    <a onClick={() => setModalShow(true)} 
+                      href="#" id="/habbo-account/"
                       className="align-self-baseline gameindex-txt"
                     >
                       Accounts
                     </a>
-                    <a
-                      href="/habbo-power-leveling/"
+                    <a onClick={() => setModalShow(true)} 
+                      href="#" id="/habbo-power-leveling/"
                       className="align-self-baseline gameindex-txt"
                     >
                       Power leveling
@@ -5080,27 +5083,27 @@ const GameIndex = () => {
                 </li>
                 <li className="col-lg-3 col-md-3 col-sm-12 col-xs-12 content-item fl">
                   <div className="flex flex-column">
-                    <a
-                      href="/halo-infinite-marketplace/"
+                    <a onClick={() => setModalShow(true)} 
+                      href="#" id="/halo-infinite-marketplace/"
                       className="align-self-baseline"
                       title="Halo Infinite"
                     >
                       Halo Infinite
                     </a>
-                    <a
-                      href="/halo-infinite-items/"
+                    <a onClick={() => setModalShow(true)} 
+                      href="#" id="/halo-infinite-items/"
                       className="align-self-baseline gameindex-txt"
                     >
                       Items
                     </a>
-                    <a
-                      href="/halo-infinite-account/"
+                    <a onClick={() => setModalShow(true)} 
+                      href="#" id="/halo-infinite-account/"
                       className="align-self-baseline gameindex-txt"
                     >
                       Accounts
                     </a>
-                    <a
-                      href="/halo-infinite-power-leveling/"
+                    <a onClick={() => setModalShow(true)} 
+                      href="#" id="/halo-infinite-power-leveling/"
                       className="align-self-baseline gameindex-txt"
                     >
                       Power leveling
@@ -5109,33 +5112,33 @@ const GameIndex = () => {
                 </li>
                 <li className="col-lg-3 col-md-3 col-sm-12 col-xs-12 content-item fl">
                   <div className="flex flex-column">
-                    <a
-                      href="/hay-day-marketplace/"
+                    <a onClick={() => setModalShow(true)} 
+                      href="#" id="/hay-day-marketplace/"
                       className="align-self-baseline"
                       title="Hay Day"
                     >
                       Hay Day
                     </a>
-                    <a
-                      href="/hay-day-coins/"
+                    <a onClick={() => setModalShow(true)} 
+                      href="#" id="/hay-day-coins/"
                       className="align-self-baseline gameindex-txt"
                     >
                       Coins
                     </a>
-                    <a
-                      href="/hay-day-items/"
+                    <a onClick={() => setModalShow(true)} 
+                      href="#" id="/hay-day-items/"
                       className="align-self-baseline gameindex-txt"
                     >
                       Items
                     </a>
-                    <a
-                      href="/hay-day-account/"
+                    <a onClick={() => setModalShow(true)} 
+                      href="#" id="/hay-day-account/"
                       className="align-self-baseline gameindex-txt"
                     >
                       Accounts
                     </a>
-                    <a
-                      href="/hay-day-power-leveling/"
+                    <a onClick={() => setModalShow(true)} 
+                      href="#" id="/hay-day-power-leveling/"
                       className="align-self-baseline gameindex-txt"
                     >
                       Power leveling
@@ -5144,21 +5147,21 @@ const GameIndex = () => {
                 </li>
                 <li className="col-lg-3 col-md-3 col-sm-12 col-xs-12 content-item fl">
                   <div className="flex flex-column">
-                    <a
-                      href="/hearthstone-marketplace/"
+                    <a onClick={() => setModalShow(true)} 
+                      href="#" id="/hearthstone-marketplace/"
                       className="align-self-baseline"
                       title="Hearthstone"
                     >
                       Hearthstone
                     </a>
-                    <a
-                      href="/hearthstone-account/"
+                    <a onClick={() => setModalShow(true)} 
+                      href="#" id="/hearthstone-account/"
                       className="align-self-baseline gameindex-txt"
                     >
                       Accounts
                     </a>
-                    <a
-                      href="/hearthstone-power-leveling/"
+                    <a onClick={() => setModalShow(true)} 
+                      href="#" id="/hearthstone-power-leveling/"
                       className="align-self-baseline gameindex-txt"
                     >
                       Power leveling
@@ -5167,21 +5170,21 @@ const GameIndex = () => {
                 </li>
                 <li className="col-lg-3 col-md-3 col-sm-12 col-xs-12 content-item fl">
                   <div className="flex flex-column">
-                    <a
-                      href="/hero-wars-marketplace/"
+                    <a onClick={() => setModalShow(true)} 
+                      href="#" id="/hero-wars-marketplace/"
                       className="align-self-baseline"
                       title="Hero Wars"
                     >
                       Hero Wars
                     </a>
-                    <a
-                      href="/hero-wars-account/"
+                    <a onClick={() => setModalShow(true)} 
+                      href="#" id="/hero-wars-account/"
                       className="align-self-baseline gameindex-txt"
                     >
                       Accounts
                     </a>
-                    <a
-                      href="/hero-wars-power-leveling/"
+                    <a onClick={() => setModalShow(true)} 
+                      href="#" id="/hero-wars-power-leveling/"
                       className="align-self-baseline gameindex-txt"
                     >
                       Power leveling
@@ -5190,21 +5193,21 @@ const GameIndex = () => {
                 </li>
                 <li className="col-lg-3 col-md-3 col-sm-12 col-xs-12 content-item fl">
                   <div className="flex flex-column">
-                    <a
-                      href="/heroes-of-newerth-marketplace/"
+                    <a onClick={() => setModalShow(true)} 
+                      href="#" id="/heroes-of-newerth-marketplace/"
                       className="align-self-baseline"
                       title="Heroes of Newerth"
                     >
                       Heroes of Newerth
                     </a>
-                    <a
-                      href="/heroes-of-newerth-account/"
+                    <a onClick={() => setModalShow(true)} 
+                      href="#" id="/heroes-of-newerth-account/"
                       className="align-self-baseline gameindex-txt"
                     >
                       Accounts
                     </a>
-                    <a
-                      href="/heroes-of-newerth-power-leveling/"
+                    <a onClick={() => setModalShow(true)} 
+                      href="#" id="/heroes-of-newerth-power-leveling/"
                       className="align-self-baseline gameindex-txt"
                     >
                       Power leveling
@@ -5213,21 +5216,21 @@ const GameIndex = () => {
                 </li>
                 <li className="col-lg-3 col-md-3 col-sm-12 col-xs-12 content-item fl">
                   <div className="flex flex-column">
-                    <a
-                      href="/heroes-of-the-storm-marketplace/"
+                    <a onClick={() => setModalShow(true)} 
+                      href="#" id="/heroes-of-the-storm-marketplace/"
                       className="align-self-baseline"
                       title="Heroes of the Storm"
                     >
                       Heroes of the Storm
                     </a>
-                    <a
-                      href="/heroes-of-the-storm-account/"
+                    <a onClick={() => setModalShow(true)} 
+                      href="#" id="/heroes-of-the-storm-account/"
                       className="align-self-baseline gameindex-txt"
                     >
                       Accounts
                     </a>
-                    <a
-                      href="/heroes-of-the-storm-power-leveling/"
+                    <a onClick={() => setModalShow(true)} 
+                      href="#" id="/heroes-of-the-storm-power-leveling/"
                       className="align-self-baseline gameindex-txt"
                     >
                       Power leveling
@@ -5236,21 +5239,21 @@ const GameIndex = () => {
                 </li>
                 <li className="col-lg-3 col-md-3 col-sm-12 col-xs-12 content-item fl">
                   <div className="flex flex-column">
-                    <a
-                      href="/honkai-impact-3rd-marketplace/"
+                    <a onClick={() => setModalShow(true)} 
+                      href="#" id="/honkai-impact-3rd-marketplace/"
                       className="align-self-baseline"
                       title="Honkai Impact 3rd"
                     >
                       Honkai Impact 3rd
                     </a>
-                    <a
-                      href="/honkai-impact-3rd-account/"
+                    <a onClick={() => setModalShow(true)} 
+                      href="#" id="/honkai-impact-3rd-account/"
                       className="align-self-baseline gameindex-txt"
                     >
                       Accounts
                     </a>
-                    <a
-                      href="/honkai-impact-3rd-power-leveling/"
+                    <a onClick={() => setModalShow(true)} 
+                      href="#" id="/honkai-impact-3rd-power-leveling/"
                       className="align-self-baseline gameindex-txt"
                     >
                       Power leveling
@@ -5259,21 +5262,21 @@ const GameIndex = () => {
                 </li>
                 <li className="col-lg-3 col-md-3 col-sm-12 col-xs-12 content-item fl">
                   <div className="flex flex-column">
-                    <a
-                      href="/honkai-star-rail-marketplace/"
+                    <a onClick={() => setModalShow(true)} 
+                      href="#" id="/honkai-star-rail-marketplace/"
                       className="align-self-baseline"
                       title="Honkai: Star Rail"
                     >
                       Honkai: Star Rail
                     </a>
-                    <a
-                      href="/honkai-star-rail-account/"
+                    <a onClick={() => setModalShow(true)} 
+                      href="#" id="/honkai-star-rail-account/"
                       className="align-self-baseline gameindex-txt"
                     >
                       Accounts
                     </a>
-                    <a
-                      href="/honkai-star-rail-power-leveling/"
+                    <a onClick={() => setModalShow(true)} 
+                      href="#" id="/honkai-star-rail-power-leveling/"
                       className="align-self-baseline gameindex-txt"
                     >
                       Power leveling
@@ -5282,21 +5285,21 @@ const GameIndex = () => {
                 </li>
                 <li className="col-lg-3 col-md-3 col-sm-12 col-xs-12 content-item fl">
                   <div className="flex flex-column">
-                    <a
-                      href="/hunt-showdown-marketplace/"
+                    <a onClick={() => setModalShow(true)} 
+                      href="#" id="/hunt-showdown-marketplace/"
                       className="align-self-baseline"
                       title="Hunt: Showdown"
                     >
                       Hunt: Showdown
                     </a>
-                    <a
-                      href="/hunt-showdown-account/"
+                    <a onClick={() => setModalShow(true)} 
+                      href="#" id="/hunt-showdown-account/"
                       className="align-self-baseline gameindex-txt"
                     >
                       Accounts
                     </a>
-                    <a
-                      href="/hunt-showdown-power-leveling/"
+                    <a onClick={() => setModalShow(true)} 
+                      href="#" id="/hunt-showdown-power-leveling/"
                       className="align-self-baseline gameindex-txt"
                     >
                       Power leveling
@@ -5307,7 +5310,7 @@ const GameIndex = () => {
             </div>
             <div
               className="content-box slide-xs-content-box gameindex-box clearfix row no-gutters"
-              id="gameindex_I"
+              href="#" id="gameindex_I"
             >
               <div className="content-box-title col-lg-1 game-index-align-center">
                 <div className="index-Initials fl">I</div>
@@ -5318,15 +5321,15 @@ const GameIndex = () => {
               <ul className="row col-lg-11 no-gutters content-box-body">
                 <li className="col-lg-3 col-md-3 col-sm-12 col-xs-12 content-item fl">
                   <div className="flex flex-column">
-                    <a
-                      href="/identity-v-marketplace/"
+                    <a onClick={() => setModalShow(true)} 
+                      href="#" id="/identity-v-marketplace/"
                       className="align-self-baseline"
                       title="Identity V"
                     >
                       Identity V
                     </a>
-                    <a
-                      href="/identity-v-account/"
+                    <a onClick={() => setModalShow(true)} 
+                      href="#" id="/identity-v-account/"
                       className="align-self-baseline gameindex-txt"
                     >
                       Accounts
@@ -5335,21 +5338,21 @@ const GameIndex = () => {
                 </li>
                 <li className="col-lg-3 col-md-3 col-sm-12 col-xs-12 content-item fl">
                   <div className="flex flex-column">
-                    <a
-                      href="/idle-heroes-marketplace/"
+                    <a onClick={() => setModalShow(true)} 
+                      href="#" id="/idle-heroes-marketplace/"
                       className="align-self-baseline"
                       title="Idle Heroes"
                     >
                       Idle Heroes
                     </a>
-                    <a
-                      href="/idle-heroes-account/"
+                    <a onClick={() => setModalShow(true)} 
+                      href="#" id="/idle-heroes-account/"
                       className="align-self-baseline gameindex-txt"
                     >
                       Accounts
                     </a>
-                    <a
-                      href="/idle-heroes-power-leveling/"
+                    <a onClick={() => setModalShow(true)} 
+                      href="#" id="/idle-heroes-power-leveling/"
                       className="align-self-baseline gameindex-txt"
                     >
                       Power leveling
@@ -5358,21 +5361,21 @@ const GameIndex = () => {
                 </li>
                 <li className="col-lg-3 col-md-3 col-sm-12 col-xs-12 content-item fl">
                   <div className="flex flex-column">
-                    <a
-                      href="/illusion-connect-marketplace/"
+                    <a onClick={() => setModalShow(true)} 
+                      href="#" id="/illusion-connect-marketplace/"
                       className="align-self-baseline"
                       title="Illusion Connect"
                     >
                       Illusion Connect
                     </a>
-                    <a
-                      href="/illusion-connect-account/"
+                    <a onClick={() => setModalShow(true)} 
+                      href="#" id="/illusion-connect-account/"
                       className="align-self-baseline gameindex-txt"
                     >
                       Accounts
                     </a>
-                    <a
-                      href="/illusion-connect-power-leveling/"
+                    <a onClick={() => setModalShow(true)} 
+                      href="#" id="/illusion-connect-power-leveling/"
                       className="align-self-baseline gameindex-txt"
                     >
                       Power leveling
@@ -5381,33 +5384,33 @@ const GameIndex = () => {
                 </li>
                 <li className="col-lg-3 col-md-3 col-sm-12 col-xs-12 content-item fl">
                   <div className="flex flex-column">
-                    <a
-                      href="/imvu-marketplace/"
+                    <a onClick={() => setModalShow(true)} 
+                      href="#" id="/imvu-marketplace/"
                       className="align-self-baseline"
                       title="IMVU"
                     >
                       IMVU
                     </a>
-                    <a
-                      href="/imvu-credits/"
+                    <a onClick={() => setModalShow(true)} 
+                      href="#" id="/imvu-credits/"
                       className="align-self-baseline gameindex-txt"
                     >
                       Credits
                     </a>
-                    <a
-                      href="/imvu-items/"
+                    <a onClick={() => setModalShow(true)} 
+                      href="#" id="/imvu-items/"
                       className="align-self-baseline gameindex-txt"
                     >
                       Items
                     </a>
-                    <a
-                      href="/imvu-account/"
+                    <a onClick={() => setModalShow(true)} 
+                      href="#" id="/imvu-account/"
                       className="align-self-baseline gameindex-txt"
                     >
                       Accounts
                     </a>
-                    <a
-                      href="/imvu-power-leveling/"
+                    <a onClick={() => setModalShow(true)} 
+                      href="#" id="/imvu-power-leveling/"
                       className="align-self-baseline gameindex-txt"
                     >
                       Power leveling
@@ -5416,21 +5419,21 @@ const GameIndex = () => {
                 </li>
                 <li className="col-lg-3 col-md-3 col-sm-12 col-xs-12 content-item fl">
                   <div className="flex flex-column">
-                    <a
-                      href="/infinity-kingdom-marketplace/"
+                    <a onClick={() => setModalShow(true)} 
+                      href="#" id="/infinity-kingdom-marketplace/"
                       className="align-self-baseline"
                       title="Infinity Kingdom"
                     >
                       Infinity Kingdom
                     </a>
-                    <a
-                      href="/infinity-kingdom-account/"
+                    <a onClick={() => setModalShow(true)} 
+                      href="#" id="/infinity-kingdom-account/"
                       className="align-self-baseline gameindex-txt"
                     >
                       Accounts
                     </a>
-                    <a
-                      href="/infinity-kingdom-power-leveling/"
+                    <a onClick={() => setModalShow(true)} 
+                      href="#" id="/infinity-kingdom-power-leveling/"
                       className="align-self-baseline gameindex-txt"
                     >
                       Power leveling
@@ -5441,7 +5444,7 @@ const GameIndex = () => {
             </div>
             <div
               className="content-box slide-xs-content-box gameindex-box clearfix row no-gutters"
-              id="gameindex_J"
+              href="#" id="gameindex_J"
             >
               <div className="content-box-title col-lg-1 game-index-align-center">
                 <div className="index-Initials fl">J</div>
@@ -5453,7 +5456,7 @@ const GameIndex = () => {
             </div>
             <div
               className="content-box slide-xs-content-box gameindex-box clearfix row no-gutters"
-              id="gameindex_K"
+              href="#" id="gameindex_K"
             >
               <div className="content-box-title col-lg-1 game-index-align-center">
                 <div className="index-Initials fl">K</div>
@@ -5464,21 +5467,21 @@ const GameIndex = () => {
               <ul className="row col-lg-11 no-gutters content-box-body">
                 <li className="col-lg-3 col-md-3 col-sm-12 col-xs-12 content-item fl">
                   <div className="flex flex-column">
-                    <a
-                      href="/king-of-avalon-marketplace/"
+                    <a onClick={() => setModalShow(true)} 
+                      href="#" id="/king-of-avalon-marketplace/"
                       className="align-self-baseline"
                       title="King of Avalon"
                     >
                       King of Avalon
                     </a>
-                    <a
-                      href="/king-of-avalon-account/"
+                    <a onClick={() => setModalShow(true)} 
+                      href="#" id="/king-of-avalon-account/"
                       className="align-self-baseline gameindex-txt"
                     >
                       Accounts
                     </a>
-                    <a
-                      href="/king-of-avalon-power-leveling/"
+                    <a onClick={() => setModalShow(true)} 
+                      href="#" id="/king-of-avalon-power-leveling/"
                       className="align-self-baseline gameindex-txt"
                     >
                       Power leveling
@@ -5487,21 +5490,21 @@ const GameIndex = () => {
                 </li>
                 <li className="col-lg-3 col-md-3 col-sm-12 col-xs-12 content-item fl">
                   <div className="flex flex-column">
-                    <a
-                      href="/konosuba-fd-marketplace/"
+                    <a onClick={() => setModalShow(true)} 
+                      href="#" id="/konosuba-fd-marketplace/"
                       className="align-self-baseline"
                       title="KonoSuba: Fantastic Days"
                     >
                       KonoSuba: Fantastic Days
                     </a>
-                    <a
-                      href="/konosuba-fd-account/"
+                    <a onClick={() => setModalShow(true)} 
+                      href="#" id="/konosuba-fd-account/"
                       className="align-self-baseline gameindex-txt"
                     >
                       Accounts
                     </a>
-                    <a
-                      href="/konosuba-fd-power-leveling/"
+                    <a onClick={() => setModalShow(true)} 
+                      href="#" id="/konosuba-fd-power-leveling/"
                       className="align-self-baseline gameindex-txt"
                     >
                       Power leveling
@@ -5512,7 +5515,7 @@ const GameIndex = () => {
             </div>
             <div
               className="content-box slide-xs-content-box gameindex-box clearfix row no-gutters"
-              id="gameindex_L"
+              href="#" id="gameindex_L"
             >
               <div className="content-box-title col-lg-1 game-index-align-center">
                 <div className="index-Initials fl">L</div>
@@ -5523,33 +5526,33 @@ const GameIndex = () => {
               <ul className="row col-lg-11 no-gutters content-box-body">
                 <li className="col-lg-3 col-md-3 col-sm-12 col-xs-12 content-item fl">
                   <div className="flex flex-column">
-                    <a
-                      href="/last-oasis-marketplace/"
+                    <a onClick={() => setModalShow(true)} 
+                      href="#" id="/last-oasis-marketplace/"
                       className="align-self-baseline"
                       title="Last Oasis"
                     >
                       Last Oasis
                     </a>
-                    <a
-                      href="/last-oasis-flots/"
+                    <a onClick={() => setModalShow(true)} 
+                      href="#" id="/last-oasis-flots/"
                       className="align-self-baseline gameindex-txt"
                     >
                       flots
                     </a>
-                    <a
-                      href="/last-oasis-items/"
+                    <a onClick={() => setModalShow(true)} 
+                      href="#" id="/last-oasis-items/"
                       className="align-self-baseline gameindex-txt"
                     >
                       Items
                     </a>
-                    <a
-                      href="/last-oasis-account/"
+                    <a onClick={() => setModalShow(true)} 
+                      href="#" id="/last-oasis-account/"
                       className="align-self-baseline gameindex-txt"
                     >
                       Accounts
                     </a>
-                    <a
-                      href="/last-oasis-power-leveling/"
+                    <a onClick={() => setModalShow(true)} 
+                      href="#" id="/last-oasis-power-leveling/"
                       className="align-self-baseline gameindex-txt"
                     >
                       Power leveling
@@ -5558,21 +5561,21 @@ const GameIndex = () => {
                 </li>
                 <li className="col-lg-3 col-md-3 col-sm-12 col-xs-12 content-item fl">
                   <div className="flex flex-column">
-                    <a
-                      href="/last-shelter-marketplace/"
+                    <a onClick={() => setModalShow(true)} 
+                      href="#" id="/last-shelter-marketplace/"
                       className="align-self-baseline"
                       title="Last Shelter: Survival"
                     >
                       Last Shelter: Survival
                     </a>
-                    <a
-                      href="/last-shelter-account/"
+                    <a onClick={() => setModalShow(true)} 
+                      href="#" id="/last-shelter-account/"
                       className="align-self-baseline gameindex-txt"
                     >
                       Accounts
                     </a>
-                    <a
-                      href="/last-shelter-power-leveling/"
+                    <a onClick={() => setModalShow(true)} 
+                      href="#" id="/last-shelter-power-leveling/"
                       className="align-self-baseline gameindex-txt"
                     >
                       Power leveling
@@ -5581,27 +5584,27 @@ const GameIndex = () => {
                 </li>
                 <li className="col-lg-3 col-md-3 col-sm-12 col-xs-12 content-item fl">
                   <div className="flex flex-column">
-                    <a
-                      href="/league-of-angels-marketplace/"
+                    <a onClick={() => setModalShow(true)} 
+                      href="#" id="/league-of-angels-marketplace/"
                       className="align-self-baseline"
                       title="League of Angels"
                     >
                       League of Angels
                     </a>
-                    <a
-                      href="/league-of-angels-items/"
+                    <a onClick={() => setModalShow(true)} 
+                      href="#" id="/league-of-angels-items/"
                       className="align-self-baseline gameindex-txt"
                     >
                       Items
                     </a>
-                    <a
-                      href="/league-of-angels-account/"
+                    <a onClick={() => setModalShow(true)} 
+                      href="#" id="/league-of-angels-account/"
                       className="align-self-baseline gameindex-txt"
                     >
                       Accounts
                     </a>
-                    <a
-                      href="/league-of-angels-power-leveling/"
+                    <a onClick={() => setModalShow(true)} 
+                      href="#" id="/league-of-angels-power-leveling/"
                       className="align-self-baseline gameindex-txt"
                     >
                       Power leveling
@@ -5610,27 +5613,27 @@ const GameIndex = () => {
                 </li>
                 <li className="col-lg-3 col-md-3 col-sm-12 col-xs-12 content-item fl">
                   <div className="flex flex-column">
-                    <a
-                      href="/lol-marketplace/"
+                    <a onClick={() => setModalShow(true)} 
+                      href="#" id="/lol-marketplace/"
                       className="align-self-baseline"
                       title="League of Legends"
                     >
                       League of Legends
                     </a>
-                    <a
-                      href="/lol-items/"
+                    <a onClick={() => setModalShow(true)} 
+                      href="#" id="/lol-items/"
                       className="align-self-baseline gameindex-txt"
                     >
                       Items
                     </a>
-                    <a
-                      href="/lol-account/"
+                    <a onClick={() => setModalShow(true)} 
+                      href="#" id="/lol-account/"
                       className="align-self-baseline gameindex-txt"
                     >
                       Accounts
                     </a>
-                    <a
-                      href="/lol-boosting/"
+                    <a onClick={() => setModalShow(true)} 
+                      href="#" id="/lol-boosting/"
                       className="align-self-baseline gameindex-txt"
                     >
                       Boosting
@@ -5639,27 +5642,27 @@ const GameIndex = () => {
                 </li>
                 <li className="col-lg-3 col-md-3 col-sm-12 col-xs-12 content-item fl">
                   <div className="flex flex-column">
-                    <a
-                      href="/wild-rift-lol-mobile-marketplace/"
+                    <a onClick={() => setModalShow(true)} 
+                      href="#" id="/wild-rift-lol-mobile-marketplace/"
                       className="align-self-baseline"
                       title="League of Legends: Wild Rift"
                     >
                       League of Legends: Wild Rift
                     </a>
-                    <a
-                      href="/wild-rift-lol-mobile-items/"
+                    <a onClick={() => setModalShow(true)} 
+                      href="#" id="/wild-rift-lol-mobile-items/"
                       className="align-self-baseline gameindex-txt"
                     >
                       Items
                     </a>
-                    <a
-                      href="/wild-rift-lol-mobile-account/"
+                    <a onClick={() => setModalShow(true)} 
+                      href="#" id="/wild-rift-lol-mobile-account/"
                       className="align-self-baseline gameindex-txt"
                     >
                       Accounts
                     </a>
-                    <a
-                      href="/wild-rift-lol-mobile-power-leveling/"
+                    <a onClick={() => setModalShow(true)} 
+                      href="#" id="/wild-rift-lol-mobile-power-leveling/"
                       className="align-self-baseline gameindex-txt"
                     >
                       Power leveling
@@ -5668,15 +5671,15 @@ const GameIndex = () => {
                 </li>
                 <li className="col-lg-3 col-md-3 col-sm-12 col-xs-12 content-item fl">
                   <div className="flex flex-column">
-                    <a
-                      href="/l4d2-marketplace/"
+                    <a onClick={() => setModalShow(true)} 
+                      href="#" id="/l4d2-marketplace/"
                       className="align-self-baseline"
                       title="Left 4 Dead 2"
                     >
                       Left 4 Dead 2
                     </a>
-                    <a
-                      href="/l4d2-account/"
+                    <a onClick={() => setModalShow(true)} 
+                      href="#" id="/l4d2-account/"
                       className="align-self-baseline gameindex-txt"
                     >
                       Accounts
@@ -5685,21 +5688,21 @@ const GameIndex = () => {
                 </li>
                 <li className="col-lg-3 col-md-3 col-sm-12 col-xs-12 content-item fl">
                   <div className="flex flex-column">
-                    <a
-                      href="/legends-of-runeterra-marketplace/"
+                    <a onClick={() => setModalShow(true)} 
+                      href="#" id="/legends-of-runeterra-marketplace/"
                       className="align-self-baseline"
                       title="Legends of Runeterra"
                     >
                       Legends of Runeterra
                     </a>
-                    <a
-                      href="/legends-of-runeterra-account/"
+                    <a onClick={() => setModalShow(true)} 
+                      href="#" id="/legends-of-runeterra-account/"
                       className="align-self-baseline gameindex-txt"
                     >
                       Accounts
                     </a>
-                    <a
-                      href="/legends-of-runeterra-power-leveling/"
+                    <a onClick={() => setModalShow(true)} 
+                      href="#" id="/legends-of-runeterra-power-leveling/"
                       className="align-self-baseline gameindex-txt"
                     >
                       Power leveling
@@ -5708,33 +5711,33 @@ const GameIndex = () => {
                 </li>
                 <li className="col-lg-3 col-md-3 col-sm-12 col-xs-12 content-item fl">
                   <div className="flex flex-column">
-                    <a
-                      href="/l2-marketplace/"
+                    <a onClick={() => setModalShow(true)} 
+                      href="#" id="/l2-marketplace/"
                       className="align-self-baseline"
                       title="Lineage 2"
                     >
                       Lineage 2
                     </a>
-                    <a
-                      href="/l2-adena/"
+                    <a onClick={() => setModalShow(true)} 
+                      href="#" id="/l2-adena/"
                       className="align-self-baseline gameindex-txt"
                     >
                       Adena
                     </a>
-                    <a
-                      href="/l2-items/"
+                    <a onClick={() => setModalShow(true)} 
+                      href="#" id="/l2-items/"
                       className="align-self-baseline gameindex-txt"
                     >
                       Items
                     </a>
-                    <a
-                      href="/l2-account/"
+                    <a onClick={() => setModalShow(true)} 
+                      href="#" id="/l2-account/"
                       className="align-self-baseline gameindex-txt"
                     >
                       Accounts
                     </a>
-                    <a
-                      href="/l2-power-leveling/"
+                    <a onClick={() => setModalShow(true)} 
+                      href="#" id="/l2-power-leveling/"
                       className="align-self-baseline gameindex-txt"
                     >
                       Power leveling
@@ -5743,27 +5746,27 @@ const GameIndex = () => {
                 </li>
                 <li className="col-lg-3 col-md-3 col-sm-12 col-xs-12 content-item fl">
                   <div className="flex flex-column">
-                    <a
-                      href="/lineage-2-revolution-marketplace/"
+                    <a onClick={() => setModalShow(true)} 
+                      href="#" id="/lineage-2-revolution-marketplace/"
                       className="align-self-baseline"
                       title="Lineage 2: Revolution"
                     >
                       Lineage 2: Revolution
                     </a>
-                    <a
-                      href="/lineage-2-revolution-items/"
+                    <a onClick={() => setModalShow(true)} 
+                      href="#" id="/lineage-2-revolution-items/"
                       className="align-self-baseline gameindex-txt"
                     >
                       Items
                     </a>
-                    <a
-                      href="/lineage-2-revolution-account/"
+                    <a onClick={() => setModalShow(true)} 
+                      href="#" id="/lineage-2-revolution-account/"
                       className="align-self-baseline gameindex-txt"
                     >
                       Accounts
                     </a>
-                    <a
-                      href="/lineage-2-revolution-power-leveling/"
+                    <a onClick={() => setModalShow(true)} 
+                      href="#" id="/lineage-2-revolution-power-leveling/"
                       className="align-self-baseline gameindex-txt"
                     >
                       Power leveling
@@ -5772,33 +5775,33 @@ const GameIndex = () => {
                 </li>
                 <li className="col-lg-3 col-md-3 col-sm-12 col-xs-12 content-item fl">
                   <div className="flex flex-column">
-                    <a
-                      href="/lineage-2m-marketplace/"
+                    <a onClick={() => setModalShow(true)} 
+                      href="#" id="/lineage-2m-marketplace/"
                       className="align-self-baseline"
                       title="Lineage 2M"
                     >
                       Lineage 2M
                     </a>
-                    <a
-                      href="/lineage-2m-diamond/"
+                    <a onClick={() => setModalShow(true)} 
+                      href="#" id="/lineage-2m-diamond/"
                       className="align-self-baseline gameindex-txt"
                     >
                       Diamond
                     </a>
-                    <a
-                      href="/lineage-2m-items/"
+                    <a onClick={() => setModalShow(true)} 
+                      href="#" id="/lineage-2m-items/"
                       className="align-self-baseline gameindex-txt"
                     >
                       Items
                     </a>
-                    <a
-                      href="/lineage-2m-account/"
+                    <a onClick={() => setModalShow(true)} 
+                      href="#" id="/lineage-2m-account/"
                       className="align-self-baseline gameindex-txt"
                     >
                       Accounts
                     </a>
-                    <a
-                      href="/lineage-2m-power-leveling/"
+                    <a onClick={() => setModalShow(true)} 
+                      href="#" id="/lineage-2m-power-leveling/"
                       className="align-self-baseline gameindex-txt"
                     >
                       Power leveling
@@ -5807,33 +5810,33 @@ const GameIndex = () => {
                 </li>
                 <li className="col-lg-3 col-md-3 col-sm-12 col-xs-12 content-item fl">
                   <div className="flex flex-column">
-                    <a
-                      href="/lotro-marketplace/"
+                    <a onClick={() => setModalShow(true)} 
+                      href="#" id="/lotro-marketplace/"
                       className="align-self-baseline"
                       title="Lord of The Rings Online"
                     >
                       Lord of The Rings Online
                     </a>
-                    <a
-                      href="/lotro-gold/"
+                    <a onClick={() => setModalShow(true)} 
+                      href="#" id="/lotro-gold/"
                       className="align-self-baseline gameindex-txt"
                     >
                       Gold
                     </a>
-                    <a
-                      href="/lotro-items/"
+                    <a onClick={() => setModalShow(true)} 
+                      href="#" id="/lotro-items/"
                       className="align-self-baseline gameindex-txt"
                     >
                       Items
                     </a>
-                    <a
-                      href="/lotro-account/"
+                    <a onClick={() => setModalShow(true)} 
+                      href="#" id="/lotro-account/"
                       className="align-self-baseline gameindex-txt"
                     >
                       Accounts
                     </a>
-                    <a
-                      href="/lotro-power-leveling/"
+                    <a onClick={() => setModalShow(true)} 
+                      href="#" id="/lotro-power-leveling/"
                       className="align-self-baseline gameindex-txt"
                     >
                       Power leveling
@@ -5842,33 +5845,33 @@ const GameIndex = () => {
                 </li>
                 <li className="col-lg-3 col-md-3 col-sm-12 col-xs-12 content-item fl">
                   <div className="flex flex-column">
-                    <a
-                      href="/lords-mobile-marketplace/"
+                    <a onClick={() => setModalShow(true)} 
+                      href="#" id="/lords-mobile-marketplace/"
                       className="align-self-baseline"
                       title="Lords Mobile"
                     >
                       Lords Mobile
                     </a>
-                    <a
-                      href="/lords-mobile-crystal/"
+                    <a onClick={() => setModalShow(true)} 
+                      href="#" id="/lords-mobile-crystal/"
                       className="align-self-baseline gameindex-txt"
                     >
                       Crystal
                     </a>
-                    <a
-                      href="/lords-mobile-items/"
+                    <a onClick={() => setModalShow(true)} 
+                      href="#" id="/lords-mobile-items/"
                       className="align-self-baseline gameindex-txt"
                     >
                       Items
                     </a>
-                    <a
-                      href="/lords-mobile-account/"
+                    <a onClick={() => setModalShow(true)} 
+                      href="#" id="/lords-mobile-account/"
                       className="align-self-baseline gameindex-txt"
                     >
                       Accounts
                     </a>
-                    <a
-                      href="/lords-mobile-power-leveling/"
+                    <a onClick={() => setModalShow(true)} 
+                      href="#" id="/lords-mobile-power-leveling/"
                       className="align-self-baseline gameindex-txt"
                     >
                       Power leveling
@@ -5877,33 +5880,33 @@ const GameIndex = () => {
                 </li>
                 <li className="col-lg-3 col-md-3 col-sm-12 col-xs-12 content-item fl">
                   <div className="flex flex-column">
-                    <a
-                      href="/lost-ark-marketplace/"
+                    <a onClick={() => setModalShow(true)} 
+                      href="#" id="/lost-ark-marketplace/"
                       className="align-self-baseline"
                       title="Lost Ark"
                     >
                       Lost Ark
                     </a>
-                    <a
-                      href="/lost-ark-gold/"
+                    <a onClick={() => setModalShow(true)} 
+                      href="#" id="/lost-ark-gold/"
                       className="align-self-baseline gameindex-txt"
                     >
                       Gold
                     </a>
-                    <a
-                      href="/lost-ark-items/"
+                    <a onClick={() => setModalShow(true)} 
+                      href="#" id="/lost-ark-items/"
                       className="align-self-baseline gameindex-txt"
                     >
                       Items
                     </a>
-                    <a
-                      href="/lost-ark-account/"
+                    <a onClick={() => setModalShow(true)} 
+                      href="#" id="/lost-ark-account/"
                       className="align-self-baseline gameindex-txt"
                     >
                       Accounts
                     </a>
-                    <a
-                      href="/lost-ark-power-leveling/"
+                    <a onClick={() => setModalShow(true)} 
+                      href="#" id="/lost-ark-power-leveling/"
                       className="align-self-baseline gameindex-txt"
                     >
                       Power leveling
@@ -5914,7 +5917,7 @@ const GameIndex = () => {
             </div>
             <div
               className="content-box slide-xs-content-box gameindex-box clearfix row no-gutters"
-              id="gameindex_M"
+              href="#" id="gameindex_M"
             >
               <div className="content-box-title col-lg-1 game-index-align-center">
                 <div className="index-Initials fl">M</div>
@@ -5925,33 +5928,33 @@ const GameIndex = () => {
               <ul className="row col-lg-11 no-gutters content-box-body">
                 <li className="col-lg-3 col-md-3 col-sm-12 col-xs-12 content-item fl">
                   <div className="flex flex-column">
-                    <a
-                      href="/mabinogi-marketplace/"
+                    <a onClick={() => setModalShow(true)} 
+                      href="#" id="/mabinogi-marketplace/"
                       className="align-self-baseline"
                       title="Mabinogi"
                     >
                       Mabinogi
                     </a>
-                    <a
-                      href="/mabinogi-gold/"
+                    <a onClick={() => setModalShow(true)} 
+                      href="#" id="/mabinogi-gold/"
                       className="align-self-baseline gameindex-txt"
                     >
                       Gold
                     </a>
-                    <a
-                      href="/mabinogi-items/"
+                    <a onClick={() => setModalShow(true)} 
+                      href="#" id="/mabinogi-items/"
                       className="align-self-baseline gameindex-txt"
                     >
                       Items
                     </a>
-                    <a
-                      href="/mabinogi-account/"
+                    <a onClick={() => setModalShow(true)} 
+                      href="#" id="/mabinogi-account/"
                       className="align-self-baseline gameindex-txt"
                     >
                       Accounts
                     </a>
-                    <a
-                      href="/mabinogi-power-leveling/"
+                    <a onClick={() => setModalShow(true)} 
+                      href="#" id="/mabinogi-power-leveling/"
                       className="align-self-baseline gameindex-txt"
                     >
                       Power leveling
@@ -5960,27 +5963,27 @@ const GameIndex = () => {
                 </li>
                 <li className="col-lg-3 col-md-3 col-sm-12 col-xs-12 content-item fl">
                   <div className="flex flex-column">
-                    <a
-                      href="/madden-nfl-marketplace/"
+                    <a onClick={() => setModalShow(true)} 
+                      href="#" id="/madden-nfl-marketplace/"
                       className="align-self-baseline"
                       title="Madden NFL"
                     >
                       Madden NFL
                     </a>
-                    <a
-                      href="/madden-nfl-coins/"
+                    <a onClick={() => setModalShow(true)} 
+                      href="#" id="/madden-nfl-coins/"
                       className="align-self-baseline gameindex-txt"
                     >
                       Coins
                     </a>
-                    <a
-                      href="/madden-nfl-account/"
+                    <a onClick={() => setModalShow(true)} 
+                      href="#" id="/madden-nfl-account/"
                       className="align-self-baseline gameindex-txt"
                     >
                       Accounts
                     </a>
-                    <a
-                      href="/madden-nfl-power-leveling/"
+                    <a onClick={() => setModalShow(true)} 
+                      href="#" id="/madden-nfl-power-leveling/"
                       className="align-self-baseline gameindex-txt"
                     >
                       Power leveling
@@ -5989,27 +5992,27 @@ const GameIndex = () => {
                 </li>
                 <li className="col-lg-3 col-md-3 col-sm-12 col-xs-12 content-item fl">
                   <div className="flex flex-column">
-                    <a
-                      href="/madden-nfl-mobile-marketplace/"
+                    <a onClick={() => setModalShow(true)} 
+                      href="#" id="/madden-nfl-mobile-marketplace/"
                       className="align-self-baseline"
                       title="Madden NFL Mobile"
                     >
                       Madden NFL Mobile
                     </a>
-                    <a
-                      href="/madden-nfl-mobile-coins/"
+                    <a onClick={() => setModalShow(true)} 
+                      href="#" id="/madden-nfl-mobile-coins/"
                       className="align-self-baseline gameindex-txt"
                     >
                       Coins
                     </a>
-                    <a
-                      href="/madden-nfl-mobile-account/"
+                    <a onClick={() => setModalShow(true)} 
+                      href="#" id="/madden-nfl-mobile-account/"
                       className="align-self-baseline gameindex-txt"
                     >
                       Accounts
                     </a>
-                    <a
-                      href="/madden-nfl-mobile-power-leveling/"
+                    <a onClick={() => setModalShow(true)} 
+                      href="#" id="/madden-nfl-mobile-power-leveling/"
                       className="align-self-baseline gameindex-txt"
                     >
                       Power leveling
@@ -6018,21 +6021,21 @@ const GameIndex = () => {
                 </li>
                 <li className="col-lg-3 col-md-3 col-sm-12 col-xs-12 content-item fl">
                   <div className="flex flex-column">
-                    <a
-                      href="/mafia-city-marketplace/"
+                    <a onClick={() => setModalShow(true)} 
+                      href="#" id="/mafia-city-marketplace/"
                       className="align-self-baseline"
                       title="Mafia City"
                     >
                       Mafia City
                     </a>
-                    <a
-                      href="/mafia-city-account/"
+                    <a onClick={() => setModalShow(true)} 
+                      href="#" id="/mafia-city-account/"
                       className="align-self-baseline gameindex-txt"
                     >
                       Accounts
                     </a>
-                    <a
-                      href="/mafia-city-power-leveling/"
+                    <a onClick={() => setModalShow(true)} 
+                      href="#" id="/mafia-city-power-leveling/"
                       className="align-self-baseline gameindex-txt"
                     >
                       Power leveling
@@ -6041,21 +6044,21 @@ const GameIndex = () => {
                 </li>
                 <li className="col-lg-3 col-md-3 col-sm-12 col-xs-12 content-item fl">
                   <div className="flex flex-column">
-                    <a
-                      href="/mtg-arena-marketplace/"
+                    <a onClick={() => setModalShow(true)} 
+                      href="#" id="/mtg-arena-marketplace/"
                       className="align-self-baseline"
                       title="Magic: The Gathering Arena"
                     >
                       Magic: The Gathering Arena
                     </a>
-                    <a
-                      href="/mtg-arena-account/"
+                    <a onClick={() => setModalShow(true)} 
+                      href="#" id="/mtg-arena-account/"
                       className="align-self-baseline gameindex-txt"
                     >
                       Accounts
                     </a>
-                    <a
-                      href="/mtg-arena-power-leveling/"
+                    <a onClick={() => setModalShow(true)} 
+                      href="#" id="/mtg-arena-power-leveling/"
                       className="align-self-baseline gameindex-txt"
                     >
                       Power leveling
@@ -6064,33 +6067,33 @@ const GameIndex = () => {
                 </li>
                 <li className="col-lg-3 col-md-3 col-sm-12 col-xs-12 content-item fl">
                   <div className="flex flex-column">
-                    <a
-                      href="/maplestory-2-marketplace/"
+                    <a onClick={() => setModalShow(true)} 
+                      href="#" id="/maplestory-2-marketplace/"
                       className="align-self-baseline"
                       title="MapleStory 2"
                     >
                       MapleStory 2
                     </a>
-                    <a
-                      href="/maplestory-2-mesos/"
+                    <a onClick={() => setModalShow(true)} 
+                      href="#" id="/maplestory-2-mesos/"
                       className="align-self-baseline gameindex-txt"
                     >
                       Mesos
                     </a>
-                    <a
-                      href="/maplestory-2-items/"
+                    <a onClick={() => setModalShow(true)} 
+                      href="#" id="/maplestory-2-items/"
                       className="align-self-baseline gameindex-txt"
                     >
                       Items
                     </a>
-                    <a
-                      href="/maplestory-2-account/"
+                    <a onClick={() => setModalShow(true)} 
+                      href="#" id="/maplestory-2-account/"
                       className="align-self-baseline gameindex-txt"
                     >
                       Accounts
                     </a>
-                    <a
-                      href="/maplestory-2-power-leveling/"
+                    <a onClick={() => setModalShow(true)} 
+                      href="#" id="/maplestory-2-power-leveling/"
                       className="align-self-baseline gameindex-txt"
                     >
                       Power leveling
@@ -6099,33 +6102,33 @@ const GameIndex = () => {
                 </li>
                 <li className="col-lg-3 col-md-3 col-sm-12 col-xs-12 content-item fl">
                   <div className="flex flex-column">
-                    <a
-                      href="/maple-story-marketplace/"
+                    <a onClick={() => setModalShow(true)} 
+                      href="#" id="/maple-story-marketplace/"
                       className="align-self-baseline"
                       title="MapleStory Global"
                     >
                       MapleStory Global
                     </a>
-                    <a
-                      href="/maple-story-mesos/"
+                    <a onClick={() => setModalShow(true)} 
+                      href="#" id="/maple-story-mesos/"
                       className="align-self-baseline gameindex-txt"
                     >
                       Mesos
                     </a>
-                    <a
-                      href="/maple-story-items/"
+                    <a onClick={() => setModalShow(true)} 
+                      href="#" id="/maple-story-items/"
                       className="align-self-baseline gameindex-txt"
                     >
                       Items
                     </a>
-                    <a
-                      href="/maple-story-account/"
+                    <a onClick={() => setModalShow(true)} 
+                      href="#" id="/maple-story-account/"
                       className="align-self-baseline gameindex-txt"
                     >
                       Accounts
                     </a>
-                    <a
-                      href="/maple-story-power-leveling/"
+                    <a onClick={() => setModalShow(true)} 
+                      href="#" id="/maple-story-power-leveling/"
                       className="align-self-baseline gameindex-txt"
                     >
                       Power leveling
@@ -6134,33 +6137,33 @@ const GameIndex = () => {
                 </li>
                 <li className="col-lg-3 col-md-3 col-sm-12 col-xs-12 content-item fl">
                   <div className="flex flex-column">
-                    <a
-                      href="/maplestory-m-marketplace/"
+                    <a onClick={() => setModalShow(true)} 
+                      href="#" id="/maplestory-m-marketplace/"
                       className="align-self-baseline"
                       title="MapleStory M"
                     >
                       MapleStory M
                     </a>
-                    <a
-                      href="/maplestory-m-mesos/"
+                    <a onClick={() => setModalShow(true)} 
+                      href="#" id="/maplestory-m-mesos/"
                       className="align-self-baseline gameindex-txt"
                     >
                       Mesos
                     </a>
-                    <a
-                      href="/maplestory-m-items/"
+                    <a onClick={() => setModalShow(true)} 
+                      href="#" id="/maplestory-m-items/"
                       className="align-self-baseline gameindex-txt"
                     >
                       Items
                     </a>
-                    <a
-                      href="/maplestory-m-account/"
+                    <a onClick={() => setModalShow(true)} 
+                      href="#" id="/maplestory-m-account/"
                       className="align-self-baseline gameindex-txt"
                     >
                       Accounts
                     </a>
-                    <a
-                      href="/maplestory-m-power-leveling/"
+                    <a onClick={() => setModalShow(true)} 
+                      href="#" id="/maplestory-m-power-leveling/"
                       className="align-self-baseline gameindex-txt"
                     >
                       Power leveling
@@ -6169,21 +6172,21 @@ const GameIndex = () => {
                 </li>
                 <li className="col-lg-3 col-md-3 col-sm-12 col-xs-12 content-item fl">
                   <div className="flex flex-column">
-                    <a
-                      href="/mcoc-marketplace/"
+                    <a onClick={() => setModalShow(true)} 
+                      href="#" id="/mcoc-marketplace/"
                       className="align-self-baseline"
                       title="Marvel Contest of Champions"
                     >
                       Marvel Contest of Champions
                     </a>
-                    <a
-                      href="/mcoc-account/"
+                    <a onClick={() => setModalShow(true)} 
+                      href="#" id="/mcoc-account/"
                       className="align-self-baseline gameindex-txt"
                     >
                       Accounts
                     </a>
-                    <a
-                      href="/mcoc-power-leveling/"
+                    <a onClick={() => setModalShow(true)} 
+                      href="#" id="/mcoc-power-leveling/"
                       className="align-self-baseline gameindex-txt"
                     >
                       Power leveling
@@ -6192,21 +6195,21 @@ const GameIndex = () => {
                 </li>
                 <li className="col-lg-3 col-md-3 col-sm-12 col-xs-12 content-item fl">
                   <div className="flex flex-column">
-                    <a
-                      href="/marvel-strike-force-marketplace/"
+                    <a onClick={() => setModalShow(true)} 
+                      href="#" id="/marvel-strike-force-marketplace/"
                       className="align-self-baseline"
                       title="Marvel Strike Force"
                     >
                       Marvel Strike Force
                     </a>
-                    <a
-                      href="/marvel-strike-force-account/"
+                    <a onClick={() => setModalShow(true)} 
+                      href="#" id="/marvel-strike-force-account/"
                       className="align-self-baseline gameindex-txt"
                     >
                       Accounts
                     </a>
-                    <a
-                      href="/marvel-strike-force-power-leveling/"
+                    <a onClick={() => setModalShow(true)} 
+                      href="#" id="/marvel-strike-force-power-leveling/"
                       className="align-self-baseline gameindex-txt"
                     >
                       Power leveling
@@ -6215,27 +6218,27 @@ const GameIndex = () => {
                 </li>
                 <li className="col-lg-3 col-md-3 col-sm-12 col-xs-12 content-item fl">
                   <div className="flex flex-column">
-                    <a
-                      href="/marvel-super-war-marketplace/"
+                    <a onClick={() => setModalShow(true)} 
+                      href="#" id="/marvel-super-war-marketplace/"
                       className="align-self-baseline"
                       title="MARVEL Super War"
                     >
                       MARVEL Super War
                     </a>
-                    <a
-                      href="/marvel-super-war-star-credits/"
+                    <a onClick={() => setModalShow(true)} 
+                      href="#" id="/marvel-super-war-star-credits/"
                       className="align-self-baseline gameindex-txt"
                     >
                       Star Credits
                     </a>
-                    <a
-                      href="/marvel-super-war-account/"
+                    <a onClick={() => setModalShow(true)} 
+                      href="#" id="/marvel-super-war-account/"
                       className="align-self-baseline gameindex-txt"
                     >
                       Accounts
                     </a>
-                    <a
-                      href="/marvel-super-war-power-leveling/"
+                    <a onClick={() => setModalShow(true)} 
+                      href="#" id="/marvel-super-war-power-leveling/"
                       className="align-self-baseline gameindex-txt"
                     >
                       Power leveling
@@ -6244,21 +6247,21 @@ const GameIndex = () => {
                 </li>
                 <li className="col-lg-3 col-md-3 col-sm-12 col-xs-12 content-item fl">
                   <div className="flex flex-column">
-                    <a
-                      href="/marvel-future-fight-marketplace/"
+                    <a onClick={() => setModalShow(true)} 
+                      href="#" id="/marvel-future-fight-marketplace/"
                       className="align-self-baseline"
                       title="Marvel: Future Fight"
                     >
                       Marvel: Future Fight
                     </a>
-                    <a
-                      href="/marvel-future-fight-account/"
+                    <a onClick={() => setModalShow(true)} 
+                      href="#" id="/marvel-future-fight-account/"
                       className="align-self-baseline gameindex-txt"
                     >
                       Accounts
                     </a>
-                    <a
-                      href="/marvel-future-fight-power-leveling/"
+                    <a onClick={() => setModalShow(true)} 
+                      href="#" id="/marvel-future-fight-power-leveling/"
                       className="align-self-baseline gameindex-txt"
                     >
                       Power leveling
@@ -6267,33 +6270,33 @@ const GameIndex = () => {
                 </li>
                 <li className="col-lg-3 col-md-3 col-sm-12 col-xs-12 content-item fl">
                   <div className="flex flex-column">
-                    <a
-                      href="/m2-marketplace/"
+                    <a onClick={() => setModalShow(true)} 
+                      href="#" id="/m2-marketplace/"
                       className="align-self-baseline"
                       title="Metin 2"
                     >
                       Metin 2
                     </a>
-                    <a
-                      href="/m2-yang/"
+                    <a onClick={() => setModalShow(true)} 
+                      href="#" id="/m2-yang/"
                       className="align-self-baseline gameindex-txt"
                     >
                       Yang
                     </a>
-                    <a
-                      href="/m2-items/"
+                    <a onClick={() => setModalShow(true)} 
+                      href="#" id="/m2-items/"
                       className="align-self-baseline gameindex-txt"
                     >
                       Items
                     </a>
-                    <a
-                      href="/m2-account/"
+                    <a onClick={() => setModalShow(true)} 
+                      href="#" id="/m2-account/"
                       className="align-self-baseline gameindex-txt"
                     >
                       Accounts
                     </a>
-                    <a
-                      href="/m2-power-leveling/"
+                    <a onClick={() => setModalShow(true)} 
+                      href="#" id="/m2-power-leveling/"
                       className="align-self-baseline gameindex-txt"
                     >
                       Power leveling
@@ -6302,15 +6305,15 @@ const GameIndex = () => {
                 </li>
                 <li className="col-lg-3 col-md-3 col-sm-12 col-xs-12 content-item fl">
                   <div className="flex flex-column">
-                    <a
-                      href="/mihoyo-marketplace/"
+                    <a onClick={() => setModalShow(true)} 
+                      href="#" id="/mihoyo-marketplace/"
                       className="align-self-baseline"
                       title="Mihoyo"
                     >
                       Mihoyo
                     </a>
-                    <a
-                      href="/mihoyo-account/"
+                    <a onClick={() => setModalShow(true)} 
+                      href="#" id="/mihoyo-account/"
                       className="align-self-baseline gameindex-txt"
                     >
                       Accounts
@@ -6319,27 +6322,27 @@ const GameIndex = () => {
                 </li>
                 <li className="col-lg-3 col-md-3 col-sm-12 col-xs-12 content-item fl">
                   <div className="flex flex-column">
-                    <a
-                      href="/minecraft-marketplace/"
+                    <a onClick={() => setModalShow(true)} 
+                      href="#" id="/minecraft-marketplace/"
                       className="align-self-baseline"
                       title="Minecraft"
                     >
                       Minecraft
                     </a>
-                    <a
-                      href="/minecraft-hypixel-coins/"
+                    <a onClick={() => setModalShow(true)} 
+                      href="#" id="/minecraft-hypixel-coins/"
                       className="align-self-baseline gameindex-txt"
                     >
                       Hypixel Coins
                     </a>
-                    <a
-                      href="/minecraft-account/"
+                    <a onClick={() => setModalShow(true)} 
+                      href="#" id="/minecraft-account/"
                       className="align-self-baseline gameindex-txt"
                     >
                       Accounts
                     </a>
-                    <a
-                      href="/minecraft-power-leveling/"
+                    <a onClick={() => setModalShow(true)} 
+                      href="#" id="/minecraft-power-leveling/"
                       className="align-self-baseline gameindex-txt"
                     >
                       Power leveling
@@ -6348,33 +6351,33 @@ const GameIndex = () => {
                 </li>
                 <li className="col-lg-3 col-md-3 col-sm-12 col-xs-12 content-item fl">
                   <div className="flex flex-column">
-                    <a
-                      href="/mir4-marketplace/"
+                    <a onClick={() => setModalShow(true)} 
+                      href="#" id="/mir4-marketplace/"
                       className="align-self-baseline"
                       title="MIR4"
                     >
                       MIR4
                     </a>
-                    <a
-                      href="/mir4-gold/"
+                    <a onClick={() => setModalShow(true)} 
+                      href="#" id="/mir4-gold/"
                       className="align-self-baseline gameindex-txt"
                     >
                       Gold
                     </a>
-                    <a
-                      href="/mir4-items/"
+                    <a onClick={() => setModalShow(true)} 
+                      href="#" id="/mir4-items/"
                       className="align-self-baseline gameindex-txt"
                     >
                       Items
                     </a>
-                    <a
-                      href="/mir4-account/"
+                    <a onClick={() => setModalShow(true)} 
+                      href="#" id="/mir4-account/"
                       className="align-self-baseline gameindex-txt"
                     >
                       Accounts
                     </a>
-                    <a
-                      href="/mir4-power-leveling/"
+                    <a onClick={() => setModalShow(true)} 
+                      href="#" id="/mir4-power-leveling/"
                       className="align-self-baseline gameindex-txt"
                     >
                       Power leveling
@@ -6383,27 +6386,27 @@ const GameIndex = () => {
                 </li>
                 <li className="col-lg-3 col-md-3 col-sm-12 col-xs-12 content-item fl">
                   <div className="flex flex-column">
-                    <a
-                      href="/mlb-the-show-marketplace/"
+                    <a onClick={() => setModalShow(true)} 
+                      href="#" id="/mlb-the-show-marketplace/"
                       className="align-self-baseline"
                       title="MLB The Show"
                     >
                       MLB The Show
                     </a>
-                    <a
-                      href="/mlb-the-show-stubs/"
+                    <a onClick={() => setModalShow(true)} 
+                      href="#" id="/mlb-the-show-stubs/"
                       className="align-self-baseline gameindex-txt"
                     >
                       Stubs
                     </a>
-                    <a
-                      href="/mlb-the-show-account/"
+                    <a onClick={() => setModalShow(true)} 
+                      href="#" id="/mlb-the-show-account/"
                       className="align-self-baseline gameindex-txt"
                     >
                       Accounts
                     </a>
-                    <a
-                      href="/mlb-the-show-power-leveling/"
+                    <a onClick={() => setModalShow(true)} 
+                      href="#" id="/mlb-the-show-power-leveling/"
                       className="align-self-baseline gameindex-txt"
                     >
                       Power leveling
@@ -6412,21 +6415,21 @@ const GameIndex = () => {
                 </li>
                 <li className="col-lg-3 col-md-3 col-sm-12 col-xs-12 content-item fl">
                   <div className="flex flex-column">
-                    <a
-                      href="/mobile-legends-marketplace/"
+                    <a onClick={() => setModalShow(true)} 
+                      href="#" id="/mobile-legends-marketplace/"
                       className="align-self-baseline"
                       title="Mobile Legends"
                     >
                       Mobile Legends
                     </a>
-                    <a
-                      href="/mobile-legends-account/"
+                    <a onClick={() => setModalShow(true)} 
+                      href="#" id="/mobile-legends-account/"
                       className="align-self-baseline gameindex-txt"
                     >
                       Accounts
                     </a>
-                    <a
-                      href="/mobile-legends-power-leveling/"
+                    <a onClick={() => setModalShow(true)} 
+                      href="#" id="/mobile-legends-power-leveling/"
                       className="align-self-baseline gameindex-txt"
                     >
                       Power leveling
@@ -6435,21 +6438,21 @@ const GameIndex = () => {
                 </li>
                 <li className="col-lg-3 col-md-3 col-sm-12 col-xs-12 content-item fl">
                   <div className="flex flex-column">
-                    <a
-                      href="/mhr-marketplace/"
+                    <a onClick={() => setModalShow(true)} 
+                      href="#" id="/mhr-marketplace/"
                       className="align-self-baseline"
                       title="Monster Hunter Rise"
                     >
                       Monster Hunter Rise
                     </a>
-                    <a
-                      href="/mhr-account/"
+                    <a onClick={() => setModalShow(true)} 
+                      href="#" id="/mhr-account/"
                       className="align-self-baseline gameindex-txt"
                     >
                       Accounts
                     </a>
-                    <a
-                      href="/mhr-power-leveling/"
+                    <a onClick={() => setModalShow(true)} 
+                      href="#" id="/mhr-power-leveling/"
                       className="align-self-baseline gameindex-txt"
                     >
                       Power leveling
@@ -6458,27 +6461,27 @@ const GameIndex = () => {
                 </li>
                 <li className="col-lg-3 col-md-3 col-sm-12 col-xs-12 content-item fl">
                   <div className="flex flex-column">
-                    <a
-                      href="/mhw-marketplace/"
+                    <a onClick={() => setModalShow(true)} 
+                      href="#" id="/mhw-marketplace/"
                       className="align-self-baseline"
                       title="Monster Hunter: World"
                     >
                       Monster Hunter: World
                     </a>
-                    <a
-                      href="/mhw-items/"
+                    <a onClick={() => setModalShow(true)} 
+                      href="#" id="/mhw-items/"
                       className="align-self-baseline gameindex-txt"
                     >
                       Items
                     </a>
-                    <a
-                      href="/mhw-account/"
+                    <a onClick={() => setModalShow(true)} 
+                      href="#" id="/mhw-account/"
                       className="align-self-baseline gameindex-txt"
                     >
                       Accounts
                     </a>
-                    <a
-                      href="/mhw-power-leveling/"
+                    <a onClick={() => setModalShow(true)} 
+                      href="#" id="/mhw-power-leveling/"
                       className="align-self-baseline gameindex-txt"
                     >
                       Power leveling
@@ -6487,21 +6490,21 @@ const GameIndex = () => {
                 </li>
                 <li className="col-lg-3 col-md-3 col-sm-12 col-xs-12 content-item fl">
                   <div className="flex flex-column">
-                    <a
-                      href="/mortal-kombat-marketplace/"
+                    <a onClick={() => setModalShow(true)} 
+                      href="#" id="/mortal-kombat-marketplace/"
                       className="align-self-baseline"
                       title="Mortal Kombat"
                     >
                       Mortal Kombat
                     </a>
-                    <a
-                      href="/mortal-kombat-account/"
+                    <a onClick={() => setModalShow(true)} 
+                      href="#" id="/mortal-kombat-account/"
                       className="align-self-baseline gameindex-txt"
                     >
                       Accounts
                     </a>
-                    <a
-                      href="/mortal-kombat-power-leveling/"
+                    <a onClick={() => setModalShow(true)} 
+                      href="#" id="/mortal-kombat-power-leveling/"
                       className="align-self-baseline gameindex-txt"
                     >
                       Power leveling
@@ -6510,21 +6513,21 @@ const GameIndex = () => {
                 </li>
                 <li className="col-lg-3 col-md-3 col-sm-12 col-xs-12 content-item fl">
                   <div className="flex flex-column">
-                    <a
-                      href="/mortal-kombat-mobile-marketplace/"
+                    <a onClick={() => setModalShow(true)} 
+                      href="#" id="/mortal-kombat-mobile-marketplace/"
                       className="align-self-baseline"
                       title="Mortal Kombat Mobile"
                     >
                       Mortal Kombat Mobile
                     </a>
-                    <a
-                      href="/mortal-kombat-mobile-account/"
+                    <a onClick={() => setModalShow(true)} 
+                      href="#" id="/mortal-kombat-mobile-account/"
                       className="align-self-baseline gameindex-txt"
                     >
                       Accounts
                     </a>
-                    <a
-                      href="/mortal-kombat-mobile-power-leveling/"
+                    <a onClick={() => setModalShow(true)} 
+                      href="#" id="/mortal-kombat-mobile-power-leveling/"
                       className="align-self-baseline gameindex-txt"
                     >
                       Power leveling
@@ -6533,33 +6536,33 @@ const GameIndex = () => {
                 </li>
                 <li className="col-lg-3 col-md-3 col-sm-12 col-xs-12 content-item fl">
                   <div className="flex flex-column">
-                    <a
-                      href="/mortal-online-2-marketplace/"
+                    <a onClick={() => setModalShow(true)} 
+                      href="#" id="/mortal-online-2-marketplace/"
                       className="align-self-baseline"
                       title="Mortal Online 2"
                     >
                       Mortal Online 2
                     </a>
-                    <a
-                      href="/mortal-online-2-gold/"
+                    <a onClick={() => setModalShow(true)} 
+                      href="#" id="/mortal-online-2-gold/"
                       className="align-self-baseline gameindex-txt"
                     >
                       Gold
                     </a>
-                    <a
-                      href="/mortal-online-2-items/"
+                    <a onClick={() => setModalShow(true)} 
+                      href="#" id="/mortal-online-2-items/"
                       className="align-self-baseline gameindex-txt"
                     >
                       Items
                     </a>
-                    <a
-                      href="/mortal-online-2-account/"
+                    <a onClick={() => setModalShow(true)} 
+                      href="#" id="/mortal-online-2-account/"
                       className="align-self-baseline gameindex-txt"
                     >
                       Accounts
                     </a>
-                    <a
-                      href="/mortal-online-2-power-leveling/"
+                    <a onClick={() => setModalShow(true)} 
+                      href="#" id="/mortal-online-2-power-leveling/"
                       className="align-self-baseline gameindex-txt"
                     >
                       Power leveling
@@ -6568,33 +6571,33 @@ const GameIndex = () => {
                 </li>
                 <li className="col-lg-3 col-md-3 col-sm-12 col-xs-12 content-item fl">
                   <div className="flex flex-column">
-                    <a
-                      href="/myth-of-empires-marketplace/"
+                    <a onClick={() => setModalShow(true)} 
+                      href="#" id="/myth-of-empires-marketplace/"
                       className="align-self-baseline"
                       title="Myth of Empires"
                     >
                       Myth of Empires
                     </a>
-                    <a
-                      href="/myth-of-empires-copper-coins/"
+                    <a onClick={() => setModalShow(true)} 
+                      href="#" id="/myth-of-empires-copper-coins/"
                       className="align-self-baseline gameindex-txt"
                     >
                       Copper Coins
                     </a>
-                    <a
-                      href="/myth-of-empires-items/"
+                    <a onClick={() => setModalShow(true)} 
+                      href="#" id="/myth-of-empires-items/"
                       className="align-self-baseline gameindex-txt"
                     >
                       Items
                     </a>
-                    <a
-                      href="/myth-of-empires-account/"
+                    <a onClick={() => setModalShow(true)} 
+                      href="#" id="/myth-of-empires-account/"
                       className="align-self-baseline gameindex-txt"
                     >
                       Accounts
                     </a>
-                    <a
-                      href="/myth-of-empires-power-leveling/"
+                    <a onClick={() => setModalShow(true)} 
+                      href="#" id="/myth-of-empires-power-leveling/"
                       className="align-self-baseline gameindex-txt"
                     >
                       Power leveling
@@ -6605,7 +6608,7 @@ const GameIndex = () => {
             </div>
             <div
               className="content-box slide-xs-content-box gameindex-box clearfix row no-gutters"
-              id="gameindex_O"
+              href="#" id="gameindex_O"
             >
               <div className="content-box-title col-lg-1 game-index-align-center">
                 <div className="index-Initials fl">O</div>
@@ -6616,21 +6619,21 @@ const GameIndex = () => {
               <ul className="row col-lg-11 no-gutters content-box-body">
                 <li className="col-lg-3 col-md-3 col-sm-12 col-xs-12 content-item fl">
                   <div className="flex flex-column">
-                    <a
-                      href="/one-piece-tc-marketplace/"
+                    <a onClick={() => setModalShow(true)} 
+                      href="#" id="/one-piece-tc-marketplace/"
                       className="align-self-baseline"
                       title="One Piece Treasure Cruise"
                     >
                       One Piece Treasure Cruise
                     </a>
-                    <a
-                      href="/one-piece-tc-account/"
+                    <a onClick={() => setModalShow(true)} 
+                      href="#" id="/one-piece-tc-account/"
                       className="align-self-baseline gameindex-txt"
                     >
                       Accounts
                     </a>
-                    <a
-                      href="/one-piece-tc-power-leveling/"
+                    <a onClick={() => setModalShow(true)} 
+                      href="#" id="/one-piece-tc-power-leveling/"
                       className="align-self-baseline gameindex-txt"
                     >
                       Power leveling
@@ -6639,15 +6642,15 @@ const GameIndex = () => {
                 </li>
                 <li className="col-lg-3 col-md-3 col-sm-12 col-xs-12 content-item fl">
                   <div className="flex flex-column">
-                    <a
-                      href="/ea-origin-marketplace/"
+                    <a onClick={() => setModalShow(true)} 
+                      href="#" id="/ea-origin-marketplace/"
                       className="align-self-baseline"
                       title="Origin"
                     >
                       Origin
                     </a>
-                    <a
-                      href="/ea-origin-account/"
+                    <a onClick={() => setModalShow(true)} 
+                      href="#" id="/ea-origin-account/"
                       className="align-self-baseline gameindex-txt"
                     >
                       Accounts
@@ -6656,21 +6659,21 @@ const GameIndex = () => {
                 </li>
                 <li className="col-lg-3 col-md-3 col-sm-12 col-xs-12 content-item fl">
                   <div className="flex flex-column">
-                    <a
-                      href="/outriders-marketplace/"
+                    <a onClick={() => setModalShow(true)} 
+                      href="#" id="/outriders-marketplace/"
                       className="align-self-baseline"
                       title="Outriders"
                     >
                       Outriders
                     </a>
-                    <a
-                      href="/outriders-account/"
+                    <a onClick={() => setModalShow(true)} 
+                      href="#" id="/outriders-account/"
                       className="align-self-baseline gameindex-txt"
                     >
                       Accounts
                     </a>
-                    <a
-                      href="/outriders-power-leveling/"
+                    <a onClick={() => setModalShow(true)} 
+                      href="#" id="/outriders-power-leveling/"
                       className="align-self-baseline gameindex-txt"
                     >
                       Power leveling
@@ -6679,27 +6682,27 @@ const GameIndex = () => {
                 </li>
                 <li className="col-lg-3 col-md-3 col-sm-12 col-xs-12 content-item fl">
                   <div className="flex flex-column">
-                    <a
-                      href="/overwatch-marketplace/"
+                    <a onClick={() => setModalShow(true)} 
+                      href="#" id="/overwatch-marketplace/"
                       className="align-self-baseline"
                       title="Overwatch"
                     >
                       Overwatch
                     </a>
-                    <a
-                      href="/overwatch-items/"
+                    <a onClick={() => setModalShow(true)} 
+                      href="#" id="/overwatch-items/"
                       className="align-self-baseline gameindex-txt"
                     >
                       Items
                     </a>
-                    <a
-                      href="/overwatch-account/"
+                    <a onClick={() => setModalShow(true)} 
+                      href="#" id="/overwatch-account/"
                       className="align-self-baseline gameindex-txt"
                     >
                       Accounts
                     </a>
-                    <a
-                      href="/overwatch-power-leveling/"
+                    <a onClick={() => setModalShow(true)} 
+                      href="#" id="/overwatch-power-leveling/"
                       className="align-self-baseline gameindex-txt"
                     >
                       Power leveling
@@ -6708,21 +6711,21 @@ const GameIndex = () => {
                 </li>
                 <li className="col-lg-3 col-md-3 col-sm-12 col-xs-12 content-item fl">
                   <div className="flex flex-column">
-                    <a
-                      href="/overwatch-2-marketplace/"
+                    <a onClick={() => setModalShow(true)} 
+                      href="#" id="/overwatch-2-marketplace/"
                       className="align-self-baseline"
                       title="Overwatch 2"
                     >
                       Overwatch 2
                     </a>
-                    <a
-                      href="/overwatch-2-account/"
+                    <a onClick={() => setModalShow(true)} 
+                      href="#" id="/overwatch-2-account/"
                       className="align-self-baseline gameindex-txt"
                     >
                       Accounts
                     </a>
-                    <a
-                      href="/overwatch-2-power-leveling/"
+                    <a onClick={() => setModalShow(true)} 
+                      href="#" id="/overwatch-2-power-leveling/"
                       className="align-self-baseline gameindex-txt"
                     >
                       Power leveling
@@ -6733,7 +6736,7 @@ const GameIndex = () => {
             </div>
             <div
               className="content-box slide-xs-content-box gameindex-box clearfix row no-gutters"
-              id="gameindex_N"
+              href="#" id="gameindex_N"
             >
               <div className="content-box-title col-lg-1 game-index-align-center">
                 <div className="index-Initials fl">N</div>
@@ -6744,21 +6747,21 @@ const GameIndex = () => {
               <ul className="row col-lg-11 no-gutters content-box-body">
                 <li className="col-lg-3 col-md-3 col-sm-12 col-xs-12 content-item fl">
                   <div className="flex flex-column">
-                    <a
-                      href="/naraka-bladepoint-marketplace/"
+                    <a onClick={() => setModalShow(true)} 
+                      href="#" id="/naraka-bladepoint-marketplace/"
                       className="align-self-baseline"
                       title="NARAKA: BLADEPOINT"
                     >
                       NARAKA: BLADEPOINT
                     </a>
-                    <a
-                      href="/naraka-bladepoint-account/"
+                    <a onClick={() => setModalShow(true)} 
+                      href="#" id="/naraka-bladepoint-account/"
                       className="align-self-baseline gameindex-txt"
                     >
                       Accounts
                     </a>
-                    <a
-                      href="/naraka-bladepoint-power-leveling/"
+                    <a onClick={() => setModalShow(true)} 
+                      href="#" id="/naraka-bladepoint-power-leveling/"
                       className="align-self-baseline gameindex-txt"
                     >
                       Power leveling
@@ -6767,21 +6770,21 @@ const GameIndex = () => {
                 </li>
                 <li className="col-lg-3 col-md-3 col-sm-12 col-xs-12 content-item fl">
                   <div className="flex flex-column">
-                    <a
-                      href="/naruto-online-marketplace/"
+                    <a onClick={() => setModalShow(true)} 
+                      href="#" id="/naruto-online-marketplace/"
                       className="align-self-baseline"
                       title="Naruto Online"
                     >
                       Naruto Online
                     </a>
-                    <a
-                      href="/naruto-online-account/"
+                    <a onClick={() => setModalShow(true)} 
+                      href="#" id="/naruto-online-account/"
                       className="align-self-baseline gameindex-txt"
                     >
                       Accounts
                     </a>
-                    <a
-                      href="/naruto-online-power-leveling/"
+                    <a onClick={() => setModalShow(true)} 
+                      href="#" id="/naruto-online-power-leveling/"
                       className="align-self-baseline gameindex-txt"
                     >
                       Power leveling
@@ -6790,27 +6793,27 @@ const GameIndex = () => {
                 </li>
                 <li className="col-lg-3 col-md-3 col-sm-12 col-xs-12 content-item fl">
                   <div className="flex flex-column">
-                    <a
-                      href="/nba-2k-marketplace/"
+                    <a onClick={() => setModalShow(true)} 
+                      href="#" id="/nba-2k-marketplace/"
                       className="align-self-baseline"
                       title="NBA 2K"
                     >
                       NBA 2K
                     </a>
-                    <a
-                      href="/nba-2k-mt/"
+                    <a onClick={() => setModalShow(true)} 
+                      href="#" id="/nba-2k-mt/"
                       className="align-self-baseline gameindex-txt"
                     >
                       MT
                     </a>
-                    <a
-                      href="/nba-2k-account/"
+                    <a onClick={() => setModalShow(true)} 
+                      href="#" id="/nba-2k-account/"
                       className="align-self-baseline gameindex-txt"
                     >
                       Accounts
                     </a>
-                    <a
-                      href="/nba-2k-power-leveling/"
+                    <a onClick={() => setModalShow(true)} 
+                      href="#" id="/nba-2k-power-leveling/"
                       className="align-self-baseline gameindex-txt"
                     >
                       Power leveling
@@ -6819,33 +6822,33 @@ const GameIndex = () => {
                 </li>
                 <li className="col-lg-3 col-md-3 col-sm-12 col-xs-12 content-item fl">
                   <div className="flex flex-column">
-                    <a
-                      href="/neopets-marketplace/"
+                    <a onClick={() => setModalShow(true)} 
+                      href="#" id="/neopets-marketplace/"
                       className="align-self-baseline"
                       title="Neopets"
                     >
                       Neopets
                     </a>
-                    <a
-                      href="/neopets-neopoints/"
+                    <a onClick={() => setModalShow(true)} 
+                      href="#" id="/neopets-neopoints/"
                       className="align-self-baseline gameindex-txt"
                     >
                       Neopoints
                     </a>
-                    <a
-                      href="/neopets-items/"
+                    <a onClick={() => setModalShow(true)} 
+                      href="#" id="/neopets-items/"
                       className="align-self-baseline gameindex-txt"
                     >
                       Items
                     </a>
-                    <a
-                      href="/neopets-account/"
+                    <a onClick={() => setModalShow(true)} 
+                      href="#" id="/neopets-account/"
                       className="align-self-baseline gameindex-txt"
                     >
                       Accounts
                     </a>
-                    <a
-                      href="/neopets-power-leveling/"
+                    <a onClick={() => setModalShow(true)} 
+                      href="#" id="/neopets-power-leveling/"
                       className="align-self-baseline gameindex-txt"
                     >
                       Power leveling
@@ -6854,33 +6857,33 @@ const GameIndex = () => {
                 </li>
                 <li className="col-lg-3 col-md-3 col-sm-12 col-xs-12 content-item fl">
                   <div className="flex flex-column">
-                    <a
-                      href="/never-winter-marketplace/"
+                    <a onClick={() => setModalShow(true)} 
+                      href="#" id="/never-winter-marketplace/"
                       className="align-self-baseline"
                       title="NeverWinter"
                     >
                       NeverWinter
                     </a>
-                    <a
-                      href="/never-winter-astral-diamond/"
+                    <a onClick={() => setModalShow(true)} 
+                      href="#" id="/never-winter-astral-diamond/"
                       className="align-self-baseline gameindex-txt"
                     >
                       Astral Diamond
                     </a>
-                    <a
-                      href="/never-winter-items/"
+                    <a onClick={() => setModalShow(true)} 
+                      href="#" id="/never-winter-items/"
                       className="align-self-baseline gameindex-txt"
                     >
                       Items
                     </a>
-                    <a
-                      href="/never-winter-account/"
+                    <a onClick={() => setModalShow(true)} 
+                      href="#" id="/never-winter-account/"
                       className="align-self-baseline gameindex-txt"
                     >
                       Accounts
                     </a>
-                    <a
-                      href="/never-winter-power-leveling/"
+                    <a onClick={() => setModalShow(true)} 
+                      href="#" id="/never-winter-power-leveling/"
                       className="align-self-baseline gameindex-txt"
                     >
                       Power leveling
@@ -6889,33 +6892,33 @@ const GameIndex = () => {
                 </li>
                 <li className="col-lg-3 col-md-3 col-sm-12 col-xs-12 content-item fl">
                   <div className="flex flex-column">
-                    <a
-                      href="/new-world-marketplace/"
+                    <a onClick={() => setModalShow(true)} 
+                      href="#" id="/new-world-marketplace/"
                       className="align-self-baseline"
                       title="New World"
                     >
                       New World
                     </a>
-                    <a
-                      href="/new-world-coins/"
+                    <a onClick={() => setModalShow(true)} 
+                      href="#" id="/new-world-coins/"
                       className="align-self-baseline gameindex-txt"
                     >
                       Coins
                     </a>
-                    <a
-                      href="/new-world-items/"
+                    <a onClick={() => setModalShow(true)} 
+                      href="#" id="/new-world-items/"
                       className="align-self-baseline gameindex-txt"
                     >
                       Items
                     </a>
-                    <a
-                      href="/new-world-account/"
+                    <a onClick={() => setModalShow(true)} 
+                      href="#" id="/new-world-account/"
                       className="align-self-baseline gameindex-txt"
                     >
                       Accounts
                     </a>
-                    <a
-                      href="/new-world-power-leveling/"
+                    <a onClick={() => setModalShow(true)} 
+                      href="#" id="/new-world-power-leveling/"
                       className="align-self-baseline gameindex-txt"
                     >
                       Power leveling
@@ -6924,27 +6927,27 @@ const GameIndex = () => {
                 </li>
                 <li className="col-lg-3 col-md-3 col-sm-12 col-xs-12 content-item fl">
                   <div className="flex flex-column">
-                    <a
-                      href="/nhl-marketplace/"
+                    <a onClick={() => setModalShow(true)} 
+                      href="#" id="/nhl-marketplace/"
                       className="align-self-baseline"
                       title="NHL"
                     >
                       NHL
                     </a>
-                    <a
-                      href="/nhl-coins/"
+                    <a onClick={() => setModalShow(true)} 
+                      href="#" id="/nhl-coins/"
                       className="align-self-baseline gameindex-txt"
                     >
                       Coins
                     </a>
-                    <a
-                      href="/nhl-account/"
+                    <a onClick={() => setModalShow(true)} 
+                      href="#" id="/nhl-account/"
                       className="align-self-baseline gameindex-txt"
                     >
                       Accounts
                     </a>
-                    <a
-                      href="/nhl-power-leveling/"
+                    <a onClick={() => setModalShow(true)} 
+                      href="#" id="/nhl-power-leveling/"
                       className="align-self-baseline gameindex-txt"
                     >
                       Power leveling
@@ -6953,21 +6956,21 @@ const GameIndex = () => {
                 </li>
                 <li className="col-lg-3 col-md-3 col-sm-12 col-xs-12 content-item fl">
                   <div className="flex flex-column">
-                    <a
-                      href="/nier-reincarnation-marketplace/"
+                    <a onClick={() => setModalShow(true)} 
+                      href="#" id="/nier-reincarnation-marketplace/"
                       className="align-self-baseline"
                       title="Nier Reincarnation"
                     >
                       Nier Reincarnation
                     </a>
-                    <a
-                      href="/nier-reincarnation-account/"
+                    <a onClick={() => setModalShow(true)} 
+                      href="#" id="/nier-reincarnation-account/"
                       className="align-self-baseline gameindex-txt"
                     >
                       Accounts
                     </a>
-                    <a
-                      href="/nier-reincarnation-power-leveling/"
+                    <a onClick={() => setModalShow(true)} 
+                      href="#" id="/nier-reincarnation-power-leveling/"
                       className="align-self-baseline gameindex-txt"
                     >
                       Power leveling
@@ -6976,15 +6979,15 @@ const GameIndex = () => {
                 </li>
                 <li className="col-lg-3 col-md-3 col-sm-12 col-xs-12 content-item fl">
                   <div className="flex flex-column">
-                    <a
-                      href="/nintendo-switch-marketplace/"
+                    <a onClick={() => setModalShow(true)} 
+                      href="#" id="/nintendo-switch-marketplace/"
                       className="align-self-baseline"
                       title="Nintendo Switch"
                     >
                       Nintendo Switch
                     </a>
-                    <a
-                      href="/nintendo-switch-account/"
+                    <a onClick={() => setModalShow(true)} 
+                      href="#" id="/nintendo-switch-account/"
                       className="align-self-baseline gameindex-txt"
                     >
                       Accounts
@@ -6993,33 +6996,33 @@ const GameIndex = () => {
                 </li>
                 <li className="col-lg-3 col-md-3 col-sm-12 col-xs-12 content-item fl">
                   <div className="flex flex-column">
-                    <a
-                      href="/no-mans-sky-marketplace/"
+                    <a onClick={() => setModalShow(true)} 
+                      href="#" id="/no-mans-sky-marketplace/"
                       className="align-self-baseline"
                       title="No Man's Sky"
                     >
                       No Man's Sky
                     </a>
-                    <a
-                      href="/no-mans-sky-units/"
+                    <a onClick={() => setModalShow(true)} 
+                      href="#" id="/no-mans-sky-units/"
                       className="align-self-baseline gameindex-txt"
                     >
                       Units
                     </a>
-                    <a
-                      href="/no-mans-sky-items/"
+                    <a onClick={() => setModalShow(true)} 
+                      href="#" id="/no-mans-sky-items/"
                       className="align-self-baseline gameindex-txt"
                     >
                       Items
                     </a>
-                    <a
-                      href="/no-mans-sky-account/"
+                    <a onClick={() => setModalShow(true)} 
+                      href="#" id="/no-mans-sky-account/"
                       className="align-self-baseline gameindex-txt"
                     >
                       Accounts
                     </a>
-                    <a
-                      href="/no-mans-sky-power-leveling/"
+                    <a onClick={() => setModalShow(true)} 
+                      href="#" id="/no-mans-sky-power-leveling/"
                       className="align-self-baseline gameindex-txt"
                     >
                       Power leveling
@@ -7030,7 +7033,7 @@ const GameIndex = () => {
             </div>
             <div
               className="content-box slide-xs-content-box gameindex-box clearfix row no-gutters"
-              id="gameindex_P"
+              href="#" id="gameindex_P"
             >
               <div className="content-box-title col-lg-1 game-index-align-center">
                 <div className="index-Initials fl">P</div>
@@ -7041,33 +7044,33 @@ const GameIndex = () => {
               <ul className="row col-lg-11 no-gutters content-box-body">
                 <li className="col-lg-3 col-md-3 col-sm-12 col-xs-12 content-item fl">
                   <div className="flex flex-column">
-                    <a
-                      href="/paladins-marketplace/"
+                    <a onClick={() => setModalShow(true)} 
+                      href="#" id="/paladins-marketplace/"
                       className="align-self-baseline"
                       title="Paladins"
                     >
                       Paladins
                     </a>
-                    <a
-                      href="/paladins-gold/"
+                    <a onClick={() => setModalShow(true)} 
+                      href="#" id="/paladins-gold/"
                       className="align-self-baseline gameindex-txt"
                     >
                       Gold
                     </a>
-                    <a
-                      href="/paladins-items/"
+                    <a onClick={() => setModalShow(true)} 
+                      href="#" id="/paladins-items/"
                       className="align-self-baseline gameindex-txt"
                     >
                       Items
                     </a>
-                    <a
-                      href="/paladins-account/"
+                    <a onClick={() => setModalShow(true)} 
+                      href="#" id="/paladins-account/"
                       className="align-self-baseline gameindex-txt"
                     >
                       Accounts
                     </a>
-                    <a
-                      href="/paladins-power-leveling/"
+                    <a onClick={() => setModalShow(true)} 
+                      href="#" id="/paladins-power-leveling/"
                       className="align-self-baseline gameindex-txt"
                     >
                       Power leveling
@@ -7076,33 +7079,33 @@ const GameIndex = () => {
                 </li>
                 <li className="col-lg-3 col-md-3 col-sm-12 col-xs-12 content-item fl">
                   <div className="flex flex-column">
-                    <a
-                      href="/path-of-exile-marketplace/"
+                    <a onClick={() => setModalShow(true)} 
+                      href="#" id="/path-of-exile-marketplace/"
                       className="align-self-baseline"
                       title="Path of Exile"
                     >
                       Path of Exile
                     </a>
-                    <a
-                      href="/path-of-exile-exalted-orb/"
+                    <a onClick={() => setModalShow(true)} 
+                      href="#" id="/path-of-exile-exalted-orb/"
                       className="align-self-baseline gameindex-txt"
                     >
                       Exalted Orb
                     </a>
-                    <a
-                      href="/path-of-exile-items/"
+                    <a onClick={() => setModalShow(true)} 
+                      href="#" id="/path-of-exile-items/"
                       className="align-self-baseline gameindex-txt"
                     >
                       Items
                     </a>
-                    <a
-                      href="/path-of-exile-account/"
+                    <a onClick={() => setModalShow(true)} 
+                      href="#" id="/path-of-exile-account/"
                       className="align-self-baseline gameindex-txt"
                     >
                       Accounts
                     </a>
-                    <a
-                      href="/path-of-exile-power-leveling/"
+                    <a onClick={() => setModalShow(true)} 
+                      href="#" id="/path-of-exile-power-leveling/"
                       className="align-self-baseline gameindex-txt"
                     >
                       Power leveling
@@ -7111,33 +7114,33 @@ const GameIndex = () => {
                 </li>
                 <li className="col-lg-3 col-md-3 col-sm-12 col-xs-12 content-item fl">
                   <div className="flex flex-column">
-                    <a
-                      href="/pso2-marketplace/"
+                    <a onClick={() => setModalShow(true)} 
+                      href="#" id="/pso2-marketplace/"
                       className="align-self-baseline"
                       title="Phantasy Star Online 2"
                     >
                       Phantasy Star Online 2
                     </a>
-                    <a
-                      href="/pso2-meseta/"
+                    <a onClick={() => setModalShow(true)} 
+                      href="#" id="/pso2-meseta/"
                       className="align-self-baseline gameindex-txt"
                     >
                       Meseta
                     </a>
-                    <a
-                      href="/pso2-items/"
+                    <a onClick={() => setModalShow(true)} 
+                      href="#" id="/pso2-items/"
                       className="align-self-baseline gameindex-txt"
                     >
                       Items
                     </a>
-                    <a
-                      href="/pso2-account/"
+                    <a onClick={() => setModalShow(true)} 
+                      href="#" id="/pso2-account/"
                       className="align-self-baseline gameindex-txt"
                     >
                       Accounts
                     </a>
-                    <a
-                      href="/pso2-power-leveling/"
+                    <a onClick={() => setModalShow(true)} 
+                      href="#" id="/pso2-power-leveling/"
                       className="align-self-baseline gameindex-txt"
                     >
                       Power leveling
@@ -7146,33 +7149,33 @@ const GameIndex = () => {
                 </li>
                 <li className="col-lg-3 col-md-3 col-sm-12 col-xs-12 content-item fl">
                   <div className="flex flex-column">
-                    <a
-                      href="/pso2ngs-marketplace/"
+                    <a onClick={() => setModalShow(true)} 
+                      href="#" id="/pso2ngs-marketplace/"
                       className="align-self-baseline"
                       title="Phantasy Star Online 2: New Genesis"
                     >
                       Phantasy Star Online 2: New Genesis
                     </a>
-                    <a
-                      href="/pso2ngs-n-meseta/"
+                    <a onClick={() => setModalShow(true)} 
+                      href="#" id="/pso2ngs-n-meseta/"
                       className="align-self-baseline gameindex-txt"
                     >
                       N-Meseta
                     </a>
-                    <a
-                      href="/pso2ngs-items/"
+                    <a onClick={() => setModalShow(true)} 
+                      href="#" id="/pso2ngs-items/"
                       className="align-self-baseline gameindex-txt"
                     >
                       Items
                     </a>
-                    <a
-                      href="/pso2ngs-account/"
+                    <a onClick={() => setModalShow(true)} 
+                      href="#" id="/pso2ngs-account/"
                       className="align-self-baseline gameindex-txt"
                     >
                       Accounts
                     </a>
-                    <a
-                      href="/pso2ngs-power-leveling/"
+                    <a onClick={() => setModalShow(true)} 
+                      href="#" id="/pso2ngs-power-leveling/"
                       className="align-self-baseline gameindex-txt"
                     >
                       Power leveling
@@ -7181,21 +7184,21 @@ const GameIndex = () => {
                 </li>
                 <li className="col-lg-3 col-md-3 col-sm-12 col-xs-12 content-item fl">
                   <div className="flex flex-column">
-                    <a
-                      href="/phasmophobia-marketplace/"
+                    <a onClick={() => setModalShow(true)} 
+                      href="#" id="/phasmophobia-marketplace/"
                       className="align-self-baseline"
                       title="Phasmophobia"
                     >
                       Phasmophobia
                     </a>
-                    <a
-                      href="/phasmophobia-account/"
+                    <a onClick={() => setModalShow(true)} 
+                      href="#" id="/phasmophobia-account/"
                       className="align-self-baseline gameindex-txt"
                     >
                       Accounts
                     </a>
-                    <a
-                      href="/phasmophobia-power-leveling/"
+                    <a onClick={() => setModalShow(true)} 
+                      href="#" id="/phasmophobia-power-leveling/"
                       className="align-self-baseline gameindex-txt"
                     >
                       Power leveling
@@ -7204,27 +7207,27 @@ const GameIndex = () => {
                 </li>
                 <li className="col-lg-3 col-md-3 col-sm-12 col-xs-12 content-item fl">
                   <div className="flex flex-column">
-                    <a
-                      href="/pixel-worlds-marketplace/"
+                    <a onClick={() => setModalShow(true)} 
+                      href="#" id="/pixel-worlds-marketplace/"
                       className="align-self-baseline"
                       title="Pixel Worlds"
                     >
                       Pixel Worlds
                     </a>
-                    <a
-                      href="/pixel-worlds-items/"
+                    <a onClick={() => setModalShow(true)} 
+                      href="#" id="/pixel-worlds-items/"
                       className="align-self-baseline gameindex-txt"
                     >
                       Items
                     </a>
-                    <a
-                      href="/pixel-worlds-account/"
+                    <a onClick={() => setModalShow(true)} 
+                      href="#" id="/pixel-worlds-account/"
                       className="align-self-baseline gameindex-txt"
                     >
                       Accounts
                     </a>
-                    <a
-                      href="/pixel-worlds-power-leveling/"
+                    <a onClick={() => setModalShow(true)} 
+                      href="#" id="/pixel-worlds-power-leveling/"
                       className="align-self-baseline gameindex-txt"
                     >
                       Power leveling
@@ -7233,27 +7236,27 @@ const GameIndex = () => {
                 </li>
                 <li className="col-lg-3 col-md-3 col-sm-12 col-xs-12 content-item fl">
                   <div className="flex flex-column">
-                    <a
-                      href="/pubg-marketplace/"
+                    <a onClick={() => setModalShow(true)} 
+                      href="#" id="/pubg-marketplace/"
                       className="align-self-baseline"
                       title="Playerunknowns Battlegrounds"
                     >
                       Playerunknowns Battlegrounds
                     </a>
-                    <a
-                      href="/pubg-items/"
+                    <a onClick={() => setModalShow(true)} 
+                      href="#" id="/pubg-items/"
                       className="align-self-baseline gameindex-txt"
                     >
                       Items
                     </a>
-                    <a
-                      href="/pubg-account/"
+                    <a onClick={() => setModalShow(true)} 
+                      href="#" id="/pubg-account/"
                       className="align-self-baseline gameindex-txt"
                     >
                       Accounts
                     </a>
-                    <a
-                      href="/pubg-power-leveling/"
+                    <a onClick={() => setModalShow(true)} 
+                      href="#" id="/pubg-power-leveling/"
                       className="align-self-baseline gameindex-txt"
                     >
                       Power leveling
@@ -7262,33 +7265,33 @@ const GameIndex = () => {
                 </li>
                 <li className="col-lg-3 col-md-3 col-sm-12 col-xs-12 content-item fl">
                   <div className="flex flex-column">
-                    <a
-                      href="/pokemmo-marketplace/"
+                    <a onClick={() => setModalShow(true)} 
+                      href="#" id="/pokemmo-marketplace/"
                       className="align-self-baseline"
                       title="PokeMMO"
                     >
                       PokeMMO
                     </a>
-                    <a
-                      href="/pokemmo-gold/"
+                    <a onClick={() => setModalShow(true)} 
+                      href="#" id="/pokemmo-gold/"
                       className="align-self-baseline gameindex-txt"
                     >
                       Gold
                     </a>
-                    <a
-                      href="/pokemmo-items/"
+                    <a onClick={() => setModalShow(true)} 
+                      href="#" id="/pokemmo-items/"
                       className="align-self-baseline gameindex-txt"
                     >
                       Items
                     </a>
-                    <a
-                      href="/pokemmo-account/"
+                    <a onClick={() => setModalShow(true)} 
+                      href="#" id="/pokemmo-account/"
                       className="align-self-baseline gameindex-txt"
                     >
                       Accounts
                     </a>
-                    <a
-                      href="/pokemmo-power-leveling/"
+                    <a onClick={() => setModalShow(true)} 
+                      href="#" id="/pokemmo-power-leveling/"
                       className="align-self-baseline gameindex-txt"
                     >
                       Power leveling
@@ -7297,27 +7300,27 @@ const GameIndex = () => {
                 </li>
                 <li className="col-lg-3 col-md-3 col-sm-12 col-xs-12 content-item fl">
                   <div className="flex flex-column">
-                    <a
-                      href="/pokemon-bdsp-marketplace/"
+                    <a onClick={() => setModalShow(true)} 
+                      href="#" id="/pokemon-bdsp-marketplace/"
                       className="align-self-baseline"
                       title="Pokémon Brilliant Diamond and Shining Pearl"
                     >
                       Pokémon Brilliant Diamond and Shining Pearl
                     </a>
-                    <a
-                      href="/pokemon-bdsp-items/"
+                    <a onClick={() => setModalShow(true)} 
+                      href="#" id="/pokemon-bdsp-items/"
                       className="align-self-baseline gameindex-txt"
                     >
                       Items
                     </a>
-                    <a
-                      href="/pokemon-bdsp-account/"
+                    <a onClick={() => setModalShow(true)} 
+                      href="#" id="/pokemon-bdsp-account/"
                       className="align-self-baseline gameindex-txt"
                     >
                       Accounts
                     </a>
-                    <a
-                      href="/pokemon-bdsp-power-leveling/"
+                    <a onClick={() => setModalShow(true)} 
+                      href="#" id="/pokemon-bdsp-power-leveling/"
                       className="align-self-baseline gameindex-txt"
                     >
                       Power leveling
@@ -7326,27 +7329,27 @@ const GameIndex = () => {
                 </li>
                 <li className="col-lg-3 col-md-3 col-sm-12 col-xs-12 content-item fl">
                   <div className="flex flex-column">
-                    <a
-                      href="/pokemon-games-marketplace/"
+                    <a onClick={() => setModalShow(true)} 
+                      href="#" id="/pokemon-games-marketplace/"
                       className="align-self-baseline"
                       title="Pokémon Games"
                     >
                       Pokémon Games
                     </a>
-                    <a
-                      href="/pokemon-games-items/"
+                    <a onClick={() => setModalShow(true)} 
+                      href="#" id="/pokemon-games-items/"
                       className="align-self-baseline gameindex-txt"
                     >
                       Items
                     </a>
-                    <a
-                      href="/pokemon-games-account/"
+                    <a onClick={() => setModalShow(true)} 
+                      href="#" id="/pokemon-games-account/"
                       className="align-self-baseline gameindex-txt"
                     >
                       Accounts
                     </a>
-                    <a
-                      href="/pokemon-games-power-leveling/"
+                    <a onClick={() => setModalShow(true)} 
+                      href="#" id="/pokemon-games-power-leveling/"
                       className="align-self-baseline gameindex-txt"
                     >
                       Power leveling
@@ -7355,27 +7358,27 @@ const GameIndex = () => {
                 </li>
                 <li className="col-lg-3 col-md-3 col-sm-12 col-xs-12 content-item fl">
                   <div className="flex flex-column">
-                    <a
-                      href="/pokemon-go-marketplace/"
+                    <a onClick={() => setModalShow(true)} 
+                      href="#" id="/pokemon-go-marketplace/"
                       className="align-self-baseline"
                       title="Pokémon Go"
                     >
                       Pokémon Go
                     </a>
-                    <a
-                      href="/pokemon-go-items/"
+                    <a onClick={() => setModalShow(true)} 
+                      href="#" id="/pokemon-go-items/"
                       className="align-self-baseline gameindex-txt"
                     >
                       Items
                     </a>
-                    <a
-                      href="/pokemon-go-account/"
+                    <a onClick={() => setModalShow(true)} 
+                      href="#" id="/pokemon-go-account/"
                       className="align-self-baseline gameindex-txt"
                     >
                       Accounts
                     </a>
-                    <a
-                      href="/pokemon-go-power-leveling/"
+                    <a onClick={() => setModalShow(true)} 
+                      href="#" id="/pokemon-go-power-leveling/"
                       className="align-self-baseline gameindex-txt"
                     >
                       Power leveling
@@ -7384,27 +7387,27 @@ const GameIndex = () => {
                 </li>
                 <li className="col-lg-3 col-md-3 col-sm-12 col-xs-12 content-item fl">
                   <div className="flex flex-column">
-                    <a
-                      href="/pokemon-arceus-marketplace/"
+                    <a onClick={() => setModalShow(true)} 
+                      href="#" id="/pokemon-arceus-marketplace/"
                       className="align-self-baseline"
                       title="Pokémon Legends: Arceus"
                     >
                       Pokémon Legends: Arceus
                     </a>
-                    <a
-                      href="/pokemon-arceus-items/"
+                    <a onClick={() => setModalShow(true)} 
+                      href="#" id="/pokemon-arceus-items/"
                       className="align-self-baseline gameindex-txt"
                     >
                       Items
                     </a>
-                    <a
-                      href="/pokemon-arceus-account/"
+                    <a onClick={() => setModalShow(true)} 
+                      href="#" id="/pokemon-arceus-account/"
                       className="align-self-baseline gameindex-txt"
                     >
                       Accounts
                     </a>
-                    <a
-                      href="/pokemon-arceus-power-leveling/"
+                    <a onClick={() => setModalShow(true)} 
+                      href="#" id="/pokemon-arceus-power-leveling/"
                       className="align-self-baseline gameindex-txt"
                     >
                       Power leveling
@@ -7413,27 +7416,27 @@ const GameIndex = () => {
                 </li>
                 <li className="col-lg-3 col-md-3 col-sm-12 col-xs-12 content-item fl">
                   <div className="flex flex-column">
-                    <a
-                      href="/pokemon-sword-shield-marketplace/"
+                    <a onClick={() => setModalShow(true)} 
+                      href="#" id="/pokemon-sword-shield-marketplace/"
                       className="align-self-baseline"
                       title="Pokémon Sword and Shield"
                     >
                       Pokémon Sword and Shield
                     </a>
-                    <a
-                      href="/pokemon-sword-shield-items/"
+                    <a onClick={() => setModalShow(true)} 
+                      href="#" id="/pokemon-sword-shield-items/"
                       className="align-self-baseline gameindex-txt"
                     >
                       Items
                     </a>
-                    <a
-                      href="/pokemon-sword-shield-account/"
+                    <a onClick={() => setModalShow(true)} 
+                      href="#" id="/pokemon-sword-shield-account/"
                       className="align-self-baseline gameindex-txt"
                     >
                       Accounts
                     </a>
-                    <a
-                      href="/pokemon-sword-shield-power-leveling/"
+                    <a onClick={() => setModalShow(true)} 
+                      href="#" id="/pokemon-sword-shield-power-leveling/"
                       className="align-self-baseline gameindex-txt"
                     >
                       Power leveling
@@ -7442,21 +7445,21 @@ const GameIndex = () => {
                 </li>
                 <li className="col-lg-3 col-md-3 col-sm-12 col-xs-12 content-item fl">
                   <div className="flex flex-column">
-                    <a
-                      href="/princess-connect-marketplace/"
+                    <a onClick={() => setModalShow(true)} 
+                      href="#" id="/princess-connect-marketplace/"
                       className="align-self-baseline"
                       title="Princess Connect Re Dive"
                     >
                       Princess Connect Re Dive
                     </a>
-                    <a
-                      href="/princess-connect-account/"
+                    <a onClick={() => setModalShow(true)} 
+                      href="#" id="/princess-connect-account/"
                       className="align-self-baseline gameindex-txt"
                     >
                       Accounts
                     </a>
-                    <a
-                      href="/princess-connect-power-leveling/"
+                    <a onClick={() => setModalShow(true)} 
+                      href="#" id="/princess-connect-power-leveling/"
                       className="align-self-baseline gameindex-txt"
                     >
                       Power leveling
@@ -7465,15 +7468,15 @@ const GameIndex = () => {
                 </li>
                 <li className="col-lg-3 col-md-3 col-sm-12 col-xs-12 content-item fl">
                   <div className="flex flex-column">
-                    <a
-                      href="/psn-marketplace/"
+                    <a onClick={() => setModalShow(true)} 
+                      href="#" id="/psn-marketplace/"
                       className="align-self-baseline"
                       title="PSN"
                     >
                       PSN
                     </a>
-                    <a
-                      href="/psn-account/"
+                    <a onClick={() => setModalShow(true)} 
+                      href="#" id="/psn-account/"
                       className="align-self-baseline gameindex-txt"
                     >
                       Accounts
@@ -7482,27 +7485,27 @@ const GameIndex = () => {
                 </li>
                 <li className="col-lg-3 col-md-3 col-sm-12 col-xs-12 content-item fl">
                   <div className="flex flex-column">
-                    <a
-                      href="/pubg-mobile-marketplace/"
+                    <a onClick={() => setModalShow(true)} 
+                      href="#" id="/pubg-mobile-marketplace/"
                       className="align-self-baseline"
                       title="PUBG Mobile"
                     >
                       PUBG Mobile
                     </a>
-                    <a
-                      href="/pubg-mobile-items/"
+                    <a onClick={() => setModalShow(true)} 
+                      href="#" id="/pubg-mobile-items/"
                       className="align-self-baseline gameindex-txt"
                     >
                       Items
                     </a>
-                    <a
-                      href="/pubg-mobile-account/"
+                    <a onClick={() => setModalShow(true)} 
+                      href="#" id="/pubg-mobile-account/"
                       className="align-self-baseline gameindex-txt"
                     >
                       Accounts
                     </a>
-                    <a
-                      href="/pubg-mobile-power-leveling/"
+                    <a onClick={() => setModalShow(true)} 
+                      href="#" id="/pubg-mobile-power-leveling/"
                       className="align-self-baseline gameindex-txt"
                     >
                       Power leveling
@@ -7511,21 +7514,21 @@ const GameIndex = () => {
                 </li>
                 <li className="col-lg-3 col-md-3 col-sm-12 col-xs-12 content-item fl">
                   <div className="flex flex-column">
-                    <a
-                      href="/punishing-gray-rave-marketplace/"
+                    <a onClick={() => setModalShow(true)} 
+                      href="#" id="/punishing-gray-rave-marketplace/"
                       className="align-self-baseline"
                       title="Punishing: Gray Raven"
                     >
                       Punishing: Gray Raven
                     </a>
-                    <a
-                      href="/punishing-gray-rave-account/"
+                    <a onClick={() => setModalShow(true)} 
+                      href="#" id="/punishing-gray-rave-account/"
                       className="align-self-baseline gameindex-txt"
                     >
                       Accounts
                     </a>
-                    <a
-                      href="/punishing-gray-rave-power-leveling/"
+                    <a onClick={() => setModalShow(true)} 
+                      href="#" id="/punishing-gray-rave-power-leveling/"
                       className="align-self-baseline gameindex-txt"
                     >
                       Power leveling
@@ -7534,21 +7537,21 @@ const GameIndex = () => {
                 </li>
                 <li className="col-lg-3 col-md-3 col-sm-12 col-xs-12 content-item fl">
                   <div className="flex flex-column">
-                    <a
-                      href="/puzzle-and-dragons-marketplace/"
+                    <a onClick={() => setModalShow(true)} 
+                      href="#" id="/puzzle-and-dragons-marketplace/"
                       className="align-self-baseline"
                       title="Puzzle & Dragons"
                     >
                       Puzzle &amp; Dragons
                     </a>
-                    <a
-                      href="/puzzle-and-dragons-account/"
+                    <a onClick={() => setModalShow(true)} 
+                      href="#" id="/puzzle-and-dragons-account/"
                       className="align-self-baseline gameindex-txt"
                     >
                       Accounts
                     </a>
-                    <a
-                      href="/puzzle-and-dragons-power-leveling/"
+                    <a onClick={() => setModalShow(true)} 
+                      href="#" id="/puzzle-and-dragons-power-leveling/"
                       className="align-self-baseline gameindex-txt"
                     >
                       Power leveling
@@ -7557,21 +7560,21 @@ const GameIndex = () => {
                 </li>
                 <li className="col-lg-3 col-md-3 col-sm-12 col-xs-12 content-item fl">
                   <div className="flex flex-column">
-                    <a
-                      href="/puzzles-and-survival-marketplace/"
+                    <a onClick={() => setModalShow(true)} 
+                      href="#" id="/puzzles-and-survival-marketplace/"
                       className="align-self-baseline"
                       title="Puzzles & Survival"
                     >
                       Puzzles &amp; Survival
                     </a>
-                    <a
-                      href="/puzzles-and-survival-account/"
+                    <a onClick={() => setModalShow(true)} 
+                      href="#" id="/puzzles-and-survival-account/"
                       className="align-self-baseline gameindex-txt"
                     >
                       Accounts
                     </a>
-                    <a
-                      href="/puzzles-and-survival-power-leveling/"
+                    <a onClick={() => setModalShow(true)} 
+                      href="#" id="/puzzles-and-survival-power-leveling/"
                       className="align-self-baseline gameindex-txt"
                     >
                       Power leveling
@@ -7582,7 +7585,7 @@ const GameIndex = () => {
             </div>
             <div
               className="content-box slide-xs-content-box gameindex-box clearfix row no-gutters"
-              id="gameindex_Q"
+              href="#" id="gameindex_Q"
             >
               <div className="content-box-title col-lg-1 game-index-align-center">
                 <div className="index-Initials fl">Q</div>
@@ -7594,7 +7597,7 @@ const GameIndex = () => {
             </div>
             <div
               className="content-box slide-xs-content-box gameindex-box clearfix row no-gutters"
-              id="gameindex_R"
+              href="#" id="gameindex_R"
             >
               <div className="content-box-title col-lg-1 game-index-align-center">
                 <div className="index-Initials fl">R</div>
@@ -7605,21 +7608,21 @@ const GameIndex = () => {
               <ul className="row col-lg-11 no-gutters content-box-body">
                 <li className="col-lg-3 col-md-3 col-sm-12 col-xs-12 content-item fl">
                   <div className="flex flex-column">
-                    <a
-                      href="/rage-2-marketplace/"
+                    <a onClick={() => setModalShow(true)} 
+                      href="#" id="/rage-2-marketplace/"
                       className="align-self-baseline"
                       title="RAGE 2"
                     >
                       RAGE 2
                     </a>
-                    <a
-                      href="/rage-2-account/"
+                    <a onClick={() => setModalShow(true)} 
+                      href="#" id="/rage-2-account/"
                       className="align-self-baseline gameindex-txt"
                     >
                       Accounts
                     </a>
-                    <a
-                      href="/rage-2-power-leveling/"
+                    <a onClick={() => setModalShow(true)} 
+                      href="#" id="/rage-2-power-leveling/"
                       className="align-self-baseline gameindex-txt"
                     >
                       Power leveling
@@ -7628,27 +7631,27 @@ const GameIndex = () => {
                 </li>
                 <li className="col-lg-3 col-md-3 col-sm-12 col-xs-12 content-item fl">
                   <div className="flex flex-column">
-                    <a
-                      href="/ragnarok-m-marketplace/"
+                    <a onClick={() => setModalShow(true)} 
+                      href="#" id="/ragnarok-m-marketplace/"
                       className="align-self-baseline"
                       title="Ragnarok M: Eternal Love"
                     >
                       Ragnarok M: Eternal Love
                     </a>
-                    <a
-                      href="/ragnarok-m-zeny/"
+                    <a onClick={() => setModalShow(true)} 
+                      href="#" id="/ragnarok-m-zeny/"
                       className="align-self-baseline gameindex-txt"
                     >
                       Zeny
                     </a>
-                    <a
-                      href="/ragnarok-m-account/"
+                    <a onClick={() => setModalShow(true)} 
+                      href="#" id="/ragnarok-m-account/"
                       className="align-self-baseline gameindex-txt"
                     >
                       Accounts
                     </a>
-                    <a
-                      href="/ragnarok-m-power-leveling/"
+                    <a onClick={() => setModalShow(true)} 
+                      href="#" id="/ragnarok-m-power-leveling/"
                       className="align-self-baseline gameindex-txt"
                     >
                       Power leveling
@@ -7657,27 +7660,27 @@ const GameIndex = () => {
                 </li>
                 <li className="col-lg-3 col-md-3 col-sm-12 col-xs-12 content-item fl">
                   <div className="flex flex-column">
-                    <a
-                      href="/realm-of-the-mad-god-marketplace/"
+                    <a onClick={() => setModalShow(true)} 
+                      href="#" id="/realm-of-the-mad-god-marketplace/"
                       className="align-self-baseline"
                       title="Realm of the Mad God"
                     >
                       Realm of the Mad God
                     </a>
-                    <a
-                      href="/realm-of-the-mad-god-items/"
+                    <a onClick={() => setModalShow(true)} 
+                      href="#" id="/realm-of-the-mad-god-items/"
                       className="align-self-baseline gameindex-txt"
                     >
                       Items
                     </a>
-                    <a
-                      href="/realm-of-the-mad-god-account/"
+                    <a onClick={() => setModalShow(true)} 
+                      href="#" id="/realm-of-the-mad-god-account/"
                       className="align-self-baseline gameindex-txt"
                     >
                       Accounts
                     </a>
-                    <a
-                      href="/realm-of-the-mad-god-power-leveling/"
+                    <a onClick={() => setModalShow(true)} 
+                      href="#" id="/realm-of-the-mad-god-power-leveling/"
                       className="align-self-baseline gameindex-txt"
                     >
                       Power leveling
@@ -7686,27 +7689,27 @@ const GameIndex = () => {
                 </li>
                 <li className="col-lg-3 col-md-3 col-sm-12 col-xs-12 content-item fl">
                   <div className="flex flex-column">
-                    <a
-                      href="/rdr2-marketplace/"
+                    <a onClick={() => setModalShow(true)} 
+                      href="#" id="/rdr2-marketplace/"
                       className="align-self-baseline"
                       title="Red Dead Redemption 2"
                     >
                       Red Dead Redemption 2
                     </a>
-                    <a
-                      href="/rdr2-money/"
+                    <a onClick={() => setModalShow(true)} 
+                      href="#" id="/rdr2-money/"
                       className="align-self-baseline gameindex-txt"
                     >
                       Money
                     </a>
-                    <a
-                      href="/rdr2-account/"
+                    <a onClick={() => setModalShow(true)} 
+                      href="#" id="/rdr2-account/"
                       className="align-self-baseline gameindex-txt"
                     >
                       Accounts
                     </a>
-                    <a
-                      href="/rdr2-power-leveling/"
+                    <a onClick={() => setModalShow(true)} 
+                      href="#" id="/rdr2-power-leveling/"
                       className="align-self-baseline gameindex-txt"
                     >
                       Power leveling
@@ -7715,33 +7718,33 @@ const GameIndex = () => {
                 </li>
                 <li className="col-lg-3 col-md-3 col-sm-12 col-xs-12 content-item fl">
                   <div className="flex flex-column">
-                    <a
-                      href="/revelation-online-marketplace/"
+                    <a onClick={() => setModalShow(true)} 
+                      href="#" id="/revelation-online-marketplace/"
                       className="align-self-baseline"
                       title="Revelation Online"
                     >
                       Revelation Online
                     </a>
-                    <a
-                      href="/revelation-online-imperial-coins/"
+                    <a onClick={() => setModalShow(true)} 
+                      href="#" id="/revelation-online-imperial-coins/"
                       className="align-self-baseline gameindex-txt"
                     >
                       Imperial Coins
                     </a>
-                    <a
-                      href="/revelation-online-items/"
+                    <a onClick={() => setModalShow(true)} 
+                      href="#" id="/revelation-online-items/"
                       className="align-self-baseline gameindex-txt"
                     >
                       Items
                     </a>
-                    <a
-                      href="/revelation-online-account/"
+                    <a onClick={() => setModalShow(true)} 
+                      href="#" id="/revelation-online-account/"
                       className="align-self-baseline gameindex-txt"
                     >
                       Accounts
                     </a>
-                    <a
-                      href="/revelation-online-power-leveling/"
+                    <a onClick={() => setModalShow(true)} 
+                      href="#" id="/revelation-online-power-leveling/"
                       className="align-self-baseline gameindex-txt"
                     >
                       Power leveling
@@ -7750,33 +7753,33 @@ const GameIndex = () => {
                 </li>
                 <li className="col-lg-3 col-md-3 col-sm-12 col-xs-12 content-item fl">
                   <div className="flex flex-column">
-                    <a
-                      href="/revived-witch-marketplace/"
+                    <a onClick={() => setModalShow(true)} 
+                      href="#" id="/revived-witch-marketplace/"
                       className="align-self-baseline"
                       title="Revived Witch"
                     >
                       Revived Witch
                     </a>
-                    <a
-                      href="/revived-witch-mana/"
+                    <a onClick={() => setModalShow(true)} 
+                      href="#" id="/revived-witch-mana/"
                       className="align-self-baseline gameindex-txt"
                     >
                       Mana
                     </a>
-                    <a
-                      href="/revived-witch-items/"
+                    <a onClick={() => setModalShow(true)} 
+                      href="#" id="/revived-witch-items/"
                       className="align-self-baseline gameindex-txt"
                     >
                       Items
                     </a>
-                    <a
-                      href="/revived-witch-account/"
+                    <a onClick={() => setModalShow(true)} 
+                      href="#" id="/revived-witch-account/"
                       className="align-self-baseline gameindex-txt"
                     >
                       Accounts
                     </a>
-                    <a
-                      href="/revived-witch-power-leveling/"
+                    <a onClick={() => setModalShow(true)} 
+                      href="#" id="/revived-witch-power-leveling/"
                       className="align-self-baseline gameindex-txt"
                     >
                       Power leveling
@@ -7785,33 +7788,33 @@ const GameIndex = () => {
                 </li>
                 <li className="col-lg-3 col-md-3 col-sm-12 col-xs-12 content-item fl">
                   <div className="flex flex-column">
-                    <a
-                      href="/rift-marketplace/"
+                    <a onClick={() => setModalShow(true)} 
+                      href="#" id="/rift-marketplace/"
                       className="align-self-baseline"
                       title="Rift"
                     >
                       Rift
                     </a>
-                    <a
-                      href="/rift-platinum/"
+                    <a onClick={() => setModalShow(true)} 
+                      href="#" id="/rift-platinum/"
                       className="align-self-baseline gameindex-txt"
                     >
                       Platinum
                     </a>
-                    <a
-                      href="/rift-items/"
+                    <a onClick={() => setModalShow(true)} 
+                      href="#" id="/rift-items/"
                       className="align-self-baseline gameindex-txt"
                     >
                       Items
                     </a>
-                    <a
-                      href="/rift-account/"
+                    <a onClick={() => setModalShow(true)} 
+                      href="#" id="/rift-account/"
                       className="align-self-baseline gameindex-txt"
                     >
                       Accounts
                     </a>
-                    <a
-                      href="/rift-power-leveling/"
+                    <a onClick={() => setModalShow(true)} 
+                      href="#" id="/rift-power-leveling/"
                       className="align-self-baseline gameindex-txt"
                     >
                       Power leveling
@@ -7820,27 +7823,27 @@ const GameIndex = () => {
                 </li>
                 <li className="col-lg-3 col-md-3 col-sm-12 col-xs-12 content-item fl">
                   <div className="flex flex-column">
-                    <a
-                      href="/rise-of-kingdoms-marketplace/"
+                    <a onClick={() => setModalShow(true)} 
+                      href="#" id="/rise-of-kingdoms-marketplace/"
                       className="align-self-baseline"
                       title="Rise of Kingdoms"
                     >
                       Rise of Kingdoms
                     </a>
-                    <a
-                      href="/rise-of-kingdoms-items/"
+                    <a onClick={() => setModalShow(true)} 
+                      href="#" id="/rise-of-kingdoms-items/"
                       className="align-self-baseline gameindex-txt"
                     >
                       Items
                     </a>
-                    <a
-                      href="/rise-of-kingdoms-account/"
+                    <a onClick={() => setModalShow(true)} 
+                      href="#" id="/rise-of-kingdoms-account/"
                       className="align-self-baseline gameindex-txt"
                     >
                       Accounts
                     </a>
-                    <a
-                      href="/rise-of-kingdoms-power-leveling/"
+                    <a onClick={() => setModalShow(true)} 
+                      href="#" id="/rise-of-kingdoms-power-leveling/"
                       className="align-self-baseline gameindex-txt"
                     >
                       Power leveling
@@ -7849,33 +7852,33 @@ const GameIndex = () => {
                 </li>
                 <li className="col-lg-3 col-md-3 col-sm-12 col-xs-12 content-item fl">
                   <div className="flex flex-column">
-                    <a
-                      href="/roblox-marketplace/"
+                    <a onClick={() => setModalShow(true)} 
+                      href="#" id="/roblox-marketplace/"
                       className="align-self-baseline"
                       title="ROBLOX"
                     >
                       ROBLOX
                     </a>
-                    <a
-                      href="/roblox-robux/"
+                    <a onClick={() => setModalShow(true)} 
+                      href="#" id="/roblox-robux/"
                       className="align-self-baseline gameindex-txt"
                     >
                       ROBUX
                     </a>
-                    <a
-                      href="/roblox-items/"
+                    <a onClick={() => setModalShow(true)} 
+                      href="#" id="/roblox-items/"
                       className="align-self-baseline gameindex-txt"
                     >
                       Items
                     </a>
-                    <a
-                      href="/roblox-account/"
+                    <a onClick={() => setModalShow(true)} 
+                      href="#" id="/roblox-account/"
                       className="align-self-baseline gameindex-txt"
                     >
                       Accounts
                     </a>
-                    <a
-                      href="/roblox-power-leveling/"
+                    <a onClick={() => setModalShow(true)} 
+                      href="#" id="/roblox-power-leveling/"
                       className="align-self-baseline gameindex-txt"
                     >
                       Power leveling
@@ -7884,33 +7887,33 @@ const GameIndex = () => {
                 </li>
                 <li className="col-lg-3 col-md-3 col-sm-12 col-xs-12 content-item fl">
                   <div className="flex flex-column">
-                    <a
-                      href="/rocket-league-marketplace/"
+                    <a onClick={() => setModalShow(true)} 
+                      href="#" id="/rocket-league-marketplace/"
                       className="align-self-baseline"
                       title="Rocket League"
                     >
                       Rocket League
                     </a>
-                    <a
-                      href="/rocket-league-credits/"
+                    <a onClick={() => setModalShow(true)} 
+                      href="#" id="/rocket-league-credits/"
                       className="align-self-baseline gameindex-txt"
                     >
                       Credits
                     </a>
-                    <a
-                      href="/rocket-league-items/"
+                    <a onClick={() => setModalShow(true)} 
+                      href="#" id="/rocket-league-items/"
                       className="align-self-baseline gameindex-txt"
                     >
                       Items
                     </a>
-                    <a
-                      href="/rocket-league-account/"
+                    <a onClick={() => setModalShow(true)} 
+                      href="#" id="/rocket-league-account/"
                       className="align-self-baseline gameindex-txt"
                     >
                       Accounts
                     </a>
-                    <a
-                      href="/rocket-league-power-leveling/"
+                    <a onClick={() => setModalShow(true)} 
+                      href="#" id="/rocket-league-power-leveling/"
                       className="align-self-baseline gameindex-txt"
                     >
                       Power leveling
@@ -7919,27 +7922,27 @@ const GameIndex = () => {
                 </li>
                 <li className="col-lg-3 col-md-3 col-sm-12 col-xs-12 content-item fl">
                   <div className="flex flex-column">
-                    <a
-                      href="/rogue-company-marketplace/"
+                    <a onClick={() => setModalShow(true)} 
+                      href="#" id="/rogue-company-marketplace/"
                       className="align-self-baseline"
                       title="Rogue Company"
                     >
                       Rogue Company
                     </a>
-                    <a
-                      href="/rogue-company-rogue-bucks/"
+                    <a onClick={() => setModalShow(true)} 
+                      href="#" id="/rogue-company-rogue-bucks/"
                       className="align-self-baseline gameindex-txt"
                     >
                       Rogue Bucks
                     </a>
-                    <a
-                      href="/rogue-company-account/"
+                    <a onClick={() => setModalShow(true)} 
+                      href="#" id="/rogue-company-account/"
                       className="align-self-baseline gameindex-txt"
                     >
                       Accounts
                     </a>
-                    <a
-                      href="/rogue-company-power-leveling/"
+                    <a onClick={() => setModalShow(true)} 
+                      href="#" id="/rogue-company-power-leveling/"
                       className="align-self-baseline gameindex-txt"
                     >
                       Power leveling
@@ -7948,33 +7951,33 @@ const GameIndex = () => {
                 </li>
                 <li className="col-lg-3 col-md-3 col-sm-12 col-xs-12 content-item fl">
                   <div className="flex flex-column">
-                    <a
-                      href="/runescape-marketplace/"
+                    <a onClick={() => setModalShow(true)} 
+                      href="#" id="/runescape-marketplace/"
                       className="align-self-baseline"
                       title="RuneScape"
                     >
                       RuneScape
                     </a>
-                    <a
-                      href="/runescape-gold/"
+                    <a onClick={() => setModalShow(true)} 
+                      href="#" id="/runescape-gold/"
                       className="align-self-baseline gameindex-txt"
                     >
                       Gold
                     </a>
-                    <a
-                      href="/runescape-items/"
+                    <a onClick={() => setModalShow(true)} 
+                      href="#" id="/runescape-items/"
                       className="align-self-baseline gameindex-txt"
                     >
                       Items
                     </a>
-                    <a
-                      href="/runescape-account/"
+                    <a onClick={() => setModalShow(true)} 
+                      href="#" id="/runescape-account/"
                       className="align-self-baseline gameindex-txt"
                     >
                       Accounts
                     </a>
-                    <a
-                      href="/runescape-power-leveling/"
+                    <a onClick={() => setModalShow(true)} 
+                      href="#" id="/runescape-power-leveling/"
                       className="align-self-baseline gameindex-txt"
                     >
                       Power leveling
@@ -7983,33 +7986,33 @@ const GameIndex = () => {
                 </li>
                 <li className="col-lg-3 col-md-3 col-sm-12 col-xs-12 content-item fl">
                   <div className="flex flex-column">
-                    <a
-                      href="/osrs-marketplace/"
+                    <a onClick={() => setModalShow(true)} 
+                      href="#" id="/osrs-marketplace/"
                       className="align-self-baseline"
                       title="RuneScape - Old School"
                     >
                       RuneScape - Old School
                     </a>
-                    <a
-                      href="/osrs-gold/"
+                    <a onClick={() => setModalShow(true)} 
+                      href="#" id="/osrs-gold/"
                       className="align-self-baseline gameindex-txt"
                     >
                       Gold
                     </a>
-                    <a
-                      href="/osrs-items/"
+                    <a onClick={() => setModalShow(true)} 
+                      href="#" id="/osrs-items/"
                       className="align-self-baseline gameindex-txt"
                     >
                       Items
                     </a>
-                    <a
-                      href="/osrs-account/"
+                    <a onClick={() => setModalShow(true)} 
+                      href="#" id="/osrs-account/"
                       className="align-self-baseline gameindex-txt"
                     >
                       Accounts
                     </a>
-                    <a
-                      href="/osrs-power-leveling/"
+                    <a onClick={() => setModalShow(true)} 
+                      href="#" id="/osrs-power-leveling/"
                       className="align-self-baseline gameindex-txt"
                     >
                       Power leveling
@@ -8018,27 +8021,27 @@ const GameIndex = () => {
                 </li>
                 <li className="col-lg-3 col-md-3 col-sm-12 col-xs-12 content-item fl">
                   <div className="flex flex-column">
-                    <a
-                      href="/rust-marketplace/"
+                    <a onClick={() => setModalShow(true)} 
+                      href="#" id="/rust-marketplace/"
                       className="align-self-baseline"
                       title="RUST"
                     >
                       RUST
                     </a>
-                    <a
-                      href="/rust-items/"
+                    <a onClick={() => setModalShow(true)} 
+                      href="#" id="/rust-items/"
                       className="align-self-baseline gameindex-txt"
                     >
                       Items
                     </a>
-                    <a
-                      href="/rust-account/"
+                    <a onClick={() => setModalShow(true)} 
+                      href="#" id="/rust-account/"
                       className="align-self-baseline gameindex-txt"
                     >
                       Accounts
                     </a>
-                    <a
-                      href="/rust-power-leveling/"
+                    <a onClick={() => setModalShow(true)} 
+                      href="#" id="/rust-power-leveling/"
                       className="align-self-baseline gameindex-txt"
                     >
                       Power leveling
@@ -8049,7 +8052,7 @@ const GameIndex = () => {
             </div>
             <div
               className="content-box slide-xs-content-box gameindex-box clearfix row no-gutters"
-              id="gameindex_S"
+              href="#" id="gameindex_S"
             >
               <div className="content-box-title col-lg-1 game-index-align-center">
                 <div className="index-Initials fl">S</div>
@@ -8060,21 +8063,21 @@ const GameIndex = () => {
               <ul className="row col-lg-11 no-gutters content-box-body">
                 <li className="col-lg-3 col-md-3 col-sm-12 col-xs-12 content-item fl">
                   <div className="flex flex-column">
-                    <a
-                      href="/saint-seiya-awakenin-marketplace/"
+                    <a onClick={() => setModalShow(true)} 
+                      href="#" id="/saint-seiya-awakenin-marketplace/"
                       className="align-self-baseline"
                       title="Saint Seiya Awakening"
                     >
                       Saint Seiya Awakening
                     </a>
-                    <a
-                      href="/saint-seiya-awakenin-account/"
+                    <a onClick={() => setModalShow(true)} 
+                      href="#" id="/saint-seiya-awakenin-account/"
                       className="align-self-baseline gameindex-txt"
                     >
                       Accounts
                     </a>
-                    <a
-                      href="/saint-seiya-awakenin-power-leveling/"
+                    <a onClick={() => setModalShow(true)} 
+                      href="#" id="/saint-seiya-awakenin-power-leveling/"
                       className="align-self-baseline gameindex-txt"
                     >
                       Power leveling
@@ -8083,21 +8086,21 @@ const GameIndex = () => {
                 </li>
                 <li className="col-lg-3 col-md-3 col-sm-12 col-xs-12 content-item fl">
                   <div className="flex flex-column">
-                    <a
-                      href="/scum-marketplace/"
+                    <a onClick={() => setModalShow(true)} 
+                      href="#" id="/scum-marketplace/"
                       className="align-self-baseline"
                       title="SCUM"
                     >
                       SCUM
                     </a>
-                    <a
-                      href="/scum-account/"
+                    <a onClick={() => setModalShow(true)} 
+                      href="#" id="/scum-account/"
                       className="align-self-baseline gameindex-txt"
                     >
                       Accounts
                     </a>
-                    <a
-                      href="/scum-power-leveling/"
+                    <a onClick={() => setModalShow(true)} 
+                      href="#" id="/scum-power-leveling/"
                       className="align-self-baseline gameindex-txt"
                     >
                       Power leveling
@@ -8106,27 +8109,27 @@ const GameIndex = () => {
                 </li>
                 <li className="col-lg-3 col-md-3 col-sm-12 col-xs-12 content-item fl">
                   <div className="flex flex-column">
-                    <a
-                      href="/sea-of-thieves-marketplace/"
+                    <a onClick={() => setModalShow(true)} 
+                      href="#" id="/sea-of-thieves-marketplace/"
                       className="align-self-baseline"
                       title="Sea of Thieves"
                     >
                       Sea of Thieves
                     </a>
-                    <a
-                      href="/sea-of-thieves-items/"
+                    <a onClick={() => setModalShow(true)} 
+                      href="#" id="/sea-of-thieves-items/"
                       className="align-self-baseline gameindex-txt"
                     >
                       Items
                     </a>
-                    <a
-                      href="/sea-of-thieves-account/"
+                    <a onClick={() => setModalShow(true)} 
+                      href="#" id="/sea-of-thieves-account/"
                       className="align-self-baseline gameindex-txt"
                     >
                       Accounts
                     </a>
-                    <a
-                      href="/sea-of-thieves-power-leveling/"
+                    <a onClick={() => setModalShow(true)} 
+                      href="#" id="/sea-of-thieves-power-leveling/"
                       className="align-self-baseline gameindex-txt"
                     >
                       Power leveling
@@ -8135,33 +8138,33 @@ const GameIndex = () => {
                 </li>
                 <li className="col-lg-3 col-md-3 col-sm-12 col-xs-12 content-item fl">
                   <div className="flex flex-column">
-                    <a
-                      href="/sl-marketplace/"
+                    <a onClick={() => setModalShow(true)} 
+                      href="#" id="/sl-marketplace/"
                       className="align-self-baseline"
                       title="Second Life"
                     >
                       Second Life
                     </a>
-                    <a
-                      href="/sl-linden/"
+                    <a onClick={() => setModalShow(true)} 
+                      href="#" id="/sl-linden/"
                       className="align-self-baseline gameindex-txt"
                     >
                       Linden
                     </a>
-                    <a
-                      href="/sl-items/"
+                    <a onClick={() => setModalShow(true)} 
+                      href="#" id="/sl-items/"
                       className="align-self-baseline gameindex-txt"
                     >
                       Items
                     </a>
-                    <a
-                      href="/sl-account/"
+                    <a onClick={() => setModalShow(true)} 
+                      href="#" id="/sl-account/"
                       className="align-self-baseline gameindex-txt"
                     >
                       Accounts
                     </a>
-                    <a
-                      href="/sl-power-leveling/"
+                    <a onClick={() => setModalShow(true)} 
+                      href="#" id="/sl-power-leveling/"
                       className="align-self-baseline gameindex-txt"
                     >
                       Power leveling
@@ -8170,27 +8173,27 @@ const GameIndex = () => {
                 </li>
                 <li className="col-lg-3 col-md-3 col-sm-12 col-xs-12 content-item fl">
                   <div className="flex flex-column">
-                    <a
-                      href="/seven-knights-2-marketplace/"
+                    <a onClick={() => setModalShow(true)} 
+                      href="#" id="/seven-knights-2-marketplace/"
                       className="align-self-baseline"
                       title="Seven Knights 2"
                     >
                       Seven Knights 2
                     </a>
-                    <a
-                      href="/seven-knights-2-items/"
+                    <a onClick={() => setModalShow(true)} 
+                      href="#" id="/seven-knights-2-items/"
                       className="align-self-baseline gameindex-txt"
                     >
                       Items
                     </a>
-                    <a
-                      href="/seven-knights-2-account/"
+                    <a onClick={() => setModalShow(true)} 
+                      href="#" id="/seven-knights-2-account/"
                       className="align-self-baseline gameindex-txt"
                     >
                       Accounts
                     </a>
-                    <a
-                      href="/seven-knights-2-power-leveling/"
+                    <a onClick={() => setModalShow(true)} 
+                      href="#" id="/seven-knights-2-power-leveling/"
                       className="align-self-baseline gameindex-txt"
                     >
                       Power leveling
@@ -8199,21 +8202,21 @@ const GameIndex = () => {
                 </li>
                 <li className="col-lg-3 col-md-3 col-sm-12 col-xs-12 content-item fl">
                   <div className="flex flex-column">
-                    <a
-                      href="/shakes-and-fidget-marketplace/"
+                    <a onClick={() => setModalShow(true)} 
+                      href="#" id="/shakes-and-fidget-marketplace/"
                       className="align-self-baseline"
                       title="Shakes and Fidget"
                     >
                       Shakes and Fidget
                     </a>
-                    <a
-                      href="/shakes-and-fidget-account/"
+                    <a onClick={() => setModalShow(true)} 
+                      href="#" id="/shakes-and-fidget-account/"
                       className="align-self-baseline gameindex-txt"
                     >
                       Accounts
                     </a>
-                    <a
-                      href="/shakes-and-fidget-power-leveling/"
+                    <a onClick={() => setModalShow(true)} 
+                      href="#" id="/shakes-and-fidget-power-leveling/"
                       className="align-self-baseline gameindex-txt"
                     >
                       Power leveling
@@ -8222,15 +8225,15 @@ const GameIndex = () => {
                 </li>
                 <li className="col-lg-3 col-md-3 col-sm-12 col-xs-12 content-item fl">
                   <div className="flex flex-column">
-                    <a
-                      href="/sinoalice-marketplace/"
+                    <a onClick={() => setModalShow(true)} 
+                      href="#" id="/sinoalice-marketplace/"
                       className="align-self-baseline"
                       title="SINoALICE"
                     >
                       SINoALICE
                     </a>
-                    <a
-                      href="/sinoalice-account/"
+                    <a onClick={() => setModalShow(true)} 
+                      href="#" id="/sinoalice-account/"
                       className="align-self-baseline gameindex-txt"
                     >
                       Accounts
@@ -8239,33 +8242,33 @@ const GameIndex = () => {
                 </li>
                 <li className="col-lg-3 col-md-3 col-sm-12 col-xs-12 content-item fl">
                   <div className="flex flex-column">
-                    <a
-                      href="/smite-marketplace/"
+                    <a onClick={() => setModalShow(true)} 
+                      href="#" id="/smite-marketplace/"
                       className="align-self-baseline"
                       title="Smite"
                     >
                       Smite
                     </a>
-                    <a
-                      href="/smite-gem/"
+                    <a onClick={() => setModalShow(true)} 
+                      href="#" id="/smite-gem/"
                       className="align-self-baseline gameindex-txt"
                     >
                       Gem
                     </a>
-                    <a
-                      href="/smite-items/"
+                    <a onClick={() => setModalShow(true)} 
+                      href="#" id="/smite-items/"
                       className="align-self-baseline gameindex-txt"
                     >
                       Items
                     </a>
-                    <a
-                      href="/smite-account/"
+                    <a onClick={() => setModalShow(true)} 
+                      href="#" id="/smite-account/"
                       className="align-self-baseline gameindex-txt"
                     >
                       Accounts
                     </a>
-                    <a
-                      href="/smite-power-leveling/"
+                    <a onClick={() => setModalShow(true)} 
+                      href="#" id="/smite-power-leveling/"
                       className="align-self-baseline gameindex-txt"
                     >
                       Power leveling
@@ -8274,27 +8277,27 @@ const GameIndex = () => {
                 </li>
                 <li className="col-lg-3 col-md-3 col-sm-12 col-xs-12 content-item fl">
                   <div className="flex flex-column">
-                    <a
-                      href="/sun-classic-marketplace/"
+                    <a onClick={() => setModalShow(true)} 
+                      href="#" id="/sun-classic-marketplace/"
                       className="align-self-baseline"
                       title="Soul of the Ultimate Nation"
                     >
                       Soul of the Ultimate Nation
                     </a>
-                    <a
-                      href="/sun-classic-heim/"
+                    <a onClick={() => setModalShow(true)} 
+                      href="#" id="/sun-classic-heim/"
                       className="align-self-baseline gameindex-txt"
                     >
                       Heim
                     </a>
-                    <a
-                      href="/sun-classic-account/"
+                    <a onClick={() => setModalShow(true)} 
+                      href="#" id="/sun-classic-account/"
                       className="align-self-baseline gameindex-txt"
                     >
                       Accounts
                     </a>
-                    <a
-                      href="/sun-classic-power-leveling/"
+                    <a onClick={() => setModalShow(true)} 
+                      href="#" id="/sun-classic-power-leveling/"
                       className="align-self-baseline gameindex-txt"
                     >
                       Power leveling
@@ -8303,33 +8306,33 @@ const GameIndex = () => {
                 </li>
                 <li className="col-lg-3 col-md-3 col-sm-12 col-xs-12 content-item fl">
                   <div className="flex flex-column">
-                    <a
-                      href="/soul-worker-marketplace/"
+                    <a onClick={() => setModalShow(true)} 
+                      href="#" id="/soul-worker-marketplace/"
                       className="align-self-baseline"
                       title="Soul Worker"
                     >
                       Soul Worker
                     </a>
-                    <a
-                      href="/soul-worker-dzenai/"
+                    <a onClick={() => setModalShow(true)} 
+                      href="#" id="/soul-worker-dzenai/"
                       className="align-self-baseline gameindex-txt"
                     >
                       Dzenai
                     </a>
-                    <a
-                      href="/soul-worker-items/"
+                    <a onClick={() => setModalShow(true)} 
+                      href="#" id="/soul-worker-items/"
                       className="align-self-baseline gameindex-txt"
                     >
                       Items
                     </a>
-                    <a
-                      href="/soul-worker-account/"
+                    <a onClick={() => setModalShow(true)} 
+                      href="#" id="/soul-worker-account/"
                       className="align-self-baseline gameindex-txt"
                     >
                       Accounts
                     </a>
-                    <a
-                      href="/soul-worker-power-leveling/"
+                    <a onClick={() => setModalShow(true)} 
+                      href="#" id="/soul-worker-power-leveling/"
                       className="align-self-baseline gameindex-txt"
                     >
                       Power leveling
@@ -8338,33 +8341,33 @@ const GameIndex = () => {
                 </li>
                 <li className="col-lg-3 col-md-3 col-sm-12 col-xs-12 content-item fl">
                   <div className="flex flex-column">
-                    <a
-                      href="/stalker-online-marketplace/"
+                    <a onClick={() => setModalShow(true)} 
+                      href="#" id="/stalker-online-marketplace/"
                       className="align-self-baseline"
                       title="Stalker Online"
                     >
                       Stalker Online
                     </a>
-                    <a
-                      href="/stalker-online-rubles/"
+                    <a onClick={() => setModalShow(true)} 
+                      href="#" id="/stalker-online-rubles/"
                       className="align-self-baseline gameindex-txt"
                     >
                       Rubles
                     </a>
-                    <a
-                      href="/stalker-online-items/"
+                    <a onClick={() => setModalShow(true)} 
+                      href="#" id="/stalker-online-items/"
                       className="align-self-baseline gameindex-txt"
                     >
                       Items
                     </a>
-                    <a
-                      href="/stalker-online-account/"
+                    <a onClick={() => setModalShow(true)} 
+                      href="#" id="/stalker-online-account/"
                       className="align-self-baseline gameindex-txt"
                     >
                       Accounts
                     </a>
-                    <a
-                      href="/stalker-online-power-leveling/"
+                    <a onClick={() => setModalShow(true)} 
+                      href="#" id="/stalker-online-power-leveling/"
                       className="align-self-baseline gameindex-txt"
                     >
                       Power leveling
@@ -8373,33 +8376,33 @@ const GameIndex = () => {
                 </li>
                 <li className="col-lg-3 col-md-3 col-sm-12 col-xs-12 content-item fl">
                   <div className="flex flex-column">
-                    <a
-                      href="/star-citizen-marketplace/"
+                    <a onClick={() => setModalShow(true)} 
+                      href="#" id="/star-citizen-marketplace/"
                       className="align-self-baseline"
                       title="Star Citizen"
                     >
                       Star Citizen
                     </a>
-                    <a
-                      href="/star-citizen-uec/"
+                    <a onClick={() => setModalShow(true)} 
+                      href="#" id="/star-citizen-uec/"
                       className="align-self-baseline gameindex-txt"
                     >
                       UEC
                     </a>
-                    <a
-                      href="/star-citizen-items/"
+                    <a onClick={() => setModalShow(true)} 
+                      href="#" id="/star-citizen-items/"
                       className="align-self-baseline gameindex-txt"
                     >
                       Items
                     </a>
-                    <a
-                      href="/star-citizen-account/"
+                    <a onClick={() => setModalShow(true)} 
+                      href="#" id="/star-citizen-account/"
                       className="align-self-baseline gameindex-txt"
                     >
                       Accounts
                     </a>
-                    <a
-                      href="/star-citizen-power-leveling/"
+                    <a onClick={() => setModalShow(true)} 
+                      href="#" id="/star-citizen-power-leveling/"
                       className="align-self-baseline gameindex-txt"
                     >
                       Power leveling
@@ -8408,33 +8411,33 @@ const GameIndex = () => {
                 </li>
                 <li className="col-lg-3 col-md-3 col-sm-12 col-xs-12 content-item fl">
                   <div className="flex flex-column">
-                    <a
-                      href="/sto-marketplace/"
+                    <a onClick={() => setModalShow(true)} 
+                      href="#" id="/sto-marketplace/"
                       className="align-self-baseline"
                       title="Star Trek Online"
                     >
                       Star Trek Online
                     </a>
-                    <a
-                      href="/sto-credits/"
+                    <a onClick={() => setModalShow(true)} 
+                      href="#" id="/sto-credits/"
                       className="align-self-baseline gameindex-txt"
                     >
                       Credits
                     </a>
-                    <a
-                      href="/sto-items/"
+                    <a onClick={() => setModalShow(true)} 
+                      href="#" id="/sto-items/"
                       className="align-self-baseline gameindex-txt"
                     >
                       Items
                     </a>
-                    <a
-                      href="/sto-account/"
+                    <a onClick={() => setModalShow(true)} 
+                      href="#" id="/sto-account/"
                       className="align-self-baseline gameindex-txt"
                     >
                       Accounts
                     </a>
-                    <a
-                      href="/sto-power-leveling/"
+                    <a onClick={() => setModalShow(true)} 
+                      href="#" id="/sto-power-leveling/"
                       className="align-self-baseline gameindex-txt"
                     >
                       Power leveling
@@ -8443,21 +8446,21 @@ const GameIndex = () => {
                 </li>
                 <li className="col-lg-3 col-md-3 col-sm-12 col-xs-12 content-item fl">
                   <div className="flex flex-column">
-                    <a
-                      href="/battlefront-2-marketplace/"
+                    <a onClick={() => setModalShow(true)} 
+                      href="#" id="/battlefront-2-marketplace/"
                       className="align-self-baseline"
                       title="Star Wars Battlefront II"
                     >
                       Star Wars Battlefront II
                     </a>
-                    <a
-                      href="/battlefront-2-account/"
+                    <a onClick={() => setModalShow(true)} 
+                      href="#" id="/battlefront-2-account/"
                       className="align-self-baseline gameindex-txt"
                     >
                       Accounts
                     </a>
-                    <a
-                      href="/battlefront-2-power-leveling/"
+                    <a onClick={() => setModalShow(true)} 
+                      href="#" id="/battlefront-2-power-leveling/"
                       className="align-self-baseline gameindex-txt"
                     >
                       Power leveling
@@ -8466,21 +8469,21 @@ const GameIndex = () => {
                 </li>
                 <li className="col-lg-3 col-md-3 col-sm-12 col-xs-12 content-item fl">
                   <div className="flex flex-column">
-                    <a
-                      href="/swgoh-marketplace/"
+                    <a onClick={() => setModalShow(true)} 
+                      href="#" id="/swgoh-marketplace/"
                       className="align-self-baseline"
                       title="Star Wars: Galaxy of Heroes"
                     >
                       Star Wars: Galaxy of Heroes
                     </a>
-                    <a
-                      href="/swgoh-account/"
+                    <a onClick={() => setModalShow(true)} 
+                      href="#" id="/swgoh-account/"
                       className="align-self-baseline gameindex-txt"
                     >
                       Accounts
                     </a>
-                    <a
-                      href="/swgoh-power-leveling/"
+                    <a onClick={() => setModalShow(true)} 
+                      href="#" id="/swgoh-power-leveling/"
                       className="align-self-baseline gameindex-txt"
                     >
                       Power leveling
@@ -8489,33 +8492,33 @@ const GameIndex = () => {
                 </li>
                 <li className="col-lg-3 col-md-3 col-sm-12 col-xs-12 content-item fl">
                   <div className="flex flex-column">
-                    <a
-                      href="/starbase-marketplace/"
+                    <a onClick={() => setModalShow(true)} 
+                      href="#" id="/starbase-marketplace/"
                       className="align-self-baseline"
                       title="Starbase"
                     >
                       Starbase
                     </a>
-                    <a
-                      href="/starbase-credits/"
+                    <a onClick={() => setModalShow(true)} 
+                      href="#" id="/starbase-credits/"
                       className="align-self-baseline gameindex-txt"
                     >
                       Credits
                     </a>
-                    <a
-                      href="/starbase-items/"
+                    <a onClick={() => setModalShow(true)} 
+                      href="#" id="/starbase-items/"
                       className="align-self-baseline gameindex-txt"
                     >
                       Items
                     </a>
-                    <a
-                      href="/starbase-account/"
+                    <a onClick={() => setModalShow(true)} 
+                      href="#" id="/starbase-account/"
                       className="align-self-baseline gameindex-txt"
                     >
                       Accounts
                     </a>
-                    <a
-                      href="/starbase-power-leveling/"
+                    <a onClick={() => setModalShow(true)} 
+                      href="#" id="/starbase-power-leveling/"
                       className="align-self-baseline gameindex-txt"
                     >
                       Power leveling
@@ -8524,21 +8527,21 @@ const GameIndex = () => {
                 </li>
                 <li className="col-lg-3 col-md-3 col-sm-12 col-xs-12 content-item fl">
                   <div className="flex flex-column">
-                    <a
-                      href="/state-of-survival-marketplace/"
+                    <a onClick={() => setModalShow(true)} 
+                      href="#" id="/state-of-survival-marketplace/"
                       className="align-self-baseline"
                       title="State of Survival"
                     >
                       State of Survival
                     </a>
-                    <a
-                      href="/state-of-survival-account/"
+                    <a onClick={() => setModalShow(true)} 
+                      href="#" id="/state-of-survival-account/"
                       className="align-self-baseline gameindex-txt"
                     >
                       Accounts
                     </a>
-                    <a
-                      href="/state-of-survival-power-leveling/"
+                    <a onClick={() => setModalShow(true)} 
+                      href="#" id="/state-of-survival-power-leveling/"
                       className="align-self-baseline gameindex-txt"
                     >
                       Power leveling
@@ -8547,27 +8550,27 @@ const GameIndex = () => {
                 </li>
                 <li className="col-lg-3 col-md-3 col-sm-12 col-xs-12 content-item fl">
                   <div className="flex flex-column">
-                    <a
-                      href="/steam-marketplace/"
+                    <a onClick={() => setModalShow(true)} 
+                      href="#" id="/steam-marketplace/"
                       className="align-self-baseline"
                       title="Steam"
                     >
                       Steam
                     </a>
-                    <a
-                      href="/steam-items/"
+                    <a onClick={() => setModalShow(true)} 
+                      href="#" id="/steam-items/"
                       className="align-self-baseline gameindex-txt"
                     >
                       Items
                     </a>
-                    <a
-                      href="/steam-account/"
+                    <a onClick={() => setModalShow(true)} 
+                      href="#" id="/steam-account/"
                       className="align-self-baseline gameindex-txt"
                     >
                       Accounts
                     </a>
-                    <a
-                      href="/steam-power-leveling/"
+                    <a onClick={() => setModalShow(true)} 
+                      href="#" id="/steam-power-leveling/"
                       className="align-self-baseline gameindex-txt"
                     >
                       Power leveling
@@ -8576,21 +8579,21 @@ const GameIndex = () => {
                 </li>
                 <li className="col-lg-3 col-md-3 col-sm-12 col-xs-12 content-item fl">
                   <div className="flex flex-column">
-                    <a
-                      href="/sw-lost-centuria-marketplace/"
+                    <a onClick={() => setModalShow(true)} 
+                      href="#" id="/sw-lost-centuria-marketplace/"
                       className="align-self-baseline"
                       title="Summoner’s War: Lost Centuria"
                     >
                       Summoner’s War: Lost Centuria
                     </a>
-                    <a
-                      href="/sw-lost-centuria-account/"
+                    <a onClick={() => setModalShow(true)} 
+                      href="#" id="/sw-lost-centuria-account/"
                       className="align-self-baseline gameindex-txt"
                     >
                       Accounts
                     </a>
-                    <a
-                      href="/sw-lost-centuria-power-leveling/"
+                    <a onClick={() => setModalShow(true)} 
+                      href="#" id="/sw-lost-centuria-power-leveling/"
                       className="align-self-baseline gameindex-txt"
                     >
                       Power leveling
@@ -8599,21 +8602,21 @@ const GameIndex = () => {
                 </li>
                 <li className="col-lg-3 col-md-3 col-sm-12 col-xs-12 content-item fl">
                   <div className="flex flex-column">
-                    <a
-                      href="/summoners-war-marketplace/"
+                    <a onClick={() => setModalShow(true)} 
+                      href="#" id="/summoners-war-marketplace/"
                       className="align-self-baseline"
                       title="Summoners War"
                     >
                       Summoners War
                     </a>
-                    <a
-                      href="/summoners-war-account/"
+                    <a onClick={() => setModalShow(true)} 
+                      href="#" id="/summoners-war-account/"
                       className="align-self-baseline gameindex-txt"
                     >
                       Accounts
                     </a>
-                    <a
-                      href="/summoners-war-power-leveling/"
+                    <a onClick={() => setModalShow(true)} 
+                      href="#" id="/summoners-war-power-leveling/"
                       className="align-self-baseline gameindex-txt"
                     >
                       Power leveling
@@ -8622,21 +8625,21 @@ const GameIndex = () => {
                 </li>
                 <li className="col-lg-3 col-md-3 col-sm-12 col-xs-12 content-item fl">
                   <div className="flex flex-column">
-                    <a
-                      href="/sw-chronicles-marketplace/"
+                    <a onClick={() => setModalShow(true)} 
+                      href="#" id="/sw-chronicles-marketplace/"
                       className="align-self-baseline"
                       title="Summoners War Chronicles"
                     >
                       Summoners War Chronicles
                     </a>
-                    <a
-                      href="/sw-chronicles-account/"
+                    <a onClick={() => setModalShow(true)} 
+                      href="#" id="/sw-chronicles-account/"
                       className="align-self-baseline gameindex-txt"
                     >
                       Accounts
                     </a>
-                    <a
-                      href="/sw-chronicles-power-leveling/"
+                    <a onClick={() => setModalShow(true)} 
+                      href="#" id="/sw-chronicles-power-leveling/"
                       className="align-self-baseline gameindex-txt"
                     >
                       Power leveling
@@ -8645,33 +8648,33 @@ const GameIndex = () => {
                 </li>
                 <li className="col-lg-3 col-md-3 col-sm-12 col-xs-12 content-item fl">
                   <div className="flex flex-column">
-                    <a
-                      href="/swords-of-legends-marketplace/"
+                    <a onClick={() => setModalShow(true)} 
+                      href="#" id="/swords-of-legends-marketplace/"
                       className="align-self-baseline"
                       title="Swords of Legends Online"
                     >
                       Swords of Legends Online
                     </a>
-                    <a
-                      href="/swords-of-legends-gold/"
+                    <a onClick={() => setModalShow(true)} 
+                      href="#" id="/swords-of-legends-gold/"
                       className="align-self-baseline gameindex-txt"
                     >
                       Gold
                     </a>
-                    <a
-                      href="/swords-of-legends-items/"
+                    <a onClick={() => setModalShow(true)} 
+                      href="#" id="/swords-of-legends-items/"
                       className="align-self-baseline gameindex-txt"
                     >
                       Items
                     </a>
-                    <a
-                      href="/swords-of-legends-account/"
+                    <a onClick={() => setModalShow(true)} 
+                      href="#" id="/swords-of-legends-account/"
                       className="align-self-baseline gameindex-txt"
                     >
                       Accounts
                     </a>
-                    <a
-                      href="/swords-of-legends-power-leveling/"
+                    <a onClick={() => setModalShow(true)} 
+                      href="#" id="/swords-of-legends-power-leveling/"
                       className="align-self-baseline gameindex-txt"
                     >
                       Power leveling
@@ -8680,33 +8683,33 @@ const GameIndex = () => {
                 </li>
                 <li className="col-lg-3 col-md-3 col-sm-12 col-xs-12 content-item fl">
                   <div className="flex flex-column">
-                    <a
-                      href="/swtor-marketplace/"
+                    <a onClick={() => setModalShow(true)} 
+                      href="#" id="/swtor-marketplace/"
                       className="align-self-baseline"
                       title="SWTOR"
                     >
                       SWTOR
                     </a>
-                    <a
-                      href="/swtor-credits/"
+                    <a onClick={() => setModalShow(true)} 
+                      href="#" id="/swtor-credits/"
                       className="align-self-baseline gameindex-txt"
                     >
                       Credits
                     </a>
-                    <a
-                      href="/swtor-items/"
+                    <a onClick={() => setModalShow(true)} 
+                      href="#" id="/swtor-items/"
                       className="align-self-baseline gameindex-txt"
                     >
                       Items
                     </a>
-                    <a
-                      href="/swtor-account/"
+                    <a onClick={() => setModalShow(true)} 
+                      href="#" id="/swtor-account/"
                       className="align-self-baseline gameindex-txt"
                     >
                       Accounts
                     </a>
-                    <a
-                      href="/swtor-power-leveling/"
+                    <a onClick={() => setModalShow(true)} 
+                      href="#" id="/swtor-power-leveling/"
                       className="align-self-baseline gameindex-txt"
                     >
                       Power leveling
@@ -8717,7 +8720,7 @@ const GameIndex = () => {
             </div>
             <div
               className="content-box slide-xs-content-box gameindex-box clearfix row no-gutters"
-              id="gameindex_T"
+              href="#" id="gameindex_T"
             >
               <div className="content-box-title col-lg-1 game-index-align-center">
                 <div className="index-Initials fl">T</div>
@@ -8728,21 +8731,21 @@ const GameIndex = () => {
               <ul className="row col-lg-11 no-gutters content-box-body">
                 <li className="col-lg-3 col-md-3 col-sm-12 col-xs-12 content-item fl">
                   <div className="flex flex-column">
-                    <a
-                      href="/tanki-online-marketplace/"
+                    <a onClick={() => setModalShow(true)} 
+                      href="#" id="/tanki-online-marketplace/"
                       className="align-self-baseline"
                       title="Tanki Online"
                     >
                       Tanki Online
                     </a>
-                    <a
-                      href="/tanki-online-account/"
+                    <a onClick={() => setModalShow(true)} 
+                      href="#" id="/tanki-online-account/"
                       className="align-self-baseline gameindex-txt"
                     >
                       Accounts
                     </a>
-                    <a
-                      href="/tanki-online-power-leveling/"
+                    <a onClick={() => setModalShow(true)} 
+                      href="#" id="/tanki-online-power-leveling/"
                       className="align-self-baseline gameindex-txt"
                     >
                       Power leveling
@@ -8751,27 +8754,27 @@ const GameIndex = () => {
                 </li>
                 <li className="col-lg-3 col-md-3 col-sm-12 col-xs-12 content-item fl">
                   <div className="flex flex-column">
-                    <a
-                      href="/tf2-marketplace/"
+                    <a onClick={() => setModalShow(true)} 
+                      href="#" id="/tf2-marketplace/"
                       className="align-self-baseline"
                       title="Team Fortress 2"
                     >
                       Team Fortress 2
                     </a>
-                    <a
-                      href="/tf2-skins/"
+                    <a onClick={() => setModalShow(true)} 
+                      href="#" id="/tf2-skins/"
                       className="align-self-baseline gameindex-txt"
                     >
                       Items
                     </a>
-                    <a
-                      href="/tf2-account/"
+                    <a onClick={() => setModalShow(true)} 
+                      href="#" id="/tf2-account/"
                       className="align-self-baseline gameindex-txt"
                     >
                       Accounts
                     </a>
-                    <a
-                      href="/tf2-power-leveling/"
+                    <a onClick={() => setModalShow(true)} 
+                      href="#" id="/tf2-power-leveling/"
                       className="align-self-baseline gameindex-txt"
                     >
                       Power leveling
@@ -8780,21 +8783,21 @@ const GameIndex = () => {
                 </li>
                 <li className="col-lg-3 col-md-3 col-sm-12 col-xs-12 content-item fl">
                   <div className="flex flex-column">
-                    <a
-                      href="/tft-marketplace/"
+                    <a onClick={() => setModalShow(true)} 
+                      href="#" id="/tft-marketplace/"
                       className="align-self-baseline"
                       title="Teamfight Tactics"
                     >
                       Teamfight Tactics
                     </a>
-                    <a
-                      href="/tft-account/"
+                    <a onClick={() => setModalShow(true)} 
+                      href="#" id="/tft-account/"
                       className="align-self-baseline gameindex-txt"
                     >
                       Accounts
                     </a>
-                    <a
-                      href="/tft-power-leveling/"
+                    <a onClick={() => setModalShow(true)} 
+                      href="#" id="/tft-power-leveling/"
                       className="align-self-baseline gameindex-txt"
                     >
                       Power leveling
@@ -8803,33 +8806,33 @@ const GameIndex = () => {
                 </li>
                 <li className="col-lg-3 col-md-3 col-sm-12 col-xs-12 content-item fl">
                   <div className="flex flex-column">
-                    <a
-                      href="/temtem-marketplace/"
+                    <a onClick={() => setModalShow(true)} 
+                      href="#" id="/temtem-marketplace/"
                       className="align-self-baseline"
                       title="Temtem"
                     >
                       Temtem
                     </a>
-                    <a
-                      href="/temtem-pansun/"
+                    <a onClick={() => setModalShow(true)} 
+                      href="#" id="/temtem-pansun/"
                       className="align-self-baseline gameindex-txt"
                     >
                       Pansun
                     </a>
-                    <a
-                      href="/temtem-items/"
+                    <a onClick={() => setModalShow(true)} 
+                      href="#" id="/temtem-items/"
                       className="align-self-baseline gameindex-txt"
                     >
                       Items
                     </a>
-                    <a
-                      href="/temtem-account/"
+                    <a onClick={() => setModalShow(true)} 
+                      href="#" id="/temtem-account/"
                       className="align-self-baseline gameindex-txt"
                     >
                       Accounts
                     </a>
-                    <a
-                      href="/temtem-power-leveling/"
+                    <a onClick={() => setModalShow(true)} 
+                      href="#" id="/temtem-power-leveling/"
                       className="align-self-baseline gameindex-txt"
                     >
                       Power leveling
@@ -8838,33 +8841,33 @@ const GameIndex = () => {
                 </li>
                 <li className="col-lg-3 col-md-3 col-sm-12 col-xs-12 content-item fl">
                   <div className="flex flex-column">
-                    <a
-                      href="/tera-marketplace/"
+                    <a onClick={() => setModalShow(true)} 
+                      href="#" id="/tera-marketplace/"
                       className="align-self-baseline"
                       title="Tera"
                     >
                       Tera
                     </a>
-                    <a
-                      href="/tera-gold/"
+                    <a onClick={() => setModalShow(true)} 
+                      href="#" id="/tera-gold/"
                       className="align-self-baseline gameindex-txt"
                     >
                       Gold
                     </a>
-                    <a
-                      href="/tera-items/"
+                    <a onClick={() => setModalShow(true)} 
+                      href="#" id="/tera-items/"
                       className="align-self-baseline gameindex-txt"
                     >
                       Items
                     </a>
-                    <a
-                      href="/tera-account/"
+                    <a onClick={() => setModalShow(true)} 
+                      href="#" id="/tera-account/"
                       className="align-self-baseline gameindex-txt"
                     >
                       Accounts
                     </a>
-                    <a
-                      href="/tera-power-leveling/"
+                    <a onClick={() => setModalShow(true)} 
+                      href="#" id="/tera-power-leveling/"
                       className="align-self-baseline gameindex-txt"
                     >
                       Power leveling
@@ -8873,27 +8876,27 @@ const GameIndex = () => {
                 </li>
                 <li className="col-lg-3 col-md-3 col-sm-12 col-xs-12 content-item fl">
                   <div className="flex flex-column">
-                    <a
-                      href="/tc-the-division-marketplace/"
+                    <a onClick={() => setModalShow(true)} 
+                      href="#" id="/tc-the-division-marketplace/"
                       className="align-self-baseline"
                       title="The Division 1"
                     >
                       The Division 1
                     </a>
-                    <a
-                      href="/tc-the-division-items/"
+                    <a onClick={() => setModalShow(true)} 
+                      href="#" id="/tc-the-division-items/"
                       className="align-self-baseline gameindex-txt"
                     >
                       Items
                     </a>
-                    <a
-                      href="/tc-the-division-account/"
+                    <a onClick={() => setModalShow(true)} 
+                      href="#" id="/tc-the-division-account/"
                       className="align-self-baseline gameindex-txt"
                     >
                       Accounts
                     </a>
-                    <a
-                      href="/tc-the-division-power-leveling/"
+                    <a onClick={() => setModalShow(true)} 
+                      href="#" id="/tc-the-division-power-leveling/"
                       className="align-self-baseline gameindex-txt"
                     >
                       Power leveling
@@ -8902,21 +8905,21 @@ const GameIndex = () => {
                 </li>
                 <li className="col-lg-3 col-md-3 col-sm-12 col-xs-12 content-item fl">
                   <div className="flex flex-column">
-                    <a
-                      href="/the-division-2-marketplace/"
+                    <a onClick={() => setModalShow(true)} 
+                      href="#" id="/the-division-2-marketplace/"
                       className="align-self-baseline"
                       title="The Division 2"
                     >
                       The Division 2
                     </a>
-                    <a
-                      href="/the-division-2-account/"
+                    <a onClick={() => setModalShow(true)} 
+                      href="#" id="/the-division-2-account/"
                       className="align-self-baseline gameindex-txt"
                     >
                       Accounts
                     </a>
-                    <a
-                      href="/the-division-2-power-leveling/"
+                    <a onClick={() => setModalShow(true)} 
+                      href="#" id="/the-division-2-power-leveling/"
                       className="align-self-baseline gameindex-txt"
                     >
                       Power leveling
@@ -8925,21 +8928,21 @@ const GameIndex = () => {
                 </li>
                 <li className="col-lg-3 col-md-3 col-sm-12 col-xs-12 content-item fl">
                   <div className="flex flex-column">
-                    <a
-                      href="/elder-scrolls-legend-marketplace/"
+                    <a onClick={() => setModalShow(true)} 
+                      href="#" id="/elder-scrolls-legend-marketplace/"
                       className="align-self-baseline"
                       title="The Elder Scrolls: Legends"
                     >
                       The Elder Scrolls: Legends
                     </a>
-                    <a
-                      href="/elder-scrolls-legend-account/"
+                    <a onClick={() => setModalShow(true)} 
+                      href="#" id="/elder-scrolls-legend-account/"
                       className="align-self-baseline gameindex-txt"
                     >
                       Accounts
                     </a>
-                    <a
-                      href="/elder-scrolls-legend-power-leveling/"
+                    <a onClick={() => setModalShow(true)} 
+                      href="#" id="/elder-scrolls-legend-power-leveling/"
                       className="align-self-baseline gameindex-txt"
                     >
                       Power leveling
@@ -8948,21 +8951,21 @@ const GameIndex = () => {
                 </li>
                 <li className="col-lg-3 col-md-3 col-sm-12 col-xs-12 content-item fl">
                   <div className="flex flex-column">
-                    <a
-                      href="/tgm-marketplace/"
+                    <a onClick={() => setModalShow(true)} 
+                      href="#" id="/tgm-marketplace/"
                       className="align-self-baseline"
                       title="The Grand Mafia"
                     >
                       The Grand Mafia
                     </a>
-                    <a
-                      href="/tgm-account/"
+                    <a onClick={() => setModalShow(true)} 
+                      href="#" id="/tgm-account/"
                       className="align-self-baseline gameindex-txt"
                     >
                       Accounts
                     </a>
-                    <a
-                      href="/tgm-power-leveling/"
+                    <a onClick={() => setModalShow(true)} 
+                      href="#" id="/tgm-power-leveling/"
                       className="align-self-baseline gameindex-txt"
                     >
                       Power leveling
@@ -8971,21 +8974,21 @@ const GameIndex = () => {
                 </li>
                 <li className="col-lg-3 col-md-3 col-sm-12 col-xs-12 content-item fl">
                   <div className="flex flex-column">
-                    <a
-                      href="/7ds-grand-cross-marketplace/"
+                    <a onClick={() => setModalShow(true)} 
+                      href="#" id="/7ds-grand-cross-marketplace/"
                       className="align-self-baseline"
                       title="The Seven Deadly Sins: Grand Cross"
                     >
                       The Seven Deadly Sins: Grand Cross
                     </a>
-                    <a
-                      href="/7ds-grand-cross-account/"
+                    <a onClick={() => setModalShow(true)} 
+                      href="#" id="/7ds-grand-cross-account/"
                       className="align-self-baseline gameindex-txt"
                     >
                       Accounts
                     </a>
-                    <a
-                      href="/7ds-grand-cross-power-leveling/"
+                    <a onClick={() => setModalShow(true)} 
+                      href="#" id="/7ds-grand-cross-power-leveling/"
                       className="align-self-baseline gameindex-txt"
                     >
                       Power leveling
@@ -8994,21 +8997,21 @@ const GameIndex = () => {
                 </li>
                 <li className="col-lg-3 col-md-3 col-sm-12 col-xs-12 content-item fl">
                   <div className="flex flex-column">
-                    <a
-                      href="/the-sims-4-marketplace/"
+                    <a onClick={() => setModalShow(true)} 
+                      href="#" id="/the-sims-4-marketplace/"
                       className="align-self-baseline"
                       title="The Sims 4"
                     >
                       The Sims 4
                     </a>
-                    <a
-                      href="/the-sims-4-account/"
+                    <a onClick={() => setModalShow(true)} 
+                      href="#" id="/the-sims-4-account/"
                       className="align-self-baseline gameindex-txt"
                     >
                       Accounts
                     </a>
-                    <a
-                      href="/the-sims-4-power-leveling/"
+                    <a onClick={() => setModalShow(true)} 
+                      href="#" id="/the-sims-4-power-leveling/"
                       className="align-self-baseline gameindex-txt"
                     >
                       Power leveling
@@ -9017,33 +9020,33 @@ const GameIndex = () => {
                 </li>
                 <li className="col-lg-3 col-md-3 col-sm-12 col-xs-12 content-item fl">
                   <div className="flex flex-column">
-                    <a
-                      href="/tibia-marketplace/"
+                    <a onClick={() => setModalShow(true)} 
+                      href="#" id="/tibia-marketplace/"
                       className="align-self-baseline"
                       title="Tibia"
                     >
                       Tibia
                     </a>
-                    <a
-                      href="/tibia-gold/"
+                    <a onClick={() => setModalShow(true)} 
+                      href="#" id="/tibia-gold/"
                       className="align-self-baseline gameindex-txt"
                     >
                       Gold
                     </a>
-                    <a
-                      href="/tibia-items/"
+                    <a onClick={() => setModalShow(true)} 
+                      href="#" id="/tibia-items/"
                       className="align-self-baseline gameindex-txt"
                     >
                       Items
                     </a>
-                    <a
-                      href="/tibia-account/"
+                    <a onClick={() => setModalShow(true)} 
+                      href="#" id="/tibia-account/"
                       className="align-self-baseline gameindex-txt"
                     >
                       Accounts
                     </a>
-                    <a
-                      href="/tibia-power-leveling/"
+                    <a onClick={() => setModalShow(true)} 
+                      href="#" id="/tibia-power-leveling/"
                       className="align-self-baseline gameindex-txt"
                     >
                       Power leveling
@@ -9052,33 +9055,33 @@ const GameIndex = () => {
                 </li>
                 <li className="col-lg-3 col-md-3 col-sm-12 col-xs-12 content-item fl">
                   <div className="flex flex-column">
-                    <a
-                      href="/tiny-tina-wonderland-marketplace/"
+                    <a onClick={() => setModalShow(true)} 
+                      href="#" id="/tiny-tina-wonderland-marketplace/"
                       className="align-self-baseline"
                       title="Tiny Tina’s Wonderlands"
                     >
                       Tiny Tina’s Wonderlands
                     </a>
-                    <a
-                      href="/tiny-tina-wonderland-gold/"
+                    <a onClick={() => setModalShow(true)} 
+                      href="#" id="/tiny-tina-wonderland-gold/"
                       className="align-self-baseline gameindex-txt"
                     >
                       Gold
                     </a>
-                    <a
-                      href="/tiny-tina-wonderland-items/"
+                    <a onClick={() => setModalShow(true)} 
+                      href="#" id="/tiny-tina-wonderland-items/"
                       className="align-self-baseline gameindex-txt"
                     >
                       Items
                     </a>
-                    <a
-                      href="/tiny-tina-wonderland-account/"
+                    <a onClick={() => setModalShow(true)} 
+                      href="#" id="/tiny-tina-wonderland-account/"
                       className="align-self-baseline gameindex-txt"
                     >
                       Accounts
                     </a>
-                    <a
-                      href="/tiny-tina-wonderland-power-leveling/"
+                    <a onClick={() => setModalShow(true)} 
+                      href="#" id="/tiny-tina-wonderland-power-leveling/"
                       className="align-self-baseline gameindex-txt"
                     >
                       Power leveling
@@ -9087,21 +9090,21 @@ const GameIndex = () => {
                 </li>
                 <li className="col-lg-3 col-md-3 col-sm-12 col-xs-12 content-item fl">
                   <div className="flex flex-column">
-                    <a
-                      href="/rainbow-6-extraction-marketplace/"
+                    <a onClick={() => setModalShow(true)} 
+                      href="#" id="/rainbow-6-extraction-marketplace/"
                       className="align-self-baseline"
                       title="Tom Clancy’s Rainbow Six Extraction"
                     >
                       Tom Clancy’s Rainbow Six Extraction
                     </a>
-                    <a
-                      href="/rainbow-6-extraction-account/"
+                    <a onClick={() => setModalShow(true)} 
+                      href="#" id="/rainbow-6-extraction-account/"
                       className="align-self-baseline gameindex-txt"
                     >
                       Accounts
                     </a>
-                    <a
-                      href="/rainbow-6-extraction-power-leveling/"
+                    <a onClick={() => setModalShow(true)} 
+                      href="#" id="/rainbow-6-extraction-power-leveling/"
                       className="align-self-baseline gameindex-txt"
                     >
                       Power leveling
@@ -9110,21 +9113,21 @@ const GameIndex = () => {
                 </li>
                 <li className="col-lg-3 col-md-3 col-sm-12 col-xs-12 content-item fl">
                   <div className="flex flex-column">
-                    <a
-                      href="/rainbow-six-siege-marketplace/"
+                    <a onClick={() => setModalShow(true)} 
+                      href="#" id="/rainbow-six-siege-marketplace/"
                       className="align-self-baseline"
                       title="Tom Clancys Rainbow Six Siege"
                     >
                       Tom Clancys Rainbow Six Siege
                     </a>
-                    <a
-                      href="/rainbow-six-siege-account/"
+                    <a onClick={() => setModalShow(true)} 
+                      href="#" id="/rainbow-six-siege-account/"
                       className="align-self-baseline gameindex-txt"
                     >
                       Accounts
                     </a>
-                    <a
-                      href="/rainbow-six-siege-power-leveling/"
+                    <a onClick={() => setModalShow(true)} 
+                      href="#" id="/rainbow-six-siege-power-leveling/"
                       className="align-self-baseline gameindex-txt"
                     >
                       Power leveling
@@ -9133,21 +9136,21 @@ const GameIndex = () => {
                 </li>
                 <li className="col-lg-3 col-md-3 col-sm-12 col-xs-12 content-item fl">
                   <div className="flex flex-column">
-                    <a
-                      href="/top-war-marketplace/"
+                    <a onClick={() => setModalShow(true)} 
+                      href="#" id="/top-war-marketplace/"
                       className="align-self-baseline"
                       title="Top War: Battle Game"
                     >
                       Top War: Battle Game
                     </a>
-                    <a
-                      href="/top-war-account/"
+                    <a onClick={() => setModalShow(true)} 
+                      href="#" id="/top-war-account/"
                       className="align-self-baseline gameindex-txt"
                     >
                       Accounts
                     </a>
-                    <a
-                      href="/top-war-power-leveling/"
+                    <a onClick={() => setModalShow(true)} 
+                      href="#" id="/top-war-power-leveling/"
                       className="align-self-baseline gameindex-txt"
                     >
                       Power leveling
@@ -9156,33 +9159,33 @@ const GameIndex = () => {
                 </li>
                 <li className="col-lg-3 col-md-3 col-sm-12 col-xs-12 content-item fl">
                   <div className="flex flex-column">
-                    <a
-                      href="/toram-online-marketplace/"
+                    <a onClick={() => setModalShow(true)} 
+                      href="#" id="/toram-online-marketplace/"
                       className="align-self-baseline"
                       title="Toram Online"
                     >
                       Toram Online
                     </a>
-                    <a
-                      href="/toram-online-spina/"
+                    <a onClick={() => setModalShow(true)} 
+                      href="#" id="/toram-online-spina/"
                       className="align-self-baseline gameindex-txt"
                     >
                       Spina
                     </a>
-                    <a
-                      href="/toram-online-items/"
+                    <a onClick={() => setModalShow(true)} 
+                      href="#" id="/toram-online-items/"
                       className="align-self-baseline gameindex-txt"
                     >
                       Items
                     </a>
-                    <a
-                      href="/toram-online-account/"
+                    <a onClick={() => setModalShow(true)} 
+                      href="#" id="/toram-online-account/"
                       className="align-self-baseline gameindex-txt"
                     >
                       Accounts
                     </a>
-                    <a
-                      href="/toram-online-power-leveling/"
+                    <a onClick={() => setModalShow(true)} 
+                      href="#" id="/toram-online-power-leveling/"
                       className="align-self-baseline gameindex-txt"
                     >
                       Power leveling
@@ -9191,27 +9194,27 @@ const GameIndex = () => {
                 </li>
                 <li className="col-lg-3 col-md-3 col-sm-12 col-xs-12 content-item fl">
                   <div className="flex flex-column">
-                    <a
-                      href="/torn-city-marketplace/"
+                    <a onClick={() => setModalShow(true)} 
+                      href="#" id="/torn-city-marketplace/"
                       className="align-self-baseline"
                       title="TORN CITY"
                     >
                       TORN CITY
                     </a>
-                    <a
-                      href="/torn-city-items/"
+                    <a onClick={() => setModalShow(true)} 
+                      href="#" id="/torn-city-items/"
                       className="align-self-baseline gameindex-txt"
                     >
                       Items
                     </a>
-                    <a
-                      href="/torn-city-account/"
+                    <a onClick={() => setModalShow(true)} 
+                      href="#" id="/torn-city-account/"
                       className="align-self-baseline gameindex-txt"
                     >
                       Accounts
                     </a>
-                    <a
-                      href="/torn-city-power-leveling/"
+                    <a onClick={() => setModalShow(true)} 
+                      href="#" id="/torn-city-power-leveling/"
                       className="align-self-baseline gameindex-txt"
                     >
                       Power leveling
@@ -9220,33 +9223,33 @@ const GameIndex = () => {
                 </li>
                 <li className="col-lg-3 col-md-3 col-sm-12 col-xs-12 content-item fl">
                   <div className="flex flex-column">
-                    <a
-                      href="/tree-of-savior-marketplace/"
+                    <a onClick={() => setModalShow(true)} 
+                      href="#" id="/tree-of-savior-marketplace/"
                       className="align-self-baseline"
                       title="Tree of Savior"
                     >
                       Tree of Savior
                     </a>
-                    <a
-                      href="/tree-of-savior-silver/"
+                    <a onClick={() => setModalShow(true)} 
+                      href="#" id="/tree-of-savior-silver/"
                       className="align-self-baseline gameindex-txt"
                     >
                       Silver
                     </a>
-                    <a
-                      href="/tree-of-savior-items/"
+                    <a onClick={() => setModalShow(true)} 
+                      href="#" id="/tree-of-savior-items/"
                       className="align-self-baseline gameindex-txt"
                     >
                       Items
                     </a>
-                    <a
-                      href="/tree-of-savior-account/"
+                    <a onClick={() => setModalShow(true)} 
+                      href="#" id="/tree-of-savior-account/"
                       className="align-self-baseline gameindex-txt"
                     >
                       Accounts
                     </a>
-                    <a
-                      href="/tree-of-savior-power-leveling/"
+                    <a onClick={() => setModalShow(true)} 
+                      href="#" id="/tree-of-savior-power-leveling/"
                       className="align-self-baseline gameindex-txt"
                     >
                       Power leveling
@@ -9255,33 +9258,33 @@ const GameIndex = () => {
                 </li>
                 <li className="col-lg-3 col-md-3 col-sm-12 col-xs-12 content-item fl">
                   <div className="flex flex-column">
-                    <a
-                      href="/trove-marketplace/"
+                    <a onClick={() => setModalShow(true)} 
+                      href="#" id="/trove-marketplace/"
                       className="align-self-baseline"
                       title="Trove"
                     >
                       Trove
                     </a>
-                    <a
-                      href="/trove-flux/"
+                    <a onClick={() => setModalShow(true)} 
+                      href="#" id="/trove-flux/"
                       className="align-self-baseline gameindex-txt"
                     >
                       Flux
                     </a>
-                    <a
-                      href="/trove-items/"
+                    <a onClick={() => setModalShow(true)} 
+                      href="#" id="/trove-items/"
                       className="align-self-baseline gameindex-txt"
                     >
                       Items
                     </a>
-                    <a
-                      href="/trove-account/"
+                    <a onClick={() => setModalShow(true)} 
+                      href="#" id="/trove-account/"
                       className="align-self-baseline gameindex-txt"
                     >
                       Accounts
                     </a>
-                    <a
-                      href="/trove-power-leveling/"
+                    <a onClick={() => setModalShow(true)} 
+                      href="#" id="/trove-power-leveling/"
                       className="align-self-baseline gameindex-txt"
                     >
                       Power leveling
@@ -9292,7 +9295,7 @@ const GameIndex = () => {
             </div>
             <div
               className="content-box slide-xs-content-box gameindex-box clearfix row no-gutters"
-              id="gameindex_U"
+              href="#" id="gameindex_U"
             >
               <div className="content-box-title col-lg-1 game-index-align-center">
                 <div className="index-Initials fl">U</div>
@@ -9303,33 +9306,33 @@ const GameIndex = () => {
               <ul className="row col-lg-11 no-gutters content-box-body">
                 <li className="col-lg-3 col-md-3 col-sm-12 col-xs-12 content-item fl">
                   <div className="flex flex-column">
-                    <a
-                      href="/uo-marketplace/"
+                    <a onClick={() => setModalShow(true)} 
+                      href="#" id="/uo-marketplace/"
                       className="align-self-baseline"
                       title="Ultima Online"
                     >
                       Ultima Online
                     </a>
-                    <a
-                      href="/uo-gold/"
+                    <a onClick={() => setModalShow(true)} 
+                      href="#" id="/uo-gold/"
                       className="align-self-baseline gameindex-txt"
                     >
                       Gold
                     </a>
-                    <a
-                      href="/uo-items/"
+                    <a onClick={() => setModalShow(true)} 
+                      href="#" id="/uo-items/"
                       className="align-self-baseline gameindex-txt"
                     >
                       Items
                     </a>
-                    <a
-                      href="/uo-account/"
+                    <a onClick={() => setModalShow(true)} 
+                      href="#" id="/uo-account/"
                       className="align-self-baseline gameindex-txt"
                     >
                       Accounts
                     </a>
-                    <a
-                      href="/uo-power-leveling/"
+                    <a onClick={() => setModalShow(true)} 
+                      href="#" id="/uo-power-leveling/"
                       className="align-self-baseline gameindex-txt"
                     >
                       Power leveling
@@ -9338,21 +9341,21 @@ const GameIndex = () => {
                 </li>
                 <li className="col-lg-3 col-md-3 col-sm-12 col-xs-12 content-item fl">
                   <div className="flex flex-column">
-                    <a
-                      href="/unison-league-marketplace/"
+                    <a onClick={() => setModalShow(true)} 
+                      href="#" id="/unison-league-marketplace/"
                       className="align-self-baseline"
                       title="Unison League"
                     >
                       Unison League
                     </a>
-                    <a
-                      href="/unison-league-account/"
+                    <a onClick={() => setModalShow(true)} 
+                      href="#" id="/unison-league-account/"
                       className="align-self-baseline gameindex-txt"
                     >
                       Accounts
                     </a>
-                    <a
-                      href="/unison-league-power-leveling/"
+                    <a onClick={() => setModalShow(true)} 
+                      href="#" id="/unison-league-power-leveling/"
                       className="align-self-baseline gameindex-txt"
                     >
                       Power leveling
@@ -9361,21 +9364,21 @@ const GameIndex = () => {
                 </li>
                 <li className="col-lg-3 col-md-3 col-sm-12 col-xs-12 content-item fl">
                   <div className="flex flex-column">
-                    <a
-                      href="/uplay-marketplace/"
+                    <a onClick={() => setModalShow(true)} 
+                      href="#" id="/uplay-marketplace/"
                       className="align-self-baseline"
                       title="Uplay"
                     >
                       Uplay
                     </a>
-                    <a
-                      href="/uplay-account/"
+                    <a onClick={() => setModalShow(true)} 
+                      href="#" id="/uplay-account/"
                       className="align-self-baseline gameindex-txt"
                     >
                       Accounts
                     </a>
-                    <a
-                      href="/uplay-power-leveling/"
+                    <a onClick={() => setModalShow(true)} 
+                      href="#" id="/uplay-power-leveling/"
                       className="align-self-baseline gameindex-txt"
                     >
                       Power leveling
@@ -9384,27 +9387,27 @@ const GameIndex = () => {
                 </li>
                 <li className="col-lg-3 col-md-3 col-sm-12 col-xs-12 content-item fl">
                   <div className="flex flex-column">
-                    <a
-                      href="/urban-rivals-marketplace/"
+                    <a onClick={() => setModalShow(true)} 
+                      href="#" id="/urban-rivals-marketplace/"
                       className="align-self-baseline"
                       title="Urban Rivals"
                     >
                       Urban Rivals
                     </a>
-                    <a
-                      href="/urban-rivals-items/"
+                    <a onClick={() => setModalShow(true)} 
+                      href="#" id="/urban-rivals-items/"
                       className="align-self-baseline gameindex-txt"
                     >
                       Items
                     </a>
-                    <a
-                      href="/urban-rivals-account/"
+                    <a onClick={() => setModalShow(true)} 
+                      href="#" id="/urban-rivals-account/"
                       className="align-self-baseline gameindex-txt"
                     >
                       Accounts
                     </a>
-                    <a
-                      href="/urban-rivals-power-leveling/"
+                    <a onClick={() => setModalShow(true)} 
+                      href="#" id="/urban-rivals-power-leveling/"
                       className="align-self-baseline gameindex-txt"
                     >
                       Power leveling
@@ -9415,7 +9418,7 @@ const GameIndex = () => {
             </div>
             <div
               className="content-box slide-xs-content-box gameindex-box clearfix row no-gutters"
-              id="gameindex_V"
+              href="#" id="gameindex_V"
             >
               <div className="content-box-title col-lg-1 game-index-align-center">
                 <div className="index-Initials fl">V</div>
@@ -9426,27 +9429,27 @@ const GameIndex = () => {
               <ul className="row col-lg-11 no-gutters content-box-body">
                 <li className="col-lg-3 col-md-3 col-sm-12 col-xs-12 content-item fl">
                   <div className="flex flex-column">
-                    <a
-                      href="/v4-marketplace/"
+                    <a onClick={() => setModalShow(true)} 
+                      href="#" id="/v4-marketplace/"
                       className="align-self-baseline"
                       title="V4"
                     >
                       V4
                     </a>
-                    <a
-                      href="/v4-red-gems/"
+                    <a onClick={() => setModalShow(true)} 
+                      href="#" id="/v4-red-gems/"
                       className="align-self-baseline gameindex-txt"
                     >
                       Red Gems
                     </a>
-                    <a
-                      href="/v4-account/"
+                    <a onClick={() => setModalShow(true)} 
+                      href="#" id="/v4-account/"
                       className="align-self-baseline gameindex-txt"
                     >
                       Accounts
                     </a>
-                    <a
-                      href="/v4-power-leveling/"
+                    <a onClick={() => setModalShow(true)} 
+                      href="#" id="/v4-power-leveling/"
                       className="align-self-baseline gameindex-txt"
                     >
                       Power leveling
@@ -9455,27 +9458,27 @@ const GameIndex = () => {
                 </li>
                 <li className="col-lg-3 col-md-3 col-sm-12 col-xs-12 content-item fl">
                   <div className="flex flex-column">
-                    <a
-                      href="/valheim-marketplace/"
+                    <a onClick={() => setModalShow(true)} 
+                      href="#" id="/valheim-marketplace/"
                       className="align-self-baseline"
                       title="Valheim"
                     >
                       Valheim
                     </a>
-                    <a
-                      href="/valheim-items/"
+                    <a onClick={() => setModalShow(true)} 
+                      href="#" id="/valheim-items/"
                       className="align-self-baseline gameindex-txt"
                     >
                       Items
                     </a>
-                    <a
-                      href="/valheim-account/"
+                    <a onClick={() => setModalShow(true)} 
+                      href="#" id="/valheim-account/"
                       className="align-self-baseline gameindex-txt"
                     >
                       Accounts
                     </a>
-                    <a
-                      href="/valheim-power-leveling/"
+                    <a onClick={() => setModalShow(true)} 
+                      href="#" id="/valheim-power-leveling/"
                       className="align-self-baseline gameindex-txt"
                     >
                       Power leveling
@@ -9484,27 +9487,27 @@ const GameIndex = () => {
                 </li>
                 <li className="col-lg-3 col-md-3 col-sm-12 col-xs-12 content-item fl">
                   <div className="flex flex-column">
-                    <a
-                      href="/valorant-marketplace/"
+                    <a onClick={() => setModalShow(true)} 
+                      href="#" id="/valorant-marketplace/"
                       className="align-self-baseline"
                       title="Valorant"
                     >
                       Valorant
                     </a>
-                    <a
-                      href="/valorant-items/"
+                    <a onClick={() => setModalShow(true)} 
+                      href="#" id="/valorant-items/"
                       className="align-self-baseline gameindex-txt"
                     >
                       Items
                     </a>
-                    <a
-                      href="/valorant-account/"
+                    <a onClick={() => setModalShow(true)} 
+                      href="#" id="/valorant-account/"
                       className="align-self-baseline gameindex-txt"
                     >
                       Accounts
                     </a>
-                    <a
-                      href="/valorant-power-leveling/"
+                    <a onClick={() => setModalShow(true)} 
+                      href="#" id="/valorant-power-leveling/"
                       className="align-self-baseline gameindex-txt"
                     >
                       Power leveling
@@ -9513,33 +9516,33 @@ const GameIndex = () => {
                 </li>
                 <li className="col-lg-3 col-md-3 col-sm-12 col-xs-12 content-item fl">
                   <div className="flex flex-column">
-                    <a
-                      href="/vindictus-marketplace/"
+                    <a onClick={() => setModalShow(true)} 
+                      href="#" id="/vindictus-marketplace/"
                       className="align-self-baseline"
                       title="Vindictus"
                     >
                       Vindictus
                     </a>
-                    <a
-                      href="/vindictus-gold/"
+                    <a onClick={() => setModalShow(true)} 
+                      href="#" id="/vindictus-gold/"
                       className="align-self-baseline gameindex-txt"
                     >
                       Gold
                     </a>
-                    <a
-                      href="/vindictus-items/"
+                    <a onClick={() => setModalShow(true)} 
+                      href="#" id="/vindictus-items/"
                       className="align-self-baseline gameindex-txt"
                     >
                       Items
                     </a>
-                    <a
-                      href="/vindictus-account/"
+                    <a onClick={() => setModalShow(true)} 
+                      href="#" id="/vindictus-account/"
                       className="align-self-baseline gameindex-txt"
                     >
                       Accounts
                     </a>
-                    <a
-                      href="/vindictus-power-leveling/"
+                    <a onClick={() => setModalShow(true)} 
+                      href="#" id="/vindictus-power-leveling/"
                       className="align-self-baseline gameindex-txt"
                     >
                       Power leveling
@@ -9550,7 +9553,7 @@ const GameIndex = () => {
             </div>
             <div
               className="content-box slide-xs-content-box gameindex-box clearfix row no-gutters"
-              id="gameindex_W"
+              href="#" id="gameindex_W"
             >
               <div className="content-box-title col-lg-1 game-index-align-center">
                 <div className="index-Initials fl">W</div>
@@ -9561,33 +9564,33 @@ const GameIndex = () => {
               <ul className="row col-lg-11 no-gutters content-box-body">
                 <li className="col-lg-3 col-md-3 col-sm-12 col-xs-12 content-item fl">
                   <div className="flex flex-column">
-                    <a
-                      href="/wakfu-marketplace/"
+                    <a onClick={() => setModalShow(true)} 
+                      href="#" id="/wakfu-marketplace/"
                       className="align-self-baseline"
                       title="Wakfu"
                     >
                       Wakfu
                     </a>
-                    <a
-                      href="/wakfu-kamas/"
+                    <a onClick={() => setModalShow(true)} 
+                      href="#" id="/wakfu-kamas/"
                       className="align-self-baseline gameindex-txt"
                     >
                       Kamas
                     </a>
-                    <a
-                      href="/wakfu-items/"
+                    <a onClick={() => setModalShow(true)} 
+                      href="#" id="/wakfu-items/"
                       className="align-self-baseline gameindex-txt"
                     >
                       Items
                     </a>
-                    <a
-                      href="/wakfu-account/"
+                    <a onClick={() => setModalShow(true)} 
+                      href="#" id="/wakfu-account/"
                       className="align-self-baseline gameindex-txt"
                     >
                       Accounts
                     </a>
-                    <a
-                      href="/wakfu-power-leveling/"
+                    <a onClick={() => setModalShow(true)} 
+                      href="#" id="/wakfu-power-leveling/"
                       className="align-self-baseline gameindex-txt"
                     >
                       Power leveling
@@ -9596,21 +9599,21 @@ const GameIndex = () => {
                 </li>
                 <li className="col-lg-3 col-md-3 col-sm-12 col-xs-12 content-item fl">
                   <div className="flex flex-column">
-                    <a
-                      href="/ffbe-wotv-marketplace/"
+                    <a onClick={() => setModalShow(true)} 
+                      href="#" id="/ffbe-wotv-marketplace/"
                       className="align-self-baseline"
                       title="War of the Visions: Final Fantasy Brave Exvius"
                     >
                       War of the Visions: Final Fantasy Brave Exvius
                     </a>
-                    <a
-                      href="/ffbe-wotv-account/"
+                    <a onClick={() => setModalShow(true)} 
+                      href="#" id="/ffbe-wotv-account/"
                       className="align-self-baseline gameindex-txt"
                     >
                       Accounts
                     </a>
-                    <a
-                      href="/ffbe-wotv-power-leveling/"
+                    <a onClick={() => setModalShow(true)} 
+                      href="#" id="/ffbe-wotv-power-leveling/"
                       className="align-self-baseline gameindex-txt"
                     >
                       Power leveling
@@ -9619,27 +9622,27 @@ const GameIndex = () => {
                 </li>
                 <li className="col-lg-3 col-md-3 col-sm-12 col-xs-12 content-item fl">
                   <div className="flex flex-column">
-                    <a
-                      href="/war-thunder-marketplace/"
+                    <a onClick={() => setModalShow(true)} 
+                      href="#" id="/war-thunder-marketplace/"
                       className="align-self-baseline"
                       title="War Thunder"
                     >
                       War Thunder
                     </a>
-                    <a
-                      href="/war-thunder-items/"
+                    <a onClick={() => setModalShow(true)} 
+                      href="#" id="/war-thunder-items/"
                       className="align-self-baseline gameindex-txt"
                     >
                       Items
                     </a>
-                    <a
-                      href="/war-thunder-account/"
+                    <a onClick={() => setModalShow(true)} 
+                      href="#" id="/war-thunder-account/"
                       className="align-self-baseline gameindex-txt"
                     >
                       Accounts
                     </a>
-                    <a
-                      href="/war-thunder-power-leveling/"
+                    <a onClick={() => setModalShow(true)} 
+                      href="#" id="/war-thunder-power-leveling/"
                       className="align-self-baseline gameindex-txt"
                     >
                       Power leveling
@@ -9648,21 +9651,21 @@ const GameIndex = () => {
                 </li>
                 <li className="col-lg-3 col-md-3 col-sm-12 col-xs-12 content-item fl">
                   <div className="flex flex-column">
-                    <a
-                      href="/warface-marketplace/"
+                    <a onClick={() => setModalShow(true)} 
+                      href="#" id="/warface-marketplace/"
                       className="align-self-baseline"
                       title="Warface"
                     >
                       Warface
                     </a>
-                    <a
-                      href="/warface-account/"
+                    <a onClick={() => setModalShow(true)} 
+                      href="#" id="/warface-account/"
                       className="align-self-baseline gameindex-txt"
                     >
                       Accounts
                     </a>
-                    <a
-                      href="/warface-power-leveling/"
+                    <a onClick={() => setModalShow(true)} 
+                      href="#" id="/warface-power-leveling/"
                       className="align-self-baseline gameindex-txt"
                     >
                       Power leveling
@@ -9671,33 +9674,33 @@ const GameIndex = () => {
                 </li>
                 <li className="col-lg-3 col-md-3 col-sm-12 col-xs-12 content-item fl">
                   <div className="flex flex-column">
-                    <a
-                      href="/warframe-marketplace/"
+                    <a onClick={() => setModalShow(true)} 
+                      href="#" id="/warframe-marketplace/"
                       className="align-self-baseline"
                       title="Warframe"
                     >
                       Warframe
                     </a>
-                    <a
-                      href="/warframe-platinum/"
+                    <a onClick={() => setModalShow(true)} 
+                      href="#" id="/warframe-platinum/"
                       className="align-self-baseline gameindex-txt"
                     >
                       Platinum
                     </a>
-                    <a
-                      href="/warframe-items/"
+                    <a onClick={() => setModalShow(true)} 
+                      href="#" id="/warframe-items/"
                       className="align-self-baseline gameindex-txt"
                     >
                       Items
                     </a>
-                    <a
-                      href="/warframe-account/"
+                    <a onClick={() => setModalShow(true)} 
+                      href="#" id="/warframe-account/"
                       className="align-self-baseline gameindex-txt"
                     >
                       Accounts
                     </a>
-                    <a
-                      href="/warframe-power-leveling/"
+                    <a onClick={() => setModalShow(true)} 
+                      href="#" id="/warframe-power-leveling/"
                       className="align-self-baseline gameindex-txt"
                     >
                       Power leveling
@@ -9706,21 +9709,21 @@ const GameIndex = () => {
                 </li>
                 <li className="col-lg-3 col-md-3 col-sm-12 col-xs-12 content-item fl">
                   <div className="flex flex-column">
-                    <a
-                      href="/wargaming-marketplace/"
+                    <a onClick={() => setModalShow(true)} 
+                      href="#" id="/wargaming-marketplace/"
                       className="align-self-baseline"
                       title="Wargaming"
                     >
                       Wargaming
                     </a>
-                    <a
-                      href="/wargaming-account/"
+                    <a onClick={() => setModalShow(true)} 
+                      href="#" id="/wargaming-account/"
                       className="align-self-baseline gameindex-txt"
                     >
                       Accounts
                     </a>
-                    <a
-                      href="/wargaming-power-leveling/"
+                    <a onClick={() => setModalShow(true)} 
+                      href="#" id="/wargaming-power-leveling/"
                       className="align-self-baseline gameindex-txt"
                     >
                       Power leveling
@@ -9729,21 +9732,21 @@ const GameIndex = () => {
                 </li>
                 <li className="col-lg-3 col-md-3 col-sm-12 col-xs-12 content-item fl">
                   <div className="flex flex-column">
-                    <a
-                      href="/warpath-marketplace/"
+                    <a onClick={() => setModalShow(true)} 
+                      href="#" id="/warpath-marketplace/"
                       className="align-self-baseline"
                       title="Warpath"
                     >
                       Warpath
                     </a>
-                    <a
-                      href="/warpath-account/"
+                    <a onClick={() => setModalShow(true)} 
+                      href="#" id="/warpath-account/"
                       className="align-self-baseline gameindex-txt"
                     >
                       Accounts
                     </a>
-                    <a
-                      href="/warpath-power-leveling/"
+                    <a onClick={() => setModalShow(true)} 
+                      href="#" id="/warpath-power-leveling/"
                       className="align-self-baseline gameindex-txt"
                     >
                       Power leveling
@@ -9752,33 +9755,33 @@ const GameIndex = () => {
                 </li>
                 <li className="col-lg-3 col-md-3 col-sm-12 col-xs-12 content-item fl">
                   <div className="flex flex-column">
-                    <a
-                      href="/wizard101-marketplace/"
+                    <a onClick={() => setModalShow(true)} 
+                      href="#" id="/wizard101-marketplace/"
                       className="align-self-baseline"
                       title="Wizard101"
                     >
                       Wizard101
                     </a>
-                    <a
-                      href="/wizard101-gold/"
+                    <a onClick={() => setModalShow(true)} 
+                      href="#" id="/wizard101-gold/"
                       className="align-self-baseline gameindex-txt"
                     >
                       Gold
                     </a>
-                    <a
-                      href="/wizard101-items/"
+                    <a onClick={() => setModalShow(true)} 
+                      href="#" id="/wizard101-items/"
                       className="align-self-baseline gameindex-txt"
                     >
                       Items
                     </a>
-                    <a
-                      href="/wizard101-account/"
+                    <a onClick={() => setModalShow(true)} 
+                      href="#" id="/wizard101-account/"
                       className="align-self-baseline gameindex-txt"
                     >
                       Accounts
                     </a>
-                    <a
-                      href="/wizard101-power-leveling/"
+                    <a onClick={() => setModalShow(true)} 
+                      href="#" id="/wizard101-power-leveling/"
                       className="align-self-baseline gameindex-txt"
                     >
                       Power leveling
@@ -9787,33 +9790,33 @@ const GameIndex = () => {
                 </li>
                 <li className="col-lg-3 col-md-3 col-sm-12 col-xs-12 content-item fl">
                   <div className="flex flex-column">
-                    <a
-                      href="/wolcen-marketplace/"
+                    <a onClick={() => setModalShow(true)} 
+                      href="#" id="/wolcen-marketplace/"
                       className="align-self-baseline"
                       title="Wolcen: Lords of Mayhem"
                     >
                       Wolcen: Lords of Mayhem
                     </a>
-                    <a
-                      href="/wolcen-gold/"
+                    <a onClick={() => setModalShow(true)} 
+                      href="#" id="/wolcen-gold/"
                       className="align-self-baseline gameindex-txt"
                     >
                       Gold
                     </a>
-                    <a
-                      href="/wolcen-items/"
+                    <a onClick={() => setModalShow(true)} 
+                      href="#" id="/wolcen-items/"
                       className="align-self-baseline gameindex-txt"
                     >
                       Items
                     </a>
-                    <a
-                      href="/wolcen-account/"
+                    <a onClick={() => setModalShow(true)} 
+                      href="#" id="/wolcen-account/"
                       className="align-self-baseline gameindex-txt"
                     >
                       Accounts
                     </a>
-                    <a
-                      href="/wolcen-power-leveling/"
+                    <a onClick={() => setModalShow(true)} 
+                      href="#" id="/wolcen-power-leveling/"
                       className="align-self-baseline gameindex-txt"
                     >
                       Power leveling
@@ -9822,27 +9825,27 @@ const GameIndex = () => {
                 </li>
                 <li className="col-lg-3 col-md-3 col-sm-12 col-xs-12 content-item fl">
                   <div className="flex flex-column">
-                    <a
-                      href="/wot-marketplace/"
+                    <a onClick={() => setModalShow(true)} 
+                      href="#" id="/wot-marketplace/"
                       className="align-self-baseline"
                       title="World of Tanks"
                     >
                       World of Tanks
                     </a>
-                    <a
-                      href="/wot-items/"
+                    <a onClick={() => setModalShow(true)} 
+                      href="#" id="/wot-items/"
                       className="align-self-baseline gameindex-txt"
                     >
                       Items
                     </a>
-                    <a
-                      href="/wot-account/"
+                    <a onClick={() => setModalShow(true)} 
+                      href="#" id="/wot-account/"
                       className="align-self-baseline gameindex-txt"
                     >
                       Accounts
                     </a>
-                    <a
-                      href="/wot-power-leveling/"
+                    <a onClick={() => setModalShow(true)} 
+                      href="#" id="/wot-power-leveling/"
                       className="align-self-baseline gameindex-txt"
                     >
                       Power leveling
@@ -9851,21 +9854,21 @@ const GameIndex = () => {
                 </li>
                 <li className="col-lg-3 col-md-3 col-sm-12 col-xs-12 content-item fl">
                   <div className="flex flex-column">
-                    <a
-                      href="/wot-blitz-marketplace/"
+                    <a onClick={() => setModalShow(true)} 
+                      href="#" id="/wot-blitz-marketplace/"
                       className="align-self-baseline"
                       title="World of Tanks Blitz"
                     >
                       World of Tanks Blitz
                     </a>
-                    <a
-                      href="/wot-blitz-account/"
+                    <a onClick={() => setModalShow(true)} 
+                      href="#" id="/wot-blitz-account/"
                       className="align-self-baseline gameindex-txt"
                     >
                       Accounts
                     </a>
-                    <a
-                      href="/wot-blitz-power-leveling/"
+                    <a onClick={() => setModalShow(true)} 
+                      href="#" id="/wot-blitz-power-leveling/"
                       className="align-self-baseline gameindex-txt"
                     >
                       Power leveling
@@ -9874,33 +9877,33 @@ const GameIndex = () => {
                 </li>
                 <li className="col-lg-3 col-md-3 col-sm-12 col-xs-12 content-item fl">
                   <div className="flex flex-column">
-                    <a
-                      href="/wow-marketplace/"
+                    <a onClick={() => setModalShow(true)} 
+                      href="#" id="/wow-marketplace/"
                       className="align-self-baseline"
                       title="World of Warcraft"
                     >
                       World of Warcraft
                     </a>
-                    <a
-                      href="/wow-gold/"
+                    <a onClick={() => setModalShow(true)} 
+                      href="#" id="/wow-gold/"
                       className="align-self-baseline gameindex-txt"
                     >
                       Gold
                     </a>
-                    <a
-                      href="/wow-items/"
+                    <a onClick={() => setModalShow(true)} 
+                      href="#" id="/wow-items/"
                       className="align-self-baseline gameindex-txt"
                     >
                       Items
                     </a>
-                    <a
-                      href="/wow-account/"
+                    <a onClick={() => setModalShow(true)} 
+                      href="#" id="/wow-account/"
                       className="align-self-baseline gameindex-txt"
                     >
                       Accounts
                     </a>
-                    <a
-                      href="/wow-power-leveling/"
+                    <a onClick={() => setModalShow(true)} 
+                      href="#" id="/wow-power-leveling/"
                       className="align-self-baseline gameindex-txt"
                     >
                       Power leveling
@@ -9909,33 +9912,33 @@ const GameIndex = () => {
                 </li>
                 <li className="col-lg-3 col-md-3 col-sm-12 col-xs-12 content-item fl">
                   <div className="flex flex-column">
-                    <a
-                      href="/wow-classic-marketplace/"
+                    <a onClick={() => setModalShow(true)} 
+                      href="#" id="/wow-classic-marketplace/"
                       className="align-self-baseline"
                       title="World of Warcraft Classic"
                     >
                       World of Warcraft Classic
                     </a>
-                    <a
-                      href="/wow-classic-gold/"
+                    <a onClick={() => setModalShow(true)} 
+                      href="#" id="/wow-classic-gold/"
                       className="align-self-baseline gameindex-txt"
                     >
                       Gold
                     </a>
-                    <a
-                      href="/wow-classic-items/"
+                    <a onClick={() => setModalShow(true)} 
+                      href="#" id="/wow-classic-items/"
                       className="align-self-baseline gameindex-txt"
                     >
                       Items
                     </a>
-                    <a
-                      href="/wow-classic-account/"
+                    <a onClick={() => setModalShow(true)} 
+                      href="#" id="/wow-classic-account/"
                       className="align-self-baseline gameindex-txt"
                     >
                       Accounts
                     </a>
-                    <a
-                      href="/wow-classic-power-leveling/"
+                    <a onClick={() => setModalShow(true)} 
+                      href="#" id="/wow-classic-power-leveling/"
                       className="align-self-baseline gameindex-txt"
                     >
                       Power leveling
@@ -9944,33 +9947,33 @@ const GameIndex = () => {
                 </li>
                 <li className="col-lg-3 col-md-3 col-sm-12 col-xs-12 content-item fl">
                   <div className="flex flex-column">
-                    <a
-                      href="/wow-classic-tbc-marketplace/"
+                    <a onClick={() => setModalShow(true)} 
+                      href="#" id="/wow-classic-tbc-marketplace/"
                       className="align-self-baseline"
                       title="World of Warcraft: Burning Crusade Classic"
                     >
                       World of Warcraft: Burning Crusade Classic
                     </a>
-                    <a
-                      href="/wow-classic-tbc-gold/"
+                    <a onClick={() => setModalShow(true)} 
+                      href="#" id="/wow-classic-tbc-gold/"
                       className="align-self-baseline gameindex-txt"
                     >
                       Gold
                     </a>
-                    <a
-                      href="/wow-classic-tbc-items/"
+                    <a onClick={() => setModalShow(true)} 
+                      href="#" id="/wow-classic-tbc-items/"
                       className="align-self-baseline gameindex-txt"
                     >
                       Items
                     </a>
-                    <a
-                      href="/wow-classic-tbc-account/"
+                    <a onClick={() => setModalShow(true)} 
+                      href="#" id="/wow-classic-tbc-account/"
                       className="align-self-baseline gameindex-txt"
                     >
                       Accounts
                     </a>
-                    <a
-                      href="/wow-classic-tbc-power-leveling/"
+                    <a onClick={() => setModalShow(true)} 
+                      href="#" id="/wow-classic-tbc-power-leveling/"
                       className="align-self-baseline gameindex-txt"
                     >
                       Power leveling
@@ -9979,21 +9982,21 @@ const GameIndex = () => {
                 </li>
                 <li className="col-lg-3 col-md-3 col-sm-12 col-xs-12 content-item fl">
                   <div className="flex flex-column">
-                    <a
-                      href="/world-of-warships-marketplace/"
+                    <a onClick={() => setModalShow(true)} 
+                      href="#" id="/world-of-warships-marketplace/"
                       className="align-self-baseline"
                       title="World of Warships"
                     >
                       World of Warships
                     </a>
-                    <a
-                      href="/world-of-warships-account/"
+                    <a onClick={() => setModalShow(true)} 
+                      href="#" id="/world-of-warships-account/"
                       className="align-self-baseline gameindex-txt"
                     >
                       Accounts
                     </a>
-                    <a
-                      href="/world-of-warships-power-leveling/"
+                    <a onClick={() => setModalShow(true)} 
+                      href="#" id="/world-of-warships-power-leveling/"
                       className="align-self-baseline gameindex-txt"
                     >
                       Power leveling
@@ -10002,21 +10005,21 @@ const GameIndex = () => {
                 </li>
                 <li className="col-lg-3 col-md-3 col-sm-12 col-xs-12 content-item fl">
                   <div className="flex flex-column">
-                    <a
-                      href="/world-war-z-marketplace/"
+                    <a onClick={() => setModalShow(true)} 
+                      href="#" id="/world-war-z-marketplace/"
                       className="align-self-baseline"
                       title="World War Z"
                     >
                       World War Z
                     </a>
-                    <a
-                      href="/world-war-z-account/"
+                    <a onClick={() => setModalShow(true)} 
+                      href="#" id="/world-war-z-account/"
                       className="align-self-baseline gameindex-txt"
                     >
                       Accounts
                     </a>
-                    <a
-                      href="/world-war-z-power-leveling/"
+                    <a onClick={() => setModalShow(true)} 
+                      href="#" id="/world-war-z-power-leveling/"
                       className="align-self-baseline gameindex-txt"
                     >
                       Power leveling
@@ -10027,7 +10030,7 @@ const GameIndex = () => {
             </div>
             <div
               className="content-box slide-xs-content-box gameindex-box clearfix row no-gutters"
-              id="gameindex_X"
+              href="#" id="gameindex_X"
             >
               <div className="content-box-title col-lg-1 game-index-align-center">
                 <div className="index-Initials fl">X</div>
@@ -10038,15 +10041,15 @@ const GameIndex = () => {
               <ul className="row col-lg-11 no-gutters content-box-body">
                 <li className="col-lg-3 col-md-3 col-sm-12 col-xs-12 content-item fl">
                   <div className="flex flex-column">
-                    <a
-                      href="/xbox-live-marketplace/"
+                    <a onClick={() => setModalShow(true)} 
+                      href="#" id="/xbox-live-marketplace/"
                       className="align-self-baseline"
                       title="Xbox live"
                     >
                       Xbox live
                     </a>
-                    <a
-                      href="/xbox-live-account/"
+                    <a onClick={() => setModalShow(true)} 
+                      href="#" id="/xbox-live-account/"
                       className="align-self-baseline gameindex-txt"
                     >
                       Accounts
@@ -10057,7 +10060,7 @@ const GameIndex = () => {
             </div>
             <div
               className="content-box slide-xs-content-box gameindex-box clearfix row no-gutters"
-              id="gameindex_Y"
+              href="#" id="gameindex_Y"
             >
               <div className="content-box-title col-lg-1 game-index-align-center">
                 <div className="index-Initials fl">Y</div>
@@ -10068,21 +10071,21 @@ const GameIndex = () => {
               <ul className="row col-lg-11 no-gutters content-box-body">
                 <li className="col-lg-3 col-md-3 col-sm-12 col-xs-12 content-item fl">
                   <div className="flex flex-column">
-                    <a
-                      href="/yugioh-duel-links-marketplace/"
+                    <a onClick={() => setModalShow(true)} 
+                      href="#" id="/yugioh-duel-links-marketplace/"
                       className="align-self-baseline"
                       title="Yu-Gi-Oh Duel Links"
                     >
                       Yu-Gi-Oh Duel Links
                     </a>
-                    <a
-                      href="/yugioh-duel-links-account/"
+                    <a onClick={() => setModalShow(true)} 
+                      href="#" id="/yugioh-duel-links-account/"
                       className="align-self-baseline gameindex-txt"
                     >
                       Accounts
                     </a>
-                    <a
-                      href="/yugioh-duel-links-power-leveling/"
+                    <a onClick={() => setModalShow(true)} 
+                      href="#" id="/yugioh-duel-links-power-leveling/"
                       className="align-self-baseline gameindex-txt"
                     >
                       Power leveling
@@ -10091,21 +10094,21 @@ const GameIndex = () => {
                 </li>
                 <li className="col-lg-3 col-md-3 col-sm-12 col-xs-12 content-item fl">
                   <div className="flex flex-column">
-                    <a
-                      href="/yugioh-master-duel-marketplace/"
+                    <a onClick={() => setModalShow(true)} 
+                      href="#" id="/yugioh-master-duel-marketplace/"
                       className="align-self-baseline"
                       title="Yu-Gi-Oh Master Duel"
                     >
                       Yu-Gi-Oh Master Duel
                     </a>
-                    <a
-                      href="/yugioh-master-duel-account/"
+                    <a onClick={() => setModalShow(true)} 
+                      href="#" id="/yugioh-master-duel-account/"
                       className="align-self-baseline gameindex-txt"
                     >
                       Accounts
                     </a>
-                    <a
-                      href="/yugioh-master-duel-power-leveling/"
+                    <a onClick={() => setModalShow(true)} 
+                      href="#" id="/yugioh-master-duel-power-leveling/"
                       className="align-self-baseline gameindex-txt"
                     >
                       Power leveling
@@ -10116,7 +10119,7 @@ const GameIndex = () => {
             </div>
             <div
               className="content-box slide-xs-content-box gameindex-box clearfix row no-gutters"
-              id="gameindex_Z"
+              href="#" id="gameindex_Z"
             >
               <div className="content-box-title col-lg-1 game-index-align-center">
                 <div className="index-Initials fl">Z</div>
@@ -10128,7 +10131,7 @@ const GameIndex = () => {
             </div>
             <div
               className="content-box slide-xs-content-box gameindex-box clearfix row no-gutters"
-              id="gameindex_OT"
+              href="#" id="gameindex_OT"
             >
               <div className="content-box-title col-lg-1 game-index-align-center">
                 <div className="index-Initials fl">#</div>
@@ -10139,33 +10142,33 @@ const GameIndex = () => {
               <ul className="row col-lg-11 no-gutters content-box-body">
                 <li className="col-lg-3 col-md-3 col-sm-12 col-xs-12 content-item fl">
                   <div className="flex flex-column">
-                    <a
-                      href="/9ds-marketplace/"
+                    <a onClick={() => setModalShow(true)} 
+                      href="#" id="/9ds-marketplace/"
                       className="align-self-baseline"
                       title="9 Dragons"
                     >
                       9 Dragons
                     </a>
-                    <a
-                      href="/9ds-gold/"
+                    <a onClick={() => setModalShow(true)} 
+                      href="#" id="/9ds-gold/"
                       className="align-self-baseline gameindex-txt"
                     >
                       Gold
                     </a>
-                    <a
-                      href="/9ds-items/"
+                    <a onClick={() => setModalShow(true)} 
+                      href="#" id="/9ds-items/"
                       className="align-self-baseline gameindex-txt"
                     >
                       Items
                     </a>
-                    <a
-                      href="/9ds-account/"
+                    <a onClick={() => setModalShow(true)} 
+                      href="#" id="/9ds-account/"
                       className="align-self-baseline gameindex-txt"
                     >
                       Accounts
                     </a>
-                    <a
-                      href="/9ds-power-leveling/"
+                    <a onClick={() => setModalShow(true)} 
+                      href="#" id="/9ds-power-leveling/"
                       className="align-self-baseline gameindex-txt"
                     >
                       Power leveling
@@ -10174,33 +10177,33 @@ const GameIndex = () => {
                 </li>
                 <li className="col-lg-3 col-md-3 col-sm-12 col-xs-12 content-item fl">
                   <div className="flex flex-column">
-                    <a
-                      href="/4story-marketplace/"
+                    <a onClick={() => setModalShow(true)} 
+                      href="#" id="/4story-marketplace/"
                       className="align-self-baseline"
                       title="4Story"
                     >
                       4Story
                     </a>
-                    <a
-                      href="/4story-gold/"
+                    <a onClick={() => setModalShow(true)} 
+                      href="#" id="/4story-gold/"
                       className="align-self-baseline gameindex-txt"
                     >
                       Gold
                     </a>
-                    <a
-                      href="/4story-items/"
+                    <a onClick={() => setModalShow(true)} 
+                      href="#" id="/4story-items/"
                       className="align-self-baseline gameindex-txt"
                     >
                       Items
                     </a>
-                    <a
-                      href="/4story-account/"
+                    <a onClick={() => setModalShow(true)} 
+                      href="#" id="/4story-account/"
                       className="align-self-baseline gameindex-txt"
                     >
                       Accounts
                     </a>
-                    <a
-                      href="/4story-power-leveling/"
+                    <a onClick={() => setModalShow(true)} 
+                      href="#" id="/4story-power-leveling/"
                       className="align-self-baseline gameindex-txt"
                     >
                       Power leveling
@@ -10209,27 +10212,27 @@ const GameIndex = () => {
                 </li>
                 <li className="col-lg-3 col-md-3 col-sm-12 col-xs-12 content-item fl">
                   <div className="flex flex-column">
-                    <a
-                      href="/8-ball-pool-marketplace/"
+                    <a onClick={() => setModalShow(true)} 
+                      href="#" id="/8-ball-pool-marketplace/"
                       className="align-self-baseline"
                       title="8 Ball Pool"
                     >
                       8 Ball Pool
                     </a>
-                    <a
-                      href="/8-ball-pool-coins/"
+                    <a onClick={() => setModalShow(true)} 
+                      href="#" id="/8-ball-pool-coins/"
                       className="align-self-baseline gameindex-txt"
                     >
                       Coins
                     </a>
-                    <a
-                      href="/8-ball-pool-account/"
+                    <a onClick={() => setModalShow(true)} 
+                      href="#" id="/8-ball-pool-account/"
                       className="align-self-baseline gameindex-txt"
                     >
                       Accounts
                     </a>
-                    <a
-                      href="/8-ball-pool-power-leveling/"
+                    <a onClick={() => setModalShow(true)} 
+                      href="#" id="/8-ball-pool-power-leveling/"
                       className="align-self-baseline gameindex-txt"
                     >
                       Power leveling
@@ -10245,6 +10248,11 @@ const GameIndex = () => {
       <div className="mask-mob" />
     </div>
   </main>
+
+  <CardModal
+                show={modalShow}
+                onHide={() => setModalShow(false)}
+            />
 
 </>
 
