@@ -130,20 +130,13 @@ const menus = [
         sub: "Investor information",
         links: "/investor-information",
       },
-    ],
-  },
-  {
-    id: 5,
-    name: "The DAO",
-    links: "#",
-    namesub: [
       {
-        id: 1,
+        id: 3,
         sub: "Whitepaper",
         links: "/whitepaper",
       },
       {
-        id: 2,
+        id: 4,
         sub: "FAQ",
         links: "/faq",
       },
