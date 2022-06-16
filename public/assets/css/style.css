@@ -1378,7 +1378,7 @@ header {
 
 .main-nav {
   position: absolute;
-  left: 26%;
+  right: 160px;
   top: 0;
   z-index: 0;
 }
@@ -1536,6 +1536,16 @@ header {
 .main-logo h2 {
   float: left;
 }
+@media(max-width:480px){
+    .main-logo > *{
+        font-size: 26px;
+    }
+}
+@media(max-width:380px){
+    .main-logo > *{
+        font-size: 20px;
+    }
+}
 .logo-dark {
   display: none;
 }
@@ -1692,9 +1702,6 @@ header {
   transition: all 0.3s ease;
 }
 @media only screen and (max-width: 1600px) {
-  .main-nav {
-    left: 18%;
-  }
   .main-nav > ul > li {
     padding: 26px 12px 26px 12px;
   }
