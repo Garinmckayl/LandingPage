@@ -88,35 +88,14 @@ const menus = [
   //   },
   // ],
   //},
+  
   {
     id: 2,
-    name: "Game trading",
-    links: "#",
-    namesub: [
-      {
-        id: 1,
-        sub: "Browse items and currencies",
-        links: "/explore-01",
-      },
-      {
-        id: 2,
-        sub: "Sell Item",
-        links: "/create-item",
-      },
-      // {
-      //   id: 3,
-      //   sub: "Scholarships",
-      //   links: "/scholarships",
-      // },
-    ],
-  },
-  {
-    id: 3,
     name: "Financial benefits",
     links: "/financial-benefits",
   },
   {
-    id: 4,
+    id: 3,
     name: "Token investors",
     links: "/why-red-blade-token",
     namesub: [
@@ -140,6 +119,28 @@ const menus = [
         sub: "FAQ",
         links: "/faq",
       },
+    ],
+  },
+  {
+    id: 4,
+    name: "Game trading",
+    links: "#",
+    namesub: [
+      {
+        id: 1,
+        sub: "Browse items and currencies",
+        links: "/explore-01",
+      },
+      {
+        id: 2,
+        sub: "Sell Item",
+        links: "/create-item",
+      },
+      // {
+      //   id: 3,
+      //   sub: "Scholarships",
+      //   links: "/scholarships",
+      // },
     ],
   },
   // {
