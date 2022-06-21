@@ -66,6 +66,11 @@ const Footer = () => {
             title: "FAQ",
             link: "/faq"
         },
+        {
+            title: "Polygon",
+            link: "https://polygonscan.com/"
+
+        }
     ]
     const companyList = [
         {
@@ -153,7 +158,10 @@ const Footer = () => {
                                 <ul>
                                     {
                                         resourcesList.map((item,index) =>(
-                                            <li key={index}><Link to={item.link}>{item.title}</Link></li>
+                                            <li key={index}>
+                                                {item.title !== "Polygon" ? <Link to={item.link}>{item.title}</Link> : 
+                                                <a href={item.link} target="_blank">{item.title}</a> }  
+                                            </li>
                                         ))
                                     }
                                 </ul>
