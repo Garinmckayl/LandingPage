@@ -128,7 +128,7 @@ const menus = [
     namesub: [
       {
         id: 1,
-        sub: "Browse items and currencies",
+        sub: "Buy",
         links: "/explore-01",
       },
       {
