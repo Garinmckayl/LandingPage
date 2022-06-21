@@ -55,7 +55,7 @@ const Header = () => {
                                 <div id="site-logo" className="clearfix">
                                     <div id="site-logo-inner">
                                         <Link to="/" rel="home" className="main-logo">
-                                            <h2 className='text-white'>The Red Blade DAO</h2>
+                                            <h2 className='text-white'>The Metaverse Exchange DAO</h2>
                                             {/* <img className='logo-dark'  id="logo_header" src={logodark} srcSet={`${logodark2x}`} alt="nft-gaming" />
                                             <img className='logo-light'  id="logo_header" src={logoheader} srcSet={`${logoheader2x}`} alt="nft-gaming" /> */}
                                         </Link>

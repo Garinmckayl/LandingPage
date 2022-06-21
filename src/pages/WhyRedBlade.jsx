@@ -71,7 +71,7 @@ const WhyRedBlade = () => {
                     <div className="row">
                         <div className="col-md-12">
                             <div className="page-title-heading mg-bt-12">
-                                <h1 className="heading text-center">The Red Blade DAO Token</h1>
+                                <h1 className="heading text-center">The Metaverse Exchange DAO Token</h1>
                             </div>
                         </div>
                     </div>
@@ -96,7 +96,7 @@ const WhyRedBlade = () => {
                                     Crypto assets should be stable. Nobody wants to worry about his savings and investments. As a crypto investor you want to avoid 
         high volatility and benefit from the growth of the ecosystem that you support with your token purchase.<br/>
         
-        The Red Blade DAO is providing this necessary stability through its treasury and the underlying game assets which it holds. 
+        The Metaverse Exchange DAO is providing this necessary stability through its treasury and the underlying game assets which it holds. 
         With the Red Blade token you therefore have a unique token whose value is secured by widely traded game-items, currencies, characters and accounts. 
         Our DAO will invests in and also holds these items over a certain period while tracking their value, prices and exchange-rates on the various worlwide 
         item exchanges. Check our Investor Information section and also our DAO Whitepaper for more information about the our tokenomics and how the Treasury operates.</h4>

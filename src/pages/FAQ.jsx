@@ -39,12 +39,12 @@ const FAQ = () => {
             },
             {
                 key: "6",
-                title: 'Who is behind the Red Blade DAO?',
-                text: 'The Red Blade DAO is a run by a group of technology executives who all have worked in relevant industries such as banking, fintech, gaming, internet infrastructure and live-operations. We also live from a lively community of several thousand gamers and guild members who contribute daily to our DAO.'
+                title: 'Who is behind The Metaverse Exchange DAO?',
+                text: 'The Metaverse Exchange DAO is a run by a group of technology executives who all have worked in relevant industries such as banking, fintech, gaming, internet infrastructure and live-operations. We also live from a lively community of several thousand gamers and guild members who contribute daily to our DAO.'
             },
             {
                 key: "7",
-                title: 'How can I trust the Red Blade DAO?',
+                title: 'How can I trust The Metaverse Exchange DAO?',
                 text: 'We are gamers ourselves and understand the current limitations and disruptions in the market. With our platform we want to provide an opportunity to keep one foot in the original games and put another foot in the newly emerging world of blockchain games. We are trying to use blockchain technology and smartcontracts to set up processes that are independent from individual decisions and thereby provide a better way to secure your finances.'
             },
             {

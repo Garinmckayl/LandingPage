@@ -126,13 +126,13 @@ const Footer = () => {
                             <div className="widget widget-logo">
                                 <div className="logo-footer" id="logo-footer">
                                     <Link to="/">
-                                        <h2>The Red Blade DAO</h2>
+                                        <h2>The Metaverse Exchange DAO</h2>
                                         {/* <img className='logo-dark' id="logo_footer" src={logodark} alt="nft-gaming" />
                                         <img className='logo-light' id="logo_footer" src={logofooter} alt="nft-gaming" /> */}
                                         
                                     </Link>
                                 </div>
-                                <p className="sub-widget-logo">The Red Blade DAO &copy;</p>
+                                <p className="sub-widget-logo">The Metaverse Exchange DAO &copy;</p>
                             </div>
                         </div>
                         <div className="col-lg-2 col-md-4 col-sm-5 col-5">

@@ -27,7 +27,7 @@ const Create = () => {
         },
         {
             title: "Financial Savings",
-            description: "The Red Blade DAO token. Keep it. Invest it. Lend it to others. Make money with your game-play",
+            description: "The Metaverse Exchange DAO token. Keep it. Invest it. Lend it to others. Make money with your game-play",
             icon : icon4,
             colorbg : "icon-color4"
         },
