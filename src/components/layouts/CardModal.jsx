@@ -3,16 +3,16 @@ import { Link } from 'react-router-dom'
 import { Modal } from "react-bootstrap";
 
 const CardModal = (props) => {
-    
-return (
 
-    <Modal
-    show={props.show}
-    onHide={props.onHide}
-  >
-    <Modal.Header closeButton></Modal.Header>
-<h1>Under construction</h1>
-    {/* <div className="modal-body space-y-20 pd-40">
+    return (
+
+        <Modal
+            show={props.show}
+            onHide={props.onHide}
+        >
+            <Modal.Header closeButton></Modal.Header>
+            <h1>Sign up for early access</h1>
+            {/* <div className="modal-body space-y-20 pd-40">
         <h3>Place a Bid</h3>
         <p className="text-center">You must bid at least <span className="price color-popup">4.89 ETH</span>
         </p>
@@ -36,9 +36,9 @@ return (
         </div>
         <Link to="/wallet-connect" className="btn btn-primary" data-toggle="modal" data-target="#popup_bid_success" data-dismiss="modal" aria-label="Close"> Place a bid</Link>
     </div> */}
-    </Modal>
-    
-  );
+        </Modal>
+
+    );
 };
 
 export default CardModal;

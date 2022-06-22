@@ -1,37 +1,37 @@
-import React, { useState ,useEffect } from 'react';
+import React, { useState, useEffect } from 'react';
 import { Link } from 'react-router-dom'
 import logodark from '../../assets/images/logo/logo_dark.png'
 import logofooter from '../../assets/images/logo/logo2.png'
 import Modal from 'react-bootstrap/Modal'
 
 function MyVerticallyCenteredModal(props) {
-    
-    return (
-      <Modal
-        {...props}
-        size="lg"
-        aria-labelledby="contained-modal-title-vcenter"
-        centered
-      >
-        <Modal.Header closeButton>
-          <Modal.Title id="contained-modal-title-vcenter">
-            Early Access
-          </Modal.Title>
-        </Modal.Header>
-        <Modal.Body>
-            
 
-          <h1>
-              Under Construction
-      </h1>
-    
-        </Modal.Body>
-        <Modal.Footer>
-          <a onClick={props.onHide}>Close</a>
-        </Modal.Footer>
-      </Modal>
+    return (
+        <Modal
+            {...props}
+            size="lg"
+            aria-labelledby="contained-modal-title-vcenter"
+            centered
+        >
+            <Modal.Header closeButton>
+                <Modal.Title id="contained-modal-title-vcenter">
+                    Early Access
+                </Modal.Title>
+            </Modal.Header>
+            <Modal.Body>
+
+
+                <h1>
+                    Sign up for early access
+                </h1>
+
+            </Modal.Body>
+            <Modal.Footer>
+                <a onClick={props.onHide}>Close</a>
+            </Modal.Footer>
+        </Modal>
     );
-  }
+}
 
 
 
@@ -95,33 +95,37 @@ const Footer = () => {
             icon: "fab fa-telegram-plane",
             link: "https://t.me/+pSAVAlIz6883N2Ey"
         },
-        
+        {
+            icon: "icon-fl-vt",
+            link: "https://discord.com/invite/PNHvcp8KXq"
+        }
+
     ]
 
     const [isVisible, setIsVisible] = useState(false);
 
     const scrollToTop = () => {
-      window.scrollTo({
-        top: 0,
-        behavior: "smooth"
-      });
+        window.scrollTo({
+            top: 0,
+            behavior: "smooth"
+        });
     };
-  
+
     useEffect(() => {
-      const toggleVisibility = () => {
-        if (window.pageYOffset > 500) {
-          setIsVisible(true);
-        } else {
-          setIsVisible(false);
-        }
-      };
-  
-      window.addEventListener("scroll", toggleVisibility);
-  
-      return () => window.removeEventListener("scroll", toggleVisibility);
+        const toggleVisibility = () => {
+            if (window.pageYOffset > 500) {
+                setIsVisible(true);
+            } else {
+                setIsVisible(false);
+            }
+        };
+
+        window.addEventListener("scroll", toggleVisibility);
+
+        return () => window.removeEventListener("scroll", toggleVisibility);
     }, []);
 
-      
+
     return (
         <div>
             <footer id="footer" className="footer-light-style clearfix bg-style">
@@ -134,7 +138,7 @@ const Footer = () => {
                                         <h2>The Metaverse Exchange DAO</h2>
                                         {/* <img className='logo-dark' id="logo_footer" src={logodark} alt="nft-gaming" />
                                         <img className='logo-light' id="logo_footer" src={logofooter} alt="nft-gaming" /> */}
-                                        
+
                                     </Link>
                                 </div>
                                 <p className="sub-widget-logo">The Metaverse Exchange DAO &copy;</p>
@@ -145,7 +149,7 @@ const Footer = () => {
                                 <h5 className="title-widget">My Account</h5>
                                 <ul>
                                     {
-                                        accountList.map((item,index) =>(
+                                        accountList.map((item, index) => (
                                             <li key={index}><a onClick={() => setModalShow(true)}>{item.title}</a></li>
                                         ))
                                     }
@@ -157,10 +161,10 @@ const Footer = () => {
                                 <h5 className="title-widget">Resources</h5>
                                 <ul>
                                     {
-                                        resourcesList.map((item,index) =>(
+                                        resourcesList.map((item, index) => (
                                             <li key={index}>
-                                                {item.title !== "Polygon" ? <Link to={item.link}>{item.title}</Link> : 
-                                                <a href={item.link} target="_blank">{item.title}</a> }  
+                                                {item.title !== "Polygon" ? <Link to={item.link}>{item.title}</Link> :
+                                                    <a href={item.link} target="_blank">{item.title}</a>}
                                             </li>
                                         ))
                                     }
@@ -172,7 +176,7 @@ const Footer = () => {
                                 <h5 className="title-widget">Company</h5>
                                 <ul>
                                     {
-                                        companyList.map((item,index) =>(
+                                        companyList.map((item, index) => (
                                             <li key={index}><Link to={item.link}>{item.title}</Link></li>
                                         ))
                                     }
@@ -191,7 +195,7 @@ const Footer = () => {
                                 <div className="widget-social style-1 mg-t32">
                                     <ul>
                                         {
-                                            socialList.map((item,index) =>(
+                                            socialList.map((item, index) => (
                                                 <li key={index}><a href={item.link}><i className={item.icon}></i></a></li>
                                             ))
                                         }
@@ -203,10 +207,10 @@ const Footer = () => {
                 </div>
             </footer>
             {
-                isVisible && 
-                <Link onClick={scrollToTop}  to='#' id="scroll-top"></Link>
+                isVisible &&
+                <Link onClick={scrollToTop} to='#' id="scroll-top"></Link>
             }
-            
+
             <div className="modal fade popup" id="popup_bid" tabIndex="-1" role="dialog" aria-hidden="true">
                 <div className="modal-dialog modal-dialog-centered" role="document">
                     <div className="modal-content">
@@ -242,12 +246,12 @@ const Footer = () => {
             </div>
 
             <MyVerticallyCenteredModal
-        show={modalShow}
-        onHide={() => setModalShow(false)}
-      />
+                show={modalShow}
+                onHide={() => setModalShow(false)}
+            />
 
         </div>
-        
+
 
     );
 }

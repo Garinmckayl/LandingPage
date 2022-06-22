@@ -3355,3 +3355,10 @@ header {
       0 0 35px #228dff, 0 0 40px #228dff, 0 0 50px #228dff, 0 0 75px #228dff;
   } */
 }
+
+
+
+.buy__token > a
+{
+ color: #fff !important
+}
