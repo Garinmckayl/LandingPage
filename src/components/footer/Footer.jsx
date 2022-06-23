@@ -59,10 +59,6 @@ const Footer = () => {
     ]
     const resourcesList = [
         {
-            title: "Game Index",
-            link: "/game-index"
-        },
-        {
             title: "FAQ",
             link: "/faq"
         },
@@ -70,7 +66,11 @@ const Footer = () => {
             title: "Polygon",
             link: "https://polygonscan.com/"
 
-        }
+        },
+        {
+            title: "Game Index",
+            link: "/game-index"
+        },
     ]
     const companyList = [
         {
