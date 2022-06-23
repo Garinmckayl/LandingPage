@@ -1,7 +1,5 @@
 import React, { useState, useEffect } from 'react';
 import { Link } from 'react-router-dom'
-import logodark from '../../assets/images/logo/logo_dark.png'
-import logofooter from '../../assets/images/logo/logo2.png'
 import Modal from 'react-bootstrap/Modal'
 
 function MyVerticallyCenteredModal(props) {

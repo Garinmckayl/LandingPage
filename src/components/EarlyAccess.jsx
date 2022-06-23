@@ -1,7 +1,4 @@
 import React, { useState, useRef, useEffect } from 'react';
-import { Link } from 'react-router-dom';
-import Header from './header/Header';
-import Footer from './footer/Footer';
 import Modal from 'react-bootstrap/Modal'
 import { Button, Form } from 'react-bootstrap';
 

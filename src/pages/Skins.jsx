@@ -5,9 +5,8 @@ import Header from '../components/header/Header';
 import Footer from '../components/footer/Footer';
 
 
-const Whitepaper = () => {
+const Skins = () => {
 
-    window.location.replace('https://drive.google.com/file/d/1E6kNleC38BKyI7l5hBTkC3W2Kw25V-k-/view?usp=sharing');
 
     return (
         <div className='item-details'>
@@ -18,18 +17,30 @@ const Whitepaper = () => {
                     <div className="row">
                         <div className="col-md-12">
                             <div className="page-title-heading mg-bt-12">
-                                <h1 className="heading text-center">Whitepaper</h1>
+                                <h1 className="heading text-center">Skins</h1>
                             </div>
                         </div>
                     </div>
-                </div>                    
+                </div>
             </section>
+            <div className="tf-section tf-item-details content-section">
+                <div className="themesflat-container">
+                    <div className="row justify-content-center">
+                        <div className="col-xl-6 col-md-12">
+                            <div className="content-center">
+                                <h1>Coming Soon</h1>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
 
-<h1>Loading</h1>
+
+
 
             <Footer />
         </div>
     );
 }
 
-export default Whitepaper;
+export default Skins;
