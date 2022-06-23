@@ -3362,3 +3362,83 @@ header {
 {
  color: #fff !important
 }
+
+.early__sign__up__form{
+  position: relative;
+    display: flex;
+    width: 600px;
+    padding: 10px 0 8px;
+    margin: 0 auto;
+}
+.early__sign__up__form__modal{
+  position: relative;
+    display: flex;
+    width: 440px;
+    padding: 10px 0 8px;
+    margin: 0 auto;
+}
+
+.user__email{
+  width: 100%;
+font-size: 20px;
+flex: 1;
+height: 60px;
+padding: 0 16px;
+color: #ffffff;
+caret-color: #ffffff;
+background: #000000;
+border: 1px solid #2F3A42;
+border-radius: 8px;
+margin: 0 24px;
+/* outline: none; */
+/* outline-color : blue !important; */
+}
+.signin__button{
+  position: absolute;
+    width: 62px;
+    right: 0;
+    font-family: Josefin Sans,serif;
+    height: 62px;
+    /* background-color: var(--primary); */
+    border-radius: 8px;
+    color: #ffffff;
+    border: none;
+    cursor: pointer;
+    margin-right: 24px;
+    transition: width .3s;
+}
+.discord__button{
+  position: absolute;
+  width: 100%;
+  right: 0;
+  font-family: Josefin Sans,serif;
+  height: 62px;
+  /* background-color: var(--primary); */
+  border-radius: 8px;
+  color: #ffffff;
+  border: none;
+  cursor: pointer;
+  /* margin-right: 24px; */
+  transition: width .3s;
+  font-size: 15px;
+  font-weight: bold;
+
+}
+::placeholder { /* Chrome, Firefox, Opera, Safari 10.1+ */
+  color: #fff;
+  opacity: 1; /* Firefox */
+}
+
+.modal__header{
+  margin: 0 auto;
+  text-align: center;
+}
+
+.input:focus {
+  outline: none !important;
+  border:1px solid #705AF5;
+}
+
+.discord__button > a {
+  color: #ffffff;
+}

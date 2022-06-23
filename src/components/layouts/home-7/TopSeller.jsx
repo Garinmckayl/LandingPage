@@ -281,7 +281,7 @@ const TopSeller = () => {
                         <div className="col-xl-12 col-lg-12">
                             <div className="heading-live-auctions">
                                 <h2 className="tf-title pb-16">
-                                    Top Seller</h2>
+                                    Author</h2>
                                 <a href="/explore-03" className="exp style2 see-all">SEE ALL</a>
                             </div>
                             <div className="flat-tabs seller-tab">
