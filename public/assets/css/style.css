@@ -3442,3 +3442,7 @@ margin: 0 24px;
 .discord__button > a {
   color: #ffffff;
 }
+
+.content-section{
+  height: 50vh !important
+}

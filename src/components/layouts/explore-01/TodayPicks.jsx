@@ -1,4 +1,4 @@
-import React , { useState , Fragment } from 'react';
+import React, { useState, Fragment } from 'react';
 import PropTypes from 'prop-types'
 import { Link } from 'react-router-dom'
 import CardModal from '../CardModal';
@@ -6,7 +6,7 @@ import CardModal from '../CardModal';
 const TodayPicks = props => {
     const data = props.data;
 
-    const [visible , setVisible] = useState(8);
+    const [visible, setVisible] = useState(8);
     const showMoreItems = () => {
         setVisible((prevValue) => prevValue + 4);
     }
@@ -21,34 +21,52 @@ const TodayPicks = props => {
                         <div className="col-md-12">
                             <div className="wrap-box explore-1 flex mg-bt-40">
                                 <div className="seclect-box style-1">
-                                    <div id="item_category" className="dropdown">
-                                        <Link to="#" className="btn-selector nolink">All categories</Link>
-                                        <ul >
-                                            <li><span>Art</span></li>
-                                            <li className="active"><span>Music</span></li>
-                                            <li><span>Domain Names</span></li>
-                                            <li><span>Virtual World</span></li>
-                                            <li><span>Trading Cards</span></li>
-                                            <li><span>Sports</span></li>
-                                            <li><span>Utility</span></li>
-                                        </ul>
-                                    </div>
+
+
                                     <div id="buy" className="dropdown">
-                                        <Link to="#" className="btn-selector nolink">Buy Now</Link>
+                                        <Link to="#" className="btn-selector nolink">Select Game</Link>
+                                    </div>
+
+                                    <div id="buy" className="dropdown">
+                                        <Link to="#" className="btn-selector nolink">Select Region</Link>
                                         <ul >
-                                            <li><span>On Auction</span></li>
-                                            <li><span>Has Offers</span></li>
+                                            <li><span>Asia</span></li>
+                                            <li><span>MEA</span></li>
+                                            <li><span>EU</span></li>
+                                            <li><span>AS</span></li>
                                         </ul>
                                     </div>
+
                                     <div id="all-items" className="dropdown">
-                                        <Link to="#" className="btn-selector nolink">All Items</Link>
-                                        <ul >
-                                            <li><span>Single Items</span></li>
-                                            <li><span>Bundles</span></li>
-                                        </ul>
+                                        <Link to="#" className="btn-selector nolink">Select Server</Link>
                                     </div>
+
+
+
                                 </div>
                                 <div className="seclect-box style-2 box-right">
+                                    <div id="item_category" className="dropdown">
+                                        <Link to="#" className="btn-selector nolink">Categories</Link>
+                                        <ul >
+                                            <li>Item/NFT</li>
+                                            <li>Currency</li>
+                                            <li>Character</li>
+                                            <li>Account/Keys</li>
+                                        </ul>
+                                    </div>
+                                    <div id="item_category" className="dropdown">
+                                        <Link to="#" className="btn-selector nolink">Payment</Link>
+                                        <ul >
+                                            <li>Crypto</li>
+                                            <li>Paypal</li>
+                                            <li>Visa</li>
+                                            <li>Mastercard</li>
+                                            <li>Google Pay</li>
+                                            <li>Apple Pay</li>
+                                            <li>Amex</li>
+                                        </ul>
+                                    </div>
+
                                     <div id="artworks" className="dropdown">
                                         <Link to="#" className="btn-selector nolink">All Artworks</Link>
                                         <ul >
@@ -59,6 +77,7 @@ const TodayPicks = props => {
                                             <li><span>Papercut</span></li>
                                         </ul>
                                     </div>
+
                                     <div id="sort-by" className="dropdown">
                                         <Link to="#" className="btn-selector nolink">Sort by</Link>
                                         <ul >
@@ -66,14 +85,15 @@ const TodayPicks = props => {
                                             <li><span>Mid rate</span></li>
                                             <li><span>Low rate</span></li>
                                         </ul>
-                                    </div>    
+                                    </div>
+
                                 </div>
                             </div>
                         </div>
                         {
-                            data.slice(0,visible).map((item,index) => (
+                            data.slice(0, visible).map((item, index) => (
                                 <div key={index} className="fl-item col-xl-3 col-lg-4 col-md-6 col-sm-6">
-                                    <div className={`sc-card-product ${item.feature ? 'comingsoon' : '' } `}>
+                                    <div className={`sc-card-product ${item.feature ? 'comingsoon' : ''} `}>
                                         <div className="card-media">
                                             <Link to="#" onClick={() => setModalShow(true)}><img src={item.img} alt="axies" /></Link>
                                             <Link to="#" onClick={() => setModalShow(true)} className="wishlist-button heart"><span className="number-like">{item.wishlist}</span></Link>
@@ -107,8 +127,8 @@ const TodayPicks = props => {
                             ))
                         }
                         {
-                            visible < data.length && 
-                            <div className="col-md-12 wrap-inner load-more text-center"> 
+                            visible < data.length &&
+                            <div className="col-md-12 wrap-inner load-more text-center">
                                 <Link to="#" id="load-more" className="sc-button loadmore fl-button pri-3" onClick={showMoreItems}><span>Load More</span></Link>
                             </div>
                         }

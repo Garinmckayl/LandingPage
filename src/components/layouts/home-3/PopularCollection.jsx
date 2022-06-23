@@ -12,7 +12,7 @@ const PopularCollection = props => {
                 <div className="row">
                     <div className="col-md-12">
                         <div className="">
-                            <h2 className="tf-title style2">Popular Collection</h2>
+                            <h2 className="tf-title style2">Popular NFTs</h2>
                             <div className="heading-line"></div>
                         </div>
                     </div>

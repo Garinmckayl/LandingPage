@@ -37,6 +37,10 @@ import Whitepaper from "./Whitepaper";
 import GameIndex from "./GameIndex";
 import Terms from "./Terms";
 import Privacy from "./Privacy";
+import SeedFunding from "./SeedFunding";
+import WarCraft from "./WarCraft";
+import CSGO from "./CSGO";
+import Skins from "./Skins";
 
 const routes = [
   { path: "/", component: <Home03 /> },
@@ -79,6 +83,10 @@ const routes = [
   { path: "/faq", component: <FAQ /> },
   { path: "/contact-01", component: <Contact01 /> },
   { path: "/contact-02", component: <Contact02 /> },
+  { path: "/seedfunding", component: <SeedFunding /> },
+  { path: "warcraft", component: <WarCraft /> },
+  { path: "/csgo", component: <CSGO /> },
+  { path: "/skins", component: <Skins /> },
 ];
 
 export default routes;
