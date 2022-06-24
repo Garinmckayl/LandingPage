@@ -3,7 +3,9 @@ import { Modal } from "react-bootstrap";
 import { Button, Form } from 'react-bootstrap';
 
 const CardModal = (props) => {
+    const [userEmail, setUserEmail] = useState('');
     const [isComplete, setIsComplete] = useState(true);
+    const [isSpin, setIsSpinner] = useState(false);
     const submit = () => {
         setIsComplete(false)
         const form = document.getElementById('mc-embedded-subscribe-form');
@@ -12,6 +14,39 @@ const CardModal = (props) => {
     const onHide = () => {
         setIsComplete(true)
         props.onHide()
+    }
+
+
+    const updateUserEmail = (e) => {
+        const { value } = e.target;
+        if (value) {
+            setUserEmail(e.target.value)
+        }
+
+    }
+
+
+    const sendEmail = (event) => {
+
+        if (userEmail && ValidateEmail(userEmail)) {
+            setIsSpinner(true)
+            setTimeout(() => {
+                setIsComplete(false)
+                setIsSpinner(false)
+            }, 1000)
+        }
+        else {
+            console.log('Make border outline')
+            setIsSpinner(false)
+        }
+
+    }
+
+    const ValidateEmail = (mail) => {
+        if (/^\w+([\.-]?\w+)*@\w+([\.-]?\w+)*(\.\w{2,3})+$/.test(mail)) {
+            return (true)
+        }
+        return (false)
     }
 
 
@@ -26,12 +61,14 @@ const CardModal = (props) => {
                 <h4 className="modal__header">Sign up for early access</h4>
             </Modal.Header>
 
-            <form autocomplete="off" action="https://team.us4.list-manage.com/subscribe/post?u=a45ca27fcc08e4bed1fc56b51&id=489c458b92" method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" target="_blank" noValidate className="validate  early__sign__up__form__modal">
-                <input type="email" name="EMAIL" class="user__email" id="mce-EMAIL" placeholder='Email' typee="email" />
+            <form autocomplete="off" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" noValidate className="validate early__sign__up__form__modal">
+                <input type="email" onChange={(e) => updateUserEmail(e)} name="EMAIL" class="user__email" id="mce-EMAIL" placeholder='Email' typee="email" />
                 {isComplete ?
                     <div >
-                        <Button type="submit" onClick={submit} className="signin__button">
-                            <i className="fas fa-arrow-right" style={{ fontSize: "24px" }}></i>
+                        <Button onClick={sendEmail} className="signin__button">
+                            {!isSpin ? <i className="fas fa-arrow-right" style={{ fontSize: "24px" }}></i> : <i class='fas fa-undo-alt' style={{ fontSize: "24px", animationName: "spin", animationDuration: "1000ms", animationIterationCount: "infinite", animationTimingFunction: "linear" }}></i>}
+
+
                         </Button>
                     </div>
                     :
@@ -40,7 +77,7 @@ const CardModal = (props) => {
                     </Button>
                 }
             </form>
-        {/* <div className="modal-body space-y-20 pd-40">
+            {/* <div className="modal-body space-y-20 pd-40">
         <h3>Place a Bid</h3>
         <p className="text-center">You must bid at least <span className="price color-popup">4.89 ETH</span>
         </p>

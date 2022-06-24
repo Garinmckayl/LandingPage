@@ -282,7 +282,7 @@ const TopSeller = () => {
                 <div className="themesflat-container">
                     <div className="row">
                         <div className="col-xl-12 col-lg-12">
-                            <h2 className="tf-title style2 mb-25 text-left">Authors</h2>
+                            <h2 className="tf-title style2 mb-25 text-left">Members</h2>
                             <div className="flat-tabs seller-tab tablet-30">
                             <Tabs>
                                 <TabList>
