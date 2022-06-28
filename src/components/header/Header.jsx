@@ -4,7 +4,7 @@ import menus from "../../pages/menu";
 import DarkMode from './DarkMode';
 import imgsun from '../../assets/images/icon/sun.png'
 import avt from '../../assets/images/avatar/avt-2.jpg'
-
+import logo from '../../assets/images/logo/logo.png'
 
 const Header = () => {
     const { pathname } = useLocation();
@@ -51,9 +51,9 @@ const Header = () => {
                                 <div id="site-logo" className="clearfix">
                                     <div id="site-logo-inner">
                                         <Link to="/" rel="home" className="main-logo">
-                                            <h2 className='text-white'>The Metaverse Exchange DAO</h2>
-                                            {/* <img className='logo-dark'  id="logo_header" src={logodark} srcSet={`${logodark2x}`} alt="nft-gaming" />
-                                            <img className='logo-light'  id="logo_header" src={logoheader} srcSet={`${logoheader2x}`} alt="nft-gaming" /> */}
+                                            {/* <h2 className='text-white'>The Metaverse Exchange DAO</h2> */}
+                                             <img className='logo-dark'  id="logo_header" src={logo} srcSet={`${logo}`} alt="nft-gaming" />
+                                            <img className='logo-light'  id="logo_header" src={logo} srcSet={`${logo}`} alt="nft-gaming" /> 
                                         </Link>
                                     </div>
                                 </div>
