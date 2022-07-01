@@ -20,22 +20,27 @@ const FAQ = () => {
             {
                 key: "2",
                 title: 'How do I receive a scholarship?',
-                text: 'Go to your account, then choose "scholarship" and fill out the form. We will review the application and contact you by email. Please note that scholarships are currently not launched yet.'
+                text: 'Go to your account, then choose "scholarship" and fill out the form. We will review the application and contact you by email. Please note that you have to be a MXDT tokenholder to qualify for scholarhips.'
             },
             {
                 key: "3",
                 title: 'Can I also be a scholarship investor?',
-                text: 'Absolutely. First, you need to be a token-holder of RBDT tokens and have your wallet connected to our platform. In your account choose "scholarship" and select "Investor" and then fill out the form. Your investment will automatically be part of the overal scholarship funding. You can monitor the status of your investment in your account.'
+                text: 'Absolutely. First, you need to be a token-holder of MXDT tokens and have your wallet connected to our platform. In your account choose "scholarship" and select "Investor" and then fill out the form. Your investment will automatically be part of the overal scholarship funding. You can monitor the status of your investment in your account.'
             },
             {
                 key: "4",
                 title: 'What kind of wallets do you support?',
                 text: 'During the starting phase we will provide integrations with Metamask, Binance, Coinbase. Later on we will offer more wallet integrations.'
             },
+             {
+                key: "5",
+                title: 'How do I get the MXDT?',
+                text: 'Please go to Sushiswap and buy the MXDT. During the initial launch purchasing the MXDT will require holding the stablecoin USDC in your wallet and on the Polygon chain. You can use any standard wallet e.g. Metamask to buy USDC with your credit- or debit-card.'
+            },
             {
                 key: "5",
-                title: 'Is the RBDT token a safe investment?',
-                text: 'Our token is different to other crypto assets, as we use ingame assets and game currencies as underlying assets. This means that in times of an increased sell-off the RBDT token´s value is always ensured through the countervalue of our treasury of already traded virtual goods on various global marketplaces.'
+                title: 'Is the MXDT token a safe investment?',
+                text: 'Our token is different to other crypto assets, as we use ingame assets and game currencies as underlying assets. This means that in times of an increased sell-off the MXDT token´s value is always ensured through the countervalue of our treasury of already traded virtual goods on various global marketplaces.'
             },
             {
                 key: "6",
@@ -45,7 +50,7 @@ const FAQ = () => {
             {
                 key: "7",
                 title: 'How can I trust The Metaverse Exchange DAO?',
-                text: 'We are gamers ourselves and understand the current limitations and disruptions in the market. With our platform we want to provide an opportunity to keep one foot in the original games and put another foot in the newly emerging world of blockchain games. We are trying to use blockchain technology and smartcontracts to set up processes that are independent from individual decisions and thereby provide a better way to secure your finances.'
+                text: 'We are gamers ourselves and understand the current inconveniences of playing several games, financing them and avoiding cryptocurrency scams. With our DAO and also platform we want to provide an opportunity to keep one foot in the original games and put another foot in the newly emerging world of blockchain games. We are trying to use blockchain technology and smartcontracts to set up processes that are independent from individual decisions and thereby provide a better way to secure your finances.'
             },
             {
                 key: "8",
@@ -57,11 +62,7 @@ const FAQ = () => {
                 title: 'How many games do you support?',
                 text: 'This is completely up to the community, our platform does not limit the number of kind of games and items. As long as there is buyer or seller for a specific game item or currency, the game will be part of our platform and community.'
             },
-            {
-                key: "10",
-                title: 'Can I become an liquidity pool provider?',
-                text: 'Yes, absolutely. Please refer to the information under "Token Investors".'
-            },
+
        
         ]
     )
@@ -95,7 +96,7 @@ const FAQ = () => {
                                 Anything unclear yet? Do you need support?
                             </h2>
                             <h5 className="sub-title help-center mg-bt-32 ">
-                                Let us try helping you by providing the most frequent questions we hear from our gamers.
+                                Let us try helping you by answering the most frequent questions we hear from our gamers.
                             </h5>
                         </div>
                         <div className="col-md-12">
