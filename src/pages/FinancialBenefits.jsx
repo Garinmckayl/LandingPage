@@ -150,6 +150,7 @@ const FinancialBenefits = () => {
                                 <div className="sc-item-details">
                                     <h2 className="style2">Use your MXDT </h2>
                                     <h4 class="lineHeight34 font400">As a MXDT tokenholder you can avoid ingame currency inflation. Many games suffer from currency inflation, unless there are new upgrades. With our token you should be able to keep the value of your inventory, so you can always afford to buy new ingame items when necessary. </h4>
+                                </div>
                                 <button onClick={() => {window.open('https://app.sushi.com/swap?inputCurrency=ETH&outputCurrency=0x6B3595068778DD592e39A122f4f5a5cF09C90fE2&chainId=1')}} className='buy__token'>
                                     <a>Buy MXDT Token</a>
                                 </button>
