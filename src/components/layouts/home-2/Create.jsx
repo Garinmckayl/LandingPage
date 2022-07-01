@@ -13,21 +13,21 @@ const Create = () => {
             icon : icon1,
             colorbg : "icon-color1"
         },
-        {
-            title: "Crypto assets",
-            description: "Use our Red Blade DAO token to invest into other game items or crypto currencies.",
-            icon : icon2,
-            colorbg : "icon-color2"
-        },
-        {
+                {
             title: "Scholarships",
             description: "Receive financial support through the DAO. We help you enter the most popular games at fair terms.",
             icon : icon3,
             colorbg : "icon-color3"
         },
         {
+            title: "Crypto assets",
+            description: "Use our Metaverse Exchange DAO token "MXDT" to invest into other game items or crypto currencies.",
+            icon : icon2,
+            colorbg : "icon-color2"
+        },
+        {
             title: "Financial Savings",
-            description: "The Metaverse Exchange DAO token. Keep it. Invest it. Lend it to others. Make money with your game-play",
+            description: "The Metaverse Exchange DAO token. HodL it. Invest it. Lend it to others. Make money with your game-play",
             icon : icon4,
             colorbg : "icon-color4"
         },
