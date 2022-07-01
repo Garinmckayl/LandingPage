@@ -9,7 +9,7 @@ const FAQ = () => {
         [
             {   key: "0",
                 show: "show",
-                title: 'How do I trade an item, game-currency, NFT or account?',
+                title: 'How do I trade an ingame asset or NFT?',
                 text: 'To buy an item, first connect your crypto wallet or register a payment service. Then click on the item you want to buy, execute the payment and wait for the item to be handed over to you. The hand-over can be either in-game or - if blockchain-based - directly into your wallet. To sell an item, you have to fill out the creation form under sell-item, and then wait for a buyer.'
             },
             {
