@@ -79,7 +79,7 @@ const FinancialBenefits = () => {
                     <div className="row">
                         <div className="col-md-12">
                             <div className="page-title-heading mg-bt-12">
-                                <h1 className="heading text-center">Financial Benefits</h1>
+                                <h1 className="heading text-center">Game Finance Benefits</h1>
                             </div>
                         </div>
                     </div>
@@ -96,10 +96,10 @@ const FinancialBenefits = () => {
                         <div className="col-xl-6 col-md-12">
                             <div className="content-right">
                                 <div className="sc-item-details ">
-                                    <h2 className="style2">Use your inventory </h2>
-                                    <h4 class="lineHeight34 font400">No matter what the game is, WoW, Eldenring, CS, Fortnite, Roblox. We got you covered.
+                                    <h2 className="style2">Monetize your inventory </h2>
+                                    <h4 class="lineHeight34 font400">Web3 or Web2 games, you can make money from your inventory.
 
-                                        Convert any game inventory into crypto tokens and enjoy the financial benefits. You can put your inventory items, your currencies or account up for sale and wait for a buyer. The transaction will be executed as on any other item exchange. However, you can also choose to receive your payments in Red Blade crypto tokens and then use these tokens like any other blockchain-based token. As long as your uploaded item is not sold to buyer, you can also claim your item back from us. </h4>
+                                        Sell any ingame asset into crypto tokens and enjoy the financial benefits as tokenholder of the Metaverse Exchange DAO token (MXDT). Enjoy a new level of financial flexibility: buy access to other games, provide scholarships to other players or simply keep your new crypto savings in a save place with us. As long as your uploaded item is not sold to a buyer, you can claim your item back from us. If the item is sold, but you still want it back, we will pay you back in your game currency. </h4>
 
                                 </div>
                                 <button onClick={() => {window.open('https://app.sushi.com/swap?inputCurrency=ETH&outputCurrency=0x6B3595068778DD592e39A122f4f5a5cF09C90fE2&chainId=1')}} className='buy__token'>
@@ -123,11 +123,11 @@ const FinancialBenefits = () => {
                         <div className="col-xl-6 col-md-12">
                             <div className="content-right">
                                 <div className="sc-item-details">
-                                    <h2 className="style2">What can you do with our token? </h2>
-                                    <h4 class="lineHeight34 font400">The first thing you can do with these tokens is buy access to blockchain games. You can either pay for access to a new blockchain game or, if you already pay other games, you can buy items from these games and pay with the Red Blade token. We are integrating new blockchain games every week to provide a broad selection of current titles for you. </h4>
+                                    <h2 className="style2">Game scholarships as a DAO member</h2>
+                                    <h4 class="lineHeight34 font400">If you become a tokenholder, you automatically qualify for scholarship and game sponsoring. Players can apply through their account for a specific game scholarship, where we provide entry financing for Pay-to-Play games. We also provide sponsorships for selected games and specific players through subscription subsidies, ingame items & currencies or account sponsoring. As we are a DAO, we will allow tokenholders to vote in regards to these scholarships, i.e. which games should be sponsored, which players should be sponsored and how much of the DAO funds should be allocated. </h4>
                                 </div>
                                 <button onClick={() => {window.open('https://app.sushi.com/swap?inputCurrency=ETH&outputCurrency=0x6B3595068778DD592e39A122f4f5a5cF09C90fE2&chainId=1')}} className='buy__token'>
-                                    <a>Buy Token</a>
+                                    <a>Buy MXDT Token</a>
                                 </button>
                             </div>
 
@@ -148,11 +148,10 @@ const FinancialBenefits = () => {
                         <div className="col-xl-6 col-md-12">
                             <div className="content-right">
                                 <div className="sc-item-details">
-                                    <h2 className="style2">Store your Red Blade tokens </h2>
-                                    <h4 class="lineHeight34 font400">One simple benefit from receiving crypto currency in exchange for your inventory items is to use your tokens against ingame inflation. This means you can simply hold the tokens and avoid the usual ingame price erosion that happens over time. As a gamer you know: unless there is an update, prices for game items, currencies and accounts suffer from 20-30% inflation per year. However, with our token you can ensure that this does not happen.</h4>
-                                </div>
+                                    <h2 className="style2">Use your MXDT </h2>
+                                    <h4 class="lineHeight34 font400">As a MXDT tokenholder you can avoid ingame currency inflation. Many games suffer from currency inflation, unless there are new upgrades. With our token you should be able to keep the value of your inventory, so you can always afford to buy new ingame items when necessary. </h4>
                                 <button onClick={() => {window.open('https://app.sushi.com/swap?inputCurrency=ETH&outputCurrency=0x6B3595068778DD592e39A122f4f5a5cF09C90fE2&chainId=1')}} className='buy__token'>
-                                    <a>Buy Token</a>
+                                    <a>Buy MXDT Token</a>
                                 </button>
                             </div>
 
@@ -202,11 +201,11 @@ const FinancialBenefits = () => {
                             <div className="content-right">
                                 <div className="sc-item-details">
                                     <h2 className="style2">Swap and stake them </h2>
-                                    <h4 class="lineHeight34 font400">You can invest your new Red Blade tokens into existing blockchain services. The most common is to stake your tokens. We explain here how staking works, and why it is comparatively safe to deposit your crypto currency.
+                                    <h4 class="lineHeight34 font400">You can invest your MXDT tokens into other cryptocurrency services. The most common investment is to stake your tokens. We explain here how staking works, and why it is comparatively safe to deposit your crypto currency.
 
-                                        You can also use it to buy other crypto currency, e.g. Bitcoin or Ethereum. This is called swapping and can be done on any bigger crypto exchange or also a decentral exchange ("DEX") like Uniswap, Pangolin, Pancakeswap or Traderjoexyz.
+                                        You can also use it to buy other cryptocurrency, e.g. Bitcoin or Ethereum. This is called swapping and can be done on any bigger crypto exchange or also a decentral exchange ("DEX") like Sushiswap, Uniswap, Pangolin, Pancakeswap or Traderjoexyz.
 
-                                        There are new financial services for crypto currencies launched every day. While some of them offer attractive returns to investors, we refrain from providing specific investment advice.
+                                        There are new financial services for crypto currencies launched every day, but be careful when you are unsure what exactly they are offering.
                                     </h4>
                                 </div>
                                 <button onClick={() => {window.open('https://app.sushi.com/swap?inputCurrency=ETH&outputCurrency=0x6B3595068778DD592e39A122f4f5a5cF09C90fE2&chainId=1')}} className='buy__token'>
@@ -231,8 +230,8 @@ const FinancialBenefits = () => {
                         <div className="col-xl-6 col-md-12">
                             <div className="content-right">
                                 <div className="sc-item-details">
-                                    <h2 className="style2">Connect a crypto wallet </h2>
-                                    <h4 class="lineHeight34 font400">To trade your Red Blade tokens outside our platform, you will have to connect your crypto wallet. We support all standard wallet integrations like Metamask, Coinbase, Trust Wallet, Binance Wallet or Safepal.
+                                    <h2 className="style2">Trade with the MXDT </h2>
+                                    <h4 class="lineHeight34 font400">To trade your MXDT outside our platform, you will have to connect your crypto wallet. We support all standard wallet integrations like Metamask, Coinbase, Trust Wallet, Binance Wallet or Safepal.
                                     </h4>
                                 </div>
                                 <button onClick={() => {window.open('https://app.sushi.com/swap?inputCurrency=ETH&outputCurrency=0x6B3595068778DD592e39A122f4f5a5cF09C90fE2&chainId=1')}} className='buy__token'>
