@@ -168,33 +168,6 @@ const FinancialBenefits = () => {
                     <div className="row">
                         <div className="col-xl-6 col-md-12">
                             <div className="sc-card-product text-center bg-white">
-                                <img src={help} style={{ width: '70%' }} alt="Axies" />
-                            </div>
-                        </div>
-                        <div className="col-xl-6 col-md-12">
-                            <div className="content-right">
-                                <div className="sc-item-details">
-                                    <h2 className="style2">Scholarships: invest in other players </h2>
-                                    <h4 class="lineHeight34 font400">The recent craze with blockchain-based games has led to new models, where players need to make major upfront payments. This is not always affordable, so we want to help out. The Metaverse Exchange DAO has a selection of blockchain-based games where players can apply for scholarships. These scholarships are agreements about future revenues that the scholar will generate with his game-play. As a MXDT tokenholder you can use your tokens as a form of financing for these players and receive interest from this lending approach.</h4>
-                                </div>
-                                <button onClick={() => {window.open('https://app.sushi.com/swap?inputCurrency=ETH&outputCurrency=0x6B3595068778DD592e39A122f4f5a5cF09C90fE2&chainId=1')}} className='buy__token'>
-                                    <a>Buy MXDT Token</a>
-                                </button>
-                            </div>
-
-                        </div>
-                    </div>
-                </div>
-            </div>
-
-
-
-
-            <div className="tf-section tf-item-details">
-                <div className="themesflat-container">
-                    <div className="row">
-                        <div className="col-xl-6 col-md-12">
-                            <div className="sc-card-product text-center bg-white">
                                 <img src={sell} style={{ width: '70%' }} alt="Axies" />
                             </div>
                         </div>
