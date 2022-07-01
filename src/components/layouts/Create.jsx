@@ -26,8 +26,8 @@ const Create = () => {
             colorbg : "icon-color3"
         },
         {
-            title: "Buy the Red Blade token",
-            description: "Purchase the Red Blade token, if you want to benefit from the financial upside of holding the new meta game currency.",
+            title: "Buy the Metaverse Exchange DAO token MXDT",
+            description: "Purchase the MXDT token, if you want to benefit from the financial upside of holding the new meta game currency.",
             icon : icon4,
             colorbg : "icon-color4"
         },
