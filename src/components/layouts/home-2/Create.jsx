@@ -21,7 +21,7 @@ const Create = () => {
         },
         {
             title: "Crypto assets",
-            description: "Use our Metaverse Exchange DAO token "MXDT" to invest into other game items or crypto currencies.",
+            description: "Use our Metaverse Exchange DAO token 'MXDT' to invest into other game items or crypto currencies.",
             icon : icon2,
             colorbg : "icon-color2"
         },
