@@ -46,7 +46,7 @@ const Privacy = () => {
 
                             <h1>Privacy Policy for The Metaverse Exchange DAO</h1>
 
-<p>At The Metaverse Exchange DAO , accessible from https://theredbladedao.netlify.app/, one of our main priorities is the privacy of our visitors. This Privacy Policy document contains types of information that is collected and recorded by The Metaverse Exchange DAO  and how we use it.</p>
+<p>At The Metaverse Exchange DAO , accessible from https:/www.mvxdao.fi, one of our main priorities is the privacy of our visitors. This Privacy Policy document contains types of information that is collected and recorded by The Metaverse Exchange DAO  and how we use it.</p>
 
 <p>If you have additional questions or require more information about our Privacy Policy, do not hesitate to contact us.</p>
 
