@@ -2,6 +2,8 @@ import React, { useState, useEffect } from 'react';
 import { Link } from 'react-router-dom'
 import Modal from 'react-bootstrap/Modal'
 import logowhite from '../../assets/images/logo/logowhite.png'
+import logo1 from '../../assets/images/logo/logo1.png'
+import logo2 from '../../assets/images/logo/logo2.png'
 
 
 function MyVerticallyCenteredModal(props) {
@@ -136,8 +138,8 @@ const Footer = () => {
                                 <div className="logo-footer" id="logo-footer">
                                     <Link to="/">
                                         {/* <h2>The Metaverse Exchange DAO</h2> */}
-                                     <img className='logo-dark' id="logo_footer" src={logowhite} alt="nft-gaming" /> 
-                                        <img className='logo-light' id="logo_footer" src={logowhite} alt="nft-gaming" /> 
+                                     <img className='logo-dark' id="logo_footer" src={logo1} alt="nft-gaming" /> 
+                                        <img className='logo-light' id="logo_footer" src={logo2} alt="nft-gaming" /> 
 
                                     </Link>
                                 </div>

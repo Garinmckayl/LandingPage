@@ -652,8 +652,8 @@ button,
 input[type="button"],
 input[type="reset"],
 input[type="submit"] {
-  font-weight: 700;
-  font-size: 15px;
+  font-weight: 400;
+  font-size: 20px;
   line-height: 22px;
   background-color: var(--primary-color3);
   color: #fff;
@@ -720,7 +720,7 @@ h3,
 h4,
 h5,
 h6 {
-  font-weight: 700;
+  /* font-weight: 700; */
   text-rendering: optimizeLegibility;
 }
 
@@ -730,6 +730,7 @@ h1 {
 
 h2 {
   font-size: 36px;
+  font-family: "Nasalization", sans-serif;
 }
 
 h3 {
@@ -1329,12 +1330,12 @@ a:focus {
   /* color */
   --primary-color: #fff;
   --primary-color2: #1f1f2c;
-  --primary-color3: #5142fc;
+  --primary-color3: #02fbff;
   --primary-color4: #7a798a;
   --primary-color5: #f8f8f8;
   --primary-color6: #14141f;
   --primary-color7: #f8f8f8;
-  --bg-section: #fff;
+  --bg-section: #ededed;
   --bg-section2: #f8f8f8;
   --primary-color8: #7a798a;
   --primary-color9: #7a798a;
@@ -1364,7 +1365,7 @@ header {
 }
 
 .header_1 {
-  position: absolute;
+  /* position: absolute; */
   z-index: 100;
   height: 100px;
   width: 100%;
@@ -1538,8 +1539,9 @@ header {
   transform: translateY(-50%);
 }
 .main-logo img {
-  width: auto;
-  height: auto;
+  width: 350px;
+  margin-top: 15px;
+  height: 312px;
 }
 .main-logo img,
 .main-logo h2 {
@@ -1590,7 +1592,7 @@ header {
   font-size: 18px;
   line-height: 26px;
   font-weight: 700;
-  color: #fff;
+  /* color: #000; */
   /* padding-right: 15.5px; */
 }
 
@@ -2092,7 +2094,7 @@ header {
   width: 100%;
   box-shadow: 1px 1px 5px 0px rgb(0 0 0 / 30%);
   z-index: 9999;
-  background: linear-gradient(227.3deg, #8a208c 0%, #181b81 100.84%);
+  background: #d9d9d9;
   border: none;
   opacity: 1;
   -webkit-transition: all 0.5s ease;
@@ -3358,7 +3360,8 @@ header {
 }
 
 .buy__token > a {
-  color: #fff !important;
+  color: #000 !important;
+  font-family: "Nasalization", sans-serif;
 }
 
 .early__sign__up__form {

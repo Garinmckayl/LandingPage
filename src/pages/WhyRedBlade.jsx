@@ -15,6 +15,12 @@ import img6 from '../assets/images/avatar/avt-8.jpg'
 import growth from '../assets/images/growth.gif'
 import gaming from '../assets/images/svg/gamingfi.svg'
 
+
+import p from '../assets/images/newdesign/7.png'
+import f from '../assets/images/newdesign/6.png'
+import g from '../assets/images/newdesign/8.png'
+
+
 const WhyRedBlade = () => {
     const [dataHistory] = useState(
         [
@@ -65,7 +71,7 @@ const WhyRedBlade = () => {
     return (
         <div className='item-details'>
             <Header />
-            <section className="flat-title-page inner">
+            <section className="flat-title-page-token inner">
                 <div className="overlay"></div>
                 <div className="themesflat-container">
                     <div className="row">
@@ -83,8 +89,8 @@ const WhyRedBlade = () => {
                 <div className="themesflat-container">
                     <div className="row">
                         <div className="col-xl-6 col-md-12">
-                            <div className="sc-card-product text-center bg-white">
-                                    <img src={gaming} style={{width: '70%'}} alt="Axies" />
+                            <div className="text-center">
+                                    <img src={p} style={{width: '70%'}} alt="Axies" />
                             </div>
                         </div>
                         <div className="col-xl-6 col-md-12">
@@ -115,11 +121,6 @@ const WhyRedBlade = () => {
                 <div className="themesflat-container">
                     <div className="row">
                         <div className="col-xl-6 col-md-12">
-                            <div className="sc-card-product text-center bg-white">
-                                    <img src={growth} style={{width: '70%'}} alt="Axies" />
-                            </div>
-                        </div>
-                        <div className="col-xl-6 col-md-12">
                             <div className="content-right">
                                 <div className="sc-item-details">
 
@@ -131,11 +132,13 @@ We are a multidimensional project. First of all, our token is a utility for game
 <br />
 We also see other gaming platforms and ecoystems pushing into the blockchain world. Here we see ourselves as neutral: we are planning to integrate any game-title or item to be published or traded through our platform. We also except other gaming crypto currencies and plan to integrate these as well, assuming we can arrange benefits for our gamers. 
 <br /><br />
-We are also providing scholarships for players. Scholarships are revenue-sharing arrangements, where players of blockchain-based games can borrow or rent NFTs or accounts in order to play without paying bigger upfront fees. In exchange for this sort of financing, the investor or NFT owner can expect interest payments from the game-play in the form of NFTs or crypto-currency. Don´t worry, the player usually gets the biggest share.
-
-Buying game credits is nothing new. New is that we offer this based on game inventory, so it allows players to store their items and currencies to accumulate value instead of ingame inflation. This will support the price-levels of our token and serve as an underlying asset.
 </h4>
                                 </div>
+                            </div>
+                        </div>
+                        <div className="col-xl-6 col-md-12">
+                            <div className="text-center">
+                                    <img src={f} style={{width: '70%'}} alt="Axies" />
                             </div>
                         </div>
                     </div>
@@ -143,6 +146,31 @@ Buying game credits is nothing new. New is that we offer this based on game inve
             </div>
 
 
+
+            <div className="tf-section tf-item-details">
+                <div className="themesflat-container">
+                    <div className="row">
+                        <div className="col-xl-6 col-md-12">
+                            <div className="text-center">
+                                    <img src={g} style={{width: '70%'}} alt="Axies" />
+                            </div>
+                        </div>
+                        <div className="col-xl-6 col-md-12">
+                            <div className="content-right">
+                                <div className="sc-item-details">
+                                    <h2 className="style2">scholarships for players </h2>
+                                    <h4  class="lineHeight34 font400">
+
+                                    We are also providing scholarships for players. Scholarships are revenue-sharing arrangements, where players of blockchain-based games can borrow or rent NFTs or accounts in order to play without paying bigger upfront fees. In exchange for this sort of financing, the investor or NFT owner can expect interest payments from the game-play in the form of NFTs or crypto-currency. Don´t worry, the player usually gets the biggest share.
+
+Buying game credits is nothing new. New is that we offer this based on game inventory, so it allows players to store their items and currencies to accumulate value instead of ingame inflation. This will support the price-levels of our token and serve as an underlying asset.</h4>
+
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
 
 
             <Footer />

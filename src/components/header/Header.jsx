@@ -5,6 +5,9 @@ import DarkMode from './DarkMode';
 import imgsun from '../../assets/images/icon/sun.png'
 import avt from '../../assets/images/avatar/avt-2.jpg'
 import logo from '../../assets/images/logo/logo.png'
+import logo1 from '../../assets/images/logo/logo1.png'
+import logo2 from '../../assets/images/logo/logo2.png'
+
 
 const Header = () => {
     const { pathname } = useLocation();
@@ -52,8 +55,8 @@ const Header = () => {
                                     <div id="site-logo-inner">
                                         <Link to="/" rel="home" className="main-logo">
                                             {/* <h2 className='text-white'>The Metaverse Exchange DAO</h2> */}
-                                             <img className='logo-dark'  id="logo_header" src={logo} srcSet={`${logo}`} alt="nft-gaming" />
-                                            <img className='logo-light'  id="logo_header" src={logo} srcSet={`${logo}`} alt="nft-gaming" /> 
+                                             <img className='logo-dark'  id="logo_header" src={logo1} srcSet={`${logo1}`} alt="nft-gaming" />
+                                            <img className='logo-light'  id="logo_header" src={logo2} srcSet={`${logo2}`} alt="nft-gaming" /> 
                                         </Link>
                                     </div>
                                 </div>
@@ -85,7 +88,7 @@ const Header = () => {
                                     </ul>
                                 </nav>
                                 <div className="flat-search-btn flex">
-                                    <div className="header-search flat-show-search" id="s1">
+                                    {/* <div className="header-search flat-show-search" id="s1">
                                         <Link to="#" className="show-search header-search-trigger" onClick={searchBtn}>
                                             <i className="far fa-search"></i>
                                         </Link>
@@ -97,7 +100,7 @@ const Header = () => {
                                                 </button>
                                             </form>
                                         </div>
-                                    </div>
+                                    </div> */}
                                     {/* <div className="sc-btn-top mg-r-12" id="site-header">
                                         <Link to="/wallet-connect" className="sc-button header-slider style style-1 wallet fl-button pri-1"><span>Wallet connect
                                         </span></Link>
