@@ -12,19 +12,19 @@ import logo2 from '../../assets/images/logo/logo2.png'
 const Header = () => {
     const { pathname } = useLocation();
 
-    const headerRef = useRef (null)
-    useEffect(() => {
-        window.addEventListener('scroll', isSticky);
-        return () => {
-            window.removeEventListener('scroll', isSticky);
-        };
-    });
-    const isSticky = (e) => {
-        const header = document.querySelector('.js-header');
-        const scrollTop = window.scrollY;
-        scrollTop >= 300 ? header.classList.add('is-fixed') : header.classList.remove('is-fixed');
-        scrollTop >= 400 ? header.classList.add('is-small') : header.classList.remove('is-small');
-    };
+    // const headerRef = useRef (null)
+    // useEffect(() => {
+    //     window.addEventListener('scroll', isSticky);
+    //     return () => {
+    //         window.removeEventListener('scroll', isSticky);
+    //     };
+    // });
+    // const isSticky = (e) => {
+    //     const header = document.querySelector('.js-header');
+    //     const scrollTop = window.scrollY;
+    //     scrollTop >= 300 ? header.classList.add('is-fixed') : header.classList.remove('is-fixed');
+    //     scrollTop >= 400 ? header.classList.add('is-small') : header.classList.remove('is-small');
+    // };
 
     const menuLeft = useRef(null)
     const btnToggle = useRef(null)
@@ -45,7 +45,7 @@ const Header = () => {
     };
 
     return (
-        <header id="header_main" className="header_1 js-header" ref={headerRef}>
+        <header id="header_main" className="header_1 js-header is-fixed is-small" >
             <div className="themesflat-container">
                 <div className="row">
                     <div className="col-md-12">                              
