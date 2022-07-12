@@ -77,7 +77,7 @@ const WhyRedBlade = () => {
                     <div className="row">
                         <div className="col-md-12">
                             <div className="page-title-heading mg-bt-12">
-                                <h1 className="heading text-center">The Metaverse Exchange DAO Token</h1>
+                                <h1 className="heading text-center heading-titles">The Metaverse Exchange DAO Token</h1>
                             </div>
                         </div>
                     </div>

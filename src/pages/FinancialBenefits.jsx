@@ -97,7 +97,7 @@ const FinancialBenefits = () => {
                     <div className="row">
                         <div className="col-md-12">
                             <div className="page-title-heading mg-bt-12">
-                                <h1 className="heading text-center">Game Finance Benefits</h1>
+                                <h1 className="heading text-center heading-titles">Game Finance Benefits</h1>
                             </div>
                         </div>
                     </div>
