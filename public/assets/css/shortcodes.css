@@ -694,14 +694,31 @@
   margin-right: -15px;
 }
 .sc-author-box {
-  display: flex;
+  /* display: flex; */
   align-items: center;
+  text-align: center;
   box-shadow: 0px 3px 16px rgba(47, 83, 109, 0.12);
-  padding: 13px;
-  border-radius: 90px;
+  padding: 60px;
+  border-radius: 10px;
   width: auto;
   margin-bottom: 30px;
-  background: var(--primary-color);
+  background: rgba(255, 255, 255, 0.5);
+}
+
+.is_dark .sc-author-box {
+  background: rgba(0, 0, 0, 0.5);
+}
+
+.sc-nft-box {
+  display: flex;
+  align-items: center;
+  text-align: center;
+  box-shadow: 0px 3px 16px rgba(47, 83, 109, 0.12);
+  padding: 60px;
+  border-radius: 10px;
+  width: auto;
+  margin-bottom: 30px;
+  background: rgba(255, 255, 255, 0.5);
 }
 .authors .sc-author-box {
   padding: 0;
@@ -754,6 +771,7 @@
 
 .sc-author-box .author-infor h5 {
   margin-bottom: 9px;
+  font-weight: 800;
 }
 
 .sc-author-box .author-infor .price {
@@ -1713,7 +1731,7 @@
   left: 0;
   width: 100%;
   height: 100%;
-  background-color: rgb(52 52 68/30%);
+  background-color: rgb(52 52 68/50%);
   -webkit-transition: all 0.3s ease-in-out;
   -moz-transition: all 0.3s ease-in-out;
   -ms-transition: all 0.3s ease-in-out;
@@ -1735,7 +1753,7 @@
   left: 0;
   width: 100%;
   height: 100%;
-  background-color: rgb(52 52 68/30%);
+  background-color: rgb(52 52 68/50%);
   -webkit-transition: all 0.3s ease-in-out;
   -moz-transition: all 0.3s ease-in-out;
   -ms-transition: all 0.3s ease-in-out;
@@ -1744,8 +1762,8 @@
 }
 .flat-title-page {
   position: relative;
-  background: url(../images/backgroup-secsion/img_bg_page_title.jpg) center
-    center no-repeat;
+  background: url(../images/backgroup-secsion/bg_slide_1.png) center center
+    no-repeat;
   background-size: cover;
   padding: 100px 0 20px;
 }
@@ -2019,11 +2037,11 @@
     center center no-repeat;
   background-size: cover;
 }
-.is_dark .flat-title-page.inner {
+/* .is_dark .flat-title-page.inner {
   background: url(../images/backgroup-secsion/img_bg_page_title_dark.jpg) center
     center no-repeat;
   background-size: cover;
-}
+} */
 .page-title-heading .heading {
   font-family: Nasalization;
   font-size: 70px;
@@ -2534,7 +2552,7 @@ section.today-picks {
 
 .is_dark .flat-title-page.style2 .overlay,
 .is_dark .flat-title-page .overlay {
-  background: #14141f;
+  /* background: #14141f; */
 }
 
 .is_dark .flat-title-page.inner .overlay {
@@ -5735,7 +5753,21 @@ button.accordion-button {
 .home-3 .tf-section.top-seller {
   padding: 61px 0 30px;
 }
+.top-seller {
+  padding: 139px 0 59px;
+  position: relative;
+  background: url(../images/backgroup-secsion/author.png) center center
+    no-repeat;
+  background-size: cover;
+}
 
+.popular-nfts {
+  padding: 139px 0 59px;
+  position: relative;
+  background: url(../images/backgroup-secsion/popularnfts.png) center center
+    no-repeat;
+  background-size: cover;
+}
 .home4 .sc-author-box.style-3 {
   margin-bottom: 28px;
 }
@@ -7143,11 +7175,11 @@ button.accordion-button {
   line-height: 20px;
 }
 
-.home-7 .top-seller .sc-author-box .author-avatar {
+.home-7 .top-seller .sc-author-box .sc-nft-box .author-avatar {
   margin-right: 13px;
 }
 
-.home-7 .top-seller .sc-author-box .author-infor h5 {
+.home-7 .top-seller .sc-author-box .sc-nft-box .author-infor h5 {
   margin-bottom: 4px;
 }
 
@@ -7397,7 +7429,7 @@ button.accordion-button {
   padding: 1px 14px;
 }
 
-.sc-card-collection.style-2.sc-card-style7 .sc-author-box {
+.sc-card-collection.style-2.sc-card-style7 .sc-author-box .sc-nft-box {
   position: absolute;
   top: 30%;
   left: 50%;
@@ -7407,7 +7439,10 @@ button.accordion-button {
   transform: translateX(-50%);
 }
 
-.sc-card-collection.style-2.sc-card-style7 .sc-author-box .author-avatar {
+.sc-card-collection.style-2.sc-card-style7
+  .sc-author-box
+  .sc-nft-box
+  .author-avatar {
   background-color: #343444;
   border-radius: 50%;
   display: flex;
@@ -7420,7 +7455,11 @@ button.accordion-button {
   padding: 6px;
 }
 
-.sc-card-collection.style-2.sc-card-style7 .sc-author-box .author-avatar img {
+.sc-card-collection.style-2.sc-card-style7
+  .sc-author-box
+  .sc-nft-box
+  .author-avatar
+  img {
   width: 112px;
   height: 112px;
   border-radius: 50%;
@@ -8433,4 +8472,20 @@ button.accordion-button {
 .slider-labels .title {
   color: #8a8aa0;
   margin-right: 3px;
+}
+
+.top-picks-section {
+  padding: 139px 0 59px;
+  position: relative;
+  background: url(../images/backgroup-secsion/fdw.png) center center no-repeat;
+  background-size: cover;
+}
+
+.authorh2 {
+  color: #fff;
+  font-size: 60px;
+}
+
+.nft-box {
+  display: flex;
 }

@@ -14,12 +14,13 @@ import img5 from '../assets/images/avatar/avt-7.jpg'
 import img6 from '../assets/images/avatar/avt-8.jpg'
 import img7 from '../assets/images/avatar/avt-2.jpg'
 import imgdetail1 from '../assets/images/box-item/images-item-details.jpg'
-import scholar from '../assets/images/svg/scholar.png'
+import meta from '../assets/images/svg/meta.png'
 import { Button, Form } from 'react-bootstrap';
 
 
 
-const Scholarship = () => {
+const CallToAction = () => {
+
 
     const [userEmail, setUserEmail] = useState('');
     const [isComplete, setIsComplete] = useState(true);
@@ -118,28 +119,33 @@ const Scholarship = () => {
 
 
             <div className="tf-section tf-item-details">
-
+{/* 
             <div className="heading mg-bt-12">
                                 <h2 className="tf-title">Scholarships for GAMERS</h2>
-                            </div>
+                            </div> */}
 
                 <div className="themesflat-container">
                     <div className="row">
+                    <div className="col-xl-6 col-md-12">
+                            <div className="content-left">
+                                <div className="media">
+                                    <img src={meta} alt="Axies" style={{    marginBottom: "40px"}} />
+                                {/* <img className='logo-light'  id="logo_header" src={scholar} alt="nft-gaming" />  */}
+
+                                </div>
+                            </div>
+                        </div>
                         <div className="col-xl-6 col-md-12">
                             <div className="content-right">
                                 <div className="sc-item-details">
-                                    <h2 className="style2">Are you already playing blockchain-based games, but need financial support? </h2>
+                                    <h2 className="style2">Sign up for free </h2>
                                     <h5>
 
 
-                                    We can help you with scholarships for any recent game-title. Our terms are straight-forward and the process is quick and easy. We are gamers and we understand why people want to play games. 
-
-Register with us now.
+                                    Sign up for early access
 </h5>
 
-{/* <div className="col-md-12 align-item-center"> */}
-              {/* <h4 className="modal__header">Sign up for early access</h4> */}
-              <form autocomplete="off" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" noValidate className="validate early__sign__up__form">
+<form autocomplete="off" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" noValidate className="validate early__sign__up__form">
                 <input type="email" onChange={(e) => updateUserEmail(e)} name="EMAIL" class="user__email" id="mce-EMAIL" placeholder='Email' typee="email" />
                 {isComplete ?
                   <div >
@@ -155,23 +161,6 @@ Register with us now.
                   </Button>
                 }
               </form>
-              {/* <div className="page-title-heading mg-bt-12">
-                                <h1 className="heading text-center">Signup</h1>
-                            </div>
-                            <a onClick={() => setModalShow(true)} className="sc-button style-2 fl-button pri-3" style={{border: "2px solid #fff", width: "30%", margin: "auto"}}>
-                                            <span style={{color: "#fff"}}>Register</span>
-                                        </a> */}
-
-            {/* </div> */}
-                                </div>
-                            </div>
-                        </div>
-                        <div className="col-xl-6 col-md-12">
-                            <div className="content-left">
-                                <div className="media">
-                                    <img src={scholar} alt="Axies" style={{    marginBottom: "40px"}} />
-                                {/* <img className='logo-light'  id="logo_header" src={scholar} alt="nft-gaming" />  */}
-
                                 </div>
                             </div>
                         </div>
@@ -184,4 +173,4 @@ Register with us now.
     );
 }
 
-export default Scholarship;
+export default CallToAction;

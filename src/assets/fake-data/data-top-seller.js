@@ -40,12 +40,6 @@ const topSellerData = [
     classPadding: "pl-68",
   },
   {
-    // img: img8,
-    name: "Roblox crown / US",
-    price: "250 USD",
-    classPadding: "",
-  },
-  {
     img: img6,
     name: "Wow Gold / US",
     price: "50 EUR",
@@ -63,24 +57,24 @@ const topSellerData = [
     price: "3500 KRW",
     classPadding: "pl-51",
   },
-  {
-    img: img1,
-    name: "GW2 Golden horn magic spell / US",
-    price: "12 USD",
-    classPadding: "pl-68",
-  },
-  {
-    img: img1,
-    name: "GW2 Red magic spell pack of 20 / EU",
-    price: "15 EUR",
-    classPadding: "",
-  },
-  {
-    img: img2,
-    name: "Speed running spell / US",
-    price: "8.30",
-    classPadding: "pl-17",
-  },
+  // {
+  //   img: img1,
+  //   name: "GW2 Golden horn magic spell / US",
+  //   price: "12 USD",
+  //   classPadding: "pl-68",
+  // },
+  // {
+  //   img: img1,
+  //   name: "GW2 Red magic spell pack of 20 / EU",
+  //   price: "15 EUR",
+  //   classPadding: "",
+  // },
+  // {
+  //   img: img2,
+  //   name: "Speed running spell / US",
+  //   price: "8.30",
+  //   classPadding: "pl-17",
+  // },
 ];
 
 export default topSellerData;

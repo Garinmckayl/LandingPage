@@ -10,7 +10,9 @@ const heroSliderData = [
     title_3: "from your favorite games",
     description:
       "The marketplace for trading game items and currencies into crypto",
-    class: "center",
+    // img: img1,
+    // imgbg: imgbg1,
+    class: "left",
   },
   {
     title_1: "Discover and monetize",

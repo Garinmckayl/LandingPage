@@ -11,7 +11,7 @@ const Create = () => {
             title: "Money in your pocket",
             description: "Sell your items, currencies, NFTs, accounts or keys. You can do it with any game.",
             icon : icon1,
-            colorbg : "icon-color1"
+            colorbg : "icon-color3"
         },
                 {
             title: "Scholarships",
@@ -23,17 +23,20 @@ const Create = () => {
             title: "Crypto assets",
             description: "Use our Metaverse Exchange DAO token 'MXDT' to invest into other game items or crypto currencies.",
             icon : icon2,
-            colorbg : "icon-color2"
+            colorbg : "icon-color3"
         },
         {
             title: "Financial Savings",
             description: "The Metaverse Exchange DAO token. HodL it. Invest it. Lend it to others. Make money with your game-play",
             icon : icon4,
-            colorbg : "icon-color4"
+            colorbg : "icon-color3"
         },
     ]
     return (
         <section className="tf-box-icon create tf-section bg-home-3">
+            <div className="heading mg-bt-12">
+                                <h2 className="tf-title">Our Services</h2>
+                            </div>
             <div className="themesflat-container">
                 <div className="row">
                     {

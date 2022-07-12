@@ -8,11 +8,15 @@ import LiveAuction from '../components/layouts/home-3/LiveAuction';
 import TopSeller from '../components/layouts/home-3/TopSeller';
 import Slider from '../components/slider/Slider';
 import topSellerData from '../assets/fake-data/data-top-seller';
+import popuplarNftsData from '../assets/fake-data/popularNftsData';
 import TodayPicks from '../components/layouts/home-3/TodayPicks';
+import Popularnfts from '../components/layouts/home-3/PopularNfts';
 import todayPickData from '../assets/fake-data/data-today-pick';
 import PopularCollection from '../components/layouts/home-3/PopularCollection';
+import TopPicks from '../components/layouts/home-3/TopPicks';
 import popularCollectionData from '../assets/fake-data/data-popular-collection';
 import EarlyAccess from '../components/EarlyAccess';
+import CallToAction from '../components/CallToAction';
 import Scholarship from '../components/scholarship';
 
 
@@ -22,14 +26,15 @@ const Home03 = () => {
             <Header />
             <Slider data={heroSliderData} />
             <Create />
-            <EarlyAccess/>
-            <LiveAuction data={liveAuctionData} />
-            <TopSeller data={topSellerData} />
+            <TopPicks data={popularCollectionData} />
             <Scholarship/>
-            <EarlyAccess/>
-            <TodayPicks data={todayPickData} />
+            <Popularnfts data={popuplarNftsData} />
+            <CallToAction/>
+            {/* <LiveAuction data={liveAuctionData} /> */}
+            {/* <EarlyAccess/>
             <PopularCollection data={popularCollectionData} />
-            <EarlyAccess/>
+            <EarlyAccess/> */}
+            <TopSeller data={topSellerData} />
             <Footer />
         </div>
     );

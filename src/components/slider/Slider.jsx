@@ -39,17 +39,18 @@ Slider.propTypes = {
   timeOut: PropTypes.number,
 };
 const SliderItem = (props) => (
-  <div className="flat-title-page" style={{ backgroundImage: `url(${imgbg})` }}>
+  // <div className="flat-title-page" style={{ backgroundImage: `url(${imgbg})` }}>
+  <div className="flat-title-page">
     <img className="bgr-gradient gradient1" src={shape1} alt="Axies" />
     <img className="bgr-gradient gradient2" src={shape2} alt="Axies" />
     <img className="bgr-gradient gradient3" src={shape3} alt="Axies" />
-    <div className="shape item-w-16"></div>
+    {/* <div className="shape item-w-16"></div>
     <div className="shape item-w-22"></div>
     <div className="shape item-w-32"></div>
-    <div className="shape item-w-48"></div>
+    <div className="shape item-w-48"></div> */}
     <div className="shape style2 item-w-51"></div>
     <div className="shape style2 item-w-51 position2"></div>
-    <div className="shape item-w-68"></div>
+    {/* <div className="shape item-w-68"></div> */}
     <div className="overlay"></div>
     <div className="swiper-container mainslider home">
       <div className="swiper-wrapper">
@@ -82,10 +83,10 @@ const SliderItem = (props) => (
                     </a>
                   </div>
                 </div>
-                <div className="image">
+                {/* <div className="image">
                   <img className="img-bg" src={props.item.imgbg} alt="axies" />
                   <img src={props.item.img} alt="axies" />
-                </div>
+                </div> */}
               </div>
             </div>
           </div>

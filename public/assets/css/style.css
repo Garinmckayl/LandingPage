@@ -3370,7 +3370,8 @@ header {
   display: flex;
   width: 600px;
   padding: 10px 0 8px;
-  margin: 0 auto;
+  margin-top: 20px;
+  margin-left: -30px;
 }
 .early__sign__up__form__modal {
   position: relative;
