@@ -1577,6 +1577,7 @@ header {
 }
 .main-nav ul.menu {
   display: flex;
+  margin-top: -15px;
 }
 .main-nav ul li {
   position: relative;
