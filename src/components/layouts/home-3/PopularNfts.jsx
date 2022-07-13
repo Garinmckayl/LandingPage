@@ -37,7 +37,10 @@ const TopSellerItem = props => {
         <div className="sc-author-box nft-box">
             <div className="author-infor">
                 <h2 className="style2"><Link to="#"  onClick={() => setModalShow(true)}>{props.item.name}</Link></h2>
-                <span className="price">{props.item.price}</span>
+                <span className="price">{props.item.price}</span><br/><hr></hr>
+                <button onClick={() => setModalShow(true)} className='buy__token'>
+                        <a>Buy Token</a>
+                </button>
             </div>
             <div className="author-avatar">
                 <Link to="#" onClick={() => setModalShow(true)}>
