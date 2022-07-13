@@ -4,36 +4,37 @@ import Modal from 'react-bootstrap/Modal'
 import logowhite from '../../assets/images/logo/logowhite.png'
 import logo1 from '../../assets/images/logo/logo1.png'
 import logo2 from '../../assets/images/logo/logo2.png'
+import CardModal from '../layouts/CardModal';
 
 
-function MyVerticallyCenteredModal(props) {
+// function MyVerticallyCenteredModal(props) {
 
-    return (
-        <Modal
-            {...props}
-            size="lg"
-            aria-labelledby="contained-modal-title-vcenter"
-            centered
-        >
-            <Modal.Header closeButton>
-                <Modal.Title id="contained-modal-title-vcenter">
-                    Early Access
-                </Modal.Title>
-            </Modal.Header>
-            <Modal.Body>
+//     return (
+//         <Modal
+//             {...props}
+//             size="lg"
+//             aria-labelledby="contained-modal-title-vcenter"
+//             centered
+//         >
+//             <Modal.Header closeButton>
+//                 <Modal.Title id="contained-modal-title-vcenter">
+//                     Early Access
+//                 </Modal.Title>
+//             </Modal.Header>
+//             <Modal.Body>
 
 
-                <h1>
-                    Sign up for early access
-                </h1>
+//                 <h1>
+//                     Sign up for early access
+//                 </h1>
 
-            </Modal.Body>
-            <Modal.Footer>
-                <a onClick={props.onHide}>Close</a>
-            </Modal.Footer>
-        </Modal>
-    );
-}
+//             </Modal.Body>
+//             <Modal.Footer>
+//                 <a onClick={props.onHide}>Close</a>
+//             </Modal.Footer>
+//         </Modal>
+//     );
+// }
 
 
 
@@ -247,10 +248,9 @@ const Footer = () => {
                 </div>
             </div>
 
-            <MyVerticallyCenteredModal
-                show={modalShow}
-                onHide={() => setModalShow(false)}
-            />
+            <CardModal
+            show={modalShow}
+            onHide={() => setModalShow(false)} />
 
         </div>
 
