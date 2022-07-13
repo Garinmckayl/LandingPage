@@ -1722,7 +1722,7 @@
   position: relative;
   background: url(../images/backgroup-secsion/fbi.png) center center no-repeat;
   background-size: cover;
-  padding: 100px 0 20px;
+  padding: 214px 0 20px;
   height: 500px;
 }
 .flat-title-page-financial .overlay {
@@ -1743,7 +1743,7 @@
   position: relative;
   background: url(../images/backgroup-secsion/meta.png) center center no-repeat;
   background-size: cover;
-  padding: 100px 0 20px;
+  padding: 214px 0 20px;
   height: 500px;
 }
 
@@ -2036,6 +2036,15 @@
   background: url(../images/backgroup-secsion/img_bg_page_title_inner.jpg)
     center center no-repeat;
   background-size: cover;
+}
+
+.faq-section {
+  /* padding: 139px 0 59px; */
+  position: relative !important;
+  background: url(../images/backgroup-secsion/faq.png) center center no-repeat !important;
+  background-size: cover !important;
+  padding: 270px 0 50px !important;
+  height: 500px !important;
 }
 /* .is_dark .flat-title-page.inner {
   background: url(../images/backgroup-secsion/img_bg_page_title_dark.jpg) center
