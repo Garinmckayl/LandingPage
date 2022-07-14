@@ -1,7 +1,7 @@
 import React from "react";
 import PropTypes from "prop-types";
 import { Link } from "react-router-dom";
-import { Navigation, Scrollbar, A11y } from "swiper";
+import { Navigation, Scrollbar, A11y, Autoplay } from "swiper";
 import { Swiper, SwiperSlide } from "swiper/react";
 import "swiper/scss";
 import "swiper/scss/navigation";
@@ -16,11 +16,18 @@ const Slider = (props) => {
   return (
     <div className="mainslider">
       <Swiper
-        modules={[Navigation, Scrollbar, A11y]}
+        modules={[Navigation, Scrollbar, A11y, Autoplay]}
         spaceBetween={0}
         slidesPerView={1}
         navigation
         scrollbar={{ draggable: true }}
+        loop
+                        autoplay={{
+                            delay: 1,
+                            disableOnInteraction: false,
+                            pauseOnMouseEnter: true,
+                        }}
+                        speed= {6000}
       >
         {data.map((item, index) => (
           <SwiperSlide key={index} className={item.class}>

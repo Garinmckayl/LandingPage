@@ -45,7 +45,7 @@ import Skins from "./Skins";
 const routes = [
   { path: "/", component: <Home03 /> },
   { path: "/financial-benefits", component: <FinancialBenefits /> },
-  { path: "/why-red-blade-token", component: <WhyRedBlade /> },
+  { path: "/why-mvxdo-token", component: <WhyRedBlade /> },
   { path: "/investor-information", component: <InvestorInformation /> },
   { path: "/investor-information", component: <InvestorInformation /> },
   { path: "/Whitepaper", component: <Whitepaper /> },

@@ -7,6 +7,7 @@ import Create from '../components/layouts/home-2/Create';
 import LiveAuction from '../components/layouts/home-3/LiveAuction';
 import TopSeller from '../components/layouts/home-3/TopSeller';
 import Slider from '../components/slider/Slider';
+// import Slider from '../components/slider/SliderStyle';
 import topSellerData from '../assets/fake-data/data-top-seller';
 import popuplarNftsData from '../assets/fake-data/popularNftsData';
 import TodayPicks from '../components/layouts/home-3/TodayPicks';

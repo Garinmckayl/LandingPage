@@ -88,7 +88,7 @@ const menus = [
   //   },
   // ],
   //},
-  
+
   {
     id: 2,
     name: "Financial benefits",
@@ -97,12 +97,12 @@ const menus = [
   {
     id: 3,
     name: "Token investors",
-    links: "/why-red-blade-token",
+    links: "/why-mvxdo-token",
     namesub: [
       {
         id: 1,
-        sub: "Why the Red Blade token?",
-        links: "/why-red-blade-token",
+        sub: "Why the Metaverse Exchange DAO token?",
+        links: "/why-mvxdo-token",
       },
       {
         id: 2,
