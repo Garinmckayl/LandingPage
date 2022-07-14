@@ -1765,6 +1765,7 @@
   /* background: url(../images/backgroup-secsion/bg_slide_1.png) center center
     no-repeat; */
   background-size: cover;
+  background-position: -50px 90px;
   padding: 100px 0 20px;
 }
 .home-2 .flat-title-page {
@@ -1785,6 +1786,7 @@
   -ms-transition: all 0.3s ease-in-out;
   -o-transition: all 0.3s ease-in-out;
   transition: all 0.3s ease-in-out;
+  margin-top: -40px;
 }
 
 .flat-title-page .heading .tf-text.s1 {
@@ -8498,4 +8500,19 @@ button.accordion-button {
 
 .nft-box {
   display: flex;
+}
+
+@media only screen and (max-width: 1000px) {
+  .nft-box {
+    display: block;
+  }
+  .author-avatar img {
+    margin-left: 0px !important;
+  }
+
+  .main-logo img {
+    width: 268px !important;
+    margin-top: -5px !important;
+    height: 266px !important;
+  }
 }

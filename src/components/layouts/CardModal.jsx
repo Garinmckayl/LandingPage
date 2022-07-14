@@ -18,6 +18,7 @@ const CardModal = (props) => {
 
 
     const updateUserEmail = (e) => {
+        console.log(e.target.value)
         const { value } = e.target;
         if (value) {
             setUserEmail(e.target.value)
@@ -27,6 +28,7 @@ const CardModal = (props) => {
 
 
     const sendEmail = (event) => {
+        console.log(event.target.value)
 
         if (userEmail && ValidateEmail(userEmail)) {
             setIsSpinner(true)
@@ -65,7 +67,7 @@ const CardModal = (props) => {
                 <input type="email" onChange={(e) => updateUserEmail(e)} name="EMAIL" class="user__email" id="mce-EMAIL" placeholder='Email' typee="email" />
                 {isComplete ?
                     <div >
-                        <Button onClick={sendEmail} className="signin__button">
+                        <Button type="submit" onClick={sendEmail} className="signin__button">
                             {!isSpin ? <i className="fas fa-arrow-right" style={{ fontSize: "24px" }}></i> : <i class='fas fa-undo-alt' style={{ fontSize: "24px", animationName: "spin", animationDuration: "1000ms", animationIterationCount: "infinite", animationTimingFunction: "linear" }}></i>}
 
 
