@@ -2019,13 +2019,14 @@
 .mainslider .swiper-button-next {
   width: 50px;
   height: 50px;
-  background: linear-gradient(216.56deg, #e250e5 5.32%, #4b50e6 94.32%);
+  background: #02fbff;
   border-radius: 50%;
 }
 .mainslider .swiper-button-next:after,
 .mainslider .swiper-button-prev:after {
-  font-size: 16px;
-  color: #fff;
+  font-size: 36px;
+  color: #000;
+  font-weight: bolder;
 }
 
 /* Page Title Inner
@@ -4485,7 +4486,7 @@ section.today-picks {
 }
 
 .mode_switcher a {
-  background: linear-gradient(216.56deg, #e250e5 5.32%, #4b50e6 94.32%);
+  background: #ccc;
   border-radius: 10px;
   width: 40px;
   height: 40px;

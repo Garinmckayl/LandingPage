@@ -26,6 +26,7 @@ import pic2 from '../assets/images/newdesign/2.png';
 import pic3 from '../assets/images/newdesign/3.svg';
 import pic4 from '../assets/images/newdesign/4.png';
 import pic5 from '../assets/images/newdesign/5.png';
+import pic6 from '../assets/images/newdesign/7.png';
 
 
 
@@ -261,7 +262,7 @@ const FinancialBenefits = () => {
                         </div>
                         <div className="col-xl-6 col-md-12">
                             <div className="">
-                                <img src={wallet} style={{ width: '70%' }} alt="Axies" />
+                                <img src={pic6} style={{ width: '70%' }} alt="Axies" />
                             </div>
                         </div>
                     </div>

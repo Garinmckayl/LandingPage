@@ -1589,10 +1589,11 @@ header {
 }
 
 .main-nav > ul > li > a {
+  font-family: Nasalization !important;
   position: relative;
-  font-size: 18px;
+  font-size: 24px;
   line-height: 26px;
-  font-weight: 700;
+  font-weight: 500;
   /* color: #000; */
   /* padding-right: 15.5px; */
 }
@@ -1675,11 +1676,15 @@ header {
 
 .main-nav .sub-menu li.current-item a,
 .main-nav .sub-menu li a:hover {
-  color: var(--primary-color3);
+  /* color: var(--primary-color3); */
+  color: rgb(106 102 102);
+  border-bottom: #c931ec 4px solid;
 }
 
 .main-nav > ul > li > a:hover {
-  color: #fff;
+  /* color: #fff; */
+  color: rgb(106 102 102);
+  border-bottom: #c931ec 4px solid;
 }
 
 .main-nav > ul > li .sub-menu li {
