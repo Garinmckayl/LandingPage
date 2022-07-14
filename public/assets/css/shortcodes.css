@@ -1762,8 +1762,8 @@
 }
 .flat-title-page {
   position: relative;
-  background: url(../images/backgroup-secsion/bg_slide_1.png) center center
-    no-repeat;
+  /* background: url(../images/backgroup-secsion/bg_slide_1.png) center center
+    no-repeat; */
   background-size: cover;
   padding: 100px 0 20px;
 }
@@ -1771,7 +1771,7 @@
   padding: 84px 0 156px;
 }
 .home-3 .flat-title-page {
-  padding: 111px 0 228px;
+  padding: 60px 0 340px;
 }
 .flat-title-page .overlay {
   position: absolute;
@@ -1779,7 +1779,7 @@
   left: 0;
   width: 100%;
   height: 100%;
-  background-color: rgb(52 52 68/30%);
+  background-color: rgb(52 52 68/50%);
   -webkit-transition: all 0.3s ease-in-out;
   -moz-transition: all 0.3s ease-in-out;
   -ms-transition: all 0.3s ease-in-out;

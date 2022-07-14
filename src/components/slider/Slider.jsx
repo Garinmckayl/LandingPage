@@ -46,7 +46,7 @@ Slider.propTypes = {
   timeOut: PropTypes.number,
 };
 const SliderItem = (props) => (
-  // <div className="flat-title-page" style={{ backgroundImage: `url(${imgbg})` }}>
+  <div className="flat-title-page" style={{ backgroundImage: `url(${props.item.imgbg})` }}>
   <div className="flat-title-page">
     {/* <img className="bgr-gradient gradient1" src={shape1} alt="Axies" />
     <img className="bgr-gradient gradient2" src={shape2} alt="Axies" />
@@ -100,6 +100,7 @@ const SliderItem = (props) => (
         </div>
       </div>
     </div>
+  </div>
   </div>
 );
 export default Slider;

@@ -1,7 +1,9 @@
 import img1 from "../images/slider/slide_1.png";
 import img2 from "../images/slider/slide_2.png";
 import imgbg1 from "../images/slider/bg_slide_1.png";
-import imgbg2 from "../images/slider/bg_slide_1.png";
+import imgbg2 from "../images/slider/bg_slide_2.png";
+import imgbg3 from "../images/slider/bg_slide_3.png";
+import imgbg4 from "../images/slider/bg_slide_4.png";
 
 const heroSliderData = [
   {
@@ -11,7 +13,7 @@ const heroSliderData = [
     description:
       "The marketplace for trading game items and currencies into crypto",
     // img: img1,
-    // imgbg: imgbg1,
+    imgbg: imgbg1,
     class: "left",
   },
   {
@@ -20,8 +22,8 @@ const heroSliderData = [
     title_3: "no matter what game you play",
     description:
       "The Red Blade is the only marketplace where you can convert non-crypto items and currencies into crypto",
-    img: img1,
-    imgbg: imgbg1,
+    // img: img1,
+    imgbg: imgbg2,
     class: "left",
   },
   {
@@ -30,8 +32,8 @@ const heroSliderData = [
     title_3: "game items, currencies, accounts",
     description:
       "Enjoy the financial benefits you have created with your game history",
-    img: img2,
-    imgbg: imgbg2,
+    // img: img2,
+    imgbg: imgbg3,
     class: "right",
   },
 ];

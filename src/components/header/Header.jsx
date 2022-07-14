@@ -7,7 +7,7 @@ import avt from '../../assets/images/avatar/avt-2.jpg'
 import logo from '../../assets/images/logo/logo.png'
 import logo1 from '../../assets/images/logo/logo1.png'
 import logo2 from '../../assets/images/logo/logo2.png'
-
+import logodark from '../../assets/images/logo/logodark.png'
 
 const Header = () => {
     const { pathname } = useLocation();
@@ -55,8 +55,8 @@ const Header = () => {
                                     <div id="site-logo-inner">
                                         <Link to="/" rel="home" className="main-logo">
                                             {/* <h2 className='text-white'>The Metaverse Exchange DAO</h2> */}
-                                             <img className='logo-dark'  id="logo_header" src={logo1} srcSet={`${logo1}`} alt="nft-gaming" />
-                                            <img className='logo-light'  id="logo_header" src={logo2} srcSet={`${logo2}`} alt="nft-gaming" /> 
+                                             <img className='logo-dark'  id="logo_header" src={logo} srcSet={`${logo}`} alt="nft-gaming" />
+                                            <img className='logo-light'  id="logo_header" src={logodark} srcSet={`${logodark}`} alt="nft-gaming" /> 
                                         </Link>
                                     </div>
                                 </div>
