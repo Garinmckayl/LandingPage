@@ -1,4 +1,4 @@
-import React, { useState } from 'react';
+import React, { useState, useEffect, useRef } from 'react';
 import Header from './header/Header';
 import Footer from './footer/Footer';
 import { Link } from 'react-router-dom';
@@ -16,6 +16,8 @@ import img7 from '../assets/images/avatar/avt-2.jpg'
 import imgdetail1 from '../assets/images/box-item/images-item-details.jpg'
 import meta from '../assets/images/svg/meta.png'
 import { Button, Form } from 'react-bootstrap';
+import emailjs from '@emailjs/browser';
+
 
 
 
@@ -34,20 +36,19 @@ const CallToAction = () => {
   
     }
   
-    const sendEmail = (event) => {
+    const form = useRef();
+
+    const sendEmail = (e) => {
+      e.preventDefault();
   
-      if (userEmail && ValidateEmail(userEmail)) {
-        setIsSpinner(true)
-        setTimeout(() => {
-          setIsComplete(false)
-          setIsSpinner(false)
-        }, 1000)
-      }
-      else {
-        console.log('Make border outline')
-        setIsSpinner(false)
-      }
-    }
+      emailjs.sendForm('service_z14nsvd', 'template_0xp7zdj', form.current, 'oIuaK9K3aG7NBcNc0')
+        .then((result) => {
+            console.log(result.text);
+            setIsComplete(false)
+        }, (error) => {
+            console.log(error.text);
+        });
+    };
   
     const ValidateEmail = (mail) => {
       if (/^\w+([\.-]?\w+)*@\w+([\.-]?\w+)*(\.\w{2,3})+$/.test(mail)) {
@@ -145,11 +146,11 @@ const CallToAction = () => {
                                     Sign up for early access
 </h5>
 
-<form autocomplete="off" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" noValidate className="validate early__sign__up__form">
-                <input type="email" onChange={(e) => updateUserEmail(e)} name="EMAIL" class="user__email" id="mce-EMAIL" placeholder='Email' typee="email" />
+<form autocomplete="off" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" noValidate className="validate early__sign__up__form" ref={form} onSubmit={sendEmail}>
+                <input type="email" name="user_email" onChange={(e) => updateUserEmail(e)} class="user__email" id="mce-EMAIL" placeholder='Email' typee="email" />
                 {isComplete ?
                   <div >
-                    <Button onClick={sendEmail} className="signin__button">
+                    <Button type="submit" onClick={sendEmail} className="signin__button">
                       {!isSpin ? <i className="fas fa-arrow-right" style={{ fontSize: "24px" }}></i> : <i class='fas fa-undo-alt' style={{ fontSize: "24px", animationName: "spin", animationDuration: "1000ms", animationIterationCount: "infinite", animationTimingFunction: "linear" }}></i>}
 
 
