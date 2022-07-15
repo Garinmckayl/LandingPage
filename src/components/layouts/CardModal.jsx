@@ -1,11 +1,29 @@
 import React, { useState, useEffect, useRef } from 'react';
 import { Modal } from "react-bootstrap";
 import { Button, Form } from 'react-bootstrap';
+import emailjs from '@emailjs/browser';
+
 
 const CardModal = (props) => {
     const [userEmail, setUserEmail] = useState('');
     const [isComplete, setIsComplete] = useState(true);
     const [isSpin, setIsSpinner] = useState(false);
+
+    const form = useRef();
+
+    const sendEmail = (e) => {
+        e.preventDefault();
+    
+        emailjs.sendForm('service_z14nsvd', 'template_0xp7zdj', form.current, 'oIuaK9K3aG7NBcNc0')
+          .then((result) => {
+              console.log(result.text);
+              setIsComplete(false)
+          }, (error) => {
+              console.log(error.text);
+          });
+      };
+
+
     const submit = () => {
         setIsComplete(false)
         const form = document.getElementById('mc-embedded-subscribe-form');
@@ -27,22 +45,22 @@ const CardModal = (props) => {
     }
 
 
-    const sendEmail = (event) => {
-        console.log(event.target.value)
+    // const sendEmail = (event) => {
+    //     console.log(event.target.value)
 
-        if (userEmail && ValidateEmail(userEmail)) {
-            setIsSpinner(true)
-            setTimeout(() => {
-                setIsComplete(false)
-                setIsSpinner(false)
-            }, 1000)
-        }
-        else {
-            console.log('Make border outline')
-            setIsSpinner(false)
-        }
+    //     if (userEmail && ValidateEmail(userEmail)) {
+    //         setIsSpinner(true)
+    //         setTimeout(() => {
+    //             setIsComplete(false)
+    //             setIsSpinner(false)
+    //         }, 1000)
+    //     }
+    //     else {
+    //         console.log('Make border outline')
+    //         setIsSpinner(false)
+    //     }
 
-    }
+    // }
 
     const ValidateEmail = (mail) => {
         if (/^\w+([\.-]?\w+)*@\w+([\.-]?\w+)*(\.\w{2,3})+$/.test(mail)) {
@@ -63,8 +81,8 @@ const CardModal = (props) => {
                 <h4 className="modal__header">Sign up for early access</h4>
             </Modal.Header>
 
-            <form autocomplete="off" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" noValidate className="validate early__sign__up__form__modal">
-                <input type="email" onChange={(e) => updateUserEmail(e)} name="EMAIL" class="user__email" id="mce-EMAIL" placeholder='Email' typee="email" />
+            <form autocomplete="off" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" noValidate className="validate early__sign__up__form__modal" ref={form} onSubmit={sendEmail}>
+                <input onChange={(e) => updateUserEmail(e)} type="email" name="user_email" class="user__email" id="mce-EMAIL" placeholder='Email' typee="email" />
                 {isComplete ?
                     <div >
                         <Button type="submit" onClick={sendEmail} className="signin__button">
