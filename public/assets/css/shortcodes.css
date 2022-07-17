@@ -8515,4 +8515,8 @@ button.accordion-button {
     margin-top: -5px !important;
     height: 266px !important;
   }
+
+  .early__sign__up__form {
+    width: 419px !important;
+  }
 }
