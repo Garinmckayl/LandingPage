@@ -3495,3 +3495,35 @@ header {
 .heading-titles {
   padding: 70px 0;
 }
+
+.card1:hover {
+  background: #00ffb6;
+  border: 1px solid #00ffb6;
+}
+
+.card1:hover .list-group-item {
+  background: #00ffb6 !important;
+}
+
+.card2:hover {
+  background: #00c9ff;
+  border: 1px solid #00c9ff;
+}
+
+.card2:hover .list-group-item {
+  background: #00c9ff !important;
+}
+
+.card3:hover {
+  background: #ff95e9;
+  border: 1px solid #ff95e9;
+}
+
+.card3:hover .list-group-item {
+  background: #ff95e9 !important;
+}
+
+.card:hover .btn-outline-dark {
+  color: white;
+  background: #212529;
+}

@@ -19,6 +19,8 @@ import popularCollectionData from '../assets/fake-data/data-popular-collection';
 import EarlyAccess from '../components/EarlyAccess';
 import CallToAction from '../components/CallToAction';
 import Scholarship from '../components/scholarship';
+import Why from '../components/why';
+import RoadMapSell from '../components/roadmapsell';
 
 
 const Home03 = () => {
@@ -26,11 +28,13 @@ const Home03 = () => {
         <div className='home-3'>
             <Header />
             <Slider data={heroSliderData} />
+            <Why/>
             <Create />
             <TopPicks data={popularCollectionData} />
             <Scholarship/>
             <Popularnfts data={popuplarNftsData} />
             <CallToAction/>
+            <RoadMapSell/>
             {/* <LiveAuction data={liveAuctionData} /> */}
             {/* <EarlyAccess/>
             <PopularCollection data={popularCollectionData} />
