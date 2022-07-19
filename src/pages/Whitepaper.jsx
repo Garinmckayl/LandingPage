@@ -7,7 +7,7 @@ import Footer from '../components/footer/Footer';
 
 const Whitepaper = () => {
 
-    window.location.replace('https://drive.google.com/file/d/1E6kNleC38BKyI7l5hBTkC3W2Kw25V-k-/view?usp=sharing');
+    window.location.replace('https://ocean-wave-tkn.gitbook.io/whitepaper-the-metaverse-exchange-dao/');
 
     return (
         <div className='item-details'>
