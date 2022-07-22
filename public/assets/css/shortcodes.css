@@ -5766,19 +5766,19 @@ button.accordion-button {
   padding: 61px 0 30px;
 }
 .top-seller {
-  padding: 139px 0 59px;
-  position: relative;
+  padding: 139px 0 59px !important;
+  position: relative !important;
   background: url(../images/backgroup-secsion/author.png) center center
-    no-repeat;
-  background-size: cover;
+    no-repeat !important;
+  background-size: cover !important;
 }
 
 .popular-nfts {
-  padding: 139px 0 59px;
-  position: relative;
+  padding: 139px 0 59px !important;
+  position: relative !important;
   background: url(../images/backgroup-secsion/popularnfts.png) center center
-    no-repeat;
-  background-size: cover;
+    no-repeat !important;
+  background-size: cover !important;
 }
 .home4 .sc-author-box.style-3 {
   margin-bottom: 28px;
@@ -8487,10 +8487,10 @@ button.accordion-button {
 }
 
 .top-picks-section {
-  padding: 139px 0 59px;
-  position: relative;
-  background: url(../images/backgroup-secsion/fdw.png) center center no-repeat;
-  background-size: cover;
+  padding: 139px 0 59px !important;
+  position: relative !important;
+  background: url(../images/backgroup-secsion/fdw.png) center center no-repeat !important;
+  background-size: cover !important;
 }
 
 .authorh2 {
