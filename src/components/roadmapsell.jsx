@@ -46,7 +46,7 @@ const RoadMapSell = () => {
   <div className="container p-5">
     <div className="row d-flex justify-content-center">
       <div className="col-lg-3 col-md-12 mb-4">
-        <div className="card card1 h-100 p-5">
+        <div className="card card1 h-100 p-5 tf-section">
           <div className="card-body">
             <h3 className="card-title">Pre-Sale</h3>
             <br />
@@ -65,12 +65,12 @@ const RoadMapSell = () => {
         </div>
       </div>
       <div className="col-lg-3 col-md-12 mb-4">
-        <div className="card card2 h-100 p-5">
+        <div className="card card2 h-100 p-5 tf-section">
           <div className="card-body">
           <h3 className="card-title">Pre-Sale 1</h3>
             <br />
             <br />
-            <span className="h2">Price: 0.02 USDC</span>
+            <span className="h2 tf-title">Price: 0.02 USDC</span>
             <br />
             <br />
             <div className="d-grid my-3">
@@ -83,7 +83,7 @@ const RoadMapSell = () => {
         </div>
       </div>
       <div className="col-lg-3 col-md-12 mb-4">
-        <div className="card card3 h-100 p-5">
+        <div className="card card3 h-100 p-5 tf-section">
           <div className="card-body">
           <h3 className="card-title">Pre-Sale 2</h3>
             <br />
@@ -101,7 +101,7 @@ const RoadMapSell = () => {
         </div>
       </div>
       <div className="col-lg-3 col-md-12 mb-4">
-        <div className="card card3 h-100 p-5">
+        <div className="card card3 h-100 p-5 tf-section">
           <div className="card-body">
           <h3 className="card-title">IDO</h3>
             <br />
