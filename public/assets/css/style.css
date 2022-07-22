@@ -3527,3 +3527,8 @@ header {
   color: white;
   background: #212529;
 }
+
+.buy-a {
+  background-color: purple !important;
+  color: #fff;
+}

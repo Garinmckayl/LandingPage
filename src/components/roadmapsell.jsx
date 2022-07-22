@@ -24,13 +24,15 @@ const RoadMapSell = () => {
 
     return (
         <div className='item-details'>
-
+<br />
+<br />
+<hr />
 
 
             <div className="tf-section tf-item-details">
 
             <div className="heading mg-bt-12">
-                                <h2 className="tf-title">The Metaverse Exchange DAO</h2>
+                                <h2 className="tf-title">Join the $MXDT Token PreSales!</h2>
                             </div>
 
                 <div className="themesflat-container">
@@ -43,107 +45,75 @@ const RoadMapSell = () => {
                 <div className="container-fluid">
   <div className="container p-5">
     <div className="row d-flex justify-content-center">
-      <div className="col-lg-2 col-md-12 mb-4">
+      <div className="col-lg-3 col-md-12 mb-4">
         <div className="card card1 h-100 p-5">
           <div className="card-body">
-            <h3 className="card-title">Private Sale</h3>
-            <small className="text-muted">Individual</small>
+            <h3 className="card-title">Pre-Sale</h3>
             <br />
             <br />
-            <span className="h2">$8</span>/month
+            <span className="h2">Price: 0.01 USDC</span>
             <br />
             <br />
             <div className="d-grid my-3">
-              <button className="btn btn-outline-dark btn-block">Select</button>
+              {/* <a href='https://app.sushi.com/miso/0xAc6d5AeF8F56177f0f882cE1123F8AD1737f9601?chainId=137' className="btn btn-outline-dark btn-block">Buy Now</a> */}
             </div>
             <ul>
-              <li>Cras justo odio</li>
-              <li>Dapibus ac facilisis in</li>
-              <li>Vestibulum at eros</li>
+              <li>Whitelist only</li>
+              <li>Sold out!</li>
             </ul>
           </div>
         </div>
       </div>
-      <div className="col-lg-2 col-md-12 mb-4">
+      <div className="col-lg-3 col-md-12 mb-4">
         <div className="card card2 h-100 p-5">
           <div className="card-body">
-          <h3 className="card-title">Presale 1</h3>
-            <small className="text-muted">Small Business</small>
+          <h3 className="card-title">Pre-Sale 1</h3>
             <br />
             <br />
-            <span className="h2">$20</span>/month
+            <span className="h2">Price: 0.02 USDC</span>
             <br />
             <br />
             <div className="d-grid my-3">
-              <button className="btn btn-outline-dark btn-block">Select</button>
+            <a href='https://app.sushi.com/miso/0xAc6d5AeF8F56177f0f882cE1123F8AD1737f9601?chainId=137' target="_blank" className="btn btn-outline-dark btn-block buy-a">Buy Now</a>
             </div>
             <ul>
-              <li>Cras justo odio</li>
-              <li>Dapibus ac facilisis in</li>
-              <li>Vestibulum at eros</li>
+              <li>Start: August 1 - 10</li>
             </ul>
           </div>
         </div>
       </div>
-      <div className="col-lg-2 col-md-12 mb-4">
+      <div className="col-lg-3 col-md-12 mb-4">
         <div className="card card3 h-100 p-5">
           <div className="card-body">
-          <h3 className="card-title">Presale 2</h3>
-            <small className="text-muted">Large Company</small>
+          <h3 className="card-title">Pre-Sale 2</h3>
             <br />
             <br />
-            <span className="h2">$40</span>/month
+            <span className="h2">Price: 0.02 USDC</span>
             <br />
             <br />
             <div className="d-grid my-3">
-              <button className="btn btn-outline-dark btn-block">Select</button>
+            <a href='https://app.sushi.com/miso/0xAc6d5AeF8F56177f0f882cE1123F8AD1737f9601?chainId=137' target="_blank" className="btn btn-outline-dark btn-block buy-a">Coming Soon</a>
             </div>
             <ul>
-              <li>Cras justo odio</li>
-              <li>Dapibus ac facilisis in</li>
-              <li>Vestibulum at eros</li>
+              <li>Start: August 15 - 22</li>
             </ul>
           </div>
         </div>
       </div>
-      <div className="col-lg-2 col-md-12 mb-4">
+      <div className="col-lg-3 col-md-12 mb-4">
         <div className="card card3 h-100 p-5">
           <div className="card-body">
-          <h3 className="card-title">Private Sale</h3>
-            <small className="text-muted">Large Company</small>
+          <h3 className="card-title">IDO</h3>
             <br />
             <br />
-            <span className="h2">$40</span>/month
+            <span className="h2">Price: 0.08 USDC</span>
             <br />
             <br />
             <div className="d-grid my-3">
-              <button className="btn btn-outline-dark btn-block">Select</button>
+            <a href='https://app.sushi.com/miso/0xAc6d5AeF8F56177f0f882cE1123F8AD1737f9601?chainId=137' target="_blank" className="btn btn-outline-dark btn-block buy-a">Coming Soon</a>
             </div>
             <ul>
-              <li>Cras justo odio</li>
-              <li>Dapibus ac facilisis in</li>
-              <li>Vestibulum at eros</li>
-            </ul>
-          </div>
-        </div>
-      </div>
-      <div className="col-lg-2 col-md-12 mb-4">
-        <div className="card card3 h-100 p-5">
-          <div className="card-body">
-            <h5 className="card-title">Premium</h5>
-            <small className="text-muted">Large Company</small>
-            <br />
-            <br />
-            <span className="h2">$40</span>/month
-            <br />
-            <br />
-            <div className="d-grid my-3">
-              <button className="btn btn-outline-dark btn-block">Select</button>
-            </div>
-            <ul>
-              <li>Cras justo odio</li>
-              <li>Dapibus ac facilisis in</li>
-              <li>Vestibulum at eros</li>
+              <li>Start: October 1 - 15</li>
             </ul>
           </div>
         </div>

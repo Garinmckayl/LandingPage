@@ -76,14 +76,14 @@ return (
                         <Link to="#" onClick={() => setModalShow(true)}>
                             <div className="media-images-box">
                                 <img src={props.item.imgtop} style={{ height: '300px' }} alt="Axies" />
-                                <div className="bottom-media">
+                                {/* <div className="bottom-media">
                                     <img src={props.item.imgright1} alt="Axies" />
                                     <img src={props.item.imgright2} alt="Axies" />
                                     <img src={props.item.imgright3} alt="Axies" />
-                                </div>
+                                </div> */}
                             </div>
                         </Link>
-                        <div className="card-bottom">
+                        {/* <div className="card-bottom">
                             <div className="author">
                                 <div className="sc-author-box style-2">
                                     <div className="author-avatar">
@@ -100,7 +100,7 @@ return (
                                 </div>
                             </div>
                             <Link to="/login" className="wishlist-button public heart"><span className="number-like">{props.item.wishlist}</span></Link>
-                        </div>
+                        </div> */}
                     </div>
                 </div>
             </div>
