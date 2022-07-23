@@ -57,7 +57,7 @@ const Why = () => {
 
 {/* <div className="col-md-12 align-item-center"> */}
               {/* <h4 className="modal__header">Sign up for early access</h4> */}
-\
+
               {/* <div className="page-title-heading mg-bt-12">
                                 <h1 className="heading text-center">Signup</h1>
                             </div>
