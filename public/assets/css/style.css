@@ -1589,7 +1589,7 @@ header {
 }
 
 .main-nav > ul > li > a {
-  font-family: Nasalization !important;
+  font-family: "Nasalization" !important;
   position: relative;
   font-size: 24px;
   line-height: 26px;

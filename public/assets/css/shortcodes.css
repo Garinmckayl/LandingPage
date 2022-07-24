@@ -2055,7 +2055,7 @@
   background-size: cover;
 } */
 .page-title-heading .heading {
-  font-family: Nasalization;
+  font-family: "Nasalization" !important;
   font-size: 70px;
   line-height: 58px;
   color: #fff;
