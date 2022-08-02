@@ -8518,7 +8518,7 @@ button.accordion-button {
   }
 
   .early__sign__up__form {
-    width: 419px !important;
+    max-width: 419px !important;
   }
 
   .whyimg {

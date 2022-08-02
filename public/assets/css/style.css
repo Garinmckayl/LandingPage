@@ -3375,7 +3375,7 @@ header {
 .early__sign__up__form {
   position: relative;
   display: flex;
-  width: 600px;
+  max-width: 600px;
   padding: 10px 0 8px;
   margin-top: 20px;
   margin-left: -30px;
