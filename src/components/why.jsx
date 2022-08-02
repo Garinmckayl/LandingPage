@@ -63,7 +63,7 @@ const Why = () => {
                             </div>
                         </div>
                         <div className="col-xl-6 col-md-12 pt-5 mt-5">
-                            <div className='row px-5 my-5 pt-5'  style={{height:'500px', alignItems:'flex-end'}}>
+                            <div className='row px-5 my-5 pt-5'  style={{height:'300px', alignItems:'flex-end'}}>
                                 <div className='col-2 offset-1 h-25 mvx-gradient-primary rounded-3'>
                                     <img src={auc1} alt='nft 1' width='80%' style={{marginTop:'-60%'}} />
                                 </div>
