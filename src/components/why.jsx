@@ -13,6 +13,10 @@ import img4 from '../assets/images/avatar/avt-5.jpg'
 import img5 from '../assets/images/avatar/avt-7.jpg'
 import img6 from '../assets/images/avatar/avt-8.jpg'
 import img7 from '../assets/images/avatar/avt-2.jpg'
+import auc1 from '../assets/images/Items/auc1.png'
+import auc2 from '../assets/images/Items/auc2.png'
+import auc3 from '../assets/images/Items/auc3.png'
+import auc4 from '../assets/images/Items/auc4.png'
 import imgdetail1 from '../assets/images/box-item/images-item-details.jpg'
 import graph from '../assets/images/svg/graph.png'
 import { Button, Form } from 'react-bootstrap';
@@ -55,26 +59,22 @@ const Why = () => {
 </ul>
 
 
-{/* <div className="col-md-12 align-item-center"> */}
-              {/* <h4 className="modal__header">Sign up for early access</h4> */}
-
-              {/* <div className="page-title-heading mg-bt-12">
-                                <h1 className="heading text-center">Signup</h1>
-                            </div>
-                            <a onClick={() => setModalShow(true)} className="sc-button style-2 fl-button pri-3" style={{border: "2px solid #fff", width: "30%", margin: "auto"}}>
-                                            <span style={{color: "#fff"}}>Register</span>
-                                        </a> */}
-
-            {/* </div> */}
                                 </div>
                             </div>
                         </div>
-                        <div className="col-xl-6 col-md-12">
-                            <div className="content-left">
-                                <div className="media">
-                                    <img className='whyimg' src={graph} width="500" height="500" alt="Axies" style={{    marginBottom: "40px", height: "471px", width: "567px", marginLeft: "126px"}} />
-                                {/* <img className='logo-light'  id="logo_header" src={scholar} alt="nft-gaming" />  */}
-
+                        <div className="col-xl-6 col-md-12 pt-5 mt-5">
+                            <div className='row px-5 my-5 pt-5'  style={{height:'500px', alignItems:'flex-end'}}>
+                                <div className='col-2 offset-1 h-25 mvx-gradient-primary rounded-3'>
+                                    <img src={auc1} alt='nft 1' width='80%' style={{marginTop:'-60%'}} />
+                                </div>
+                                <div className='col-2 offset-1  h-50 mvx-gradient-primary rounded-3'>
+                                    <img src={auc2} alt='nft 1' style={{marginTop:'-60%'}} />
+                                </div>
+                                <div className='col-2 offset-1 h-75 mvx-gradient-primary rounded-3'>
+                                    <img src={auc3} alt='nft 1' style={{marginTop:'-60%'}} />
+                                </div>
+                                <div className='col-2 offset-1 h-100 mvx-gradient-primary rounded-3'>
+                                    <img src={auc4} alt='nft 1' style={{marginTop:'-60%'}} />
                                 </div>
                             </div>
                         </div>

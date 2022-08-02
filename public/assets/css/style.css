@@ -3549,3 +3549,8 @@ header {
   background-color: purple !important;
   color: #fff;
 }
+
+.mvx-gradient-primary {
+  background: rgb(111,136,206);
+  background: linear-gradient(0deg, rgba(111,136,206,1) 0%, rgba(201,49,235,1) 100%);
+}
