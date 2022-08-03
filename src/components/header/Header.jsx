@@ -45,8 +45,8 @@ const Header = () => {
     };
 
     return (
-        <header id="header_main" className="header_1 js-header is-fixed is-small" >
-            <div className="themesflat-container overflow-hidden">
+        <header id="header_main" className="header_1 js-header is-fixed is-small overflow-hidden" >
+            <div className="themesflat-container">
                 <div className="row">
                     <div className="col-md-12">                              
                         <div id="site-header-inner"> 
