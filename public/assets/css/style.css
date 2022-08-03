@@ -3375,7 +3375,7 @@ header {
 .early__sign__up__form {
   position: relative;
   display: flex;
-  width: 600px;
+  max-width: 600px;
   padding: 10px 0 8px;
   margin-top: 20px;
   margin-left: -30px;
@@ -3548,4 +3548,9 @@ header {
 .buy-a {
   background-color: purple !important;
   color: #fff;
+}
+
+.mvx-gradient-primary {
+  background: rgb(111,136,206);
+  background: linear-gradient(0deg, rgba(111,136,206,1) 0%, rgba(201,49,235,1) 100%);
 }
