@@ -44,16 +44,16 @@ const Why = () => {
                                 <div className="sc-item-details">
 
 <ul className="list-group">
-  <li className="list-group-item d-flex justify-content-between align-items-center" style={{    backgroundColor: "transparent"}}>
+  <li className="list-group-item d-flex justify-content-between align-items-center border-0" style={{    backgroundColor: "transparent"}}>
     <h2><span className="badge badge-primary badge-pill"><i className="fal fa-check"></i> </span> Sell your items</h2>
   </li>
-  <li className="list-group-item d-flex justify-content-between align-items-center"  style={{    backgroundColor: "transparent"}}>
+  <li className="list-group-item d-flex justify-content-between align-items-center border-0"  style={{    backgroundColor: "transparent"}}>
   <h2> <span className="badge badge-primary badge-pill"><i className="fal fa-check"></i></span> Receive financial support</h2>
   </li>
-  <li className="list-group-item d-flex justify-content-between align-items-center"  style={{    backgroundColor: "transparent"}}>
+  <li className="list-group-item d-flex justify-content-between align-items-center border-0"  style={{    backgroundColor: "transparent"}}>
   <h2><span className="badge badge-primary badge-pill"><i className="fal fa-check"></i></span> invest into other game items </h2>
   </li>
-  <li className="list-group-item d-flex justify-content-between align-items-center"  style={{    backgroundColor: "transparent"}}>
+  <li className="list-group-item d-flex justify-content-between align-items-center border-0"  style={{    backgroundColor: "transparent"}}>
   <h2><span className="badge badge-primary badge-pill"><i className="fal fa-check"></i></span> Make money with your game-play </h2>
   </li>
 </ul>
