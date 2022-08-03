@@ -4,10 +4,10 @@ import menus from "../../pages/menu";
 import DarkMode from './DarkMode';
 import imgsun from '../../assets/images/icon/sun.png'
 import avt from '../../assets/images/avatar/avt-2.jpg'
-import logo from '../../assets/images/logo/logo.png'
+import logo from '../../assets/images/logo/logo-light.jpg'
 import logo1 from '../../assets/images/logo/logo1.png'
 import logo2 from '../../assets/images/logo/logo2.png'
-import logodark from '../../assets/images/logo/logodark.png'
+import logodark from '../../assets/images/logo/logo-dark.jpg'
 
 const Header = () => {
     const { pathname } = useLocation();
@@ -46,7 +46,7 @@ const Header = () => {
 
     return (
         <header id="header_main" className="header_1 js-header is-fixed is-small" >
-            <div className="themesflat-container">
+            <div className="themesflat-container overflow-hidden">
                 <div className="row">
                     <div className="col-md-12">                              
                         <div id="site-header-inner"> 
@@ -55,8 +55,8 @@ const Header = () => {
                                     <div id="site-logo-inner">
                                         <Link to="/" rel="home" className="main-logo">
                                             {/* <h2 className='text-white'>The Metaverse Exchange DAO</h2> */}
-                                             <img className='logo-dark'  id="logo_header" src={logo} srcSet={`${logo}`} alt="nft-gaming" />
-                                            <img className='logo-light'  id="logo_header" src={logodark} srcSet={`${logodark}`} alt="nft-gaming" /> 
+                                             <img className='logo-dark'  id="logo_header" src={logodark} srcSet={`${logodark}`} alt="nft-gaming" />
+                                            <img className='logo-light'  id="logo_header" src={logo} srcSet={`${logo}`} alt="nft-gaming" /> 
                                         </Link>
                                     </div>
                                 </div>

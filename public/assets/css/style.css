@@ -2028,7 +2028,7 @@ header {
 .mobile-button:before,
 .mobile-button:after,
 .mobile-button span {
-  background-color: #ffffff;
+  background-color: gray;
   -webkit-transition: all ease 0.3s;
   -moz-transition: all ease 0.3s;
   transition: all ease 0.3s;
@@ -2102,7 +2102,7 @@ header {
   width: 100%;
   box-shadow: 1px 1px 5px 0px rgb(0 0 0 / 30%);
   z-index: 9999;
-  background: #d9d9d9;
+  background: white;
   border: none;
   opacity: 1;
   -webkit-transition: all 0.5s ease;
@@ -2113,7 +2113,7 @@ header {
 }
 
 .is_dark .header_1.is-fixed {
-  background: #14141f;
+  background: black;
   box-shadow: 1px 1px 5px 0px rgb(0 0 0 / 50%);
 }
 
