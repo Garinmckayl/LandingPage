@@ -1541,9 +1541,8 @@ header {
   transform: translateY(-50%);
 }
 .main-logo img {
-  width: 350px;
   margin-top: 15px;
-  height: 312px;
+  height: 80px !important;
 }
 .main-logo img,
 .main-logo h2 {

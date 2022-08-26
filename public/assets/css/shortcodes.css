@@ -8512,9 +8512,8 @@ button.accordion-button {
   }
 
   .main-logo img {
-    width: 268px !important;
     margin-top: -5px !important;
-    height: 266px !important;
+    height: 80px !important;
   }
 
   .early__sign__up__form {
