@@ -106,7 +106,10 @@ const WhyRedBlade = () => {
         With the Red Blade token you therefore have a unique token whose value is secured by widely traded game-items, currencies, characters and accounts. 
         Our DAO will invests in and also holds these items over a certain period while tracking their value, prices and exchange-rates on the various worlwide 
         item exchanges. Check our Investor Information section and also our DAO Whitepaper for more information about the our tokenomics and how the Treasury operates.</h4>
-
+                                    <br />
+                                    <button onClick={() => { window.open('https://app.sushi.com/miso/0xFbDFFc73e2a80d33fC6C63C345899bC38e2bf136?chainId=137'); } } className='buy__token'>
+                                        <a>Buy MXDT Token</a>
+                                    </button>
                                 </div>
                             </div>
                         </div>
@@ -133,6 +136,10 @@ We are a multidimensional project. First of all, our token is a utility for game
 We also see other gaming platforms and ecoystems pushing into the blockchain world. Here we see ourselves as neutral: we are planning to integrate any game-title or item to be published or traded through our platform. We also except other gaming crypto currencies and plan to integrate these as well, assuming we can arrange benefits for our gamers. 
 <br /><br />
 </h4>
+                                    <br />
+                                    <button onClick={() => { window.open('https://app.sushi.com/miso/0xFbDFFc73e2a80d33fC6C63C345899bC38e2bf136?chainId=137'); } } className='buy__token'>
+                                        <a>Buy MXDT Token</a>
+                                    </button>
                                 </div>
                             </div>
                         </div>
@@ -164,7 +171,10 @@ We also see other gaming platforms and ecoystems pushing into the blockchain wor
                                     We are also providing scholarships for players. Scholarships are revenue-sharing arrangements, where players of blockchain-based games can borrow or rent NFTs or accounts in order to play without paying bigger upfront fees. In exchange for this sort of financing, the investor or NFT owner can expect interest payments from the game-play in the form of NFTs or crypto-currency. Don´t worry, the player usually gets the biggest share.
 
 Buying game credits is nothing new. New is that we offer this based on game inventory, so it allows players to store their items and currencies to accumulate value instead of ingame inflation. This will support the price-levels of our token and serve as an underlying asset.</h4>
-
+                                    <br />
+                                    <button onClick={() => { window.open('https://app.sushi.com/miso/0xFbDFFc73e2a80d33fC6C63C345899bC38e2bf136?chainId=137'); } } className='buy__token'>
+                                        <a>Buy MXDT Token</a>
+                                    </button>
                                 </div>
                             </div>
                         </div>
