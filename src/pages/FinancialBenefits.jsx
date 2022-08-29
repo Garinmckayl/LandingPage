@@ -122,7 +122,7 @@ const FinancialBenefits = () => {
 
                                 </div>
                                 <br /><hr />
-                                <button onClick={() => { window.open('https://app.sushi.com/swap?inputCurrency=ETH&outputCurrency=0x6B3595068778DD592e39A122f4f5a5cF09C90fE2&chainId=1'); } } className='buy__token'>
+                                <button onClick={() => { window.open('https://app.sushi.com/miso/0xFbDFFc73e2a80d33fC6C63C345899bC38e2bf136?chainId=137'); } } className='buy__token'>
                                     <a>Buy Token</a>
                                 </button>
                             </div>
