@@ -34,7 +34,7 @@ const Why = () => {
             <div className="tf-section tf-item-details">
 
             <div className="heading mg-bt-12">
-                                <h2 className="tf-title">The Metaverse Exchange DAO</h2>
+                                <h2 className="tf-title">Your benefits</h2>
                             </div>
 
                 <div className="themesflat-container">
@@ -45,13 +45,13 @@ const Why = () => {
 
 <ul className="list-group">
   <li className="d-flex justify-content-between align-items-center" style={{    backgroundColor: "transparent"}}>
-    <h2><span className="badge badge-primary badge-pill"><i className="fal fa-check"></i> </span> Sell your items</h2>
+    <h2><span className="badge badge-primary badge-pill"><i className="fal fa-check"></i> </span> Item- and skin-trade in real-time</h2>
   </li>
   <li className="d-flex justify-content-between align-items-center"  style={{    backgroundColor: "transparent"}}>
-  <h2> <span className="badge badge-primary badge-pill"><i className="fal fa-check"></i></span> Receive financial support</h2>
+  <h2> <span className="badge badge-primary badge-pill"><i className="fal fa-check"></i></span> Game scholarhips</h2>
   </li>
   <li className="d-flex justify-content-between align-items-center"  style={{    backgroundColor: "transparent"}}>
-  <h2><span className="badge badge-primary badge-pill"><i className="fal fa-check"></i></span> invest into other game items </h2>
+  <h2><span className="badge badge-primary badge-pill"><i className="fal fa-check"></i></span> Item-based investing and savings </h2>
   </li>
   <li className="d-flex justify-content-between align-items-center"  style={{    backgroundColor: "transparent"}}>
   <h2><span className="badge badge-primary badge-pill"><i className="fal fa-check"></i></span> Make money with your game-play </h2>
