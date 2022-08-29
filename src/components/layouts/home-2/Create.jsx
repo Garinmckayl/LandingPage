@@ -9,25 +9,25 @@ const Create = () => {
     const data = [
         {
             title: "Money in your pocket",
-            description: "Sell your items, currencies, NFTs, accounts or keys. You can do it with any game.",
+            description: "Financially solid item- and skin-trading with crypto.",
             icon : icon1,
             colorbg : "icon-color3"
         },
                 {
             title: "Scholarships",
-            description: "Receive financial support through the DAO. We help you enter the most popular games at fair terms.",
+            description: "Receive game scholarships or invest in players or NFTs at fair terms.",
             icon : icon3,
             colorbg : "icon-color3"
         },
         {
-            title: "Crypto assets",
-            description: "Use our Metaverse Exchange DAO token 'MXDT' to invest into other game items or crypto currencies.",
+            title: "New Liquidity",
+            description: "Use our token '$MXDT' to enjoy financial benefits from your gameplay .",
             icon : icon2,
             colorbg : "icon-color3"
         },
         {
             title: "Financial Savings",
-            description: "The Metaverse Exchange DAO token. HodL it. Invest it. Lend it to others. Make money with your game-play",
+            description: "The $MXDT. HodL it. Invest it. Lend it to others. Make money with your game-play",
             icon : icon4,
             colorbg : "icon-color3"
         },
