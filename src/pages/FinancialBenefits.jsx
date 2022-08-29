@@ -142,7 +142,7 @@ const FinancialBenefits = () => {
                                     <h4 class="lineHeight34 font400">If you become a tokenholder, you automatically qualify for scholarship and game sponsoring.Players can apply through their account for a specific game scholarship, where we provide entry financing for Pay-to-Play games.We also provide sponsorships for selected games and specific players through subscription subsidies, ingame items & currencies or account sponsoring.As we are a DAO, we will allow tokenholders to vote in regards to these scholarships, i.e.which games should be sponsored, which players should be sponsored and how much of the DAO funds should be allocated.</h4>
                                 </div>
                                 <br /><hr />
-                                <button onClick={() => { window.open('https://app.sushi.com/swap?inputCurrency=ETH&outputCurrency=0x6B3595068778DD592e39A122f4f5a5cF09C90fE2&chainId=1'); } } className='buy__token'>
+                                <button onClick={() => { window.open('https://app.sushi.com/miso/0xFbDFFc73e2a80d33fC6C63C345899bC38e2bf136?chainId=137'); } } className='buy__token'>
                                     <a>Buy MXDT Token</a>
                                 </button>
                             </div>
@@ -173,7 +173,7 @@ const FinancialBenefits = () => {
                                     <h4 class="lineHeight34 font400">As a MXDT tokenholder you can avoid ingame currency inflation.Many games suffer from currency inflation, unless there are new upgrades.With our token you should be able to keep the value of your inventory, so you can always afford to buy new ingame items when necessary.</h4>
                                 </div>
                                 <br /><hr />
-                                <button onClick={() => { window.open('https://app.sushi.com/swap?inputCurrency=ETH&outputCurrency=0x6B3595068778DD592e39A122f4f5a5cF09C90fE2&chainId=1'); } } className='buy__token'>
+                                <button onClick={() => { window.open('https://app.sushi.com/miso/0xFbDFFc73e2a80d33fC6C63C345899bC38e2bf136?chainId=137'); } } className='buy__token'>
                                     <a>Buy MXDT Token</a>
                                 </button>
                             </div>
@@ -195,7 +195,7 @@ const FinancialBenefits = () => {
                                     <h4 class="lineHeight34 font400">The recent craze with blockchain-based games has led to new models, where players need to make major upfront payments. This is not always affordable, so we want to help out. The Metaverse Exchange DAO has a selection of blockchain-based games where players can apply for scholarships. These scholarships are agreements about future revenues that the scholar will generate with his game-play. As a MXDT tokenholder you can use your tokens as a form of financing for these players and receive interest from this lending approach.</h4>
                                 </div>
                                 <br /><hr />
-                                <button onClick={() => { window.open('https://app.sushi.com/swap?inputCurrency=ETH&outputCurrency=0x6B3595068778DD592e39A122f4f5a5cF09C90fE2&chainId=1'); } } className='buy__token'>
+                                <button onClick={() => { window.open('https://app.sushi.com/miso/0xFbDFFc73e2a80d33fC6C63C345899bC38e2bf136?chainId=137'); } } className='buy__token'>
                                     <a>Buy MXDT Token</a>
                                 </button>
                             </div>
@@ -233,7 +233,7 @@ const FinancialBenefits = () => {
                                     </h4>
                                 </div>
                                 <br /><hr />
-                                <button onClick={() => { window.open('https://app.sushi.com/swap?inputCurrency=ETH&outputCurrency=0x6B3595068778DD592e39A122f4f5a5cF09C90fE2&chainId=1'); } } className='buy__token'>
+                                <button onClick={() => { window.open('https://app.sushi.com/miso/0xFbDFFc73e2a80d33fC6C63C345899bC38e2bf136?chainId=137'); } } className='buy__token'>
                                     <a>Buy Token</a>
                                 </button>
                             </div>
@@ -255,7 +255,7 @@ const FinancialBenefits = () => {
                                     </h4>
                                 </div>
                                 <br /><hr />
-                                <button onClick={() => { window.open('https://app.sushi.com/swap?inputCurrency=ETH&outputCurrency=0x6B3595068778DD592e39A122f4f5a5cF09C90fE2&chainId=1'); } } className='buy__token'>
+                                <button onClick={() => { window.open('https://app.sushi.com/miso/0xFbDFFc73e2a80d33fC6C63C345899bC38e2bf136?chainId=137'); } } className='buy__token'>
                                     <a>Buy Token</a>
                                 </button>
                             </div>
