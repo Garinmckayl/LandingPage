@@ -80,10 +80,10 @@ const SliderItem = (props) => (
                       to="#"
                       className="sc-button header-slider style style-1 rocket fl-button pri-1"
                     >
-                      <span>Buy Items</span>
+                      <span>Early Sign-up</span>
                     </Link>
                     <a
-                      href="https://app.sushi.com/swap?inputCurrency=ETH&outputCurrency=0x6B3595068778DD592e39A122f4f5a5cF09C90fE2&chainId=1"
+                      href="https://app.sushi.com/miso/0xFbDFFc73e2a80d33fC6C63C345899bC38e2bf136?chainId=137"
                       className="sc-button header-slider style style-1 note fl-button pri-1"
                     >
                       <span>Buy token</span>
