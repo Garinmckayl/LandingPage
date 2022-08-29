@@ -32,7 +32,7 @@ const RoadMapSell = () => {
 <div className="tf-section tf-item-details">
 
 <div className="heading mg-bt-12">
-                    <h2 className="tf-title">Join the $MXDT Token PreSales!</h2>
+                    <h2 className="tf-title">Join the $MXDT Token PreSale!</h2>
                 </div>
 
     <div className="themesflat-container">
@@ -75,9 +75,9 @@ const RoadMapSell = () => {
 <br />
 <div className="d-grid my-3">
 <a href='https://app.sushi.com/miso/0xFbDFFc73e2a80d33fC6C63C345899bC38e2bf136?chainId=137' target="_blank" className="btn btn-outline-dark btn-block buy-a">Buy Now</a>
-</div>
+</div>h
 <ul>
-  <li>Start: August 1 - 10</li>
+  <li>Start: September 1 - 20</li>
 </ul>
 </div>
 </div>
@@ -88,14 +88,14 @@ const RoadMapSell = () => {
 <h3 className="card-title">Pre-Sale 2</h3>
 <br />
 <br />
-<span className="h2">Price: 0.02 USDC</span>
+<span className="h2">Price: 0.03 USDC</span>
 <br />
 <br />
 <div className="d-grid my-3">
 <a href='https://polygonscan.com/token/0x3ec8450290bc5dC4279626A07922d8E599e75aDd' target="_blank" className="btn btn-outline-dark btn-block buy-a">Coming Soon</a>
 </div>
 <ul>
-  <li>Start: August 15 - 22</li>
+  <li>Start: October 20 - 31</li>
 </ul>
 </div>
 </div>
@@ -106,7 +106,7 @@ const RoadMapSell = () => {
 <h3 className="card-title">IDO</h3>
 <br />
 <br />
-<span className="h2">Price: 0.08 USDC</span>
+<span className="h2">Price: 0.04 USDC</span>
 <br />
 <br />
 <div className="d-grid my-3">
