@@ -10,7 +10,7 @@ const FAQ = () => {
             {
                 key: "0",
                 title: 'How do I get the MXDT?',
-                text: 'Please go to Sushiswap and buy the MXDT with USDC stablecoins. Set your wallet to the Polygon chain and make sure you have enough USDC stablecoin. You can use any standard wallet e.g. Metamask to buy sufficient USDC stablecoins with your credit- or debit-card.'
+                text: 'Please go to www.sushi.com and find the "Miso Marketplace". Under the "Miso Marketplace" you can buy the MXDT with USDC stablecoins. However, please make sure your wallet is connected and set to the Polygon chain. Please also make sure you have enough USDC stablecoin. You can use any standard wallet e.g. Metamask to buy sufficient USDC stablecoins with your credit- or debit-card.'
             },
             {
                 key: "1",
