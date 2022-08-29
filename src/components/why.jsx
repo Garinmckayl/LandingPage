@@ -34,7 +34,7 @@ const Why = () => {
             <div className="tf-section tf-item-details">
 
             <div className="heading mg-bt-12">
-                                <h2 className="tf-title">Your benefits</h2>
+                                <h2 className="tf-title">Benefits for Gamers</h2>
                             </div>
 
                 <div className="themesflat-container">
@@ -45,16 +45,13 @@ const Why = () => {
 
 <ul className="list-group">
   <li className="d-flex justify-content-between align-items-center" style={{    backgroundColor: "transparent"}}>
-    <h2><span className="badge badge-primary badge-pill"><i className="fal fa-check"></i> </span> Item- and skin-trade in real-time</h2>
+    <h2><span className="badge badge-primary badge-pill"><i className="fal fa-check"></i> </span> Fast item-trading</h2>
   </li>
   <li className="d-flex justify-content-between align-items-center"  style={{    backgroundColor: "transparent"}}>
-  <h2> <span className="badge badge-primary badge-pill"><i className="fal fa-check"></i></span> Game scholarhips</h2>
+  <h2> <span className="badge badge-primary badge-pill"><i className="fal fa-check"></i></span> Fair Game scholarhips</h2>
   </li>
   <li className="d-flex justify-content-between align-items-center"  style={{    backgroundColor: "transparent"}}>
-  <h2><span className="badge badge-primary badge-pill"><i className="fal fa-check"></i></span> Item-based investing and savings </h2>
-  </li>
-  <li className="d-flex justify-content-between align-items-center"  style={{    backgroundColor: "transparent"}}>
-  <h2><span className="badge badge-primary badge-pill"><i className="fal fa-check"></i></span> Make money with your game-play </h2>
+  <h2><span className="badge badge-primary badge-pill"><i className="fal fa-check"></i></span> Profitable investing and savings </h2>
   </li>
 </ul>
 
