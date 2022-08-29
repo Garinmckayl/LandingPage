@@ -18,8 +18,8 @@ const heroSliderData = [
   },
   {
     title_1: "Discover and monetize",
-    title_2: "skins, items, NFTs",
-    title_3: "no matter what game you play",
+    title_2: "NFTs and scholarships",
+    title_3: "with the $MXDT token",
     description:
       "Receive and assign game scholarships at fair rates",
     // img: img1,
