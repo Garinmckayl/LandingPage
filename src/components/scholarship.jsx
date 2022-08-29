@@ -129,11 +129,11 @@ const Scholarship = () => {
                         <div className="col-xl-6 col-md-12">
                             <div className="content-right">
                                 <div className="sc-item-details">
-                                    <h2 className="style2">Are you already playing blockchain-based games, but need financial support? </h2>
+                                    <h2 className="style2">Looking for a gamefi scholarship? </h2>
                                     <h5>
 
 
-                                    We can help you with scholarships for any recent game-title. Our terms are straight-forward and the process is quick and easy. We are gamers and we understand why people want to play games. 
+                                    Our scholarship terms are straight-forward and the process is quick and easy. We are gamers and we understand why people want to play games. 
 
 Register with us now.
 </h5>
