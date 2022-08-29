@@ -75,7 +75,7 @@ const RoadMapSell = () => {
 <br />
 <div className="d-grid my-3">
 <a href='https://app.sushi.com/miso/0xFbDFFc73e2a80d33fC6C63C345899bC38e2bf136?chainId=137' target="_blank" className="btn btn-outline-dark btn-block buy-a">Buy Now</a>
-</div>h
+</div>
 <ul>
   <li>Availability: 10 Mio tokens
   <br />
