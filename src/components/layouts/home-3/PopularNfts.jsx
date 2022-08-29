@@ -42,7 +42,7 @@ const TopSellerItem = props => {
                         <a>Sign-up</a>
                 </button>
             </div>
-            <div className="author-avatar">
+            <div className="author-avatar"> 
                 <Link to="#" onClick={() => setModalShow(true)}>
                     <img src={props.item.img} alt="Axies" style={{height: "300px", marginLeft: "123px"}} />
                 </Link>

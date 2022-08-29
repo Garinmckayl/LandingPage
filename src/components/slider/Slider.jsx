@@ -1,4 +1,4 @@
-import React from "react";
+import React , { useState , Fragment } from 'react';
 import PropTypes from "prop-types";
 import { Link } from "react-router-dom";
 import { Navigation, Scrollbar, A11y, Autoplay } from "swiper";
@@ -10,8 +10,12 @@ import shape1 from "../../assets/images/backgroup-secsion/bg-gradient1.png";
 import shape2 from "../../assets/images/backgroup-secsion/bg-gradient2.png";
 import shape3 from "../../assets/images/backgroup-secsion/bg-gradient3.png";
 import imgbg from "../../assets/images/backgroup-secsion/img_bg_page_title.jpg";
+import CardModal from '../layouts/CardModal';
 
+ 
 const Slider = (props) => {
+  
+
   const data = props.data;
   return (
     <div className="mainslider">
@@ -45,7 +49,10 @@ Slider.propTypes = {
   auto: PropTypes.bool,
   timeOut: PropTypes.number,
 };
-const SliderItem = (props) => (
+const SliderItem = (props) => {
+  const [modalShow, setModalShow] = useState(false);
+  
+  return(
   <div className="flat-title-page" style={{ backgroundImage: `url(${props.item.imgbg})` }}>
   <div className="flat-title-page">
     {/* <img className="bgr-gradient gradient1" src={shape1} alt="Axies" />
@@ -76,12 +83,15 @@ const SliderItem = (props) => (
                     className="flat-bt-slider flex style2"
                     style={{ marginTop: "-33px" }}
                   >
-                    <Link
+                    {/* <Link
                       to="#"
                       className="sc-button header-slider style style-1 rocket fl-button pri-1"
                     >
                       <span>Early Sign-up</span>
-                    </Link>
+                    </Link> */}
+                    <button onClick={() => setModalShow(true)} className='buy__token'>
+                        <a>Early Sign-up</a>
+                </button>
                     <a
                       href="https://app.sushi.com/miso/0xFbDFFc73e2a80d33fC6C63C345899bC38e2bf136?chainId=137"
                       className="sc-button header-slider style style-1 note fl-button pri-1"
@@ -101,6 +111,11 @@ const SliderItem = (props) => (
       </div>
     </div>
   </div>
+  <CardModal
+                show={modalShow}
+                onHide={() => setModalShow(false)}
+                />
   </div>
-);
+  );
+};
 export default Slider;
