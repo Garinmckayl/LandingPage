@@ -77,7 +77,9 @@ const RoadMapSell = () => {
 <a href='https://app.sushi.com/miso/0xFbDFFc73e2a80d33fC6C63C345899bC38e2bf136?chainId=137' target="_blank" className="btn btn-outline-dark btn-block buy-a">Buy Now</a>
 </div>h
 <ul>
-  <li>Start: September 1 - 20</li>
+  <li>Availability: 10 Mio tokens
+  <br />
+  Start: September 1 - 20</li>
 </ul>
 </div>
 </div>
