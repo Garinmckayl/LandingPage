@@ -39,7 +39,7 @@ const TopSellerItem = props => {
                 <h2 className="style2"><Link to="#"  onClick={() => setModalShow(true)}>{props.item.name}</Link></h2>
                 <span className="price">{props.item.price}</span><br/><hr></hr>
                 <button onClick={() => setModalShow(true)} className='buy__token'>
-                        <a>Buy Token</a>
+                        <a>Sign-up</a>
                 </button>
             </div>
             <div className="author-avatar">
