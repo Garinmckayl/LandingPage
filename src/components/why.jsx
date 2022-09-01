@@ -53,9 +53,6 @@ const Why = () => {
   <li className="d-flex justify-content-between align-items-center"  style={{    backgroundColor: "transparent"}}>
   <h2><span className="badge badge-primary badge-pill"><i className="fal fa-check"></i></span> Store your ingame assets with our $MXDT token </h2>
   </li>
-  <li className="d-flex justify-content-between align-items-center"  style={{    backgroundColor: "transparent"}}>
-  <h2> <span className="badge badge-primary badge-pill"><i className="fal fa-check"></i></span> Become a $MXDT token investor and step into the convergence of Web2 and Web3 towards a real Metaverse.</h2>
-  </li>
 </ul>
 
 
