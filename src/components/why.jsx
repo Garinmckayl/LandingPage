@@ -34,7 +34,7 @@ const Why = () => {
             <div className="tf-section tf-item-details">
 
             <div className="heading mg-bt-12">
-                                <h2 className="tf-title">Benefits for Gamers</h2>
+                                <h2 className="tf-title">How it works</h2>
                             </div>
 
                 <div className="themesflat-container">
@@ -45,13 +45,16 @@ const Why = () => {
 
 <ul className="list-group">
   <li className="d-flex justify-content-between align-items-center" style={{    backgroundColor: "transparent"}}>
-    <h2><span className="badge badge-primary badge-pill"><i className="fal fa-check"></i> </span> Sell your items quickly with crypto</h2>
+    <h2><span className="badge badge-primary badge-pill"><i className="fal fa-check"></i> </span> A Metaverse Marketplace: sell your items quickly without the hassle of using banks.</h2>
   </li>
   <li className="d-flex justify-content-between align-items-center"  style={{    backgroundColor: "transparent"}}>
-  <h2> <span className="badge badge-primary badge-pill"><i className="fal fa-check"></i></span> Apply for scholarhips</h2>
+  <h2> <span className="badge badge-primary badge-pill"><i className="fal fa-check"></i></span> GameFi: Apply for game scholarhips. We provide fair terms for players.</h2>
   </li>
   <li className="d-flex justify-content-between align-items-center"  style={{    backgroundColor: "transparent"}}>
   <h2><span className="badge badge-primary badge-pill"><i className="fal fa-check"></i></span> Store your ingame assets with our $MXDT token </h2>
+  </li>
+  <li className="d-flex justify-content-between align-items-center"  style={{    backgroundColor: "transparent"}}>
+  <h2> <span className="badge badge-primary badge-pill"><i className="fal fa-check"></i></span> Become a $MXDT token investor and step into the convergence of Web2 and Web3 towards a real Metaverse.</h2>
   </li>
 </ul>
 
