@@ -34,7 +34,7 @@ const Why = () => {
             <div className="tf-section tf-item-details">
 
             <div className="heading mg-bt-12">
-                                <h2 className="tf-title">How it works</h2>
+                                <h2 className="tf-title">Benefits for Gamers</h2>
                             </div>
 
                 <div className="themesflat-container">
@@ -51,7 +51,7 @@ const Why = () => {
   <h2> <span className="badge badge-primary badge-pill"><i className="fal fa-check"></i></span> GameFi: Apply for game scholarhips. We provide fair terms for players.</h2>
   </li>
   <li className="d-flex justify-content-between align-items-center"  style={{    backgroundColor: "transparent"}}>
-  <h2><span className="badge badge-primary badge-pill"><i className="fal fa-check"></i></span> Store your ingame assets with our $MXDT token </h2>
+  <h2><span className="badge badge-primary badge-pill"><i className="fal fa-check"></i></span> Use our $MXDT token to store the value of your ingame assets. </h2>
   </li>
 </ul>
 
