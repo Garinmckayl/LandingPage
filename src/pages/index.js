@@ -37,6 +37,7 @@ import Whitepaper from "./Whitepaper";
 import GameIndex from "./GameIndex";
 import Terms from "./Terms";
 import Privacy from "./Privacy";
+import Howtobuy from "./howtobuy";
 import SeedFunding from "./SeedFunding";
 import WarCraft from "./WarCraft";
 import CSGO from "./CSGO";
@@ -87,6 +88,7 @@ const routes = [
   { path: "warcraft", component: <WarCraft /> },
   { path: "/csgo", component: <CSGO /> },
   { path: "/skins", component: <Skins /> },
+  { path: "/howtobuy", component: <Howtobuy /> },
 ];
 
 export default routes;

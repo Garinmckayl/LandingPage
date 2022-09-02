@@ -93,11 +93,17 @@ const SliderItem = (props) => {
                         <a>Early Sign-up</a>
                 </button>
                     <a
-                      href="https://app.sushi.com/miso/0xFbDFFc73e2a80d33fC6C63C345899bC38e2bf136?chainId=137"
+                      href="/howtobuy"
                       className="sc-button header-slider style style-1 note fl-button pri-1"
                     >
                       <span>Buy token</span>
                     </a>
+                    {/* <a
+                      href="https://app.sushi.com/miso/0xFbDFFc73e2a80d33fC6C63C345899bC38e2bf136?chainId=137"
+                      className="sc-button header-slider style style-1 note fl-button pri-1"
+                    >
+                      <span>Buy token</span>
+                    </a> */}
                   </div>
                 </div>
                 {/* <div className="image">
