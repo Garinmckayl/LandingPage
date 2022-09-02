@@ -45,13 +45,13 @@ const Why = () => {
 
 <ul className="list-group">
   <li className="d-flex justify-content-between align-items-center" style={{    backgroundColor: "transparent"}}>
-    <h2><span className="badge badge-primary badge-pill"><i className="fal fa-check"></i> </span> Fast item-trading</h2>
+    <h2><span className="badge badge-primary badge-pill"><i className="fal fa-check"></i> </span> A Metaverse Marketplace: sell your items quickly without the hassle of using banks.</h2>
   </li>
   <li className="d-flex justify-content-between align-items-center"  style={{    backgroundColor: "transparent"}}>
-  <h2> <span className="badge badge-primary badge-pill"><i className="fal fa-check"></i></span> Fair Game scholarhips</h2>
+  <h2> <span className="badge badge-primary badge-pill"><i className="fal fa-check"></i></span> GameFi: Apply for game scholarhips. We provide fair terms for players.</h2>
   </li>
   <li className="d-flex justify-content-between align-items-center"  style={{    backgroundColor: "transparent"}}>
-  <h2><span className="badge badge-primary badge-pill"><i className="fal fa-check"></i></span> Profitable investing and savings </h2>
+  <h2><span className="badge badge-primary badge-pill"><i className="fal fa-check"></i></span> Use our $MXDT token to store the value of your ingame assets. </h2>
   </li>
 </ul>
 

@@ -8,26 +8,26 @@ import icon4 from '../../../assets/images/icon/Bookmark.png'
 const Create = () => {
     const data = [
         {
-            title: "Money in your pocket",
-            description: "Financially solid item- and skin-trading with crypto.",
+            title: "Worldwide Itemtrade",
+            description: "Sell or buy your ingame assets in real-time by using crypto currencies. Don't wait for banks to open!",
             icon : icon1,
             colorbg : "icon-color3"
         },
                 {
-            title: "Scholarships",
-            description: "Receive game scholarships or invest in players or NFTs at fair terms.",
+            title: "Onestop GameFi Provider",
+            description: "Receive game scholarships at fair terms. Re-invest your profits into other games, NFTs or crypto savings plan.",
             icon : icon3,
             colorbg : "icon-color3"
         },
         {
-            title: "New Liquidity",
-            description: "Use our token '$MXDT' to enjoy financial benefits from your gameplay .",
+            title: "DAO Membership Benefits",
+            description: "As a DAO member you can benefit from early-bird campaigns, discounts and special goodies. We even have our own tradeable NFTs.",
             icon : icon2,
             colorbg : "icon-color3"
         },
         {
-            title: "Financial Savings",
-            description: "The $MXDT. HodL it. Invest it. Lend it to others. Make money with your game-play",
+            title: "Benefits as a $MXDT tokenholder",
+            description: "As a tokenholder you can benefit financially from our growing community and its the scholarship returns. DAO votes will ensure only the best ingame assets, NFTs, players or games will receive financial support.",
             icon : icon4,
             colorbg : "icon-color3"
         },
@@ -35,7 +35,7 @@ const Create = () => {
     return (
         <section className="tf-box-icon create tf-section bg-home-3">
             <div className="heading mg-bt-12">
-                                <h2 className="tf-title">Our Services</h2>
+                                <h2 className="tf-title">Our Service</h2>
                             </div>
             <div className="themesflat-container">
                 <div className="row">
