@@ -19,7 +19,7 @@ import popularCollectionData from '../assets/fake-data/data-popular-collection';
 import EarlyAccess from '../components/EarlyAccess';
 import CallToAction from '../components/CallToAction';
 import Scholarship from '../components/scholarship';
-import Why from '../components/why';
+import Why from '../components/gamerbenefits';
 import RoadMapSell from '../components/roadmapsell';
 
 
