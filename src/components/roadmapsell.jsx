@@ -74,7 +74,7 @@ const RoadMapSell = () => {
 <br />
 <br />
 <div className="d-grid my-3">
-<a href='https://app.sushi.com/miso/0xFbDFFc73e2a80d33fC6C63C345899bC38e2bf136?chainId=137' target="_blank" className="btn btn-outline-dark btn-block buy-a">Buy Now</a>
+<a href='https://app.sushi.com/miso/0xFbDFFc73e2a80d33fC6C63C345899bC38e2bf136?chainId=137' target="_blank" className="btn btn-lg btn-outline-dark btn-block buy-a fw-bold">Buy Now</a>
 </div>
 <ul>
   <li>Availability: 10 Mio tokens
@@ -94,7 +94,7 @@ const RoadMapSell = () => {
 <br />
 <br />
 <div className="d-grid my-3">
-<a href='https://polygonscan.com/token/0x3ec8450290bc5dC4279626A07922d8E599e75aDd' target="_blank" className="btn btn-outline-dark btn-block buy-a">Coming Soon</a>
+<a href='https://polygonscan.com/token/0x3ec8450290bc5dC4279626A07922d8E599e75aDd' target="_blank" className="btn btn-lg btn-outline-dark btn-block buy-a fw-bold">Coming Soon</a>
 </div>
 <ul>
   <li>Start: October 20 - 31</li>
@@ -112,7 +112,7 @@ const RoadMapSell = () => {
 <br />
 <br />
 <div className="d-grid my-3">
-<a href='https://polygonscan.com/token/0x3ec8450290bc5dC4279626A07922d8E599e75aDd' target="_blank" className="btn btn-outline-dark btn-block buy-a">Coming Soon</a>
+<a href='https://polygonscan.com/token/0x3ec8450290bc5dC4279626A07922d8E599e75aDd' target="_blank" className="btn btn-lg btn-outline-dark btn-block buy-a fw-bold">Coming Soon</a>
 </div>
 <ul>
   <li>Start: October 1 - 15</li>

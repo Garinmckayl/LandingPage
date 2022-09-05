@@ -44,14 +44,14 @@ const Why = () => {
                                 <div className="sc-item-details">
 
 <ul className="list-group">
-  <li className="d-flex justify-content-between align-items-center" style={{    backgroundColor: "transparent"}}>
-    <h2><span className="badge badge-primary badge-pill"><i className="fal fa-check"></i> </span> A Metaverse Marketplace: sell your items quickly without the hassle of using banks.</h2>
+  <li className="my-5 d-flex justify-content-between align-items-center" style={{    backgroundColor: "transparent"}}>
+    <h3><span className="h2 badge badge-primary badge-pill"><i className="fal fa-check"></i> </span> A Metaverse Marketplace: sell your items quickly without the hassle of using banks.</h3>
   </li>
-  <li className="d-flex justify-content-between align-items-center"  style={{    backgroundColor: "transparent"}}>
-  <h2> <span className="badge badge-primary badge-pill"><i className="fal fa-check"></i></span> GameFi: Apply for game scholarhips. We provide fair terms for players.</h2>
+  <li className="my-5 d-flex justify-content-between align-items-center"  style={{    backgroundColor: "transparent"}}>
+  <h3> <span className="h2 badge badge-primary badge-pill"><i className="fal fa-check"></i></span> GameFi: Apply for game scholarhips. We provide fair terms for players.</h3>
   </li>
-  <li className="d-flex justify-content-between align-items-center"  style={{    backgroundColor: "transparent"}}>
-  <h2><span className="badge badge-primary badge-pill"><i className="fal fa-check"></i></span> Use our $MXDT token to store the value of your ingame assets. </h2>
+  <li className="my-5 d-flex justify-content-between align-items-center"  style={{    backgroundColor: "transparent"}}>
+  <h3><span className="h2 badge badge-primary badge-pill"><i className="fal fa-check"></i></span> Use our $MXDT token to store the value of your ingame assets. </h3>
   </li>
 </ul>
 

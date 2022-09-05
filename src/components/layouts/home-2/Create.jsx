@@ -34,7 +34,7 @@ const Create = () => {
     ]
     return (
         <section className="tf-box-icon create tf-section bg-home-3">
-            <div className="heading mg-bt-12">
+            <div className="heading mb-5">
                                 <h2 className="tf-title">Our Service</h2>
                             </div>
             <div className="themesflat-container">
