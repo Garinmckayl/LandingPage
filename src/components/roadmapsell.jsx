@@ -94,7 +94,7 @@ const RoadMapSell = () => {
 <br />
 <br />
 <div className="d-grid my-3">
-<a href='https://polygonscan.com/token/0x3ec8450290bc5dC4279626A07922d8E599e75aDd' target="_blank" className="btn btn-outline-dark btn-block buy-a">Coming Soon</a>
+<a href='https://polygonscan.com/token/0x3ec8450290bc5dC4279626A07922d8E599e75aDd' target="_blank" className="btn btn-lg btn-outline-dark btn-block buy-a fw-bold">Coming Soon</a>
 </div>
 <ul>
   <li>Start: October 20 - 31</li>
@@ -112,7 +112,7 @@ const RoadMapSell = () => {
 <br />
 <br />
 <div className="d-grid my-3">
-<a href='https://polygonscan.com/token/0x3ec8450290bc5dC4279626A07922d8E599e75aDd' target="_blank" className="btn btn-outline-dark btn-block buy-a">Coming Soon</a>
+<a href='https://polygonscan.com/token/0x3ec8450290bc5dC4279626A07922d8E599e75aDd' target="_blank" className="btn btn-lg btn-outline-dark btn-block buy-a fw-bold">Coming Soon</a>
 </div>
 <ul>
   <li>Start: October 1 - 15</li>

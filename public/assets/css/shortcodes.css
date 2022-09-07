@@ -3826,10 +3826,6 @@ section.today-picks {
 .tf-section.item-details {
   padding: 75px 0 80px;
 }
-.tf-item-details {
-  padding-bottom: 0;
-  margin-bottom: -7px;
-}
 
 .tf-item-details .content-left .media {
   border-radius: 10px;

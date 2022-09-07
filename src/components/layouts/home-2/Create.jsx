@@ -34,7 +34,7 @@ const Create = () => {
     ]
     return (
         <section className="tf-box-icon create tf-section bg-home-3">
-            <div className="heading mg-bt-12">
+            <div className="heading mb-5">
                                 <h2 className="tf-title">Our Service</h2>
                             </div>
             <div className="themesflat-container">
@@ -58,7 +58,7 @@ const CreateItem = props => (
                     <img src={props.item.icon} alt="" />
                 </div>                                                                           
             </div>
-        <h3 className="heading"><Link to="/wallet-connect">{props.item.title}</Link></h3>
+        <h3 className="heading">{props.item.title}</h3>
         <p className="content">{props.item.description}</p>
     </div>
     </div>

@@ -74,6 +74,10 @@ const Footer = () => {
             title: "Game Index",
             link: "/game-index"
         },
+        {
+            title: "Whitepaper",
+            link: "https://ocean-wave-tkn.gitbook.io"
+        },
     ]
     const companyList = [
         {
@@ -166,7 +170,7 @@ const Footer = () => {
                                     {
                                         resourcesList.map((item, index) => (
                                             <li key={index}>
-                                                {item.title !== "Polygon" ? <Link to={item.link}>{item.title}</Link> :
+                                                {item.title !== "Polygon" && item.title !== "Whitepaper" ? <Link to={item.link}>{item.title}</Link> :
                                                     <a href={item.link} target="_blank">{item.title}</a>}
                                             </li>
                                         ))
