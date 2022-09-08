@@ -139,7 +139,7 @@ const FinancialBenefits = () => {
                             <div className="content-right">
                                 <div className="sc-item-details">
                                     <h2 className="style2">Fair game scholarships</h2>
-                                    <h4 class="lineHeight34 font400">Players can apply through their account for a specific game scholarship, where we provide entry financing for Pay-to-Play games. We also provide sponsorships for selected games and specific players through subscription subsidies, ingame items & currencies or account sponsoring.</h4>
+                                    <h4 class="lineHeight34 font400">Use $MXDT to receive scholarships to play your favourite games. We provide entry financing for various game titles across Web2 and Web3.</h4>
                                 </div>
                                 <br /><hr />
                                 <button  className='buy__token'>
