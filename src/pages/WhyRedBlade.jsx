@@ -100,9 +100,9 @@ const WhyRedBlade = () => {
                                     <h4  class="lineHeight34 font400">
 
                                     Crypto assets should be stable. Nobody wants to worry about his savings and investments. As a crypto investor you want to avoid 
-        high volatility and benefit from the growth of the ecosystem that you support with your token purchase.<br/>
+        high volatility and benefit from the growth of the ecosystem that you support with your token purchase.  The Metaverse Exchange DAO is providing this necessary stability through its treasury and the underlying game assets which it holds. <br/>
        
-        The Metaverse Exchange DAO is providing this necessary stability through its treasury and the underlying game assets which it holds. 
+       
         </h4>
                                     <br />
                                     <button onClick={() => { window.open('https://app.sushi.com/miso/0xFbDFFc73e2a80d33fC6C63C345899bC38e2bf136?chainId=137'); } } className='buy__token'>
