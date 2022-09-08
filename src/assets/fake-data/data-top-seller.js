@@ -1,10 +1,10 @@
-import img1 from "../images/avatar/GW2Logo_new.png";
-import img2 from "../images/avatar/wow-gold.png";
+import img1 from "../images/game-logos/cos.png";
+import img2 from "../images/game-logos/wow.png";
 import img3 from "../images/avatar/avt-3.jpg";
 import img4 from "../images/avatar/wow-gold.png";
 import img5 from "../images/avatar/Aion-logo.png";
-import img6 from "../images/avatar/CS.png";
-import img7 from "../images/avatar/avt-7.jpg";
+import img6 from "../images/game-logos/csgo.png";
+import img7 from "../images/game-logos/eldenring.png";
 // import img8 from "../images/avatar/Roblox-crown.png";
 import img9 from "../images/avatar/Aion-logo.png";
 
@@ -22,7 +22,7 @@ const topSellerData = [
     classPadding: "pl-17",
   },
   {
-    img: img4,
+    img: img2,
     name: "WoW Gold / EU",
     price: "65 EUR",
     classPadding: "pl-34",
