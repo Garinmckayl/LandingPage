@@ -101,11 +101,9 @@ const WhyRedBlade = () => {
 
                                     Crypto assets should be stable. Nobody wants to worry about his savings and investments. As a crypto investor you want to avoid 
         high volatility and benefit from the growth of the ecosystem that you support with your token purchase.<br/>
-        
+       
         The Metaverse Exchange DAO is providing this necessary stability through its treasury and the underlying game assets which it holds. 
-        With the Red Blade token you therefore have a unique token whose value is secured by widely traded game-items, currencies, characters and accounts. 
-        Our DAO will invests in and also holds these items over a certain period while tracking their value, prices and exchange-rates on the various worlwide 
-        item exchanges. Check our Investor Information section and also our DAO Whitepaper for more information about the our tokenomics and how the Treasury operates.</h4>
+        </h4>
                                     <br />
                                     <button onClick={() => { window.open('https://app.sushi.com/miso/0xFbDFFc73e2a80d33fC6C63C345899bC38e2bf136?chainId=137'); } } className='buy__token'>
                                         <a>Buy MXDT Token</a>
