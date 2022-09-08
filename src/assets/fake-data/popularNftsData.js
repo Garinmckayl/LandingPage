@@ -28,7 +28,7 @@ const popularNftsData = [
   },
   {
     img: auc3,
-    name: "ddd / ddd",
+    name: "Aion / Elysian Scholarship",
     price: "EU server",
     classPadding: "pl-34",
   },
