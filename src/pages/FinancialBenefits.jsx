@@ -138,7 +138,7 @@ const FinancialBenefits = () => {
                         <div className="col-xl-6 col-md-12">
                             <div className="content-right">
                                 <div className="sc-item-details">
-                                    <h2 className="style2">Game scholarships as a DAO member</h2>
+                                    <h2 className="style2">Fair game scholarships</h2>
                                     <h4 class="lineHeight34 font400">If you become a tokenholder, you automatically qualify for scholarship and game sponsoring.Players can apply through their account for a specific game scholarship, where we provide entry financing for Pay-to-Play games.We also provide sponsorships for selected games and specific players through subscription subsidies, ingame items & currencies or account sponsoring.</h4>
                                 </div>
                                 <br /><hr />
@@ -191,8 +191,8 @@ const FinancialBenefits = () => {
                         <div className="col-xl-6 col-md-12">
                             <div className="content-right">
                                 <div className="sc-item-details">
-                                    <h2 className="style2">Scholarships: invest in other players </h2>
-                                    <h4 class="lineHeight34 font400">The recent craze with blockchain-based games has led to new models, where players need to make major upfront payments. This is not always affordable, so we want to help out. The Metaverse Exchange DAO has a selection of blockchain-based games where players can apply for scholarships. These scholarships are agreements about future revenues that the scholar will generate with his game-play. As a MXDT tokenholder you can use your tokens as a form of financing for these players and receive interest from this lending approach.</h4>
+                                    <h2 className="style2">Invest in other players </h2>
+                                    <h4 class="lineHeight34 font400">The Metaverse Exchange DAO has a selection of blockchain-based games where players can apply for scholarships. These scholarships are agreements about future revenues that the scholar will generate with his game-play. As a MXDT tokenholder you can use your tokens as a form of financing for these players and receive interest.</h4>
                                 </div>
                                 <br /><hr />
                                 <button  className='buy__token'>
