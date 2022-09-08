@@ -100,7 +100,9 @@ const WhyRedBlade = () => {
                                     <h4  class="lineHeight34 font400">
 
                                     Crypto assets should be stable. Nobody wants to worry about his savings and investments. As a crypto investor you want to avoid 
-        high volatility and benefit from the growth of the ecosystem that you support with your token purchase.  The Metaverse Exchange DAO is providing this necessary stability through its treasury and the underlying game assets which it holds. <br/>
+        high volatility and benefit from the growth of the ecosystem that you support with your token purchase.  
+       <br/>
+        The Metaverse Exchange DAO is providing this necessary stability through its treasury and the underlying game assets which it holds. <br/>
        
        <br/>
         </h4>
@@ -131,6 +133,7 @@ const WhyRedBlade = () => {
         
         Today game-players can already use item-trading platforms. However, most platforms are regional, limited to certain games or genres and also often illegal. 
 <br />
+<br/>            
 We see ourselves as the Ebay of game-trading using blockchain technology replacing existing industry practices and creating new value for users and investors. Doing so we are creating a whole new market on literally a next-level technology. 
 <br /><br />
 </h4>
