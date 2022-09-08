@@ -1,7 +1,7 @@
 import img1 from "../images/items/items/Axie #10133202 0.004 ETH";
-import img2 from "../images/game-logos/wow.png";
+import img2 from "../images/items/items/AWP | Dragon Lore 4333 EUR";
 import img3 from "../images/avatar/avt-3.jpg";
-import img4 from "../images/avatar/wow-gold.png";
+import img4 from "../images/items/items/Aavegotchi Supersonic 500 GHST";
 import img5 from "../images/avatar/Aion-logo.png";
 import img6 from "../images/game-logos/csgo.png";
 import img7 from "../images/game-logos/eldenring.png";
@@ -22,8 +22,8 @@ const topSellerData = [
     classPadding: "pl-17",
   },
   {
-    img: img2,
-    name: "WoW Gold / EU",
+    img: img8,
+    name: "Roblox / EU",
     price: "65 EUR",
     classPadding: "pl-34",
   },
@@ -40,9 +40,9 @@ const topSellerData = [
     classPadding: "pl-68",
   },
   {
-    img: img6,
-    name: "Wow Gold / US",
-    price: "50 EUR",
+    img: img4,
+    name: "Aavegotchi / Supersonic",
+    price: "500 GHST",
     classPadding: "pl-17",
   },
   {
