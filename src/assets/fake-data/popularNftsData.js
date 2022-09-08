@@ -16,26 +16,26 @@ import auc4 from "../images/Items/auc4.png";
 const popularNftsData = [
   {
     img: auc1,
-    name: "Guildwars 2 Gold / US",
-    price: "99 USD",
+    name: "Guildwars 2 / Limited trade",
+    price: "US server",
     classPadding: "",
   },
   {
     img: auc2,
-    name: "WoW Gold / EU",
-    price: "60 EUR",
+    name: "League of Legends / Jinx scholarship",
+    price: "Asia server",
     classPadding: "pl-17",
   },
   {
     img: auc3,
-    name: "WoW Gold / EU",
-    price: "65 EUR",
+    name: "ddd / ddd",
+    price: "EU server",
     classPadding: "pl-34",
   },
   {
     img: auc4,
-    name: "Masterhorse Platinum Sword / EU",
-    price: "2000 EUR",
+    name: "Roblox / Sonic scholarship",
+    price: "Asia server",
     classPadding: "pl-51",
   },
   // {
