@@ -102,6 +102,7 @@ const WhyRedBlade = () => {
                                     Crypto assets should be stable. Nobody wants to worry about his savings and investments. As a crypto investor you want to avoid 
         high volatility and benefit from the growth of the ecosystem that you support with your token purchase.  
        <br/>
+            <br/>
         The Metaverse Exchange DAO is providing this necessary stability through its treasury and the underlying game assets which it holds. <br/>
        
        <br/>
@@ -171,9 +172,11 @@ We see ourselves as the Ebay of game-trading using blockchain technology replaci
 
                                     We are also providing scholarships for players. Scholarships are revenue-sharing arrangements, where players of blockchain-based games can borrow or rent NFTs or accounts in order to play without paying bigger upfront fees. In exchange the investor or NFT owner can expect interest payments from the game-play in the form of NFTs or crypto-currency. 
                                    <br/>
+                                        <br/>
                                     Our approach is that we include our gamers to vote for who should receive scholarhips, which items should be scholarships and also which items should the Metaverse Exchange DAO invest in. We believe the community will have a better understanding than just one single investor.
                                         </h4>
                                     <br />
+                                        <br/>
                                     <button onClick={() => { window.open('https://app.sushi.com/miso/0xFbDFFc73e2a80d33fC6C63C345899bC38e2bf136?chainId=137'); } } className='buy__token'>
                                         <a>Buy MXDT Token</a>
                                     </button>
