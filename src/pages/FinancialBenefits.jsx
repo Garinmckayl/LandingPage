@@ -116,9 +116,9 @@ const FinancialBenefits = () => {
                             <div className="content-right">
                                 <div className="sc-item-details ">
                                     <h2 className="style2">Monetize your inventory </h2>
-                                    <h4 class="lineHeight34 font400">Web3 or Web2 games, you can make money from your inventory.
+                                    <h4 class="lineHeight34 font400">
 
-                                        Sell any ingame asset into crypto tokens and enjoy the financial benefits as tokenholder of the Metaverse Exchange DAO token (MXDT).Enjoy a new level of financial flexibility: buy access to other games, provide scholarships to other players or simply keep your new crypto savings in a save place with us.As long as your uploaded item is not sold to a buyer, you can claim your item back from us.If the item is sold, but you still want it back, we will pay you back in your game currency.</h4>
+                                        Sell any ingame asset into crypto tokens and enjoy the financial benefits as tokenholder of the Metaverse Exchange DAO token ($MXDT).Enjoy a new level of financial flexibility: buy access to other games, provide scholarships to other players or simply keep your new crypto savings in a save place with us.</h4>
 
                                 </div>
                                 <br /><hr />
@@ -138,8 +138,8 @@ const FinancialBenefits = () => {
                         <div className="col-xl-6 col-md-12">
                             <div className="content-right">
                                 <div className="sc-item-details">
-                                    <h2 className="style2">Game scholarships as a DAO member</h2>
-                                    <h4 class="lineHeight34 font400">If you become a tokenholder, you automatically qualify for scholarship and game sponsoring.Players can apply through their account for a specific game scholarship, where we provide entry financing for Pay-to-Play games.We also provide sponsorships for selected games and specific players through subscription subsidies, ingame items & currencies or account sponsoring.As we are a DAO, we will allow tokenholders to vote in regards to these scholarships, i.e.which games should be sponsored, which players should be sponsored and how much of the DAO funds should be allocated.</h4>
+                                    <h2 className="style2">Fair game scholarships</h2>
+                                    <h4 class="lineHeight34 font400">Use $MXDT to receive scholarships to play your favourite games. We provide entry financing for various game titles across Web2 and Web3.</h4>
                                 </div>
                                 <br /><hr />
                                 <button  className='buy__token'>
@@ -170,7 +170,7 @@ const FinancialBenefits = () => {
                             <div className="content-right">
                                 <div className="sc-item-details">
                                     <h2 className="style2">Use your MXDT </h2>
-                                    <h4 class="lineHeight34 font400">As a MXDT tokenholder you can avoid ingame currency inflation.Many games suffer from currency inflation, unless there are new upgrades.With our token you should be able to keep the value of your inventory, so you can always afford to buy new ingame items when necessary.</h4>
+                                    <h4 class="lineHeight34 font400">As a MXDT tokenholder you can avoid ingame currency inflation. Keep your inventory value by storing it in $MXDT as an asset-backed token.</h4>
                                 </div>
                                 <br /><hr />
                                 <button className='buy__token'>
@@ -191,8 +191,8 @@ const FinancialBenefits = () => {
                         <div className="col-xl-6 col-md-12">
                             <div className="content-right">
                                 <div className="sc-item-details">
-                                    <h2 className="style2">Scholarships: invest in other players </h2>
-                                    <h4 class="lineHeight34 font400">The recent craze with blockchain-based games has led to new models, where players need to make major upfront payments. This is not always affordable, so we want to help out. The Metaverse Exchange DAO has a selection of blockchain-based games where players can apply for scholarships. These scholarships are agreements about future revenues that the scholar will generate with his game-play. As a MXDT tokenholder you can use your tokens as a form of financing for these players and receive interest from this lending approach.</h4>
+                                    <h2 className="style2">Invest in other players </h2>
+                                    <h4 class="lineHeight34 font400">The Metaverse Exchange DAO has a selection of blockchain-based games where players can apply for scholarships. These scholarships are agreements about future revenues that the scholar will generate with his game-play. As a MXDT tokenholder you can use your tokens as a form of financing for these players and receive interest.</h4>
                                 </div>
                                 <br /><hr />
                                 <button  className='buy__token'>
@@ -224,12 +224,10 @@ const FinancialBenefits = () => {
                         <div className="col-xl-6 col-md-12">
                             <div className="content-right">
                                 <div className="sc-item-details">
-                                    <h2 className="style2">Swap and stake them </h2>
-                                    <h4 class="lineHeight34 font400">You can invest your MXDT tokens into other cryptocurrency services. The most common investment is to stake your tokens. We explain here how staking works, and why it is comparatively safe to deposit your crypto currency.
+                                    <h2 className="style2">Invest by staking </h2>
+                                    <h4 class="lineHeight34 font400">You can invest your $MXDT tokens into other crypto services such as staking or liquidity pools. 
 
-                                        You can also use it to buy other cryptocurrency, e.g. Bitcoin or Ethereum. This is called swapping and can be done on any bigger crypto exchange or also a decentral exchange ("DEX") like Sushiswap, Uniswap, Pangolin, Pancakeswap or Traderjoexyz.
-
-                                        There are new financial services for crypto currencies launched every day, but be careful when you are unsure what exactly they are offering.
+                                   
                                     </h4>
                                 </div>
                                 <br /><hr />
@@ -244,30 +242,7 @@ const FinancialBenefits = () => {
 
 
 
-            <div className="tf-section tf-item-details">
-                <div className="themesflat-container">
-                    <div className="row">
-                        <div className="col-xl-6 col-md-12">
-                            <div className="content-right">
-                                <div className="sc-item-details">
-                                    <h2 className="style2">Trade with the MXDT </h2>
-                                    <h4 class="lineHeight34 font400">To trade your MXDT outside our platform, you will have to connect your crypto wallet. We support all standard wallet integrations like Metamask, Coinbase, Trust Wallet, Binance Wallet or Safepal.
-                                    </h4>
-                                </div>
-                                <br /><hr />
-                                <button  className='buy__token'>
-                                    <a  href="/howtobuy">Buy Token</a>
-                                </button>
-                            </div>
-                        </div>
-                        <div className="col-xl-6 col-md-12">
-                            <div className="">
-                                <img src={pic6} style={{ width: '70%' }} alt="Axies" />
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
+   
 
 
 

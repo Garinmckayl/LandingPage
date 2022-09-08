@@ -79,7 +79,7 @@ const RoadMapSell = () => {
 <ul>
   <li>Availability: 10 Mio tokens
   <br />
-  Start: September 1 - 20</li>
+  Start: September 8 - 20</li>
 </ul>
 </div>
 </div>
@@ -115,7 +115,7 @@ const RoadMapSell = () => {
 <a href='https://polygonscan.com/token/0x3ec8450290bc5dC4279626A07922d8E599e75aDd' target="_blank" className="btn btn-lg btn-outline-dark btn-block buy-a fw-bold">Coming Soon</a>
 </div>
 <ul>
-  <li>Start: October 1 - 15</li>
+  <li>Start: Coming soon</li>
 </ul>
 </div>
 </div>

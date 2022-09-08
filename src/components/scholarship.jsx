@@ -133,9 +133,9 @@ const Scholarship = () => {
                                     <h5>
 
 
-                                    As a wholistic gamefi service, we provide various game scholarships to our DAO members. We also allow token-investors to participate in the financial returns of specific NFTs or also individual players.  
+                                    We provide various scholarships to our gamers and DAO members. Fairness to our players is key.  
 
-Sign-up for early access.
+Sign-up for early access now.
 </h5>
 
 {/* <div className="col-md-12 align-item-center"> */}

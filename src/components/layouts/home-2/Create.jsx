@@ -8,7 +8,7 @@ import icon4 from '../../../assets/images/icon/Bookmark.png'
 const Create = () => {
     const data = [
         {
-            title: "Worldwide Itemtrade",
+            title: "Worldwide Item-trade",
             description: "Sell or buy your ingame assets in real-time by using crypto currencies. Don't wait for banks to open!",
             icon : icon1,
             colorbg : "icon-color3"
@@ -21,13 +21,13 @@ const Create = () => {
         },
         {
             title: "DAO Membership Benefits",
-            description: "As a DAO member you can benefit from early-bird campaigns, discounts and special goodies. We even have our own tradeable NFTs.",
+            description: "Benefit from early-bird campaigns, discounts or our own tradeable NFTs.",
             icon : icon2,
             colorbg : "icon-color3"
         },
         {
             title: "Benefits as a $MXDT tokenholder",
-            description: "As a tokenholder you can benefit financially from our growing community and its the scholarship returns. DAO votes will ensure only the best ingame assets, NFTs, players or games will receive financial support.",
+            description: "Financial upside from our growing community and. DAO votes ensure returns from only the most profitable items, scholarships and players.",
             icon : icon4,
             colorbg : "icon-color3"
         },
