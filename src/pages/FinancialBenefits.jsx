@@ -116,7 +116,7 @@ const FinancialBenefits = () => {
                             <div className="content-right">
                                 <div className="sc-item-details ">
                                     <h2 className="style2">Monetize your inventory </h2>
-                                    <h4 class="lineHeight34 font400">Web3 or Web2 games, you can make money from your inventory.
+                                    <h4 class="lineHeight34 font400">
 
                                         Sell any ingame asset into crypto tokens and enjoy the financial benefits as tokenholder of the Metaverse Exchange DAO token (MXDT).Enjoy a new level of financial flexibility: buy access to other games, provide scholarships to other players or simply keep your new crypto savings in a save place with us.</h4>
 
@@ -139,7 +139,7 @@ const FinancialBenefits = () => {
                             <div className="content-right">
                                 <div className="sc-item-details">
                                     <h2 className="style2">Fair game scholarships</h2>
-                                    <h4 class="lineHeight34 font400">If you become a tokenholder, you automatically qualify for scholarship and game sponsoring.Players can apply through their account for a specific game scholarship, where we provide entry financing for Pay-to-Play games.We also provide sponsorships for selected games and specific players through subscription subsidies, ingame items & currencies or account sponsoring.</h4>
+                                    <h4 class="lineHeight34 font400">Players can apply through their account for a specific game scholarship, where we provide entry financing for Pay-to-Play games. We also provide sponsorships for selected games and specific players through subscription subsidies, ingame items & currencies or account sponsoring.</h4>
                                 </div>
                                 <br /><hr />
                                 <button  className='buy__token'>
