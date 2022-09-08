@@ -105,7 +105,7 @@ const Howtobuy = () => {
       </div>
       <h2 className='text-center'>2</h2>
       <p>
-        Please make sure you have enough USDC stablecoins in your wallet on the <a href='https://chainlist.org/chain/137' target='_blank'>polygon mainnet</a>. 
+        Please make sure you have enough USDC stablecoins in your wallet on the <a href='https://chainlist.org/chain/137' target='_blank'>Polygon Mainnet</a>. 
       </p>
     </div>
     <div className="feature col">
