@@ -244,30 +244,7 @@ const FinancialBenefits = () => {
 
 
 
-            <div className="tf-section tf-item-details">
-                <div className="themesflat-container">
-                    <div className="row">
-                        <div className="col-xl-6 col-md-12">
-                            <div className="content-right">
-                                <div className="sc-item-details">
-                                    <h2 className="style2">Trade with the MXDT </h2>
-                                    <h4 class="lineHeight34 font400">To trade your MXDT outside our platform, you will have to connect your crypto wallet. We support all standard wallet integrations like Metamask, Coinbase, Trust Wallet, Binance Wallet or Safepal.
-                                    </h4>
-                                </div>
-                                <br /><hr />
-                                <button  className='buy__token'>
-                                    <a  href="/howtobuy">Buy Token</a>
-                                </button>
-                            </div>
-                        </div>
-                        <div className="col-xl-6 col-md-12">
-                            <div className="">
-                                <img src={pic6} style={{ width: '70%' }} alt="Axies" />
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
+   
 
 
 
