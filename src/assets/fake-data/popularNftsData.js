@@ -1,7 +1,7 @@
 import img1 from "../images/avatar/GW2Logo_new.png";
 import img2 from "../images/avatar/wow-gold.png";
 import img3 from "../images/avatar/avt-3.jpg";
-import img4 from "../images/avatar/items/items/Limited | The Classic Roblox Fedora 540 USD.png";
+import img4 from "../images/items/items/Limited | The Classic Roblox Fedora 540 USD.png";
 import img5 from "../images/items/items/Dual Berettas Cobra Strike 30 EUR.png";
 import img6 from "../images/avatar/CS.png";
 import img7 from "../images/avatar/avt-7.jpg";
