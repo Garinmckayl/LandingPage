@@ -12,7 +12,7 @@ const PopularNfts = props => {
                     <div className="col-md-12">
                         <div className="">
                             <h2 className="tf-title style2 authorh2">
-                                Popular NFTs</h2>
+                                Recent Scholarships</h2>
                             <div className="heading-line s1"></div>
                         </div>
                     </div>

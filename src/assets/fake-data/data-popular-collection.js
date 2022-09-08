@@ -44,14 +44,15 @@ import logo4 from "../images/Items/logo4.png";
 const popularCollectionData = [
   {
     title: "Creative Art Collection",
-    imgAuthor: auc1,
+    imgAuthor: "auc1",
     name: "Ralph Garraway",
-    imgleft: logo3,
-    imgright1: auc1,
+    imgleft: "logo3",
+    imgright1: "auc1",
     imgright2: logo1,
     imgright3: logo2,
     imgright4: auc4,
-    imgtop: logo4,
+    imgtop:
+      "https://storage.googleapis.com/assets.axieinfinity.com/axies/61884/axie/axie-full-transparent.png",
     wishlist: "100",
     count: "12 item products",
   },
@@ -77,7 +78,7 @@ const popularCollectionData = [
     imgright2: logo3,
     imgright3: auc1,
     imgright4: logo1,
-    imgtop: auc3,
+    imgtop: "https://blog.aavegotchi.com/content/images/2022/02/HEFE2.png",
     wishlist: "90",
     count: "26 item products",
   },
