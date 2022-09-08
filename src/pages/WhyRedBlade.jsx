@@ -102,7 +102,7 @@ const WhyRedBlade = () => {
                                     Crypto assets should be stable. Nobody wants to worry about his savings and investments. As a crypto investor you want to avoid 
         high volatility and benefit from the growth of the ecosystem that you support with your token purchase.  The Metaverse Exchange DAO is providing this necessary stability through its treasury and the underlying game assets which it holds. <br/>
        
-       
+       <br/>
         </h4>
                                     <br />
                                     <button onClick={() => { window.open('https://app.sushi.com/miso/0xFbDFFc73e2a80d33fC6C63C345899bC38e2bf136?chainId=137'); } } className='buy__token'>
@@ -127,7 +127,7 @@ const WhyRedBlade = () => {
 
 <h2>Community Growth</h2><br/>
 <h4  class="lineHeight34 font400">
-We are a multidimensional project. First of all, our token is a utility for gamers. <br/>
+<br/>
         
         Game-players can benefit from a new financial model for their inventory. They also benefit from a easier connectivity into the newly evolving world of crypto games. While there is scepticism against some forms of blockchain-based games and NFTs, we are dealing with an unstoppable force. Accordingly, we want to allow gamers to utilize this trends to their advantage. 
 <br />
