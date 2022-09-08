@@ -2,7 +2,7 @@ import img1 from "../images/avatar/GW2Logo_new.png";
 import img2 from "../images/avatar/wow-gold.png";
 import img3 from "../images/avatar/avt-3.jpg";
 import img4 from "../images/avatar/wow-gold.png";
-import img5 from "../images/avatar/Aion-logo.png";
+import img5 from "../images/items/items/Dual Berettas Cobra Strike 30 EUR.png";
 import img6 from "../images/avatar/CS.png";
 import img7 from "../images/avatar/avt-7.jpg";
 import img8 from "../images/avatar/Roblox-crown.png";
@@ -27,9 +27,9 @@ const popularNftsData = [
     classPadding: "pl-17",
   },
   {
-    img: auc3,
-    name: "Aion / Elysian Scholarship",
-    price: "EU server",
+    img: img5,
+    name: "CSGO / Dual Berettas Cobra Strike",
+    price: "38 USDC",
     classPadding: "pl-34",
   },
   {
