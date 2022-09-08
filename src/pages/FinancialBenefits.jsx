@@ -225,11 +225,9 @@ const FinancialBenefits = () => {
                             <div className="content-right">
                                 <div className="sc-item-details">
                                     <h2 className="style2">Swap and stake them </h2>
-                                    <h4 class="lineHeight34 font400">You can invest your MXDT tokens into other cryptocurrency services. The most common investment is to stake your tokens. We explain here how staking works, and why it is comparatively safe to deposit your crypto currency.
+                                    <h4 class="lineHeight34 font400">You can invest your MXDT tokens into other crypto services such as staking or liquidity pools. 
 
-                                        You can also use it to buy other cryptocurrency, e.g. Bitcoin or Ethereum. This is called swapping and can be done on any bigger crypto exchange or also a decentral exchange ("DEX") like Sushiswap, Uniswap, Pangolin, Pancakeswap or Traderjoexyz.
-
-                                        There are new financial services for crypto currencies launched every day, but be careful when you are unsure what exactly they are offering.
+                                   
                                     </h4>
                                 </div>
                                 <br /><hr />
