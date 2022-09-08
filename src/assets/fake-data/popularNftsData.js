@@ -5,7 +5,7 @@ import img4 from "../images/avatar/wow-gold.png";
 import img5 from "../images/avatar/Aion-logo.png";
 import img6 from "../images/avatar/CS.png";
 import img7 from "../images/avatar/avt-7.jpg";
-// import img8 from "../images/avatar/Roblox-crown.png";
+import img8 from "../images/avatar/Roblox-crown.png";
 import img9 from "../images/avatar/Aion-logo.png";
 
 import auc1 from "../images/Items/auc1.png";
@@ -15,9 +15,9 @@ import auc4 from "../images/Items/auc4.png";
 
 const popularNftsData = [
   {
-    img: auc1,
-    name: "Guildwars 2 / Limited trade",
-    price: "US server",
+    img: img8,
+    name: "Roblox / Hat / 22 USDC",
+    price: "US",
     classPadding: "",
   },
   {
