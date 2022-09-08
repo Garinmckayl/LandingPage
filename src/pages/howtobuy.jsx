@@ -94,7 +94,7 @@ const Howtobuy = () => {
       </div>
       <h2 className='text-center'>1</h2>
       <p>
-        Make sure you have <a href='https://metamask.io/' target='_blank'>metamask</a> wallet installed. 
+        Please make sure you have a crypto wallet like  <a href='https://metamask.io/' target='_blank'>metamask</a> installed. 
       </p>
     </div>
     <div className="feature col">
@@ -105,7 +105,7 @@ const Howtobuy = () => {
       </div>
       <h2 className='text-center'>2</h2>
       <p>
-        Make sure you have enough USDC on the <a href='https://chainlist.org/chain/137' target='_blank'>polygon mainnet</a>. 
+        Please make sure you have enough USDC stablecoins in your wallet on the <a href='https://chainlist.org/chain/137' target='_blank'>polygon mainnet</a>. 
       </p>
     </div>
     <div className="feature col">
@@ -116,7 +116,7 @@ const Howtobuy = () => {
       </div>
       <h2 className='text-center'>3</h2>
       <p>
-      Make sure you are on the right network when you buy the token, <a href='https://chainlist.org/chain/137' target='_blank'>polygon mainnet</a>
+      When you enter www.sushi.com, please make sure your wallet chain is set to the <a href='https://chainlist.org/chain/137' target='_blank'>Polygon Mainnet</a>
       </p>
       <a target='_blank'
                       href="https://app.sushi.com/miso/0xFbDFFc73e2a80d33fC6C63C345899bC38e2bf136?chainId=137"
