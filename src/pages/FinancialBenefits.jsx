@@ -118,7 +118,7 @@ const FinancialBenefits = () => {
                                     <h2 className="style2">Monetize your inventory </h2>
                                     <h4 class="lineHeight34 font400">
 
-                                        Sell any ingame asset into crypto tokens and enjoy the financial benefits as tokenholder of the Metaverse Exchange DAO token (MXDT).Enjoy a new level of financial flexibility: buy access to other games, provide scholarships to other players or simply keep your new crypto savings in a save place with us.</h4>
+                                        Sell any ingame asset into crypto tokens and enjoy the financial benefits as tokenholder of the Metaverse Exchange DAO token ($MXDT).Enjoy a new level of financial flexibility: buy access to other games, provide scholarships to other players or simply keep your new crypto savings in a save place with us.</h4>
 
                                 </div>
                                 <br /><hr />
@@ -170,7 +170,7 @@ const FinancialBenefits = () => {
                             <div className="content-right">
                                 <div className="sc-item-details">
                                     <h2 className="style2">Use your MXDT </h2>
-                                    <h4 class="lineHeight34 font400">As a MXDT tokenholder you can avoid ingame currency inflation.Many games suffer from currency inflation, unless there are new upgrades.With our token you should be able to keep the value of your inventory, so you can always afford to buy new ingame items when necessary.</h4>
+                                    <h4 class="lineHeight34 font400">As a MXDT tokenholder you can avoid ingame currency inflation. Keep your inventory value by storing it in $MXDT as an asset-backed token.</h4>
                                 </div>
                                 <br /><hr />
                                 <button className='buy__token'>
@@ -224,8 +224,8 @@ const FinancialBenefits = () => {
                         <div className="col-xl-6 col-md-12">
                             <div className="content-right">
                                 <div className="sc-item-details">
-                                    <h2 className="style2">Swap and stake them </h2>
-                                    <h4 class="lineHeight34 font400">You can invest your MXDT tokens into other crypto services such as staking or liquidity pools. 
+                                    <h2 className="style2">Invest by staking </h2>
+                                    <h4 class="lineHeight34 font400">You can invest your $MXDT tokens into other crypto services such as staking or liquidity pools. 
 
                                    
                                     </h4>
