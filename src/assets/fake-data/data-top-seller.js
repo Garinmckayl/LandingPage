@@ -16,9 +16,9 @@ const topSellerData = [
     classPadding: "",
   },
   {
-    img: img2,
-    name: "WoW Gold / EU",
-    price: "60 EUR",
+    img: img8,
+    name: "Roblox / Hat",
+    price: "45 USDC",
     classPadding: "pl-17",
   },
   {
