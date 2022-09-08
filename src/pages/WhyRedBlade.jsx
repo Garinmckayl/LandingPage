@@ -96,7 +96,7 @@ const WhyRedBlade = () => {
                         <div className="col-xl-6 col-md-12">
                             <div className="content-right">
                                 <div className="sc-item-details">
-                                    <h2 className="style2">Game Financing and investors </h2>
+                                    <h2 className="style2">An asset-backed token </h2>
                                     <h4  class="lineHeight34 font400">
 
                                     Crypto assets should be stable. Nobody wants to worry about his savings and investments. As a crypto investor you want to avoid 
@@ -125,13 +125,13 @@ const WhyRedBlade = () => {
                             <div className="content-right">
                                 <div className="sc-item-details">
 
-<h2>Community Growth</h2><br/>
+<h2>A truly global market</h2><br/>
 <h4  class="lineHeight34 font400">
 <br/>
         
-        Game-players can benefit from a new financial model for their inventory. They also benefit from a easier connectivity into the newly evolving world of crypto games. While there is scepticism against some forms of blockchain-based games and NFTs, we are dealing with an unstoppable force. Accordingly, we want to allow gamers to utilize this trends to their advantage. 
+        Today game-players can already use item-trading platforms. However, most platforms are regional, limited to certain games or genres and also often illegal. 
 <br />
-We also see other gaming platforms and ecoystems pushing into the blockchain world. Here we see ourselves as neutral: we are planning to integrate any game-title or item to be published or traded through our platform. We also except other gaming crypto currencies and plan to integrate these as well, assuming we can arrange benefits for our gamers. 
+We see ourselves as the Ebay of game-trading using blockchain technology replacing existing industry practices and creating new value for users and investors. Doing so we are creating a whole new market on literally a next-level technology. 
 <br /><br />
 </h4>
                                     <br />
@@ -163,7 +163,7 @@ We also see other gaming platforms and ecoystems pushing into the blockchain wor
                         <div className="col-xl-6 col-md-12">
                             <div className="content-right">
                                 <div className="sc-item-details">
-                                    <h2 className="style2">scholarships votes </h2>
+                                    <h2 className="style2">DAO investments </h2>
                                     <h4  class="lineHeight34 font400">
 
                                     We are also providing scholarships for players. Scholarships are revenue-sharing arrangements, where players of blockchain-based games can borrow or rent NFTs or accounts in order to play without paying bigger upfront fees. In exchange the investor or NFT owner can expect interest payments from the game-play in the form of NFTs or crypto-currency. 
