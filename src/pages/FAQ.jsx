@@ -10,22 +10,22 @@ const FAQ = () => {
             {
                 key: "0",
                 title: 'How do I get the MXDT?',
-                text: 'Please go to www.sushi.com and find the "Miso Marketplace". Under the "Miso Marketplace" you can buy the MXDT with USDC stablecoins. However, please make sure your wallet is connected and set to the Polygon chain. Please also make sure you have enough USDC stablecoin. You can use any standard wallet e.g. Metamask to buy sufficient USDC stablecoins with your credit- or debit-card.'
+                text: 'Please go to www.sushi.com and find the "Miso Marketplace". Under the "Miso Marketplace" you can buy the MXDT with USDC stablecoins. However, please make sure your wallet is connected to Sushi and also set to the Polygon chain. Please also make sure you have enough USDC stablecoin. You can use any standard wallet e.g. Metamask to buy sufficient USDC stablecoins with your credit- or debit-card.'
             },
-            {
+          {
                 key: "1",
                 title: 'How do I receive a scholarship?',
-                text: 'Go to your account, then choose "scholarship" and fill out the form. We will review the application and contact you by email. Please note that you have to be a MXDT tokenholder to qualify for scholarhips.'
+                text: 'Right now, we are still building out our platform, but you can sign-up to the applicant list. You can move up the waitlist by inviting people to our Discord community. Our scholarships will be assigned, as soon as the platform goes live by providing a detailed process within your user-acount.'
+            },
+               {   key: "2",
+                show: "show",
+                title: 'Why should I trade an ingame asset, skin or NFT?',
+                text: 'We are the Ebay of item-trading, but we use blockchain technology. Similar to old books or clothes you can sell on Ebay, you can convert unused game items, skins or NFTs into money by using our platform. To be safe, we will offer a 30-day return guarantee if requested.'
             },
             {
-                key: "2",
-                title: 'How many games do you support?',
-                text: 'This is completely up to the community, as our platform does not limit the number of kind of games and items. As long as it is a legal trade and there is a buyer or seller for a specific game item or currency, the game will be part of our platform and community.'
-            },
-            {   key: "3",
-                show: "show",
-                title: 'How do I trade an ingame asset, skin or NFT?',
-                text: 'To buy an item, first connect your crypto wallet or register . Then click on the item you want to buy, execute the payment and wait for the item to be handed over to you. The hand-over can be either in-game or - if blockchain-based - directly into your wallet. To sell an item, you have to fill out the creation form under sell-item, and then wait for a buyer.'
+                key: "3",
+                title: 'Which games do you support?',
+                text: 'Similar to Ebay our platform does not restrict games, items, skins, NFTs or currencies in any form. As long as it is a legal trade and there is a buyer or seller for a specific game item or currency, the game will be part of our platform and community.'
             },
             {
                 key: "4",
@@ -35,7 +35,7 @@ const FAQ = () => {
             {
                 key: "5",
                 title: 'Is the MXDT token a safe investment?',
-                text: 'Our token is different to other crypto assets, as we use ingame assets and game currencies as underlying assets. This means that in times of an increased sell-off the MXDT token´s value is always ensured through the countervalue of our treasury of already traded virtual goods on various global marketplaces.'
+                text: 'Our token is different to other crypto assets, as we use ingame assets and game currencies as underlying assets. This means that in times of an increased sell-off the MXDT token´s value is always ensured through the countervalue of our treasury of already traded virtual goods on various global marketplaces.Please check our Whitepaper for more information.'
             },
             {
                 key: "6",
