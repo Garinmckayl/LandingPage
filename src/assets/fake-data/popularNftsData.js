@@ -1,11 +1,11 @@
 import img1 from "../images/avatar/GW2Logo_new.png";
 import img2 from "../images/avatar/wow-gold.png";
 import img3 from "../images/avatar/avt-3.jpg";
-import img4 from "../images/avatar/wow-gold.png";
-import img5 from "../images/avatar/Aion-logo.png";
+import img4 from "../images/items/items/Limited | The Classic Roblox Fedora 540 USD.png";
+import img5 from "../images/items/items/Dual Berettas Cobra Strike 30 EUR.png";
 import img6 from "../images/avatar/CS.png";
 import img7 from "../images/avatar/avt-7.jpg";
-// import img8 from "../images/avatar/Roblox-crown.png";
+import img8 from "../images/avatar/Roblox-crown.png";
 import img9 from "../images/avatar/Aion-logo.png";
 
 import auc1 from "../images/Items/auc1.png";
@@ -15,27 +15,27 @@ import auc4 from "../images/Items/auc4.png";
 
 const popularNftsData = [
   {
-    img: auc1,
-    name: "Guildwars 2 Gold / US",
-    price: "99 USD",
+    img: img8,
+    name: "Roblox / Hat / 22 USDC",
+    price: "US",
     classPadding: "",
   },
   {
     img: auc2,
-    name: "WoW Gold / EU",
-    price: "60 EUR",
+    name: "League of Legends / Jinx scholarship",
+    price: "Asia server",
     classPadding: "pl-17",
   },
   {
-    img: auc3,
-    name: "WoW Gold / EU",
-    price: "65 EUR",
+    img: img5,
+    name: "CSGO / Dual Berettas Cobra Strike",
+    price: "38 USDC",
     classPadding: "pl-34",
   },
   {
-    img: auc4,
-    name: "Masterhorse Platinum Sword / EU",
-    price: "2000 EUR",
+    img: img4,
+    name: "Roblox / Limited | The Classic Roblox Fedora",
+    price: "530 USDC",
     classPadding: "pl-51",
   },
   // {
