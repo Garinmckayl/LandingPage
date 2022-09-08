@@ -139,9 +139,9 @@ We see ourselves as the Ebay of game-trading using blockchain technology replaci
 <br /><br />
 </h4>
                                     <br />
-                                    <button onClick={() => { window.open('https://app.sushi.com/miso/0xFbDFFc73e2a80d33fC6C63C345899bC38e2bf136?chainId=137'); } } className='buy__token'>
-                                        <a>Buy MXDT Token</a>
-                                    </button>
+                                    <button className='buy__token'>
+                                    <a href="/howtobuy">Buy Token</a>
+                                </button>
                                 </div>
                             </div>
                         </div>
@@ -177,9 +177,9 @@ We see ourselves as the Ebay of game-trading using blockchain technology replaci
                                         </h4>
                                     <br />
                                         <br/>
-                                    <button onClick={() => { window.open('https://app.sushi.com/miso/0xFbDFFc73e2a80d33fC6C63C345899bC38e2bf136?chainId=137'); } } className='buy__token'>
-                                        <a>Buy MXDT Token</a>
-                                    </button>
+                                    <button className='buy__token'>
+                                    <a href="/howtobuy">Buy Token</a>
+                                </button>
                                 </div>
                             </div>
                         </div>
