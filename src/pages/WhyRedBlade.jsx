@@ -163,12 +163,13 @@ We also see other gaming platforms and ecoystems pushing into the blockchain wor
                         <div className="col-xl-6 col-md-12">
                             <div className="content-right">
                                 <div className="sc-item-details">
-                                    <h2 className="style2">scholarships for players </h2>
+                                    <h2 className="style2">scholarships votes </h2>
                                     <h4  class="lineHeight34 font400">
 
-                                    We are also providing scholarships for players. Scholarships are revenue-sharing arrangements, where players of blockchain-based games can borrow or rent NFTs or accounts in order to play without paying bigger upfront fees. In exchange for this sort of financing, the investor or NFT owner can expect interest payments from the game-play in the form of NFTs or crypto-currency. Don´t worry, the player usually gets the biggest share.
-
-Buying game credits is nothing new. New is that we offer this based on game inventory, so it allows players to store their items and currencies to accumulate value instead of ingame inflation. This will support the price-levels of our token and serve as an underlying asset.</h4>
+                                    We are also providing scholarships for players. Scholarships are revenue-sharing arrangements, where players of blockchain-based games can borrow or rent NFTs or accounts in order to play without paying bigger upfront fees. In exchange the investor or NFT owner can expect interest payments from the game-play in the form of NFTs or crypto-currency. 
+                                   <br/>
+                                    Our approach is that we include our gamers to vote for who should receive scholarhips, which items should be scholarships and also which items should the Metaverse Exchange DAO invest in. We believe the community will have a better understanding than just one single investor.
+                                        </h4>
                                     <br />
                                     <button onClick={() => { window.open('https://app.sushi.com/miso/0xFbDFFc73e2a80d33fC6C63C345899bC38e2bf136?chainId=137'); } } className='buy__token'>
                                         <a>Buy MXDT Token</a>
