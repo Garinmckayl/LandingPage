@@ -1,4 +1,4 @@
-import img1 from "../images/game-logos/cos.png";
+import img1 from "../images/items/items/Axie #10133202 0.004 ETH";
 import img2 from "../images/game-logos/wow.png";
 import img3 from "../images/avatar/avt-3.jpg";
 import img4 from "../images/avatar/wow-gold.png";
@@ -11,8 +11,8 @@ import img9 from "../images/avatar/Aion-logo.png";
 const topSellerData = [
   {
     img: img1,
-    name: "Guildwars 2 Gold / US",
-    price: "99 USD",
+    name: "Axie / #10133202 ",
+    price: "0.004 ETH",
     classPadding: "",
   },
   {
