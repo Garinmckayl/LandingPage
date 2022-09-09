@@ -26,24 +26,24 @@ const popularNftsData = [
     price: "Asia server",
     classPadding: "pl-17",
   },
-  // {
-  //   img: img5,
-  //   name: "CSGO / Dual Berettas Cobra Strike",
-  //   price: "38 USDC",
-  //   classPadding: "pl-34",
-  // },
-  // {
-  //   img: img4,
-  //   name: "Roblox / Limited | The Classic Roblox Fedora",
-  //   price: "530 USDC",
-  //   classPadding: "pl-51",
-  // },
-  // {
-  //   img: img6,
-  //   name: "CS Pack of 10000 ammo Pgun / EU",
-  //   price: "50 EUR",
-  //   classPadding: "pl-68",
-  // },
+  {
+    img: auc3,
+    name: "CSGO / Dual Berettas Cobra Strike",
+    price: "38 USDC",
+    classPadding: "pl-34",
+  },
+  {
+    img: "https://storage.googleapis.com/assets.axieinfinity.com/axies/149200/axie/axie-full-transparent.png",
+    name: "Roblox / Limited | The Classic Roblox Fedora",
+    price: "530 USDC",
+    classPadding: "pl-51",
+  },
+  {
+    img: auc1,
+    name: "CS Pack of 10000 ammo Pgun / EU",
+    price: "50 EUR",
+    classPadding: "pl-68",
+  },
   // {
   //   img: img6,
   //   name: "Wow Gold / US",
