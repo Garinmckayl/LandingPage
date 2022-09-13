@@ -96,7 +96,7 @@ const Footer = () => {
     const socialList = [
         {
             icon: "fab fa-twitter",
-            link: "https://twitter.com/MasterwithBlad1"
+            link: "https://twitter.com/MetaExDAO"
         },
         {
             icon: "fab fa-telegram-plane",
