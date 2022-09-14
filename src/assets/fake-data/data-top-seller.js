@@ -8,6 +8,11 @@ import img7 from "../images/game-logos/eldenring.png";
 // import img8 from "../images/avatar/Roblox-crown.png";
 import img9 from "../images/avatar/Aion-logo.png";
 
+import item1 from "../images/Items/items/item1.png";
+import item2 from "../images/Items/items/item2.png";
+import item3 from "../images/Items/items/item3.png";
+import item4 from "../images/Items/items/item4.png";
+
 const topSellerData = [
   // {
   //   img: img1,
@@ -28,15 +33,15 @@ const topSellerData = [
   //   classPadding: "pl-34",
   // },
   {
-    img: img5,
-    name: "Masterhorse Platinum Sword / EU",
-    price: "2000 EUR",
+    img: item1,
+    name: "Limited | The Classic Roblox Fedora",
+    price: "540 USD",
     classPadding: "pl-51",
   },
   {
-    img: img6,
-    name: "CS Pack of 10000 ammo Pgun / EU",
-    price: "50 EUR",
+    img: item2,
+    name: "Dual Berettas Cobra Strike",
+    price: "30 EUR",
     classPadding: "pl-68",
   },
   // {
@@ -46,15 +51,15 @@ const topSellerData = [
   //   classPadding: "pl-17",
   // },
   {
-    img: img9,
-    name: "Level 80 Aion spell / US",
-    price: "5 USD",
+    img: item3,
+    name: "Axie Healing Pulse",
+    price: "14.34 USD",
     classPadding: "pl-34",
   },
   {
-    img: img7,
-    name: "Blue Magic Drink / KR",
-    price: "3500 KRW",
+    img: item4,
+    name: "Axie #10133202 ",
+    price: "0.004 ETH",
     classPadding: "pl-51",
   },
   // {

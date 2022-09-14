@@ -12,7 +12,7 @@ const TopSeller = props => {
                     <div className="col-md-12">
                         <div className="">
                             <h2 className="tf-title style2 authorh2">
-                                Author</h2>
+                                Latest Items</h2>
                             <div className="heading-line s1"></div>
                         </div>
                     </div>
