@@ -118,7 +118,7 @@ const FinancialBenefits = () => {
                                     <h2 className="style2">Monetize your inventory </h2>
                                     <h4 class="lineHeight34 font400">
 
-                                        Sell any ingame asset into crypto tokens and enjoy the financial benefits as tokenholder of the Metaverse Exchange DAO token ($MXDT).Enjoy a new level of financial flexibility: buy access to other games, provide scholarships to other players or simply keep your new crypto savings in a save place with us.</h4>
+                                        Sell any game asset with blockchain technology and enjoy the various financial benefits of the Metaverse Exchange DAO token $MXDT.</h4>
 
                                 </div>
                                 <br /><hr />
@@ -170,7 +170,7 @@ const FinancialBenefits = () => {
                             <div className="content-right">
                                 <div className="sc-item-details">
                                     <h2 className="style2">Use your MXDT </h2>
-                                    <h4 class="lineHeight34 font400">As a MXDT tokenholder you can avoid ingame currency inflation. Keep your inventory value by storing it in $MXDT as an asset-backed token.</h4>
+                                    <h4 class="lineHeight34 font400">Avoid ingame currency inflation and keep your inventory value by storing $MXDT and staking it as an asset-backed token.</h4>
                                 </div>
                                 <br /><hr />
                                 <button className='buy__token'>
@@ -192,7 +192,7 @@ const FinancialBenefits = () => {
                             <div className="content-right">
                                 <div className="sc-item-details">
                                     <h2 className="style2">Invest in other players </h2>
-                                    <h4 class="lineHeight34 font400">The Metaverse Exchange DAO has a selection of blockchain-based games where players can apply for scholarships. These scholarships are agreements about future revenues that the scholar will generate with his game-play. As a MXDT tokenholder you can use your tokens as a form of financing for these players and receive interest.</h4>
+                                    <h4 class="lineHeight34 font400"> You can use your $MXDT tokens to allow other players to generate income for you.</h4>
                                 </div>
                                 <br /><hr />
                                 <button  className='buy__token'>
