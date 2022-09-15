@@ -12,6 +12,10 @@ import item1 from "../images/Items/items/item1.png";
 import item2 from "../images/Items/items/item2.png";
 import item3 from "../images/Items/items/item3.png";
 import item4 from "../images/Items/items/item4.png";
+import item5 from "../images/Items/items/item5.png";
+import item6 from "../images/Items/items/item6.png";
+import item7 from "../images/Items/items/item7.png";
+import item8 from "../images/Items/items/item8.png";
 
 const topSellerData = [
   // {
@@ -59,6 +63,30 @@ const topSellerData = [
   {
     img: item4,
     name: "Axie #10133202 ",
+    price: "0.004 ETH",
+    classPadding: "pl-51",
+  },
+  {
+    img: item5,
+    name: "AWP | Dragon Lore ",
+    price: " 4333 EUR",
+    classPadding: "pl-51",
+  },
+  {
+    img: item6,
+    name: "Aavegotchi Supersonic ",
+    price: "500 GHST",
+    classPadding: "pl-51",
+  },
+  {
+    img: item7,
+    name: "Gods unchained ",
+    price: "0.004 ETH",
+    classPadding: "pl-51",
+  },
+  {
+    img: item8,
+    name: "My neighbour alice ",
     price: "0.004 ETH",
     classPadding: "pl-51",
   },

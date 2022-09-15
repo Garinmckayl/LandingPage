@@ -91,7 +91,7 @@ const menus = [
 
   {
     id: 2,
-    name: "Financial benefits",
+    name: "Gamer benefits",
     links: "/financial-benefits",
   },
   {

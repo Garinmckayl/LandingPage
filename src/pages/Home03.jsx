@@ -30,11 +30,12 @@ const Home03 = () => {
             <Slider data={heroSliderData} />
             <Why/>
             <Create />
+            <RoadMapSell/>
+
             {/* <TopPicks data={popularCollectionData} /> */}
             <Scholarship/>
             <Popularnfts data={popuplarNftsData} />
             <CallToAction/>
-            <RoadMapSell/>
             {/* <LiveAuction data={liveAuctionData} /> */}
             {/* <EarlyAccess/>
             <PopularCollection data={popularCollectionData} />
