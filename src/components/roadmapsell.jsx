@@ -59,7 +59,7 @@ const RoadMapSell = () => {
 </div>
 <ul>
   <li>Whitelist only</li>
-  <li>Sold out >350000 EUR!</li>
+  <li>Sold out >350000 EUR raised!</li>
 </ul>
 </div>
 </div>
