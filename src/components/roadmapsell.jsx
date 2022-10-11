@@ -48,7 +48,7 @@ const RoadMapSell = () => {
 <div className="col-lg-3 col-md-12 mb-4">
 <div className="card card1 h-100 p-5 tf-section">
 <div className="card-body">
-<h3 className="card-title">Pre-Sale</h3>
+<h3 className="card-title">Private Sale (SAFT)</h3>
 <br />
 <br />
 <span className="h2">Price: 0.01 USDC</span>
@@ -59,7 +59,7 @@ const RoadMapSell = () => {
 </div>
 <ul>
   <li>Whitelist only</li>
-  <li>Sold out!</li>
+  <li>Sold out >350000 EUR raised!</li>
 </ul>
 </div>
 </div>
@@ -79,7 +79,7 @@ const RoadMapSell = () => {
 <ul>
   <li>Availability: 10 Mio tokens
   <br />
-  Start: September 8 - 20</li>
+  Start: November 1</li>
 </ul>
 </div>
 </div>
@@ -97,7 +97,7 @@ const RoadMapSell = () => {
 <a href='https://polygonscan.com/token/0x3ec8450290bc5dC4279626A07922d8E599e75aDd' target="_blank" className="btn btn-lg btn-outline-dark btn-block buy-a fw-bold">Coming Soon</a>
 </div>
 <ul>
-  <li>Start: October 20 - 31</li>
+  <li>Start: TBC</li>
 </ul>
 </div>
 </div>
@@ -115,7 +115,7 @@ const RoadMapSell = () => {
 <a href='https://polygonscan.com/token/0x3ec8450290bc5dC4279626A07922d8E599e75aDd' target="_blank" className="btn btn-lg btn-outline-dark btn-block buy-a fw-bold">Coming Soon</a>
 </div>
 <ul>
-  <li>Start: Coming soon</li>
+  <li>Start: TBC</li>
 </ul>
 </div>
 </div>
