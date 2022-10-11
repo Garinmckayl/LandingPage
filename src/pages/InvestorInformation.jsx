@@ -14,7 +14,7 @@ import img6 from '../assets/images/avatar/avt-8.jpg'
 
 const InvestorInformation = () => {
 
-    window.location.replace('https://drive.google.com/file/d/17jOOcMFnkFoDgG8V6pz_pKlxOMmRRzyd/view?usp=sharing');
+    window.location.replace('https://drive.google.com/file/d/1SI9uV5Y1cCXZx9pIA5g08aLkmbsG9J1-/view?usp=sharing');
 
 
     const [dataHistory] = useState(
