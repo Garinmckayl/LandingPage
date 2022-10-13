@@ -94,7 +94,7 @@ const Howtobuy = () => {
       </div>
       <h2 className='text-center'>1</h2>
       <p>
-        Right now the tokensale is not available yet. Once the sale is on, please install a crypto wallet like  <a href='https://metamask.io/' target='_blank'>metamask</a> installed. 
+        The token presale is scheduled for November 1. So right now the $MXDT is not sold or traded yet. Once the sale is on, please install a crypto wallet like  <a href='https://metamask.io/' target='_blank'>metamask</a> installed. 
       </p>
     </div>
     <div className="feature col">
