@@ -10,32 +10,32 @@ const Howtobuy = () => {
             {
                 key: "0",
                 title: 'How do I get the MXDT?',
-                text: 'Right now the tokensale is not available yet. Once the sale is on, please go to www.sushi.com and find the "Miso Marketplace". Under the "Miso Marketplace" you can buy the MXDT with USDC stablecoins. However, please make sure your wallet is connected and set to the Polygon chain. Please also make sure you have enough USDC stablecoin. You can use any standard wallet e.g. Metamask to buy sufficient USDC stablecoins with your credit- or debit-card.'
+                text: 'The token presale is scheduled for November 1. So right now the $MXDT is not sold or traded yet. Once the sale is on, please go to www.sushi.com and find the "Miso Marketplace". Under the "Miso Marketplace" you can buy the MXDT with USDC stablecoins. However, please make sure your wallet is connected and set to the Polygon chain. Please also make sure you have enough USDC stablecoin. You can use any standard wallet e.g. Metamask to buy sufficient USDC stablecoins with your credit- or debit-card.'
             },
             {
-                key: "1",
-                title: 'How do I receive a scholarship?',
-                text: 'Right now, we are still building out our platform, but you can sign-up to the applicant list. You can move up the waitlist by inviting people to our Discord community. Our scholarships will be assigned, as soon as the platform goes live by providing a detailed process within your user-acount.'
+                key: "5",
+                title: 'Is the MXDT token a safe investment?',
+                text: 'Our token is different to other crypto assets, as we use ingame assets and game currencies as underlying assets. This means that in times of an increased sell-off the MXDT token´s value is always ensured through the countervalue of our treasury of already traded virtual goods on various global marketplaces.'
+            },
+             {   key: "3",
+                show: "show",
+                title: 'Why should I trade an ingame asset, skin or NFT?',
+                text: 'We are the Ebay of item-trading, but we use blockchain technology. Similar to old books or clothes you can sell on Ebay, you can convert unused game items, skins or NFTs into money by using our platform. To be safe, we will offer a 30-day return guarantee if requested.'
             },
             {
                 key: "2",
                 title: 'How many games do you support?',
                 text: 'Our platform does not limit the number of kind of games, items, skins, NFTs or currencies. As long as it is a legal trade and there is a buyer or seller for a specific game item or currency, the game will be part of our platform and community.'
             },
-            {   key: "3",
-                show: "show",
-                title: 'Why should I trade an ingame asset, skin or NFT?',
-                text: 'We are the Ebay of item-trading, but we use blockchain technology. Similar to old books or clothes you can sell on Ebay, you can convert unused game items, skins or NFTs into money by using our platform. To be safe, we will offer a 30-day return guarantee if requested.'
-            },
             {
                 key: "4",
-                title: 'How fast can I receive payment?',
+                title: 'How fast can I receive payment for my items?',
                 text: 'For NFTs and blockchain games the transaction is done in real-time. If it is a non-blockchain game item, skin or currency, you will have to execute the trade with an ingame hand-over, but you will still get paid in MXDT, which is faster than any FIAT payment'
             },
             {
-                key: "5",
-                title: 'Is the MXDT token a safe investment?',
-                text: 'Our token is different to other crypto assets, as we use ingame assets and game currencies as underlying assets. This means that in times of an increased sell-off the MXDT token´s value is always ensured through the countervalue of our treasury of already traded virtual goods on various global marketplaces.'
+                key: "1",
+                title: 'How do I receive a scholarship?',
+                text: 'Right now, we are still building out our platform, but you can sign-up to the applicant list. You can move up the waitlist by inviting people to our Discord community. Our scholarships will be assigned, as soon as the platform goes live by providing a detailed process within your user-acount.'
             },
             {
                 key: "6",
