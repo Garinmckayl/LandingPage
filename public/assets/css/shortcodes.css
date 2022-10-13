@@ -8520,3 +8520,11 @@ button.accordion-button {
     margin-left: 0 !important;
   }
 }
+
+.client-logo img {
+  padding-left: 100px !important;
+  width: 230px !important;
+  height: auto;
+  -webkit-filter: grayscale(100%); /* Safari 6.0 - 9.0 */
+  filter: grayscale(50%);
+}

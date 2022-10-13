@@ -115,6 +115,11 @@ const menus = [
         links: "/whitepaper",
       },
       {
+        id: 3,
+        sub: "Roadmap",
+        links: "/roadmap",
+      },
+      {
         id: 4,
         sub: "FAQ",
         links: "/faq",

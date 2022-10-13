@@ -126,6 +126,57 @@ const Howtobuy = () => {
                     </a> 
     </div>
   </div>
+
+
+
+</div>
+
+<div
+  className="row no-gutters clients-wrap clearfix wow fadeInUp"
+  style={{ visibility: "visible", animationName: "fadeInUp" }}
+>
+  <div className="col-lg-3 col-md-4 col-xs-6">
+    <div className="client-logo">
+      <img
+        src="https://uploads-ssl.webflow.com/5f9a1900790900e2b7f25ba1/60f6c47070e683cb60fd647f_Sushiswap.png"
+        // className="img-fluid"
+        width={200} height={150}
+        alt=""
+      />
+    </div>
+  </div>
+  <div className="col-lg-3 col-md-4 col-xs-6">
+    <div className="client-logo">
+      <img
+        src="https://branditechture.agency/brand-logos/wp-content/uploads/wpdm-cache/Polygon-MATIC-900x0.png"
+        // className="img-fluid"
+        width={200} height={150}
+        alt=""
+      />
+    </div>
+  </div>
+  <div className="col-lg-3 col-md-4 col-xs-6">
+    <div className="client-logo">
+      <img
+        src="https://gopluslabs.io/images/plus2/about_logo.png"
+        className=""
+        width={200} height={150}
+        alt=""
+      />
+    </div>
+  </div>
+  <div className="col-lg-3 col-md-4 col-xs-6">
+    <div className="client-logo">
+      <img
+        src="https://www.geckoterminal.com/_next/image?url=%2Fimages%2Flogo_dark.png&w=256&q=75"
+        className=""
+        width={200} height={150}
+        alt=""
+      />
+    </div>
+  </div>
+
+
 </div>
 
             </section>
