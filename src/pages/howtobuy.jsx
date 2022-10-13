@@ -132,7 +132,7 @@ const Howtobuy = () => {
 </div>
 
 <div
-  className="row no-gutters clients-wrap clearfix wow fadeInUp"
+  className="row no-gutters clients-wrap clearfix wow fadeInUp howto-container"
   style={{ visibility: "visible", animationName: "fadeInUp" }}
 >
   <div className="col-lg-3 col-md-4 col-xs-6">

@@ -8528,3 +8528,8 @@ button.accordion-button {
   -webkit-filter: grayscale(100%); /* Safari 6.0 - 9.0 */
   filter: grayscale(50%);
 }
+
+.howto-container {
+  max-width: 70%;
+  margin: auto !important;
+}
