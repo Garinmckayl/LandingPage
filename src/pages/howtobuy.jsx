@@ -94,7 +94,7 @@ const Howtobuy = () => {
       </div>
       <h2 className='text-center'>1</h2>
       <p>
-        The token presale is scheduled for November 1. So right now the $MXDT is not sold or traded yet. Once the sale is on, please install a crypto wallet like  <a href='https://metamask.io/' target='_blank'>metamask</a> installed. 
+        The token presale is scheduled for November 1. Once the sale is on, please install a wallet like  <a href='https://metamask.io/' target='_blank'>metamask</a> installed. 
       </p>
     </div>
     <div className="feature col">
@@ -105,7 +105,7 @@ const Howtobuy = () => {
       </div>
       <h2 className='text-center'>2</h2>
       <p>
-        Please first buy USDC stablecoins in your wallet. You have to buy USDC on the <a href='https://chainlist.org/chain/137' target='_blank'>Polygon Mainnet</a>. 
+        Then buy USDC stablecoins with the wallet set to the <a href='https://chainlist.org/chain/137' target='_blank'>Polygon Mainnet</a>. 
       </p>
     </div>
     <div className="feature col">
@@ -116,7 +116,7 @@ const Howtobuy = () => {
       </div>
       <h2 className='text-center'>3</h2>
       <p>
-      The auction will be at www.sushi.com. Again, please set your wallet chain to <a href='https://chainlist.org/chain/137' target='_blank'>Polygon Mainnet</a>
+      The auction will be at www.sushi.com. Please make sure your wallet is set to <a href='https://chainlist.org/chain/137' target='_blank'>Polygon Mainnet</a>
       </p>
       <a target='_blank'
                       href="https://app.sushi.com/miso/0xCff1F1A133e56CE31CC9AFB907B3C253Dc612bB6?chainId=137"
