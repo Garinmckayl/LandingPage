@@ -119,7 +119,7 @@ const Howtobuy = () => {
       The auction will be at www.sushi.com. Again, please set your wallet chain to <a href='https://chainlist.org/chain/137' target='_blank'>Polygon Mainnet</a>
       </p>
       <a target='_blank'
-                      href="https://app.sushi.com"
+                      href="https://app.sushi.com/miso/0xCff1F1A133e56CE31CC9AFB907B3C253Dc612bB6?chainId=137"
                       className="sc-button bg-secondary note fl-button pri-1"
                     >
                       <span>Buy token</span>
