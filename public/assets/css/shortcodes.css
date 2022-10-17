@@ -8522,13 +8522,16 @@ button.accordion-button {
 }
 
 .client-logo img {
-  padding-left: 100px !important;
-  width: 230px !important;
-  height: auto;
-  -webkit-filter: grayscale(100%); /* Safari 6.0 - 9.0 */
-  filter: grayscale(50%);
+  /* padding-left: 100px !important; */
+  /* width: 230px !important; */
+  height: 65px;
+  /* -webkit-filter: grayscale(100%); /* Safari 6.0 - 9.0 */
+  /* filter: grayscale(50%); */
 }
 
+.gecko {
+  width: auto !important;
+}
 .howto-container {
   max-width: 70%;
   margin: auto !important;
