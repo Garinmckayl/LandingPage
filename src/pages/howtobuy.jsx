@@ -185,7 +185,6 @@ const Howtobuy = () => {
     <div className="media-container-row">
       <div className="col-12 align-center">
         <h2 className="mbr-section-title pb-2 mbr-fonts-style display-2">
-          On
         </h2>
         <h3 className="mbr-section-subtitle mbr-light mbr-fonts-style display-7">
         </h3>
