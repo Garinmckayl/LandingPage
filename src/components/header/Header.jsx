@@ -8,6 +8,8 @@ import logo from '../../assets/images/logo/logo-light.jpg'
 import logo1 from '../../assets/images/logo/logo1.png'
 import logo2 from '../../assets/images/logo/logo2.png'
 import logodark from '../../assets/images/logo/logo-dark.jpg'
+import CardModal from './../layouts/CardModal';
+
 
 const Header = () => {
     const { pathname } = useLocation();
@@ -44,6 +46,8 @@ const Header = () => {
         setActiveIndex(index); 
     };
 
+    const [modalShow, setModalShow] = useState(false);
+
     return (
         <header id="header_main" className="header_1 js-header is-fixed is-small" >
             <div className="themesflat-container">
@@ -76,11 +80,13 @@ const Header = () => {
                                                                         pathname === submenu.links
                                                                         ? "menu-item current-item"
                                                                         : "menu-item"
-                                                                    }><Link to={submenu.links}>{submenu.sub}</Link></li>
+                                                                    }><Link to={submenu.links} onClick={submenu.id === 9
+                                                                        ? () => setModalShow(true)
+                                                                        : ""}>{submenu.sub}</Link></li>
                                                                 ))
                                                             }
                                                         </ul>
-                                                    }
+                                                    } 
                                                     
                                                 </li>
                                             ))
@@ -156,6 +162,10 @@ const Header = () => {
                 </div>
             </div>
             <DarkMode />
+            <CardModal
+                show={modalShow}
+                onHide={() => setModalShow(false)}
+                />
         </header>
     );
 }

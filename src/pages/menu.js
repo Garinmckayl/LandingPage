@@ -132,15 +132,20 @@ const menus = [
     links: "#",
     namesub: [
       {
-        id: 1,
-        sub: "Buy",
-        links: "/explore-01",
+        id: 9,
+        sub: "Sign Up",
+        links: "#",
       },
-      {
-        id: 2,
-        sub: "Sell Item",
-        links: "/create-item",
-      },
+      // {
+      //   id: 1,
+      //   sub: "Buy",
+      //   links: "/explore-01",
+      // },
+      // {
+      //   id: 2,
+      //   sub: "Sell Item",
+      //   links: "/create-item",
+      // },
       // {
       //   id: 3,
       //   sub: "Scholarships",
