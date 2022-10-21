@@ -14,8 +14,8 @@ const Create = () => {
             colorbg : "icon-color3"
         },
                 {
-            title: "Onestop GameFi Provider",
-            description: "Receive game scholarships at fair terms.",
+            title: "One-stop GameFi Provider",
+            description: "Receive game scholarships at fair terms. Invest in specific players or items.",
             icon : icon3,
             colorbg : "icon-color3"
         },
