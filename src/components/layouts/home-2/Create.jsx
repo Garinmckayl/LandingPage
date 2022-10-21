@@ -26,7 +26,7 @@ const Create = () => {
             colorbg : "icon-color3"
         },
         {
-            title: "Benefits as a $MXDT tokenholder",
+            title: "$MXDT Holder Benefits",
             description: "Staking and hodling with our growing community",
             icon : icon4,
             colorbg : "icon-color3"
