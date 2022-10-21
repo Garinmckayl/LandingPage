@@ -9,25 +9,25 @@ const Create = () => {
     const data = [
         {
             title: "Worldwide Item-trade",
-            description: "Sell or buy your ingame assets in real-time by using crypto currencies. Don't wait for banks to open!",
+            description: "Trade your ingame assets in real-time by using crypto currencies.",
             icon : icon1,
             colorbg : "icon-color3"
         },
                 {
             title: "Onestop GameFi Provider",
-            description: "Receive game scholarships at fair terms. Re-invest your profits into other games, NFTs or crypto savings plan.",
+            description: "Receive game scholarships at fair terms.",
             icon : icon3,
             colorbg : "icon-color3"
         },
         {
             title: "DAO Membership Benefits",
-            description: "Benefit from early-bird campaigns, discounts or our own tradeable NFTs.",
+            description: "DAO voting and special access privileges",
             icon : icon2,
             colorbg : "icon-color3"
         },
         {
             title: "Benefits as a $MXDT tokenholder",
-            description: "Financial upside from our growing community and. DAO votes ensure returns from only the most profitable items, scholarships and players.",
+            description: "Staking and hodling with our growing community",
             icon : icon4,
             colorbg : "icon-color3"
         },
