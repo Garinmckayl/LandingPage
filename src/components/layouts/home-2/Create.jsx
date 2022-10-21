@@ -27,7 +27,7 @@ const Create = () => {
         },
         {
             title: "$MXDT Holder Benefits",
-            description: "Staking and hodling with our growing community",
+            description: "Staking, hodling, LP-ng with our growing community",
             icon : icon4,
             colorbg : "icon-color3"
         },
