@@ -94,7 +94,7 @@ const Howtobuy = () => {
       </div>
       <h2 className='text-center'>1</h2>
       <p>
-        The token presale is scheduled for November 1. Once the sale is on, please install a wallet like  <a href='https://metamask.io/' target='_blank'>metamask</a> installed. 
+        Please install a crypto wallet like  <a href='https://metamask.io/' target='_blank'>metamask</a> installed. 
       </p>
     </div>
     <div className="feature col">
@@ -105,7 +105,7 @@ const Howtobuy = () => {
       </div>
       <h2 className='text-center'>2</h2>
       <p>
-        Then buy USDC stablecoins with the wallet set to the <a href='https://chainlist.org/chain/137' target='_blank'>Polygon Mainnet</a>. 
+        Make sure you have enough USDC in your wallet, which has to be set to the <a href='https://chainlist.org/chain/56' target='_blank'>Binance Smart Chain</a>. 
       </p>
     </div>
     <div className="feature col">
