@@ -74,7 +74,7 @@ const RoadMapSell = () => {
 <br />
 <br />
 <div className="d-grid my-3">
-<a href='/howtobuy' target="_blank" className="btn btn-outline-dark btn-block buy-a">Buy Now</a>
+<a href='https://www.pinksale.finance/private-sale/0x810f3377222672ccc5e4eA90fdA1Bd3fC3cAD196/1?chain=BSC' target="_blank" className="btn btn-outline-dark btn-block buy-a">Buy Now</a>
 </div>
 <ul>
   <li>Availability: 10 Mio tokens

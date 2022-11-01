@@ -116,10 +116,10 @@ const Howtobuy = () => {
       </div>
       <h2 className='text-center'>3</h2>
       <p>
-      The auction will be at www.sushi.com. Please make sure your wallet is set to <a href='https://chainlist.org/chain/137' target='_blank'>Polygon Mainnet</a>
+      UPDATE: Due to technical issues at Sushiswap the presale auction has been reset to Pinksale.Finance. You are now able to pay with BNB. <a href='https://www.pinksale.finance/private-sale/0x810f3377222672ccc5e4eA90fdA1Bd3fC3cAD196/1?chain=BSC' target='_blank'>Click here</a>
       </p>
       <a target='_blank'
-                      href="https://app.sushi.com/miso/0xCff1F1A133e56CE31CC9AFB907B3C253Dc612bB6?chainId=137"
+                      href="https://www.pinksale.finance/private-sale/0x810f3377222672ccc5e4eA90fdA1Bd3fC3cAD196/1?chain=BSC"
                       className="sc-button bg-secondary note fl-button pri-1"
                     >
                       <span>Buy token</span>
@@ -180,7 +180,7 @@ const Howtobuy = () => {
 </div> */}
 
 
-<section className="features3 cid-qKT6knwV2G" id="clients2-2p">
+{/* <section className="features3 cid-qKT6knwV2G" id="clients2-2p">
   <div className="container mb-4">
     <div className="media-container-row">
       <div className="col-12 align-center">
@@ -243,7 +243,7 @@ const Howtobuy = () => {
       </div>
     </div>
   </div>
-</section>
+</section> */}
 
 
             </section>
