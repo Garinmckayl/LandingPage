@@ -94,7 +94,7 @@ const Howtobuy = () => {
       </div>
       <h2 className='text-center'>1</h2>
       <p>
-        Please install a crypto wallet like  <a href='https://metamask.io/' target='_blank'>metamask</a> installed. 
+        Please install a crypto wallet like  <a href='https://metamask.io/' target='_blank'>metamask</a>. 
       </p>
     </div>
     <div className="feature col">
