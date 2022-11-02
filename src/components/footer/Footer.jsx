@@ -65,11 +65,11 @@ const Footer = () => {
             title: "FAQ",
             link: "/faq"
         },
-        {
-            title: "Polygon",
-            link: "https://polygonscan.com/token/0x3ec8450290bc5dC4279626A07922d8E599e75aDd"
+        // {
+        //     title: "Polygon",
+        //     link: "https://polygonscan.com/token/0x3ec8450290bc5dC4279626A07922d8E599e75aDd"
 
-        },
+        // },
         {
             title: "Game Index",
             link: "/game-index"

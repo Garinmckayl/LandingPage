@@ -105,7 +105,7 @@ const Howtobuy = () => {
       </div>
       <h2 className='text-center'>2</h2>
       <p>
-        Then buy USDC stablecoins with the wallet set to the <a href='https://chainlist.org/chain/137' target='_blank'>Polygon Mainnet</a>. 
+        Then buy USDC stablecoins with the wallet set to the <a href='https://chainlist.org/chain/137' target='_blank'>BSC Mainnet</a>. 
       </p>
     </div>
     <div className="feature col">
